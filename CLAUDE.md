@@ -1,8 +1,16 @@
-# MealPilot US
+# MealPilot US: recipe catalogue database
 
-A rebuild of MealPilot for the US market: a recipe library with calorie and
-macro figures we can stand behind, scaled to any portion, feeding a personalised
-30-day meal plan and a weekly grocery list.
+The **US market's recipe catalogue** for the MealPilot app: chefs, recipes,
+ingredients, nutrition we can stand behind, dietary tags, costs and meal-prep info.
+The app reads it through the `v_*` views.
+
+**Team:**
+- Aiman owns this database.
+- The app is a separate project (iOS + Android, one codebase for Indonesia and the
+  US). It owns user accounts, plans, tracking, payments and Veny.
+- Medina owns the PRD: "MealPilot App — PRD v2", 2026-10-26. Requirement IDs
+  (US-xx, NE-xx, TC-xx) in comments refer to it.
+- Arini owns design.
 
 The first version was built for Indonesia and lives at
 `C:\Users\Aiman\OneDrive\Documents\mealpilot-data`
@@ -23,20 +31,28 @@ CLAUDE.md grew to 900 KB because every investigation was written up here.
 
 ## Status
 
-MVP decided 2026-10-29 (see `docs/decisions/2026-10-29-mvp-and-schema.md`): US
-YouTube creators' recipes feed a mobile-friendly web app. Onboarding gives a calorie
-target, which drives a 30-day plan with diet and allergen filters and a weekly grocery
-list.
+Scope decided 2026-10-29 (`docs/decisions/2026-10-29-prd-v2-scope.md`): catalogue
+only, in a separate US database (Neon, US East), kept merge-ready with the
+Indonesian one through `market` columns.
 
-M0, the foundations, is in progress: `pipeline/schema.sql`, `views.sql`,
-`units.csv`.
+Done so far: `pipeline/schema.sql`, `views.sql`, `units.csv`, applied to Neon on
+2026-10-29. Next: the ingredient seed from USDA FoodData Central.
+
+## Neon
+
+- Project `mealpilot-us` (`patient-thunder-66435711`), region `aws-us-east-2`, branch
+  `main`. This folder is linked through `.neon`, which is gitignored.
+- `neon env pull` refreshes `DATABASE_URL` in `.env`.
+- The project-scoped Neon MCP server is in `.mcp.json` and uses OAuth, so no key
+  is stored there. The Neon skills are in `.claude/skills/`; run
+  `neon skills update` to refresh them.
 
 ## Layout
 
-- `pipeline/`: Python 3, run offline. Owns the database: schema, views, seeds, loaders.
-- `web/`: Next.js + TypeScript app. It reads only the `v_*` views listed at the top
-  of `pipeline/views.sql`, and never writes recipe or ingredient tables.
+- `pipeline/`: Python 3, run offline. Schema, views, seeds, loaders.
 - `docs/decisions/`: dated write-ups of decisions and investigations.
+- The app team reads only the views listed at the top of `pipeline/views.sql`.
+  Changing a view's columns changes their contract: tell them.
 
 ## Rules carried over from the Indonesian version
 
@@ -63,6 +79,27 @@ These cost real bugs to learn. They still apply.
 - **Keep fractions exact in the nutrition math.** Round only for display.
 - **Generated counts in docs come from the database**, not from hand edits.
 
+## Recipe sourcing (decided 2026-10-29)
+
+See `docs/decisions/2026-10-29-recipe-sourcing.md`.
+
+- **Recipe data comes from creators under a written licence:** their recipe cards
+  (schema.org `Recipe`, often WP Recipe Maker), as an export or by permission to
+  read them. `recipes.recipe_page_url` is the source.
+- **Never build or keep ingredient, servings or nutrition data from YouTube Data
+  API responses.** YouTube's Developer Policies limit stored API data to 30 days
+  (III.E.4.d) and forbid deriving new data from it (III.E.4.h). No scraping of
+  YouTube either (III.E.6).
+- **The YouTube API is only for** the embedded player and display metadata (title,
+  thumbnail, duration, availability), keyed by `video_id`. Refresh it at least
+  every 30 days; `video_checked_at` records when. The refresh also sets
+  `video_status`.
+- **Creators to approach first:** Clean & Delicious, Feelgoodfoodie,
+  Downshiftology, Sip and Feast, The Protein Chef. For vegetarian depth, add The
+  Mediterranean Dish or Vegan Richa.
+- **We recompute nutrition from USDA.** A creator's own calorie figure is a
+  cross-check only, never the published number.
+
 ## US-market specifics
 
 - **Units:** recipes use cups, tbsp, tsp, oz, lb, fl oz, sticks of butter, cans,
@@ -76,10 +113,19 @@ These cost real bugs to learn. They still apply.
 - **Allergens:** the FDA's 9 major allergens: milk, eggs, fish, crustacean
   shellfish, tree nuts, peanuts, wheat, soybeans, sesame (added 2023 by the
   FASTER Act).
-- **Dietary filters US users expect:** vegetarian, vegan, gluten-free,
-  dairy-free, low-carb/keto, high-protein. Consider halal and kosher too. From
-  the old spec: a plan needs about 40–50 usable recipes per filter combination,
-  so don't offer a filter the library can't fill.
+- **Dietary tags (PRD, US market):** vegetarian, vegan, gluten-free, dairy-free,
+  kosher, halal, plus no pork, no beef and no seafood. Halal and kosher are
+  derived as "compatible" from ingredients only; certification is an open
+  question. From the old spec: a plan needs about 40–50 usable recipes per
+  filter combination, so tell the app team which tags the catalogue can fill.
+- **Every recipe needs:**
+  - nutrition per portion: kcal, protein, carb, fat, fiber, sugar, sodium;
+  - our own written steps;
+  - prep and cook minutes, difficulty;
+  - fridge and freezer days, reheat method;
+  - a portion in household measures;
+  - cost per serving in USD;
+  - a nutritionist sign-off before publishing.
 - **Regulatory, check before launch:** don't make health or "healthy" claims
   without checking FDA rules. If we store diet, weight or health goals, the FTC
   Health Breach Notification Rule and state consumer-health-data laws
@@ -90,12 +136,16 @@ These cost real bugs to learn. They still apply.
 
 Fill these in as they are made, then move each into the right section above.
 
-- [ ] Which US creators to approach. Written permission is required before
-      publishing (`creators.permission_status`).
-- [ ] Whether the YouTube API data-retention rules limit storing descriptions
-- [ ] Grocery integration (Instacart, Kroger, Walmart) after the MVP. The MVP is
-      a plain list
-- [ ] Who is on the team for the US version, and who decides product questions
+- [ ] Lawyer review of the creator licence template before signing the first
+      creator (questions in section 3 of the sourcing doc)
+- [ ] Where US ingredient prices come from (cost per serving), and how often
+      they're refreshed
+- [ ] Who sets fridge and freezer days and reheat methods (USDA FSIS charts
+      vs per recipe), and who the reviewing nutritionist is
+- [ ] Halal and kosher: is ingredient-level "compatible" enough, or do we need
+      certified meat? (Medina)
+- [ ] The off-plan food database (US-17: US restaurant chains and packaged
+      foods). Is it in this catalogue, and from which licensed source?
 
 ## How to run
 
@@ -114,7 +164,10 @@ python apply_sql.py views.sql      # after any view change; safe to re-run
   exact `ingredient_portions` row, then that unit's default portion, then density.
 - Allergen and diet flags come only from matched, reviewed ingredients
   (`v_recipe_flags.flags_known`). Unknown is never shown as "free".
-- A recipe is visible only if its creator's `permission_status = 'granted'`.
+- A recipe is visible only if all of these hold: its creator's
+  `permission_status = 'granted'`, every nutrition field is present, it has a
+  nutritionist sign-off, and all its steps are rewritten.
+- Steps are our own wording. `steps.source_text` is never exposed.
 
 ## Secrets
 

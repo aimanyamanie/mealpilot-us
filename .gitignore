@@ -37,3 +37,4 @@ Thumbs.db
 
 # Local Claude Code permission grants (machine-specific paths)
 .claude/settings.local.json
+.neon

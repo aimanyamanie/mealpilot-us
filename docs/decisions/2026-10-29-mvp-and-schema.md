@@ -1,5 +1,9 @@
 # 2026-10-29: MVP scope, stack and the US schema
 
+> **Product scope superseded the same day** by `2026-10-29-prd-v2-scope.md`. The
+> repo is now the US catalogue database only, with no web app or planner. The
+> schema reasoning below still applies.
+
 ## Decided with Aiman
 - **Recipes:** US YouTube creators, parsed from video descriptions, with links back to and embeds of the videos.
 - **Platform:** a mobile-friendly web app.
