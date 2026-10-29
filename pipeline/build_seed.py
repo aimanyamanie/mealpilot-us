@@ -57,7 +57,23 @@ UNIT_WORDS = {
     "head": "head", "bunch": "bunch",
     "stick": "stick", "sticks": "stick",
     "fillet": "fillet", "piece": "piece", "pieces": "piece", "each": "piece",
+    "can": "can",
 }
+SIZE_WORDS = {"extra", "large", "medium", "small", "jumbo"}
+FILLER = {"of", "or", "and", "a", "1"}
+# Qualifiers that mean the ordinary form a recipe means by the bare measure.
+PLAIN = {"fluid", "leaves", "shelled", "unsifted", "raw", "whole", "packet", "edible",
+         "solid", "kernels", "halves"}
+NORMALISE = {"cubes": "cubed", "slices": "sliced", "strips": "sliced", "chunks": "chunks"}
+EXCLUDE = ["crust not eaten", "with hulls", "in shell", "individual packet",
+           "with refuse", "bone and skin", "prepared"]
+ODD_PIECE = {"plum", "italian", "cherry", "wedge", "slice", "peeled", "unpeeled",
+             "miniature", "tip", "serving", "packet", "box"}
+# Which measure a recipe means when it gives no qualifier, where USDA has no
+# unqualified measure: "1 cup brown sugar" is packed; a cup of dry pasta is
+# taken as penne (the middle of USDA's shapes, 64-122 g).
+DEFAULT_MODIFIER = {("brown-sugar", "cup"): "packed", ("brown-sugar", "tbsp"): "packed",
+                    ("pasta-dry", "cup"): "penne", ("pasta-whole-wheat-dry", "cup"): "penne"}
 SIZES = ["extra large", "jumbo", "large", "medium", "small"]
 DEFAULT_SIZE = {"egg": "large"}
 PREP = ["chopped", "sliced", "diced", "minced", "shredded", "grated", "packed",
@@ -69,28 +85,50 @@ SKIP_WORDS = {"oz", "lb", "g", "racc", "serving", "nlea", "package", "container"
 
 
 def map_portion(p: dict):
-    """USDA portion -> (unit slug, modifier, grams for ONE unit), or None."""
+    """USDA portion -> (unit slug, modifier, grams for ONE unit), or None.
+
+    A qualifier USDA gives is KEPT as the modifier, never dropped: dropping
+    it once made "cup, whipped" (120 g) the plain cup of heavy cream, and
+    "cup, in shell" the plain cup of walnuts. Only words that mean the
+    ordinary form (PLAIN) collapse to ''. Measures of an inedible or
+    non-household form (EXCLUDE) are skipped."""
     if not p.get("grams") or not p.get("amount"):
         return None
-    text = f"{p['unit']} {p['modifier']}".lower()
-    text = re.sub(r"\([^)]*\)", " ", text).replace(",", " ")
+    raw = f"{p['unit']} {p['modifier']}".lower()
+    if any(phrase in raw for phrase in EXCLUDE):
+        return None
+    paren = " ".join(re.findall(r"\(([^)]*)\)", raw))
+    text = re.sub(r"\([^)]*\)", " ", raw).replace(",", " ")
     words = text.split()
     if not words or words[0] in SKIP_WORDS:
         return None
     grams = p["grams"] / p["amount"]
     size = next((s for s in SIZES if re.search(rf"\b{s}\b", text)), "")
+    rest = [w for w in words[1:] if w not in SIZE_WORDS and w not in FILLER and not w.isdigit()]
     if words[0] in UNIT_WORDS:
         unit = UNIT_WORDS[words[0]]
         if unit in ("cup", "tbsp", "tsp"):
-            modifier = next((w for w in PREP if w in words[1:]), "")
-        else:
-            modifier = size
-        return unit, modifier, grams
+            prep = next((w for w in PREP if w in rest), None)
+            if prep:
+                return unit, prep, grams
+            rest = [NORMALISE.get(w, w) for w in rest if w not in PLAIN]
+            return unit, " ".join(rest), grams
+        if unit == "can":
+            # "can (12.5 oz), drained": the size is the modifier, so a 12.5 oz
+            # can never becomes the default can.
+            size_text = re.search(r"[\d.]+\s*(?:oz|g|lb)", paren)
+            return unit, size_text.group(0) if size_text else "", grams
+        rest = [w for w in rest if w not in PLAIN]
+        return unit, size or " ".join(rest), grams
     if words[0] in SIZES or words[0] == "extra":
         return "piece", size, grams
     # The measure names the food itself ("1 almond", "1 thigh without skin",
-    # Foundation's "1 Onion, Edible"): one whole piece.
+    # Foundation's "1 Onion, Edible"): one whole piece, unless it is an
+    # unusual form ("plum tomato", "wedge", "eggplant, peeled").
     if p["amount"] == 1:
+        odd = [w for w in words if w in ODD_PIECE]
+        if odd:
+            return "piece", " ".join(words), grams
         return "piece", size, grams
     return None
 
@@ -117,10 +155,14 @@ def portions_for(slug: str, fdc_ids: list[int], foods: dict) -> list[dict]:
     usual = DEFAULT_SIZE.get(slug, "medium")
     for unit in {r["unit"] for r in rows}:
         group = [r for r in rows if r["unit"] == unit]
-        pick = (next((r for r in group if r["modifier"] == ""), None)
-                or next((r for r in group if r["modifier"] == usual), None)
-                or group[0])
-        pick["is_default"] = True
+        override = DEFAULT_MODIFIER.get((slug, unit))
+        pick = (next((r for r in group if override and r["modifier"] == override), None)
+                or next((r for r in group if r["modifier"] == ""), None)
+                or next((r for r in group if r["modifier"] == usual), None))
+        if pick is None and unit not in ("can",):
+            pick = group[0]
+        if pick:
+            pick["is_default"] = True
     return rows
 
 

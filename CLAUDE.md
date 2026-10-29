@@ -106,6 +106,18 @@ See `docs/decisions/2026-10-29-recipe-sourcing.md`.
 - **We recompute nutrition from USDA.** A creator's own calorie figure is a
   cross-check only, never the published number.
 
+**Test-only exception (Aiman's decision, 2026-10-29).** For internal testing,
+the pipeline may fetch video descriptions through the YouTube Data API and parse
+them, as the Indonesian version did. The guardrails:
+- That data lives only on the Neon branch `dev-youtube-test`, never `main`.
+  `youtube_test.py` refuses to connect anywhere else.
+- Raw API responses go to `pipeline/data/youtube/` (gitignored).
+  `purge_youtube.py` deletes anything fetched more than 30 days ago.
+- Creators stay `permission_status = 'none'`, so `v_published_recipes` shows
+  none of it.
+- Nothing from that branch is copied to `main`. A recipe goes to `main` only
+  after it has been sourced again under a licence or written up by hand.
+
 ## US-market specifics
 
 - **Units:** recipes use cups, tbsp, tsp, oz, lb, fl oz, sticks of butter, cans,
@@ -186,6 +198,16 @@ python build_seed.py && python validate_seed.py && python load_seed.py
   `ingredient_list.csv` or `usda_picks.csv`.
 - `signoffs.csv` and `portion_signoffs.csv` are the record of who approved what:
   commit them.
+
+YouTube test pipeline (test branch only; see the test-only exception above):
+
+```bash
+python fetch_youtube.py --limit 50   # test_channels.csv -> data/youtube/*.json
+python load_recipes.py               # -> dev-youtube-test: lines, grams, nutrition, holds
+python purge_youtube.py              # run weekly: drops anything over 30 days old
+```
+
+Every parser bug becomes a case in `tests/golden_lines.json`.
 
 Schema changes to the live database go in `pipeline/migrations/` (dated, safe to
 re-run) **and** in `schema.sql`.

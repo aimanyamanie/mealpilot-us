@@ -31,6 +31,13 @@ def p(amount, modifier, grams, unit=""):
     (p(1, 'slice, medium (1/8" thick)', 14), ("slice", "medium", 14)),
     (p(1, "almond", 1.2), ("piece", "", 1.2)),           # the measure names the food
     (p(1, "Edible", 143, unit="Onion"), ("piece", "", 143)),
+    # A qualifier is kept, so it cannot become the plain measure:
+    (p(1, "cup, whipped", 120), ("cup", "whipped", 120)),
+    (p(1, "cup, fluid (yields 2 cups whipped)", 238), ("cup", "", 238)),
+    (p(1, "cup, cubes", 140), ("cup", "cubed", 140)),
+    (p(1, "plum tomato", 62), ("piece", "plum tomato", 62)),
+    (p(1, "can (12.5 oz), drained", 315), ("can", "12.5 oz", 315)),
+    (p(1, "cup shelled (50 halves)", 100), ("cup", "", 100)),
 ])
 def test_portion_mapping(portion, expected):
     unit, modifier, grams = map_portion(portion)
@@ -44,6 +51,8 @@ def test_portion_mapping(portion, expected):
     p(10, "rings", 60),
     p(1, "serving packet", 2.8),
     p(1, "", 30, unit="RACC"),
+    p(1, "cup, in shell, edible yield (7 nuts)", 28),   # not the food a recipe means
+    p(1, "slice crust not eaten", 12),
 ])
 def test_portions_that_are_skipped(portion):
     assert map_portion(portion) is None

@@ -1,0 +1,21 @@
+[
+  {"line": "1 1/2 cups chopped onion", "quantity": "3/2", "unit": "cup", "modifier": "chopped", "ingredient": "onion-yellow"},
+  {"line": "2 large eggs", "quantity": "2", "unit": null, "modifier": "large", "ingredient": "egg"},
+  {"line": "3 cloves garlic, minced", "quantity": "3", "unit": "clove", "ingredient": "garlic", "preparation_note": "minced"},
+  {"line": "1 (15 oz) can black beans, drained and rinsed", "quantity": "1", "unit": "can", "ingredient": "black-beans-canned", "package_grams": "425.2425"},
+  {"line": "½ tsp kosher salt", "quantity": "1/2", "unit": "tsp", "ingredient": "salt"},
+  {"line": "2 tbsp olive oil, divided", "quantity": "2", "unit": "tbsp", "ingredient": "olive-oil", "preparation_note": "divided"},
+  {"line": "1 lb boneless skinless chicken thighs", "quantity": "1", "unit": "lb", "ingredient": "chicken-thigh"},
+  {"line": "1/4 cup freshly grated parmesan", "quantity": "1/4", "unit": "cup", "modifier": "grated", "ingredient": "parmesan"},
+  {"line": "2-3 jalapeños", "quantity": "2", "quantity_max": "3", "unit": null, "ingredient": "jalapeno"},
+  {"line": "a pinch of red pepper flakes", "quantity": "1", "unit": "pinch", "ingredient": "cayenne"},
+  {"line": "1 cup cooked white rice", "quantity": "1", "unit": "cup", "ingredient": "rice-white-cooked"},
+  {"line": "8 oz cremini mushrooms, sliced", "quantity": "8", "unit": "oz", "ingredient": "mushroom-white", "preparation_note": "sliced"},
+  {"line": "1 tablespoon soy sauce", "quantity": "1", "unit": "tbsp", "ingredient": "soy-sauce"},
+  {"line": "Fresh cilantro, for garnish", "quantity": null, "unit": "to-taste", "ingredient": "cilantro"},
+  {"line": "1 lemon, juiced", "quantity": "1", "unit": null, "ingredient": "lemon", "preparation_note": "juiced"},
+  {"line": "2 cups low-sodium chicken broth", "quantity": "2", "unit": "cup", "ingredient": "broth-chicken"},
+  {"line": "1.5 lbs ground beef", "quantity": "3/2", "unit": "lb", "ingredient": "beef-ground-85"},
+  {"line": "- 1½ cups whole milk", "quantity": "3/2", "unit": "cup", "ingredient": "milk-whole"},
+  {"line": "1 medium yellow onion, diced", "quantity": "1", "unit": null, "modifier": "medium", "ingredient": "onion-yellow", "preparation_note": "diced"}
+]
