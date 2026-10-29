@@ -35,8 +35,14 @@ Scope decided 2026-10-29 (`docs/decisions/2026-10-29-prd-v2-scope.md`): catalogu
 only, in a separate US database (Neon, US East), kept merge-ready with the
 Indonesian one through `market` columns.
 
-Done so far: `pipeline/schema.sql`, `views.sql`, `units.csv`, applied to Neon on
-2026-10-29. Next: the ingredient seed from USDA FoodData Central.
+Done so far:
+- `pipeline/schema.sql`, `views.sql` and `units.csv`, applied to Neon on 2026-10-29.
+- The first ingredient seed (225 ingredients, 512 portions) from USDA bulk data,
+  loaded the same day (`docs/decisions/2026-10-29-ingredient-seed.md`). Every row
+  still needs a human sign-off on nutrition and allergens.
+
+Next: the recipe loader (licensed recipe cards to `recipe_ingredients`), once the
+first creator agreement exists.
 
 ## Neon
 
@@ -155,7 +161,18 @@ python -m pip install -r requirements.txt
 python -m pytest -q tests          # run before every commit
 python apply_sql.py schema.sql     # once, on an empty database
 python apply_sql.py views.sql      # after any view change; safe to re-run
+
+# Ingredient seed (USDA bulk JSON in data/usda/, gitignored)
+python usda.py index               # once after downloading the USDA JSON
+python usda.py search chicken thigh  # candidates; read the description before picking
+python build_seed.py               # ingredient_list.csv + usda_picks.csv -> *_seed.csv
+python validate_seed.py            # 0 errors before every load
+python load_seed.py                # upserts units and ingredients, replaces portions
 ```
+
+To add an ingredient, add a row to `ingredient_list.csv`, then pick its record
+into `usda_picks.csv` (add a `pick_note` when it isn't the obvious match), then
+build, validate and load. Never edit `*_seed.csv` by hand: they're generated.
 
 ## Schema rules
 

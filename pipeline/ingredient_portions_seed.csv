@@ -1,0 +1,513 @@
+slug,unit,modifier,grams,source,source_ref,is_default
+onion-yellow,cup,chopped,160.0,USDA,"FDC 170000: 1.0 cup, chopped",True
+onion-yellow,slice,medium,14.0,USDA,"FDC 170000: 1.0 slice, medium (1/8"" thick)",False
+onion-yellow,piece,medium,110.0,USDA,"FDC 170000: 1.0 medium (2-1/2"" dia)",True
+onion-yellow,piece,large,150.0,USDA,FDC 170000: 1.0 large,False
+onion-yellow,tbsp,chopped,10.0,USDA,FDC 170000: 1.0 tbsp chopped,True
+onion-yellow,cup,sliced,115.0,USDA,"FDC 170000: 1.0 cup, sliced",False
+onion-yellow,slice,,9.0,USDA,"FDC 170000: 1.0 slice, thin",True
+onion-yellow,piece,small,70.0,USDA,FDC 170000: 1.0 small,False
+onion-yellow,slice,large,38.0,USDA,"FDC 170000: 1.0 slice, large (1/4"" thick)",False
+onion-red,cup,chopped,160.0,USDA,"FDC 170000: 1.0 cup, chopped",True
+onion-red,slice,medium,14.0,USDA,"FDC 170000: 1.0 slice, medium (1/8"" thick)",False
+onion-red,piece,medium,110.0,USDA,"FDC 170000: 1.0 medium (2-1/2"" dia)",True
+onion-red,piece,large,150.0,USDA,FDC 170000: 1.0 large,False
+onion-red,tbsp,chopped,10.0,USDA,FDC 170000: 1.0 tbsp chopped,True
+onion-red,cup,sliced,115.0,USDA,"FDC 170000: 1.0 cup, sliced",False
+onion-red,slice,,9.0,USDA,"FDC 170000: 1.0 slice, thin",True
+onion-red,piece,small,70.0,USDA,FDC 170000: 1.0 small,False
+onion-red,slice,large,38.0,USDA,"FDC 170000: 1.0 slice, large (1/4"" thick)",False
+onion-white,cup,chopped,160.0,USDA,"FDC 170000: 1.0 cup, chopped",True
+onion-white,slice,medium,14.0,USDA,"FDC 170000: 1.0 slice, medium (1/8"" thick)",False
+onion-white,piece,medium,110.0,USDA,"FDC 170000: 1.0 medium (2-1/2"" dia)",True
+onion-white,piece,large,150.0,USDA,FDC 170000: 1.0 large,False
+onion-white,tbsp,chopped,10.0,USDA,FDC 170000: 1.0 tbsp chopped,True
+onion-white,cup,sliced,115.0,USDA,"FDC 170000: 1.0 cup, sliced",False
+onion-white,slice,,9.0,USDA,"FDC 170000: 1.0 slice, thin",True
+onion-white,piece,small,70.0,USDA,FDC 170000: 1.0 small,False
+onion-white,slice,large,38.0,USDA,"FDC 170000: 1.0 slice, large (1/4"" thick)",False
+green-onion,piece,small,5.0,USDA,"FDC 170005: 1.0 small (3"" long)",False
+green-onion,tbsp,chopped,6.0,USDA,FDC 170005: 1.0 tbsp chopped,True
+green-onion,cup,chopped,100.0,USDA,"FDC 170005: 1.0 cup, chopped",True
+green-onion,piece,medium,15.0,USDA,"FDC 170005: 1.0 medium (4-1/8"" long)",True
+green-onion,piece,large,25.0,USDA,FDC 170005: 1.0 large,False
+shallot,tbsp,chopped,10.0,USDA,FDC 170499: 1.0 tbsp chopped,True
+garlic,tsp,,2.8,USDA,FDC 169230: 1.0 tsp,True
+garlic,clove,,3.0,USDA,FDC 169230: 1.0 clove,True
+garlic,cup,,136.0,USDA,FDC 169230: 1.0 cup,True
+ginger,slice,,2.2,USDA,"FDC 169231: 5.0 slices (1"" dia)",True
+ginger,cup,,96.0,USDA,"FDC 169231: 0.25 cup slices (1"" dia)",True
+ginger,tsp,,2.0,USDA,FDC 169231: 1.0 tsp,True
+carrot,cup,grated,110.0,USDA,FDC 170393: 1.0 cup grated,False
+carrot,slice,,3.0,USDA,FDC 170393: 1.0 slice,True
+carrot,piece,large,7.0,USDA,"FDC 170393: 1.0 strip large (3"" long)",False
+carrot,piece,small,50.0,USDA,"FDC 170393: 1.0 small (5-1/2"" long)",False
+carrot,piece,medium,61.0,USDA,FDC 170393: 1.0 medium,True
+carrot,cup,chopped,128.0,USDA,FDC 170393: 1.0 cup chopped,False
+carrot,cup,,122.0,USDA,FDC 170393: 1.0 cup strips or slices,True
+celery,tbsp,,7.5,USDA,FDC 169988: 1.0 tbsp,True
+celery,stalk,medium,40.0,USDA,"FDC 169988: 1.0 stalk, medium (7-1/2"" - 8"" long)",True
+celery,stalk,small,17.0,USDA,"FDC 169988: 1.0 stalk, small (5"" long)",False
+celery,cup,chopped,101.0,USDA,FDC 169988: 1.0 cup chopped,True
+celery,piece,,4.0,USDA,"FDC 169988: 1.0 strip (4"" long)",True
+celery,stalk,large,64.0,USDA,"FDC 169988: 1.0 stalk, large (11""-12"" long)",False
+bell-pepper-red,piece,large,164.0,USDA,"FDC 170108: 1.0 large (2-1/4 per pound, approx 3-3/4"" long, 3"" dia.)",False
+bell-pepper-red,tbsp,,9.3,USDA,FDC 170108: 1.0 tablespoon,True
+bell-pepper-red,cup,sliced,92.0,USDA,"FDC 170108: 1.0 cup, sliced",True
+bell-pepper-red,cup,chopped,149.0,USDA,"FDC 170108: 1.0 cup, chopped",False
+bell-pepper-red,piece,,10.0,USDA,"FDC 170108: 1.0 ring (3"" dia., 1/4"" thick)",True
+bell-pepper-red,piece,medium,119.0,USDA,"FDC 170108: 1.0 medium (approx 2-3/4"" long, 2-1/2 dia.)",False
+bell-pepper-red,piece,small,74.0,USDA,FDC 170108: 1.0 small,False
+bell-pepper-green,cup,chopped,149.0,USDA,"FDC 170427: 1.0 cup, chopped",True
+bell-pepper-green,cup,sliced,92.0,USDA,"FDC 170427: 1.0 cup, sliced",False
+bell-pepper-green,piece,,10.0,USDA,"FDC 170427: 1.0 ring (3"" dia, 1/4"" thick)",True
+bell-pepper-green,piece,large,164.0,USDA,"FDC 170427: 1.0 large (2-1/4 per lb, approx 3-3/4"" long, 3"" dia)",False
+bell-pepper-green,piece,medium,119.0,USDA,"FDC 170427: 1.0 medium (approx 2-3/4"" long, 2-1/2"" dia)",False
+bell-pepper-green,piece,small,74.0,USDA,FDC 170427: 1.0 small,False
+bell-pepper-green,tbsp,,9.3,USDA,FDC 170427: 1.0 tbsp,True
+jalapeno,piece,,14.0,USDA,FDC 168576: 1.0 pepper,True
+jalapeno,cup,sliced,90.0,USDA,"FDC 168576: 1.0 cup, sliced",True
+potato-russet,cup,diced,150.0,USDA,"FDC 170027: 0.5 cup, diced",True
+potato-russet,piece,large,369.0,USDA,"FDC 170027: 1.0 potato large (3"" to 4-1/4"" dia)",False
+potato-russet,piece,medium,213.0,USDA,"FDC 170027: 1.0 Potato medium (2-1/4"" to 3-1/4"" dia)",True
+potato-russet,piece,small,170.0,USDA,"FDC 170027: 1.0 Potato small (1-3/4"" to 2-1/4"" dia)",False
+potato-red,piece,large,369.0,USDA,"FDC 170029: 1.0 potato large (3"" to 4-1/4"" dia)",False
+potato-red,piece,small,170.0,USDA,"FDC 170029: 1.0 potato small (1-3/4"" to 2-1/4"" dia)",False
+potato-red,cup,diced,150.0,USDA,"FDC 170029: 0.5 cup, diced",True
+potato-red,piece,medium,213.0,USDA,"FDC 170029: 1.0 potato medium (2-1/4"" to 3-1/4"" dia)",True
+sweet-potato,cup,,133.0,USDA,"FDC 168482: 1.0 cup, cubes",True
+sweet-potato,piece,,130.0,USDA,"FDC 168482: 1.0 sweetpotato, 5"" long",True
+broccoli,bunch,,608.0,USDA,FDC 170379: 1.0 bunch,True
+broccoli,cup,chopped,88.0,USDA,"FDC 170379: 0.5 cup, chopped or diced",True
+broccoli,stalk,,151.0,USDA,FDC 170379: 1.0 stalk,True
+broccoli,piece,,31.0,USDA,"FDC 170379: 1.0 spear (about 5"" long)",True
+cauliflower,piece,,13.0,USDA,FDC 169986: 1.0 floweret,True
+cauliflower,head,medium,588.0,USDA,"FDC 169986: 1.0 head medium (5-6"" dia.)",True
+cauliflower,head,small,265.0,USDA,"FDC 169986: 1.0 head small (4"" dia.)",False
+cauliflower,head,large,840.0,USDA,"FDC 169986: 1.0 head large (6-7"" dia.)",False
+cauliflower,cup,chopped,107.0,USDA,"FDC 169986: 1.0 cup chopped (1/2"" pieces)",True
+spinach,bunch,,340.0,USDA,FDC 168462: 1.0 bunch,True
+spinach,leaf,,10.0,USDA,FDC 168462: 1.0 leaf,True
+spinach,cup,,30.0,USDA,FDC 168462: 1.0 cup,True
+kale,cup,,21.0,USDA,FDC 168421: 1.0 cup,True
+lettuce-romaine,cup,shredded,47.0,USDA,FDC 169247: 1.0 cup shredded,True
+lettuce-romaine,leaf,,6.0,USDA,FDC 169247: 1.0 leaf inner,True
+lettuce-romaine,head,,626.0,USDA,FDC 169247: 1.0 head,True
+arugula,cup,,20.0,USDA,FDC 169387: 0.5 cup,True
+arugula,leaf,,2.0,USDA,FDC 169387: 1.0 leaf,True
+cabbage-green,leaf,large,33.0,USDA,"FDC 169975: 1.0 leaf, large",False
+cabbage-green,head,medium,908.0,USDA,"FDC 169975: 1.0 head, medium (about 5-3/4"" dia)",True
+cabbage-green,cup,chopped,89.0,USDA,"FDC 169975: 1.0 cup, chopped",True
+cabbage-green,cup,shredded,70.0,USDA,"FDC 169975: 1.0 cup, shredded",False
+cabbage-green,leaf,medium,23.0,USDA,"FDC 169975: 1.0 leaf, medium",False
+cabbage-green,leaf,,15.0,USDA,FDC 169975: 1.0 leaf,True
+cabbage-green,head,large,1248.0,USDA,"FDC 169975: 1.0 head, large (about 7"" dia)",False
+cabbage-green,head,small,714.0,USDA,"FDC 169975: 1.0 head, small (about 4-1/2"" dia)",False
+cabbage-red,cup,shredded,70.0,USDA,"FDC 169977: 1.0 cup, shredded",True
+cabbage-red,cup,chopped,89.0,USDA,"FDC 169977: 1.0 cup, chopped",False
+cabbage-red,leaf,,23.0,USDA,FDC 169977: 1.0 leaf,True
+cabbage-red,head,medium,839.0,USDA,"FDC 169977: 1.0 head, medium (about 5"" dia)",True
+cabbage-red,head,large,1134.0,USDA,"FDC 169977: 1.0 head, large (about 5-1/2"" dia)",False
+cabbage-red,head,small,567.0,USDA,"FDC 169977: 1.0 head, small (4"" dia)",False
+bok-choy,head,,840.0,USDA,FDC 170390: 1.0 head,True
+bok-choy,leaf,,14.0,USDA,FDC 170390: 1.0 leaf,True
+bok-choy,cup,shredded,70.0,USDA,"FDC 170390: 1.0 cup, shredded",True
+zucchini,piece,large,323.0,USDA,FDC 169291: 1.0 large,False
+zucchini,piece,medium,196.0,USDA,FDC 169291: 1.0 medium,True
+zucchini,slice,,9.9,USDA,FDC 169291: 1.0 slice,True
+zucchini,piece,small,118.0,USDA,FDC 169291: 1.0 small,False
+zucchini,cup,chopped,124.0,USDA,"FDC 169291: 1.0 cup, chopped",True
+zucchini,cup,sliced,113.0,USDA,"FDC 169291: 1.0 cup, sliced",False
+butternut-squash,cup,,140.0,USDA,"FDC 169295: 1.0 cup, cubes",True
+cucumber,piece,,301.0,USDA,"FDC 168409: 1.0 cucumber (8-1/4"")",True
+cucumber,cup,,104.0,USDA,FDC 168409: 0.5 cup slices,True
+tomato,piece,medium,123.0,USDA,"FDC 170457: 1.0 medium whole (2-3/5"" dia)",False
+tomato,slice,medium,20.0,USDA,"FDC 170457: 1.0 slice, medium (1/4"" thick)",True
+tomato,piece,large,182.0,USDA,"FDC 170457: 1.0 large whole (3"" dia)",False
+tomato,piece,,17.0,USDA,FDC 170457: 1.0 cherry,True
+tomato,slice,small,15.0,USDA,"FDC 170457: 1.0 slice, thin/small",False
+tomato,cup,chopped,180.0,USDA,"FDC 170457: 1.0 cup, chopped or sliced",False
+tomato,piece,small,91.0,USDA,"FDC 170457: 1.0 small whole (2-2/5"" dia)",False
+tomato,slice,large,27.0,USDA,"FDC 170457: 1.0 slice, thick/large (1/2"" thick)",False
+tomato,cup,,149.0,USDA,FDC 170457: 1.0 cup cherry tomatoes,True
+mushroom-white,piece,small,10.0,USDA,FDC 169251: 1.0 small,False
+mushroom-white,cup,pieces,70.0,USDA,"FDC 169251: 1.0 cup, pieces or slices",True
+mushroom-white,slice,,6.0,USDA,FDC 169251: 1.0 slice,True
+mushroom-white,cup,whole,96.0,USDA,"FDC 169251: 1.0 cup, whole",False
+mushroom-white,piece,medium,18.0,USDA,FDC 169251: 1.0 medium,True
+mushroom-white,piece,large,23.0,USDA,FDC 169251: 1.0 large,False
+mushroom-portobello,piece,,84.0,USDA,FDC 169255: 1.0 piece whole,True
+mushroom-portobello,cup,diced,86.0,USDA,FDC 169255: 1.0 cup diced,True
+asparagus,cup,,134.0,USDA,FDC 168389: 1.0 cup,True
+asparagus,piece,extra large,24.0,USDA,"FDC 168389: 1.0 spear, extra large (8-3/4"" to 10"" long)",False
+asparagus,piece,large,20.0,USDA,"FDC 168389: 1.0 spear, large (7-1/4"" to 8-1/2"")",False
+asparagus,piece,,3.5,USDA,"FDC 168389: 1.0 spear tip (2"" long or less)",True
+asparagus,piece,medium,16.0,USDA,"FDC 168389: 1.0 spear, medium (5-1/4"" to 7"" long)",False
+asparagus,piece,small,12.0,USDA,"FDC 168389: 1.0 spear, small (5"" long or less)",False
+green-beans,cup,pieces,100.0,USDA,"FDC 169961: 1.0 cup 1/2"" pieces",True
+corn,piece,medium,102.0,USDA,"FDC 169998: 1.0 ear, medium (6-3/4"" to 7-1/2"" long) yields",True
+corn,cup,,145.0,USDA,FDC 169998: 1.0 cup,True
+corn,piece,small,73.0,USDA,"FDC 169998: 1.0 ear, small (5-1/2"" to 6-1/2"" long)",False
+corn,piece,large,143.0,USDA,"FDC 169998: 1.0 ear, large (7-3/4"" to 9"" long) yields",False
+peas-green,cup,,134.0,USDA,FDC 170016: 1.0 cup,True
+edamame,cup,,118.0,USDA,FDC 168410: 1.0 cup,True
+brussels-sprouts,piece,,19.0,USDA,FDC 170383: 1.0 sprout,True
+brussels-sprouts,cup,,88.0,USDA,FDC 170383: 1.0 cup,True
+eggplant,piece,,548.0,USDA,"FDC 169228: 1.0 eggplant, unpeeled (approx 1-1/4 lb)",True
+eggplant,cup,,82.0,USDA,"FDC 169228: 1.0 cup, cubes",True
+leek,cup,,89.0,USDA,FDC 169246: 1.0 cup,True
+leek,piece,,89.0,USDA,FDC 169246: 1.0 leek,True
+leek,slice,,6.0,USDA,FDC 169246: 1.0 slice,True
+radish,piece,medium,4.5,USDA,"FDC 169276: 1.0 medium (3/4"" to 1"" dia)",True
+radish,piece,small,2.0,USDA,FDC 169276: 1.0 small,False
+radish,cup,,116.0,USDA,FDC 169276: 1.0 cup slices,True
+radish,slice,,1.0,USDA,FDC 169276: 1.0 slice,True
+radish,piece,large,9.0,USDA,"FDC 169276: 1.0 large (1"" to 1-1/4"" dia)",False
+beet,piece,,82.0,USDA,"FDC 169145: 1.0 beet (2"" dia)",True
+beet,cup,,136.0,USDA,FDC 169145: 1.0 cup,True
+snow-peas,cup,whole,63.0,USDA,"FDC 170010: 1.0 cup, whole",True
+snow-peas,cup,chopped,98.0,USDA,"FDC 170010: 1.0 cup, chopped",False
+avocado,piece,,136.0,USDA,"FDC 171706: 1.0 fruit, without skin and seed",True
+avocado,cup,pureed,230.0,USDA,"FDC 171706: 1.0 cup, pureed",True
+lemon,cup,,212.0,USDA,"FDC 167746: 1.0 cup, sections",True
+lemon,piece,,84.0,USDA,"FDC 167746: 1.0 fruit (2-3/8"" dia)",True
+lime,piece,,67.0,USDA,"FDC 168155: 1.0 fruit (2"" dia)",True
+orange,cup,,165.0,USDA,"FDC 169917: 1.0 cup sections, without membranes",True
+orange,piece,,140.0,USDA,"FDC 169917: 1.0 fruit (2-7/8"" dia)",True
+apple,cup,,109.0,USDA,FDC 171688: 1.0 cup slices,True
+apple,piece,medium,182.0,USDA,"FDC 171688: 1.0 medium (3"" dia)",True
+apple,piece,small,149.0,USDA,"FDC 171688: 1.0 small (2-3/4"" dia)",False
+apple,cup,chopped,125.0,USDA,"FDC 171688: 1.0 cup, quartered or chopped",False
+apple,piece,large,223.0,USDA,"FDC 171688: 1.0 large (3-1/4"" dia)",False
+banana,piece,extra large,152.0,USDA,"FDC 173944: 1.0 extra large (9"" or longer)",False
+banana,piece,large,136.0,USDA,"FDC 173944: 1.0 large (8"" to 8-7/8"" long)",False
+banana,cup,sliced,150.0,USDA,"FDC 173944: 1.0 cup, sliced",True
+banana,piece,small,101.0,USDA,"FDC 173944: 1.0 small (6"" to 6-7/8"" long)",False
+banana,piece,medium,118.0,USDA,"FDC 173944: 1.0 medium (7"" to 7-7/8"" long)",True
+banana,cup,mashed,225.0,USDA,"FDC 173944: 1.0 cup, mashed",False
+strawberries,cup,pureed,232.0,USDA,"FDC 167762: 1.0 cup, pureed",True
+strawberries,piece,large,18.0,USDA,"FDC 167762: 1.0 large (1-3/8"" dia)",False
+strawberries,cup,sliced,166.0,USDA,"FDC 167762: 1.0 cup, sliced",False
+strawberries,cup,halves,152.0,USDA,"FDC 167762: 1.0 cup, halves",False
+strawberries,piece,medium,12.0,USDA,"FDC 167762: 1.0 medium (1-1/4"" dia)",True
+strawberries,piece,extra large,27.0,USDA,"FDC 167762: 1.0 extra large (1-5/8"" dia)",False
+strawberries,cup,whole,144.0,USDA,"FDC 167762: 1.0 cup, whole",False
+strawberries,piece,small,7.0,USDA,"FDC 167762: 1.0 small (1"" dia)",False
+blueberries,cup,,148.0,USDA,FDC 171711: 1.0 cup,True
+raspberries,cup,,123.0,USDA,FDC 167755: 1.0 cup,True
+mango,piece,,336.0,USDA,FDC 169910: 1.0 fruit without refuse,True
+mango,cup,pieces,165.0,USDA,FDC 169910: 1.0 cup pieces,True
+pineapple,slice,,56.0,USDA,"FDC 169124: 1.0 slice, thin (3-1/2"" dia x 1/2"" thick)",True
+pineapple,piece,,905.0,USDA,FDC 169124: 1.0 fruit,True
+pineapple,cup,,165.0,USDA,"FDC 169124: 1.0 cup, chunks",True
+cilantro,sprig,,2.222,USDA,FDC 169997: 9.0 sprigs,True
+cilantro,cup,,16.0,USDA,FDC 169997: 0.25 cup,True
+parsley,cup,chopped,60.0,USDA,FDC 170416: 1.0 cup chopped,True
+parsley,tbsp,,3.8,USDA,FDC 170416: 1.0 tbsp,True
+parsley,sprig,,1.0,USDA,FDC 170416: 10.0 sprigs,True
+basil,tbsp,chopped,2.65,USDA,"FDC 172232: 2.0 tbsp, chopped",True
+basil,leaf,,0.5,USDA,FDC 172232: 5.0 leaves,True
+basil,cup,whole,24.0,USDA,"FDC 172232: 0.25 cup leaves, whole",True
+mint,tbsp,,5.7,USDA,FDC 173475: 2.0 tbsp,True
+mint,leaf,,0.15,USDA,FDC 173475: 2.0 leaves,True
+dill,sprig,,0.2,USDA,FDC 172233: 5.0 sprigs,True
+dill,cup,,8.9,USDA,FDC 172233: 1.0 cup sprigs,True
+thyme-fresh,tsp,,0.8,USDA,FDC 173470: 1.0 tsp,True
+rosemary-fresh,tbsp,,1.7,USDA,FDC 173473: 1.0 tbsp,True
+rosemary-fresh,tsp,,0.7,USDA,FDC 173473: 1.0 tsp,True
+chives,tsp,chopped,1.0,USDA,FDC 169994: 1.0 tsp chopped,True
+chives,tbsp,chopped,3.0,USDA,FDC 169994: 1.0 tbsp chopped,True
+chicken-breast,piece,,272.0,USDA,FDC 171077: 1.0 piece,True
+chicken-thigh,piece,,149.0,USDA,FDC 173627: 1.0 thigh without skin,True
+beef-sirloin,piece,,608.0,USDA,FDC 168726: 1.0 steak,True
+beef-flank,piece,,188.0,USDA,FDC 169563: 1.0 steak,True
+pork-tenderloin,piece,,505.0,USDA,"FDC 168312: 1.0 roast (Yield from 1 raw roast, with refuse, weighing 504g)",True
+pork-chop,piece,,170.0,USDA,FDC 168286: 1.0 chop,True
+bacon,slice,,28.0,USDA,FDC 168277: 1.0 slice raw,True
+sausage-italian,piece,,101.0,USDA,FDC 171631: 1.0 link,True
+salmon,fillet,,396.0,USDA,FDC 175167: 0.5 fillet,True
+tuna-canned,piece,,165.0,USDA,FDC 173709: 1.0 can,True
+tuna-canned,cup,,154.0,USDA,"FDC 173709: 1.0 cup, solid or chunks",True
+cod,fillet,,231.0,USDA,FDC 171955: 1.0 fillet,True
+tilapia,fillet,,116.0,USDA,FDC 175176: 1.0 fillet,True
+tofu-firm,cup,,252.0,USDA,FDC 172475: 0.5 cup,True
+tempeh,cup,,166.0,USDA,FDC 174272: 1.0 cup,True
+egg,cup,,243.0,USDA,FDC 171287: 1.0 cup (4.86 large eggs),True
+egg,piece,medium,44.0,USDA,FDC 171287: 1.0 medium,False
+egg,piece,extra large,56.0,USDA,FDC 171287: 1.0 extra large,False
+egg,piece,small,38.0,USDA,FDC 171287: 1.0 small,False
+egg,piece,jumbo,63.0,USDA,FDC 171287: 1.0 jumbo,False
+egg,piece,large,50.0,USDA,FDC 171287: 1.0 large,True
+egg-white,cup,,243.0,USDA,FDC 172183: 1.0 cup,True
+egg-white,piece,large,33.0,USDA,FDC 172183: 1.0 large,True
+milk-whole,cup,,244.0,USDA,FDC 171265: 1.0 cup,True
+milk-whole,tbsp,,15.0,USDA,FDC 171265: 1.0 tbsp,True
+milk-2pct,cup,,244.0,USDA,FDC 171267: 1.0 cup,True
+heavy-cream,cup,,120.0,USDA,"FDC 170859: 1.0 cup, whipped",True
+heavy-cream,tbsp,,15.0,USDA,FDC 170859: 1.0 tbsp,True
+half-and-half,tbsp,,15.0,USDA,FDC 171255: 1.0 tbsp,True
+half-and-half,cup,,242.0,USDA,FDC 171255: 1.0 cup,True
+butter-unsalted,piece,,5.0,USDA,"FDC 173430: 1.0 pat (1"" sq, 1/3"" high)",True
+butter-unsalted,tbsp,,14.2,USDA,FDC 173430: 1.0 tbsp,True
+butter-unsalted,stick,,113.0,USDA,FDC 173430: 1.0 stick,True
+butter-unsalted,cup,,227.0,USDA,FDC 173430: 1.0 cup,True
+butter-salted,piece,,5.0,USDA,"FDC 173410: 1.0 pat (1"" sq, 1/3"" high)",True
+butter-salted,stick,,113.0,USDA,FDC 173410: 1.0 stick,True
+butter-salted,cup,,227.0,USDA,FDC 173410: 1.0 cup,True
+butter-salted,tbsp,,14.2,USDA,FDC 173410: 1.0 tbsp,True
+sour-cream,tbsp,,12.0,USDA,FDC 171257: 1.0 tbsp,True
+sour-cream,cup,,230.0,USDA,FDC 171257: 1.0 cup,True
+yogurt-plain,cup,,245.0,USDA,FDC 171284: 1.0 cup (8 fl oz),True
+cheddar,cup,melted,244.0,USDA,"FDC 173414: 1.0 cup, melted",True
+cheddar,slice,,28.0,USDA,FDC 173414: 1.0 slice (1 oz),True
+cheddar,cup,shredded,113.0,USDA,"FDC 173414: 1.0 cup, shredded",False
+cheddar,cup,diced,132.0,USDA,"FDC 173414: 1.0 cup, diced",False
+mozzarella,cup,diced,132.0,USDA,"FDC 171244: 1.0 cup, diced",True
+mozzarella,slice,,28.0,USDA,FDC 171244: 1.0 slice (1 oz),True
+mozzarella,cup,shredded,113.0,USDA,"FDC 171244: 1.0 cup, shredded",False
+parmesan,cup,,100.0,USDA,FDC 171247: 1.0 cup,True
+parmesan,tbsp,,5.0,USDA,FDC 171247: 1.0 tbsp,True
+feta,cup,crumbled,150.0,USDA,"FDC 173420: 1.0 cup, crumbled",True
+feta,piece,,38.0,USDA,FDC 173420: 1.0 wedge (1.33 oz),True
+cream-cheese,cup,,232.0,USDA,FDC 173418: 1.0 cup,True
+cream-cheese,tbsp,,10.0,USDA,"FDC 173418: 1.0 tbsp, whipped",True
+cottage-cheese,cup,,226.0,USDA,FDC 172182: 1.0 cup (not packed),True
+ricotta,cup,,248.0,USDA,FDC 171248: 0.5 cup,True
+monterey-jack,slice,,28.0,USDA,FDC 170844: 1.0 slice (1 oz),True
+monterey-jack,cup,diced,132.0,USDA,"FDC 170844: 1.0 cup, diced",True
+monterey-jack,cup,shredded,113.0,USDA,"FDC 170844: 1.0 cup, shredded",False
+rice-white-dry,cup,,185.0,USDA,FDC 168877: 1.0 cup,True
+rice-white-cooked,cup,,158.0,USDA,FDC 168878: 1.0 cup,True
+rice-brown-dry,cup,,185.0,USDA,FDC 169703: 1.0 cup,True
+rice-brown-cooked,cup,,202.0,USDA,FDC 169704: 1.0 cup,True
+quinoa-dry,cup,,170.0,USDA,FDC 168874: 1.0 cup,True
+quinoa-cooked,cup,,185.0,USDA,FDC 168917: 1.0 cup,True
+oats-rolled,cup,,81.0,USDA,FDC 173904: 1.0 cup,True
+pasta-dry,cup,,64.0,USDA,FDC 169736: 1.0 cup shells,True
+pasta-whole-wheat-dry,cup,,96.0,USDA,FDC 169738: 1.0 cup rotini,True
+egg-noodles-dry,cup,,38.0,USDA,FDC 169731: 1.0 cup,True
+couscous-dry,cup,,173.0,USDA,FDC 169699: 1.0 cup,True
+flour-all-purpose,cup,,125.0,USDA,FDC 168894: 1.0 cup,True
+flour-whole-wheat,cup,,120.0,USDA,FDC 168893: 1.0 cup,True
+cornmeal,cup,,122.0,USDA,FDC 169697: 1.0 cup,True
+cornstarch,cup,,128.0,USDA,FDC 169698: 1.0 cup,True
+bread-whole-wheat,slice,,32.0,USDA,FDC 172688: 1.0 slice,True
+bread-white,slice,,29.0,USDA,FDC 174924: 1.0 slice,True
+bread-white,cup,,35.0,USDA,"FDC 174924: 1.0 cup, cubes",True
+bread-white,slice,large,30.0,USDA,"FDC 174924: 1.0 slice, large",False
+tortilla-flour,piece,,49.0,USDA,FDC 167535: 1.0 tortilla,True
+tortilla-corn,piece,,19.0,USDA,FDC 175036: 1.0 enchilada,True
+hamburger-bun,piece,,44.0,USDA,FDC 172796: 1.0 roll 1 serving,True
+pita,piece,small,28.0,USDA,"FDC 174915: 1.0 pita, small  (4"" dia)",True
+pita,piece,large,60.0,USDA,"FDC 174915: 1.0 pita, large (6-1/2"" dia)",False
+breadcrumbs-panko,cup,,108.0,USDA,FDC 174928: 1.0 cup,True
+black-beans-canned,cup,,240.0,USDA,FDC 175188: 1.0 cup,True
+chickpeas-canned,piece,,253.0,USDA,FDC 173800: 1.0 can drained,True
+kidney-beans-canned,piece,,266.0,USDA,FDC 174285: 1.0 can drained solids,True
+pinto-beans-canned,cup,,169.0,USDA,FDC 173797: 1.0 cup,True
+pinto-beans-canned,piece,,258.0,USDA,FDC 173797: 1.0 can,True
+white-beans-canned,cup,,262.0,USDA,FDC 175204: 1.0 cup,True
+lentils-dry,tbsp,,12.0,USDA,FDC 172420: 1.0 tablespoon,True
+lentils-dry,cup,,192.0,USDA,FDC 172420: 1.0 cup,True
+refried-beans,piece,,442.0,USDA,FDC 172438: 1.0 can,True
+refried-beans,cup,,238.0,USDA,FDC 172438: 1.0 cup,True
+almonds,piece,,1.2,USDA,FDC 170567: 1.0 almond,True
+almonds,cup,whole,143.0,USDA,"FDC 170567: 1.0 cup, whole",True
+almonds,cup,slivered,108.0,USDA,"FDC 170567: 1.0 cup, slivered",False
+almonds,cup,ground,95.0,USDA,"FDC 170567: 1.0 cup, ground",False
+almonds,cup,sliced,92.0,USDA,"FDC 170567: 1.0 cup, sliced",False
+walnuts,cup,ground,80.0,USDA,"FDC 170187: 1.0 cup, ground",False
+walnuts,cup,chopped,117.0,USDA,"FDC 170187: 1.0 cup, chopped",False
+walnuts,cup,,28.0,USDA,"FDC 170187: 1.0 cup, in shell, edible yield (7 nuts)",True
+walnuts,cup,pieces,120.0,USDA,FDC 170187: 1.0 cup pieces or chips,False
+pecans,cup,chopped,109.0,USDA,"FDC 170182: 1.0 cup, chopped",True
+pecans,cup,halves,99.0,USDA,"FDC 170182: 1.0 cup, halves",False
+peanuts,cup,,146.0,USDA,FDC 173806: 1.0 cup,True
+peanuts,piece,,1.0,USDA,FDC 173806: 1.0 peanut,True
+peanut-butter,cup,,258.0,USDA,FDC 172470: 1.0 cup,True
+peanut-butter,tbsp,,16.0,USDA,FDC 172470: 2.0 tbsp,True
+almond-butter,tbsp,,16.0,USDA,FDC 168588: 1.0 tbsp,True
+almond-butter,cup,,250.0,USDA,FDC 168588: 1.0 cup,True
+pine-nuts,cup,,135.0,USDA,FDC 170591: 1.0 cup,True
+sesame-seeds,cup,,144.0,USDA,FDC 170150: 1.0 cup,True
+sesame-seeds,tbsp,,9.0,USDA,FDC 170150: 1.0 tbsp,True
+flaxseed,tsp,ground,2.5,USDA,"FDC 169414: 1.0 tsp, ground",True
+flaxseed,tbsp,ground,7.0,USDA,"FDC 169414: 1.0 tbsp, ground",True
+flaxseed,cup,whole,168.0,USDA,"FDC 169414: 1.0 cup, whole",True
+flaxseed,tbsp,whole,10.3,USDA,"FDC 169414: 1.0 tbsp, whole",False
+flaxseed,tsp,whole,3.4,USDA,"FDC 169414: 1.0 tsp, whole",False
+pumpkin-seeds,cup,,129.0,USDA,FDC 170556: 1.0 cup,True
+sunflower-seeds,cup,,140.0,USDA,FDC 170562: 1.0 cup,True
+tahini,tbsp,,15.0,USDA,FDC 170189: 1.0 tbsp,True
+olive-oil,tbsp,,13.5,USDA,FDC 171413: 1.0 tablespoon,True
+olive-oil,tsp,,4.5,USDA,FDC 171413: 1.0 tsp,True
+olive-oil,cup,,216.0,USDA,FDC 171413: 1.0 cup,True
+vegetable-oil,tsp,,4.5,USDA,FDC 172336: 1.0 tsp,True
+vegetable-oil,cup,,218.0,USDA,FDC 172336: 1.0 cup,True
+vegetable-oil,tbsp,,14.0,USDA,FDC 172336: 1.0 tbsp,True
+avocado-oil,tsp,,4.5,USDA,FDC 173573: 1.0 tsp,True
+avocado-oil,tbsp,,14.0,USDA,FDC 173573: 1.0 tbsp,True
+avocado-oil,cup,,218.0,USDA,FDC 173573: 1.0 cup,True
+sesame-oil,tbsp,,13.6,USDA,FDC 171016: 1.0 tablespoon,True
+sesame-oil,tsp,,4.5,USDA,FDC 171016: 1.0 tsp,True
+sesame-oil,cup,,218.0,USDA,FDC 171016: 1.0 cup,True
+coconut-oil,cup,,218.0,USDA,FDC 171412: 1.0 cup,True
+coconut-oil,tsp,,4.5,USDA,FDC 171412: 1.0 tsp,True
+coconut-oil,tbsp,,13.6,USDA,FDC 171412: 1.0 tbsp,True
+ghee,cup,,205.0,USDA,FDC 173412: 1.0 cup,True
+ghee,tbsp,,12.8,USDA,FDC 173412: 1.0 tbsp,True
+soy-sauce,piece,,8.9,USDA,FDC 174277: 1.0 individual packet,True
+soy-sauce,tbsp,,16.0,USDA,FDC 174277: 1.0 tbsp,True
+soy-sauce,tsp,,5.3,USDA,FDC 174277: 1.0 tsp,True
+soy-sauce,cup,,255.0,USDA,FDC 174277: 1.0 cup,True
+soy-sauce-low-sodium,tsp,,4.5,USDA,FDC 172473: 1.0 tsp,True
+soy-sauce-low-sodium,tbsp,,14.2,USDA,FDC 172473: 1.0 tbsp,True
+soy-sauce-low-sodium,cup,,255.0,USDA,FDC 172473: 1.0 cup,True
+fish-sauce,tbsp,,18.0,USDA,FDC 174531: 1.0 tbsp,True
+oyster-sauce,tbsp,,18.0,USDA,FDC 174529: 1.0 tbsp,True
+hoisin-sauce,tbsp,,16.0,USDA,FDC 172886: 1.0 tbsp,True
+sriracha,tsp,,6.5,USDA,FDC 171186: 1.0 tsp,True
+hot-sauce,tsp,,4.7,USDA,FDC 174528: 1.0 tsp,True
+ketchup,piece,,9.0,USDA,FDC 168556: 1.0 packet,True
+ketchup,tbsp,,17.0,USDA,FDC 168556: 1.0 tbsp,True
+ketchup,cup,,240.0,USDA,FDC 168556: 1.0 cup,True
+mustard-yellow,cup,,249.0,USDA,FDC 172234: 1.0 cup,True
+mustard-yellow,tsp,,5.0,USDA,FDC 172234: 1.0 tsp or 1 packet,True
+mustard-dijon,cup,,249.0,USDA,FDC 172234: 1.0 cup,True
+mustard-dijon,tsp,,5.0,USDA,FDC 172234: 1.0 tsp or 1 packet,True
+mayonnaise,tbsp,,13.8,USDA,FDC 171009: 1.0 tbsp,True
+mayonnaise,cup,,220.0,USDA,FDC 171009: 1.0 cup,True
+mayonnaise,piece,,10.0,USDA,FDC 171009: 1.0 packet,True
+bbq-sauce,tbsp,,17.0,USDA,FDC 174523: 1.0 tbsp,True
+bbq-sauce,cup,,279.0,USDA,FDC 174523: 1.0 cup,True
+salsa,tbsp,,18.0,USDA,FDC 174524: 2.0 tbsp,True
+salsa,cup,,259.0,USDA,FDC 174524: 1.0 cup,True
+tomato-paste,piece,,170.0,USDA,FDC 170459: 1.0 can (6 oz),True
+tomato-paste,tbsp,,16.0,USDA,FDC 170459: 1.0 tbsp,True
+tomato-paste,cup,,264.0,USDA,FDC 170459: 0.25 cup,True
+tomatoes-diced-canned,cup,,240.0,USDA,FDC 170051: 1.0 cup,True
+tomatoes-diced-canned,piece,medium,111.0,USDA,FDC 170051: 1.0 medium,False
+tomatoes-diced-canned,piece,large,164.0,USDA,FDC 170051: 1.0 large,False
+tomatoes-diced-canned,piece,small,82.0,USDA,FDC 170051: 1.0 small,False
+tomatoes-diced-canned,piece,,190.0,USDA,FDC 170051: 1.0 can,True
+tomatoes-diced-canned,tbsp,,15.0,USDA,FDC 170051: 1.0 tbsp,True
+tomato-sauce-canned,cup,,245.0,USDA,FDC 170054: 1.0 cup,True
+tomatoes-crushed-canned,cup,,250.0,USDA,FDC 170460: 1.0 cup,True
+tomatoes-crushed-canned,piece,,822.0,USDA,FDC 170460: 1.0 can (29 oz) (401 x 411),True
+coconut-milk-canned,cup,,226.0,USDA,FDC 170173: 1.0 cup,True
+coconut-milk-canned,tbsp,,15.0,USDA,FDC 170173: 1.0 tbsp,True
+broth-chicken,cup,,249.0,USDA,FDC 174536: 1.0 cup,True
+broth-beef,piece,,586.0,USDA,"FDC 174557: 1.0 can (10.5 oz), prepared",True
+broth-beef,cup,,241.0,USDA,FDC 174557: 1.0 cup (8 fl oz),True
+broth-vegetable,piece,,390.0,USDA,FDC 171583: 1.0 can,True
+broth-vegetable,cup,,221.0,USDA,FDC 171583: 1.0 cup,True
+vinegar-balsamic,tbsp,,16.0,USDA,FDC 172241: 1.0 tbsp,True
+vinegar-balsamic,tsp,,5.3,USDA,FDC 172241: 1.0 tsp,True
+vinegar-balsamic,cup,,255.0,USDA,FDC 172241: 1.0 cup,True
+vinegar-apple-cider,tsp,,5.0,USDA,FDC 173469: 1.0 tsp,True
+vinegar-apple-cider,tbsp,,14.9,USDA,FDC 173469: 1.0 tbsp,True
+vinegar-apple-cider,cup,,239.0,USDA,FDC 173469: 1.0 cup,True
+vinegar-red-wine,tbsp,,14.9,USDA,FDC 172240: 1.0 tbsp,True
+vinegar-red-wine,cup,,239.0,USDA,FDC 172240: 1.0 cup,True
+vinegar-red-wine,tsp,,5.0,USDA,FDC 172240: 1.0 tsp,True
+vinegar-rice,tbsp,,14.9,USDA,FDC 172237: 1.0 tbsp,True
+vinegar-rice,tsp,,5.0,USDA,FDC 172237: 1.0 tsp,True
+vinegar-rice,cup,,238.0,USDA,FDC 172237: 1.0 cup,True
+vinegar-white,tbsp,,14.9,USDA,FDC 172237: 1.0 tbsp,True
+vinegar-white,tsp,,5.0,USDA,FDC 172237: 1.0 tsp,True
+vinegar-white,cup,,238.0,USDA,FDC 172237: 1.0 cup,True
+worcestershire,cup,,275.0,USDA,FDC 171610: 1.0 cup,True
+worcestershire,tbsp,,17.0,USDA,FDC 171610: 1.0 tbsp,True
+honey,cup,,339.0,USDA,FDC 169640: 1.0 cup,True
+honey,tbsp,,21.0,USDA,FDC 169640: 1.0 tbsp,True
+honey,piece,,14.0,USDA,FDC 169640: 1.0 packet (0.5 oz),True
+maple-syrup,tbsp,,20.0,USDA,FDC 169661: 1.0 tbsp,True
+maple-syrup,cup,,315.0,USDA,FDC 169661: 1.0 cup,True
+teriyaki-sauce,tbsp,,18.0,USDA,FDC 171167: 1.0 tbsp,True
+teriyaki-sauce,cup,,288.0,USDA,FDC 171167: 1.0 cup,True
+miso,cup,,275.0,USDA,FDC 172442: 1.0 cup,True
+miso,tbsp,,17.0,USDA,FDC 172442: 1.0 tbsp,True
+lemon-juice,piece,,5.9,USDA,FDC 167747: 1.0 wedge yields,True
+lemon-juice,cup,,244.0,USDA,FDC 167747: 1.0 cup,True
+lime-juice,cup,,242.0,USDA,FDC 168156: 1.0 cup,True
+lime-juice,piece,,44.0,USDA,FDC 168156: 1.0 lime yields,True
+sugar,cup,,200.0,USDA,FDC 169655: 1.0 cup,True
+sugar,tsp,,4.2,USDA,FDC 169655: 1.0 tsp,True
+brown-sugar,cup,packed,220.0,USDA,FDC 168833: 1.0 cup packed,False
+brown-sugar,tsp,packed,4.6,USDA,FDC 168833: 1.0 tsp packed,False
+brown-sugar,cup,,145.0,USDA,FDC 168833: 1.0 cup unpacked,True
+brown-sugar,tsp,,3.0,USDA,FDC 168833: 1.0 tsp unpacked,True
+powdered-sugar,cup,,100.0,USDA,FDC 169656: 1.0 cup sifted,True
+powdered-sugar,tsp,,2.5,USDA,FDC 169656: 1.0 tsp,True
+powdered-sugar,tbsp,,8.0,USDA,FDC 169656: 1.0 tbsp unsifted,True
+baking-powder,tsp,,4.6,USDA,FDC 172803: 0.5 tsp,True
+baking-soda,tsp,,4.6,USDA,FDC 175040: 0.5 tsp,True
+vanilla-extract,tsp,,4.2,USDA,FDC 173471: 1.0 tsp,True
+vanilla-extract,cup,,208.0,USDA,FDC 173471: 1.0 cup,True
+vanilla-extract,tbsp,,13.0,USDA,FDC 173471: 1.0 tbsp,True
+cocoa-powder,tbsp,,5.4,USDA,FDC 169593: 1.0 tbsp,True
+cocoa-powder,cup,,86.0,USDA,FDC 169593: 1.0 cup,True
+yeast,tbsp,,12.0,USDA,FDC 175043: 1.0 tbsp,True
+yeast,tsp,,4.0,USDA,FDC 175043: 1.0 tsp,True
+yeast,piece,,7.2,USDA,FDC 175043: 1.0 packet,True
+salt,cup,,292.0,USDA,FDC 173468: 1.0 cup,True
+salt,tsp,,6.0,USDA,FDC 173468: 1.0 tsp,True
+salt,tbsp,,18.0,USDA,FDC 173468: 1.0 tbsp,True
+salt,piece,,0.4,USDA,FDC 173468: 1.0 dash,True
+raisins,piece,,14.0,USDA,FDC 168165: 1.0 miniature box (.5 oz),True
+raisins,piece,small,43.0,USDA,FDC 168165: 1.0 small box (1.5 oz),False
+raisins,cup,,145.0,USDA,FDC 168165: 1.0 cup (not packed),True
+raisins,cup,packed,165.0,USDA,"FDC 168165: 1.0 cup, packed",False
+dried-cranberries,cup,,160.0,USDA,FDC 171723: 0.25 cup,True
+black-pepper,tbsp,ground,6.9,USDA,"FDC 170931: 1.0 tbsp, ground",True
+black-pepper,piece,,0.1,USDA,FDC 170931: 1.0 dash,True
+black-pepper,tsp,ground,2.3,USDA,"FDC 170931: 1.0 tsp, ground",True
+black-pepper,tsp,whole,2.9,USDA,"FDC 170931: 1.0 tsp, whole",False
+paprika,tbsp,,6.8,USDA,FDC 171329: 1.0 tbsp,True
+paprika,tsp,,2.3,USDA,FDC 171329: 1.0 tsp,True
+chili-powder,tbsp,,8.0,USDA,FDC 171319: 1.0 tbsp,True
+chili-powder,tsp,,2.7,USDA,FDC 171319: 1.0 tsp,True
+cumin,tsp,whole,2.1,USDA,"FDC 170923: 1.0 tsp, whole",True
+cumin,tbsp,whole,6.0,USDA,"FDC 170923: 1.0 tbsp, whole",True
+coriander-ground,tbsp,,5.0,USDA,FDC 170922: 1.0 tbsp,True
+coriander-ground,tsp,,1.8,USDA,FDC 170922: 1.0 tsp,True
+turmeric,tsp,,3.0,USDA,FDC 172231: 1.0 tsp,True
+turmeric,tbsp,,9.4,USDA,FDC 172231: 1.0 tbsp,True
+cinnamon,tsp,,2.6,USDA,FDC 171320: 1.0 tsp,True
+cinnamon,tbsp,,7.8,USDA,FDC 171320: 1.0 tbsp,True
+oregano-dried,tsp,,1.0,USDA,"FDC 171328: 1.0 tsp, leaves",True
+oregano-dried,tsp,ground,1.8,USDA,"FDC 171328: 1.0 tsp, ground",False
+basil-dried,tbsp,,2.1,USDA,"FDC 171317: 1.0 tbsp, leaves",True
+basil-dried,tsp,,0.7,USDA,"FDC 171317: 1.0 tsp, leaves",True
+basil-dried,tbsp,ground,4.5,USDA,"FDC 171317: 1.0 tbsp, ground",False
+basil-dried,tsp,ground,1.4,USDA,"FDC 171317: 1.0 tsp, ground",False
+thyme-dried,tsp,,1.0,USDA,"FDC 170938: 1.0 tsp, leaves",True
+thyme-dried,tbsp,ground,4.3,USDA,"FDC 170938: 1.0 tbsp, ground",False
+thyme-dried,tbsp,,2.7,USDA,"FDC 170938: 1.0 tbsp, leaves",True
+thyme-dried,tsp,ground,1.4,USDA,"FDC 170938: 1.0 tsp, ground",False
+rosemary-dried,tsp,,1.2,USDA,FDC 171333: 1.0 tsp,True
+rosemary-dried,tbsp,,3.3,USDA,FDC 171333: 1.0 tbsp,True
+garlic-powder,tbsp,,9.7,USDA,FDC 171325: 1.0 tbsp,True
+garlic-powder,tsp,,3.1,USDA,FDC 171325: 1.0 tsp,True
+onion-powder,tbsp,,6.9,USDA,FDC 171327: 1.0 tbsp,True
+onion-powder,tsp,,2.4,USDA,FDC 171327: 1.0 tsp,True
+cayenne,tbsp,,5.3,USDA,FDC 170932: 1.0 tbsp,True
+cayenne,tsp,,1.8,USDA,FDC 170932: 1.0 tsp,True
+bay-leaf,tbsp,crumbled,1.8,USDA,"FDC 170917: 1.0 tbsp, crumbled",True
+bay-leaf,tsp,crumbled,0.6,USDA,"FDC 170917: 1.0 tsp, crumbled",True
+nutmeg,tbsp,,7.0,USDA,FDC 171326: 1.0 tbsp,True
+nutmeg,tsp,,2.2,USDA,FDC 171326: 1.0 tsp,True
+ginger-ground,tbsp,,5.2,USDA,FDC 170926: 1.0 tbsp,True
+ginger-ground,tsp,,1.8,USDA,FDC 170926: 1.0 tsp,True
+curry-powder,tsp,,2.0,USDA,FDC 170924: 1.0 tsp,True
+curry-powder,tbsp,,6.3,USDA,FDC 170924: 1.0 tbsp,True
+parsley-dried,tsp,,0.5,USDA,FDC 170930: 1.0 tsp,True
+parsley-dried,tbsp,,1.6,USDA,FDC 170930: 1.0 tbsp,True
+dill-dried,tsp,,1.0,USDA,FDC 171322: 1.0 tsp,True
+dill-dried,tbsp,,3.1,USDA,FDC 171322: 1.0 tbsp,True
+water,piece,,1000.0,USDA,FDC 173647: 1.0 liter,True
+orange-juice,piece,,86.0,USDA,FDC 169098: 1.0 fruit yields,True
+orange-juice,cup,,248.0,USDA,FDC 169098: 1.0 cup,True
+mixed-vegetables-frozen,piece,,1134.0,USDA,FDC 170471: 1.0 pack (2-1/2 lb),True
+hummus,tbsp,,15.0,USDA,FDC 174289: 1.0 tbsp,True
+hummus,cup,,246.0,USDA,FDC 174289: 1.0 cup,True
