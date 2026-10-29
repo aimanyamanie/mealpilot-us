@@ -70,6 +70,8 @@ def grams_for(line, units, ingredients, portions, defaults):
         return None, None
     if kind == "mass":
         return q * units[unit][2], "mass"
+    if line.get("stated_grams") is not None:
+        return line["stated_grams"], "mass"      # "1/2 cup (45g)": the creator's own weight
     if line["package_grams"] is not None:
         return q * line["package_grams"], "mass"
     slug = line["ingredient"]

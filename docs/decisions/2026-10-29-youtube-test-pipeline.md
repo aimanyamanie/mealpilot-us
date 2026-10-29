@@ -61,6 +61,33 @@ Qualifiers are now kept as modifiers. Inedible forms are excluded. Brown sugar
 538, and the review workbook was regenerated as
 `ingredient_review_2026-10-29-v2.xlsx`.
 
+## First run, 2026-10-29 (latest 50 uploads x 6 channels)
+| Channel | Recipes found | Lines matched | Lines with grams | Coverage >= 90% | Servings stated |
+|---|---:|---:|---:|---:|---:|
+| Sip and Feast | 49 of 50 | 94% | 84% | 36 | 1 |
+| Brian Lagerstrom | 32 | 90% | 83% | 24 | 0 |
+| Laura in the Kitchen | 31 | 94% | 71% | 18 | 0 |
+| Clean & Delicious | 25 | 90% | 74% | 7 | 12 |
+| MyHealthyDish | 13 | 94% | 75% | 5 | 0 |
+| Vegan Richa | 3 | 86% | 61% | 1 | 0 |
+
+- **Totals:** 159 recipes and 2,019 lines. 94 recipes reach 90% coverage, and 16
+  state their servings. **Only 7 recipes clear both.**
+- **Servings is the binding gap, as the sourcing research predicted.** Descriptions
+  rarely say how many a recipe serves; recipe cards almost always do.
+- Matching went from 70–87% to 86–94% after three rounds of fixes:
+  - 20 new ingredients and alias additions;
+  - section, separator and credit lines kept out of the ingredient list;
+  - numbered method steps end the list;
+  - "packed cup", "14-ounce can", "1 or 2", and creator-stated grams ("1/2 cup (45g)");
+  - fl oz portions, so liquids like wine and water have a density.
+- **Servings bug fixed:** "yields about 115g" was read as 115 servings.
+- **Known, not fixed yet:**
+  - multi-recipe videos ("The Cheap Dinners I Made...") load as one recipe;
+  - Greek yogurt and shallot have no cup or piece weight in USDA;
+  - unmatched lines include gochujang, vegan cheese, protein powder, pizza dough
+    and pickle juice.
+
 ## Test channels (`test_channels.csv`)
 These were picked for having inline ingredient lists in their descriptions:
 - Sip and Feast

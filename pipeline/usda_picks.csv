@@ -61,7 +61,7 @@ rosemary-fresh,173473,173473,
 chives,169994,169994,
 chicken-breast,2646170,171077,
 chicken-thigh,2646171,173627,
-chicken-ground,171116,171116,Foundation record is "with additives"
+chicken-ground,171116,171116,"Foundation record is ""with additives"""
 turkey-ground,2514747,172850,
 beef-ground-85,171796,171796,No 85/15 record in Foundation
 beef-ground-90,2514743,171796,Portions borrowed from the 85/15 SR record (same physical form)
@@ -193,7 +193,7 @@ baking-powder,172803,172803,
 baking-soda,175040,175040,
 vanilla-extract,173471,173471,
 cocoa-powder,169593,169593,
-chocolate-chips,170271,170271,Proxy: dark chocolate 45-59% cacao; semisweet chips sit in this range
+chocolate-chips,170271,170271|167976,Proxy: dark chocolate 45-59% cacao; semisweet chips sit in this range
 yeast,175043,175043,
 salt,173468,173468,Foundation record has no nutrient values
 raisins,168165,168165,Foundation raisin records have no energy value
@@ -224,3 +224,23 @@ wine-red,173190,173190,
 orange-juice,169098,169098,
 mixed-vegetables-frozen,170471,170471,
 hummus,321358,174289,
+buttermilk,170874,170874,
+pecorino-romano,171249,171249,
+vodka,174818,174818,
+pork-belly,167812,167812,
+bean-sprouts,169957,169957,
+pizza-sauce,172880,172880,
+tapioca-starch,169717,169717,Proxy: dry pearl tapioca for tapioca starch
+hemp-seeds,170148,170148,
+imitation-crab,174203,174203,
+wonton-wrappers,172802,172802,
+chicken-bouillon,171562,171562,Dry bouillon; paste concentrates like Better Than Bouillon are close per gram
+fennel-seed,171323,171323,
+olives-black,169094,169094,
+kielbasa,174577,174577,Pork Polish sausage; the kielbasa records are cooked and pan-fried
+sauerkraut,169279,169279,
+tortellini,172094,172094,
+tarragon-dried,170937,170937,
+poppy-seed,171330,171330,
+lettuce-leaf,2346390,168431,
+fennel-bulb,2747655,169385,

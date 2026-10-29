@@ -39,11 +39,13 @@ SHOPPING_EXEMPT = {"water": "tap water"}
 # Energy outside protein/carb/fat, or carbohydrate that is not metabolised.
 MACRO_EXEMPT = {
     "wine-white": "alcohol", "wine-red": "alcohol", "vanilla-extract": "alcohol",
+    "vodka": "alcohol",
     "baking-powder": "leavening salts, not metabolised",
     "baking-soda": "sodium bicarbonate, no energy",
 }
 # Picks that stand in for a food USDA does not publish.
-PROXIES = {"mustard-dijon", "vinegar-rice", "chocolate-chips", "breadcrumbs-panko"}
+PROXIES = {"mustard-dijon", "vinegar-rice", "chocolate-chips", "breadcrumbs-panko",
+           "tapioca-starch"}
 
 UNIT_WORDS = {
     "cup": "cup", "cups": "cup",
@@ -100,9 +102,15 @@ def map_portion(p: dict):
     paren = " ".join(re.findall(r"\(([^)]*)\)", raw))
     text = re.sub(r"\([^)]*\)", " ", raw).replace(",", " ")
     words = text.split()
-    if not words or words[0] in SKIP_WORDS:
+    if not words:
         return None
     grams = p["grams"] / p["amount"]
+    # "fl oz" is the only household measure USDA gives for many liquids
+    # (wine, water, juice): without it they have no density at all.
+    if words[:2] == ["fl", "oz"] and len(words) == 2:
+        return "fl-oz", "", grams
+    if words[0] in SKIP_WORDS:
+        return None
     size = next((s for s in SIZES if re.search(rf"\b{s}\b", text)), "")
     rest = [w for w in words[1:] if w not in SIZE_WORDS and w not in FILLER and not w.isdigit()]
     if words[0] in UNIT_WORDS:
@@ -167,8 +175,8 @@ def portions_for(slug: str, fdc_ids: list[int], foods: dict) -> list[dict]:
 
 
 def density(portions: list[dict]):
-    """g/ml from an unqualified cup, tbsp or tsp, in that order of preference."""
-    for unit, ml in (("cup", CUP_ML), ("tbsp", TBSP_ML), ("tsp", TSP_ML)):
+    """g/ml from an unqualified cup, fl oz, tbsp or tsp, in that order of preference."""
+    for unit, ml in (("cup", CUP_ML), ("fl-oz", 29.5735), ("tbsp", TBSP_ML), ("tsp", TSP_ML)):
         for r in portions:
             if r["unit"] == unit and r["modifier"] == "":
                 return round(r["grams"] / ml, 3)

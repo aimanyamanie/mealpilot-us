@@ -28,7 +28,16 @@ WORD_QUANTITIES = {"a": 1, "an": 1, "one": 1, "two": 2, "three": 3, "four": 4,
                    "five": 5, "six": 6, "half": Fraction(1, 2), "a half": Fraction(1, 2)}
 
 NUM = r"(?:\d+\s+\d+/\d+|\d+/\d+|\d+(?:\.\d+)?|\.\d+)"
-QTY = re.compile(rf"^(?P<q>{NUM})(?:\s*(?:-|–|to)\s*(?P<q2>{NUM}))?\s*")
+QTY = re.compile(rf"^(?P<q>{NUM})(?:\s*(?:-|–|to|or)\s*(?P<q2>{NUM}))?\s*")
+# "1 14-ounce can", "2 6 oz jars": a package size written without parentheses
+BARE_PACKAGE = re.compile(rf"^(?P<n>{NUM})\s*-?\s*(?P<u>ounces?|oz|pounds?|lbs?)\.?\s+"
+                          r"(?=(?:cans?|jars?|packages?|bags?|box(?:es)?|containers?|tubs?)\b)", re.I)
+BEFORE_UNIT = re.compile(r"^(?P<w>lightly packed|firmly packed|packed|heaping|heaped|level|scant|generous)\s+", re.I)
+# Numbered method steps look like quantities ("6 While the sauce reduces").
+STEP_VERBS = {"while", "heat", "preheat", "mix", "stir", "add", "cook", "bake", "combine",
+              "place", "season", "serve", "remove", "transfer", "pour", "bring", "whisk",
+              "toss", "let", "in", "once", "meanwhile", "return", "top", "spread", "simmer",
+              "boil", "roast", "fry", "saute", "sauté", "blend", "fold", "divide", "garnish"}
 PAREN_SIZE = re.compile(rf"^\((?P<n>{NUM})\s*-?\s*(?P<u>oz|ounce|ounces|g|grams?|lb|lbs?|ml|fl\.?\s*oz)\.?\)\s*", re.I)
 BULLET = re.compile(r"^\s*(?:[-–•*▢◦●▪✓✔]|\d+[.)]\s+(?=\D))\s*")
 HEADING = re.compile(r"^\s*(?:ingredients?|what you(?:'|’)?ll need|you(?:'|’)?ll need|shopping list)\b[^a-z]*$", re.I)
@@ -36,9 +45,16 @@ GROUP = re.compile(r"^\s*(?:for\s+(?:the\s+)?[\w\s&-]{2,30}|[\w\s&-]{2,30}\s+ing
 STOP = re.compile(r"^\s*(?:instructions?|directions?|method|steps?|how to make|equipment|"
                   r"tools|notes?|nutrition|timestamps?|chapters?|links?|follow|subscribe|"
                   r"music|shop|products?|get the|full recipe|printable|connect|"
+                  r"disclosure|video editor|editor|filmed|camera|produced by|sponsored|affiliate|"
                   r"\d{1,2}:\d{2})\b", re.I)
+SEPARATOR = re.compile(r"^\s*[-–—=_*~.]{2,}\s*$")
+# A short line ending in a colon with no quantity: a section ("Dressing:").
+COLON_GROUP = re.compile(r"^\s*[^\d:]{2,40}:\s*$")
+# A number followed by a measure ("yields about 115g") is a weight, not servings.
 SERVINGS = re.compile(r"\b(?:serves|servings?|makes|yields?|yield)\b\s*:?\s*(?:about\s+)?"
-                      r"(?P<n>\d+)(?:\s*(?:-|–|to)\s*(?P<n2>\d+))?\s*(?P<what>servings?|people|portions?|bowls?)?",
+                      r"(?P<n>\d+)(?:\s*(?:-|–|to)\s*(?P<n2>\d+))?"
+                      r"(?!\s*(?:g|grams?|kg|oz|ounces?|lbs?|pounds?|ml|l|cups?|tbsp|tsp|quarts?|liters?)\b)(?![\d./])"
+                      r"\s*(?P<what>servings?|people|portions?|bowls?)?",
                       re.I)
 SERVINGS_AFTER = re.compile(r"\b(?P<n>\d+)(?:\s*(?:-|–|to)\s*(?P<n2>\d+))?\s+(?:servings|portions)\b", re.I)
 
@@ -92,7 +108,7 @@ def parse_line(raw: str, vocab: Vocab) -> dict:
     out = {"raw_text": raw.strip(), "quantity": None, "quantity_max": None, "unit": None,
            "modifier": "", "ingredient": None, "preparation_note": None,
            "is_optional": False, "is_scalable": True, "package_grams": None,
-           "package_ml": None, "match_term": None}
+           "package_ml": None, "stated_grams": None, "match_term": None}
     rest = text
     low = rest.lower()
     if re.search(r"\boptional\b", low):
@@ -110,6 +126,19 @@ def parse_line(raw: str, vocab: Vocab) -> dict:
                 out["quantity"] = Fraction(WORD_QUANTITIES[word])
                 rest = rest[len(word):].lstrip()
                 break
+
+    # "1 14-ounce can crushed tomatoes"
+    b = BARE_PACKAGE.match(rest) if out["quantity"] is not None else None
+    if b:
+        n, u = to_number(b["n"]), b["u"].lower()
+        out["package_grams"] = n * (Fraction("453.592") if u.startswith(("lb", "pound")) else Fraction("28.3495"))
+        rest = rest[b.end():]
+    # "1/2 packed cup chopped basil"
+    w = BEFORE_UNIT.match(rest) if out["quantity"] is not None else None
+    if w:
+        if "packed" in w["w"].lower():
+            out["modifier"] = "packed"
+        rest = rest[w.end():]
 
     # "1 (15 oz) can black beans": the package size gives the weight directly
     p = PAREN_SIZE.match(rest)
@@ -145,12 +174,16 @@ def parse_line(raw: str, vocab: Vocab) -> dict:
                 if alias in ("pinch", "pinches", "dash", "dashes", "splash", "drizzle"):
                     out["quantity"] = out["quantity"] or Fraction(1)
                 break
-    if out["unit"] in CONTAINERS and out["package_grams"] is None and out["package_ml"] is None:
-        pass  # a can with no size: grams need an ingredient portion for 'can'
+    # "1/2 cup (45g) grated pecorino": the creator weighed it. That total
+    # beats any portion table, so keep it.
+    sg = re.match(r"^\((?P<g>\d+(?:\.\d+)?)\s*(?:g|grams?)\b[^)]*\)\s*", rest, re.I)
+    if sg and out["quantity"] is not None:
+        out["stated_grams"] = Fraction(sg["g"])
+        rest = rest[sg.end():]
 
     low = rest.lower()
     for size in SIZES:
-        if re.search(rf"\b{size}\b", low):
+        if not out["modifier"] and re.search(rf"\b{size}\b", low):
             out["modifier"] = size.replace("-", " ")
             break
     if out["unit"] in ("cup", "tbsp", "tsp") and not out["modifier"]:
@@ -179,8 +212,17 @@ def parse_line(raw: str, vocab: Vocab) -> dict:
     return out
 
 
+def is_step(line: str) -> bool:
+    t = normalise(BULLET.sub("", line))
+    m = QTY.match(t)
+    first = t[m.end():].split(" ", 1)[0].lower().strip(",.:") if m else ""
+    return first in STEP_VERBS or len(t.split()) > 16
+
+
 def looks_like_ingredient(line: str, vocab: Vocab) -> bool:
     t = normalise(BULLET.sub("", line))
+    if is_step(line):
+        return False
     if QTY.match(t):
         return True
     low = t.lower()
@@ -220,18 +262,35 @@ def ingredient_block(text: str, vocab: Vocab) -> list[tuple[str, str | None]]:
                 break
             continue
         blanks = 0
-        if STOP.match(l) or re.search(r"https?://", l):
+        if SEPARATOR.match(l):
+            continue
+        if is_step(l):
+            if out:
+                break           # the method has started
+            continue
+        # Links, @handles and credits ("Video editor: ...") end the list.
+        if STOP.match(l) or re.search(r"https?://|@\w", l):
             if out:
                 break
             continue
-        if not looks_like_ingredient(l, vocab) and GROUP.match(l) and len(l) < 40:
+        is_ingredient = looks_like_ingredient(l, vocab)
+        if not is_ingredient and (COLON_GROUP.match(l) or (GROUP.match(l) and len(l) < 40)):
             group = l.strip().rstrip(":")
             continue
-        if looks_like_ingredient(l, vocab) or len(l.split()) <= 6:
+        if is_ingredient:
             out.append((l, group))
+        elif len(l.split()) <= 6 and names_an_ingredient(l, vocab):
+            out.append((l, group))       # "Fresh basil", "Kosher salt"
+        elif len(l.split()) <= 4:
+            group = l.strip().rstrip(":")  # "Toppings", "For serving"
         elif out:
             break
     return out
+
+
+def names_an_ingredient(line: str, vocab: Vocab) -> bool:
+    low = normalise(BULLET.sub("", line)).lower()
+    return any(re.search(rf"(?<![a-z]){re.escape(t)}(?![a-z])", low) for t, _ in vocab.terms)
 
 
 def parse_description(text: str, vocab: Vocab) -> dict:

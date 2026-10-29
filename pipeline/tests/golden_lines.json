@@ -17,5 +17,14 @@
   {"line": "2 cups low-sodium chicken broth", "quantity": "2", "unit": "cup", "ingredient": "broth-chicken"},
   {"line": "1.5 lbs ground beef", "quantity": "3/2", "unit": "lb", "ingredient": "beef-ground-85"},
   {"line": "- 1½ cups whole milk", "quantity": "3/2", "unit": "cup", "ingredient": "milk-whole"},
-  {"line": "1 medium yellow onion, diced", "quantity": "1", "unit": null, "modifier": "medium", "ingredient": "onion-yellow", "preparation_note": "diced"}
+  {"line": "1 medium yellow onion, diced", "quantity": "1", "unit": null, "modifier": "medium", "ingredient": "onion-yellow", "preparation_note": "diced"},
+  {"line": "▪225g (8 oz) hot italian pork sausage, casings removed", "quantity": "225", "unit": "g", "ingredient": "sausage-italian"},
+  {"line": "1/2 cup (45g) grated pecorino romano", "quantity": "1/2", "unit": "cup", "modifier": "grated", "ingredient": "pecorino-romano", "stated_grams": "45"},
+  {"line": "1 pound (454g) pappardelle", "quantity": "1", "unit": "lb", "ingredient": "pasta-dry"},
+  {"line": "1/2 cup of freshly gated parm", "quantity": "1/2", "unit": "cup", "ingredient": "parmesan"},
+  {"line": "1 3/4-2 cups of buttermilk", "quantity": "7/4", "quantity_max": "2", "unit": "cup", "ingredient": "buttermilk"},
+  {"line": "1 14-ounce can crushed tomatoes - drained for 3-4 minutes", "quantity": "1", "unit": "can", "ingredient": "tomatoes-crushed-canned", "package_grams": "396.893"},
+  {"line": "1/2 packed cup chopped basil", "quantity": "1/2", "unit": "cup", "modifier": "packed", "ingredient": "basil"},
+  {"line": "1 or 2 cloves of Garlic, grated", "quantity": "1", "quantity_max": "2", "unit": "clove", "ingredient": "garlic"},
+  {"line": "1 cup (240ml) dry white wine", "quantity": "1", "unit": "cup", "ingredient": "wine-white"}
 ]

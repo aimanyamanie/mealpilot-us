@@ -16,6 +16,11 @@ SECTIONS = {"", "produce", "meat-seafood", "dairy-eggs", "bakery", "pantry",
             "spices", "frozen", "other"}
 QUALITY = {"verified", "researched", "derived", "estimated"}
 BOOL = {"True", "False"}
+# Meat or fish rows whose low protein is real, not a wrong record.
+LOW_PROTEIN_OK = {
+    "pork-belly": "about 53% fat (FDC 167812)",
+    "imitation-crab": "surimi bulked with starch (FDC 174203)",
+}
 BOOL_COLUMNS = ["negligible_calorie", "is_divisible", "has_milk", "has_egg", "has_fish",
                 "has_shellfish", "has_tree_nut", "has_peanut", "has_wheat", "has_soy",
                 "has_sesame", "has_gluten", "has_alcohol", "allergens_reviewed",
@@ -84,7 +89,8 @@ def check(ingredients, portions, units):
             atwater = 4 * p + 4 * (c - fiber) + 2 * fiber + 9 * f
             if abs(atwater - kcal) > max(20, 0.2 * kcal):
                 warnings.append(f"{s}: {kcal:g} kcal but macros give {atwater:.0f}")
-        if p is not None and i["category"] in ("meat", "poultry", "seafood") and p < 12:
+        if (p is not None and i["category"] in ("meat", "poultry", "seafood") and p < 12
+                and s not in LOW_PROTEIN_OK):
             errors.append(f"{s}: {p:g} g protein is not meat or fish")
 
     seen_default = set()
