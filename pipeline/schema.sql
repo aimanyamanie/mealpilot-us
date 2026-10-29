@@ -180,6 +180,9 @@ CREATE TABLE ingredient_portions (
   source_ref      text,                     -- FDC id + portion description
   is_default      boolean NOT NULL DEFAULT false,  -- used when the line gives no modifier
   notes           text,
+  -- Human sign-off of this weight (review workbook -> portion_signoffs.csv).
+  reviewed_by     text,
+  reviewed_at     date,
   UNIQUE (ingredient_id, unit_id, modifier)
 );
 

@@ -58,9 +58,11 @@ def load_portions(conn, rows: list[dict]) -> int:
                     [[ids[s] for s in slugs]])
         cur.executemany(
             "INSERT INTO ingredient_portions (ingredient_id, unit_id, modifier, grams, "
-            "source, source_ref, is_default) VALUES (%s, %s, %s, %s, %s, %s, %s)",
+            "source, source_ref, is_default, reviewed_by, reviewed_at) "
+            "VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)",
             [[ids[r["slug"]], units[r["unit"]], r["modifier"], r["grams"], r["source"],
-              r["source_ref"], r["is_default"] == "True"] for r in rows])
+              r["source_ref"], r["is_default"] == "True", value(r["reviewed_by"]),
+              value(r["reviewed_at"])] for r in rows])
     return len(rows)
 
 

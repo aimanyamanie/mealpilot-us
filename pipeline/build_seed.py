@@ -9,14 +9,18 @@ Nutrition comes from the picked record. Portions (cup, tbsp, "1 medium",
 "1 clove") come from the portion records, usually the SR Legacy twin,
 because Foundation Foods publishes few household measures.
 
-Allergens and diet come from ingredient_list.csv and are written
-allergens_reviewed = false: a human signs them off, not this script.
+Allergens and diet come from ingredient_list.csv. A row is only signed off
+(needs_verification = false, allergens_reviewed = true, a portion's
+reviewed_by) where signoffs.csv / portion_signoffs.csv approve exactly what
+is being built: the same FDC id, the same flags, the same grams. Those
+files are written by apply_review.py from the review workbook.
 """
 import csv
 import re
 from datetime import date
 from pathlib import Path
 
+from make_review_sheet import allergen_summary
 from usda import load_index
 
 HERE = Path(__file__).resolve().parent
@@ -106,7 +110,8 @@ def portions_for(slug: str, fdc_ids: list[int], foods: dict) -> list[dict]:
             label = " ".join(filter(None, [str(p["amount"]), p["unit"], p["modifier"]]))
             rows.append({"slug": slug, "unit": unit, "modifier": modifier,
                          "grams": round(grams, 3), "source": "USDA",
-                         "source_ref": f"FDC {fdc_id}: {label}", "is_default": False})
+                         "source_ref": f"FDC {fdc_id}: {label}", "is_default": False,
+                         "reviewed_by": "", "reviewed_at": ""})
     # One default per unit: the unqualified measure, else the usual size
     # (medium; large for eggs, which US recipes assume), else the first.
     usual = DEFAULT_SIZE.get(slug, "medium")
@@ -137,6 +142,10 @@ def main() -> None:
     missing = [i["slug"] for i in items if i["slug"] not in picks]
     if missing:
         raise SystemExit(f"no USDA pick for: {', '.join(missing)}")
+    signoffs = read_optional("signoffs.csv", lambda r: r["slug"])
+    portion_signoffs = read_optional("portion_signoffs.csv",
+                                     lambda r: (r["slug"], r["unit"], r["modifier"]))
+    stale = []
 
     seed, all_portions = [], []
     for item in items:
@@ -195,13 +204,66 @@ def main() -> None:
             "data_quality": "researched" if proxy else "verified",
             "needs_verification": True,
             "verified_by": "" if proxy else "claude (description read)",
+            "verified_at": "",
             "notes": "; ".join(notes),
         }
+        stale += apply_signoff(row, signoffs.get(slug), food["fdc_id"])
+        for p in portions:
+            stale += apply_portion_signoff(p, portion_signoffs.get(
+                (p["slug"], p["unit"], p["modifier"])))
         seed.append(row)
 
     write(HERE / "ingredients_seed.csv", seed)
     write(HERE / "ingredient_portions_seed.csv", all_portions)
-    print(f"{len(seed)} ingredients, {len(all_portions)} portions")
+    for s in stale:
+        print("sign-off no longer applies:", s)
+    signed = sum(1 for r in seed if not r["needs_verification"])
+    reviewed = sum(1 for r in seed if r["allergens_reviewed"])
+    print(f"{len(seed)} ingredients ({signed} nutrition signed off, {reviewed} allergens "
+          f"reviewed), {len(all_portions)} portions "
+          f"({sum(1 for p in all_portions if p['reviewed_by'])} reviewed)")
+
+
+def read_optional(name: str, key) -> dict:
+    path = HERE / name
+    if not path.exists():
+        return {}
+    with path.open(encoding="utf-8", newline="") as f:
+        return {key(r): r for r in csv.DictReader(f)}
+
+
+def apply_signoff(row: dict, signoff, fdc_id: int) -> list[str]:
+    """Mark a row signed off where the reviewer approved exactly this record
+    and these flags. Returns why an earlier approval no longer applies."""
+    if not signoff:
+        return []
+    stale = []
+    if signoff["nutrition"] == "Approve":
+        if signoff["fdc_id"] == str(fdc_id):
+            row["needs_verification"] = False
+            row["verified_by"] = signoff["reviewer"]
+            row["verified_at"] = signoff["reviewed_on"]
+        else:
+            stale.append(f"{row['slug']}: nutrition approved for FDC {signoff['fdc_id']}, "
+                         f"now FDC {fdc_id}")
+    if signoff["allergens"] == "Approve" and signoff["diet"] == "Approve":
+        if signoff["flags_snapshot"] == allergen_summary(row):
+            row["allergens_reviewed"] = True
+        else:
+            stale.append(f"{row['slug']}: flags approved as '{signoff['flags_snapshot']}', "
+                         f"now '{allergen_summary(row)}'")
+    return stale
+
+
+def apply_portion_signoff(portion: dict, signoff) -> list[str]:
+    if not signoff or signoff["status"] != "Approve":
+        return []
+    if signoff["grams"] != f"{portion['grams']:g}":
+        return [f"{portion['slug']} 1 {portion['unit']} {portion['modifier']}: approved at "
+                f"{signoff['grams']} g, now {portion['grams']:g} g"]
+    portion["reviewed_by"] = signoff["reviewer"]
+    portion["reviewed_at"] = signoff["reviewed_on"]
+    return []
 
 
 def write(path: Path, rows: list[dict]) -> None:

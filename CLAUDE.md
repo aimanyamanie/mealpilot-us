@@ -170,6 +170,26 @@ python validate_seed.py            # 0 errors before every load
 python load_seed.py                # upserts units and ingredients, replaces portions
 ```
 
+Human sign-off of the seed:
+
+```bash
+python make_review_sheet.py        # -> review/ingredient_review_<date>.xlsx (gitignored)
+python apply_review.py review/ingredient_review_<date>.xlsx   # -> signoffs.csv, portion_signoffs.csv
+python build_seed.py && python validate_seed.py && python load_seed.py
+```
+
+- A sign-off holds only while what was approved is unchanged: the same FDC id
+  for nutrition, the same allergen and diet flags, the same portion grams. If any
+  of these change, `build_seed.py` prints "sign-off no longer applies" and the row
+  needs a new review.
+- "Fix" rows go to `review/fixes_<date>.md` and are corrected in
+  `ingredient_list.csv` or `usda_picks.csv`.
+- `signoffs.csv` and `portion_signoffs.csv` are the record of who approved what:
+  commit them.
+
+Schema changes to the live database go in `pipeline/migrations/` (dated, safe to
+re-run) **and** in `schema.sql`.
+
 To add an ingredient, add a row to `ingredient_list.csv`, then pick its record
 into `usda_picks.csv` (add a `pick_note` when it isn't the obvious match), then
 build, validate and load. Never edit `*_seed.csv` by hand: they're generated.
