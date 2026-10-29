@@ -1,0 +1,39 @@
+# Credentials. Once a secret is in git history it stays there even after it is rotated.
+.env
+.env.*
+!.env.example
+
+# Raw API dumps and pipeline state: large, regenerable, not source
+*.raw.json
+sync_state.json
+
+# Generated outputs: regenerate them from their inputs, never edit them
+exports/
+
+# Backups and scratch
+*.bak
+*.tmp
+*.orig
+*.rej
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+.next/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local Claude Code permission grants (machine-specific paths)
+.claude/settings.local.json
