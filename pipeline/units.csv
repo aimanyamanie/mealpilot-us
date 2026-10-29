@@ -1,0 +1,34 @@
+slug,name,plural,kind,factor_to_base,aliases
+g,gram,grams,mass,1,g|gr|gm|gram|grams|gramme|grammes
+kg,kilogram,kilograms,mass,1000,kg|kgs|kilo|kilos|kilogram|kilograms
+oz,ounce,ounces,mass,28.3495,oz|oz.|ounce|ounces
+lb,pound,pounds,mass,453.592,lb|lb.|lbs|lbs.|pound|pounds
+ml,milliliter,milliliters,volume,1,ml|mL|milliliter|milliliters|millilitre|millilitres|cc
+l,liter,liters,volume,1000,l|L|liter|liters|litre|litres
+tsp,teaspoon,teaspoons,volume,4.92892,tsp|tsp.|tsps|teaspoon|teaspoons
+tbsp,tablespoon,tablespoons,volume,14.7868,tbsp|tbsp.|tbsps|tbs|tbs.|tablespoon|tablespoons
+cup,cup,cups,volume,236.588,cup|cups|c.
+fl-oz,fluid ounce,fluid ounces,volume,29.5735,fl oz|fl. oz.|fl oz.|fluid ounce|fluid ounces
+pint,pint,pints,volume,473.176,pint|pints|pt
+quart,quart,quarts,volume,946.353,quart|quarts|qt
+gallon,gallon,gallons,volume,3785.41,gallon|gallons|gal
+piece,piece,pieces,count,,piece|pieces|pc|pcs|each|ea|whole
+clove,clove,cloves,count,,clove|cloves
+head,head,heads,count,,head|heads
+bunch,bunch,bunches,count,,bunch|bunches
+sprig,sprig,sprigs,count,,sprig|sprigs
+stalk,stalk,stalks,count,,stalk|stalks|rib|ribs
+slice,slice,slices,count,,slice|slices
+leaf,leaf,leaves,count,,leaf|leaves
+stick,stick,sticks,count,,stick|sticks
+can,can,cans,count,,can|cans|tin|tins
+jar,jar,jars,count,,jar|jars
+package,package,packages,count,,package|packages|pkg|pack|packs|packet|packets|envelope|envelopes
+bag,bag,bags,count,,bag|bags
+box,box,boxes,count,,box|boxes
+container,container,containers,count,,container|containers|tub|tubs
+fillet,fillet,fillets,count,,fillet|fillets|filet|filets
+handful,handful,handfuls,count,,handful|handfuls
+pinch,pinch,pinches,subjective,,pinch|pinches
+dash,dash,dashes,subjective,,dash|dashes|splash|drizzle
+to-taste,to taste,to taste,subjective,,to taste|as needed|as desired|for garnish|for serving|optional

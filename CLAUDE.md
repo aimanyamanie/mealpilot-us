@@ -23,7 +23,20 @@ CLAUDE.md grew to 900 KB because every investigation was written up here.
 
 ## Status
 
-Nothing built yet. See **Open decisions** below.
+MVP decided 2026-10-29 (see `docs/decisions/2026-10-29-mvp-and-schema.md`): US
+YouTube creators' recipes feed a mobile-friendly web app. Onboarding gives a calorie
+target, which drives a 30-day plan with diet and allergen filters and a weekly grocery
+list.
+
+M0, the foundations, is in progress: `pipeline/schema.sql`, `views.sql`,
+`units.csv`.
+
+## Layout
+
+- `pipeline/`: Python 3, run offline. Owns the database: schema, views, seeds, loaders.
+- `web/`: Next.js + TypeScript app. It reads only the `v_*` views listed at the top
+  of `pipeline/views.sql`, and never writes recipe or ingredient tables.
+- `docs/decisions/`: dated write-ups of decisions and investigations.
 
 ## Rules carried over from the Indonesian version
 
@@ -77,18 +90,31 @@ These cost real bugs to learn. They still apply.
 
 Fill these in as they are made, then move each into the right section above.
 
-- [ ] Where recipes come from: US creators (licensing and attribution),
-      commissioned recipes, or a mix
-- [ ] Product surface: web app, mobile app, or both, and the stack
-- [ ] Whether to reuse the old Python pipeline (parser, nutrition engine,
-      `meal_planner.py`) or start fresh
-- [ ] Database: Postgres on Neon in a US region, or something else
-- [ ] Grocery integration (Instacart, Kroger, Walmart), or a plain list for MVP
+- [ ] Which US creators to approach. Written permission is required before
+      publishing (`creators.permission_status`).
+- [ ] Whether the YouTube API data-retention rules limit storing descriptions
+- [ ] Grocery integration (Instacart, Kroger, Walmart) after the MVP. The MVP is
+      a plain list
 - [ ] Who is on the team for the US version, and who decides product questions
 
 ## How to run
 
-Nothing yet. Add commands here as soon as there is something to run.
+```bash
+cd pipeline
+python -m pip install -r requirements.txt
+python -m pytest -q tests          # run before every commit
+python apply_sql.py schema.sql     # once, on an empty database
+python apply_sql.py views.sql      # after any view change; safe to re-run
+```
+
+## Schema rules
+
+- Every column lives in `schema.sql`. Loaders never `ALTER TABLE`.
+- Grams on a line are NULL when unknown, never 0. Lookup order: mass unit, then the
+  exact `ingredient_portions` row, then that unit's default portion, then density.
+- Allergen and diet flags come only from matched, reviewed ingredients
+  (`v_recipe_flags.flags_known`). Unknown is never shown as "free".
+- A recipe is visible only if its creator's `permission_status = 'granted'`.
 
 ## Secrets
 
