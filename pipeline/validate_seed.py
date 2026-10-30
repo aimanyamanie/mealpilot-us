@@ -15,6 +15,7 @@ ANIMAL = {"", "pork", "beef", "other_meat", "poultry", "fish", "shellfish",
 SECTIONS = {"", "produce", "meat-seafood", "dairy-eggs", "bakery", "pantry",
             "spices", "frozen", "other"}
 QUALITY = {"verified", "researched", "derived", "estimated"}
+PORTION_SOURCES = {"USDA", "LABEL", "MEASURED", "ESTIMATE"}
 BOOL = {"True", "False"}
 # Meat or fish rows whose low protein is real, not a wrong record.
 LOW_PROTEIN_OK = {
@@ -102,6 +103,9 @@ def check(ingredients, portions, units):
             errors.append(f"{tag}: unknown unit")
         if not (num(r["grams"]) or 0) > 0:
             errors.append(f"{tag}: grams must be positive")
+        if r["source"] not in PORTION_SOURCES or not r["source_ref"]:
+            errors.append(f"{tag}: source {r['source']!r} needs one of {sorted(PORTION_SOURCES)} "
+                          "and a source_ref")
         if r["is_default"] == "True":
             key = (r["slug"], r["unit"])
             if key in seen_default:

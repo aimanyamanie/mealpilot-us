@@ -3,6 +3,7 @@ into Postgres. The CSVs are the source of truth; the app never writes these
 tables.
 
     python validate_seed.py && python load_seed.py
+    python load_seed.py --test       # the same seed into dev-youtube-test
 
 Units and ingredients are upserted by slug, so ids stay stable for recipes
 that already reference them. Portions are replaced per ingredient.
@@ -72,7 +73,12 @@ def main() -> None:
     errors, _ = check(ingredients, portions, units)
     if errors:
         sys.exit(f"{len(errors)} validation errors: run validate_seed.py")
-    with psycopg.connect(os.environ["DATABASE_URL"]) as conn:
+    if "--test" in sys.argv[1:]:
+        import youtube_test
+        conn = youtube_test.connect()
+    else:
+        conn = psycopg.connect(os.environ["DATABASE_URL"])
+    with conn:
         with conn.transaction():
             print("units", upsert(conn, "units", units))
             print("ingredients", upsert(conn, "ingredients", ingredients))

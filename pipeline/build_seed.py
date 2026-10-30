@@ -7,7 +7,10 @@ USDA record it was matched to, chosen by reading the description).
 
 Nutrition comes from the picked record. Portions (cup, tbsp, "1 medium",
 "1 clove") come from the portion records, usually the SR Legacy twin,
-because Foundation Foods publishes few household measures.
+because Foundation Foods publishes few household measures. Weights neither
+record has (a cup of Greek yogurt, one shallot) go in extra_portions.csv
+with their source: USDA's survey database (FNDDS), a product label from
+USDA Branded Foods, or a measurement.
 
 Allergens and diet come from ingredient_list.csv. A row is only signed off
 (needs_verification = false, allergens_reviewed = true, a portion's
@@ -141,7 +144,7 @@ def map_portion(p: dict):
     return None
 
 
-def portions_for(slug: str, fdc_ids: list[int], foods: dict) -> list[dict]:
+def portions_for(slug: str, fdc_ids: list[int], foods: dict, extras=()) -> list[dict]:
     rows, seen = [], set()
     for fdc_id in fdc_ids:
         food = foods[fdc_id]
@@ -158,6 +161,17 @@ def portions_for(slug: str, fdc_ids: list[int], foods: dict) -> list[dict]:
                          "grams": round(grams, 3), "source": "USDA",
                          "source_ref": f"FDC {fdc_id}: {label}", "is_default": False,
                          "reviewed_by": "", "reviewed_at": ""})
+    # Weights the picked records lack, from extra_portions.csv: another USDA
+    # dataset (FNDDS), a product label, or a measurement, each with its source.
+    for e in extras:
+        if (e["unit"], e["modifier"]) in seen:
+            raise SystemExit(f"{slug}: extra portion 1 {e['unit']} {e['modifier']} "
+                             "duplicates a USDA portion; remove it from extra_portions.csv")
+        seen.add((e["unit"], e["modifier"]))
+        rows.append({"slug": slug, "unit": e["unit"], "modifier": e["modifier"],
+                     "grams": round(float(e["grams"]), 3), "source": e["source"],
+                     "source_ref": e["source_ref"], "is_default": False,
+                     "reviewed_by": "", "reviewed_at": ""})
     # One default per unit: the unqualified measure, else the usual size
     # (medium; large for eggs, which US recipes assume), else the first.
     usual = DEFAULT_SIZE.get(slug, "medium")
@@ -192,6 +206,13 @@ def main() -> None:
     missing = [i["slug"] for i in items if i["slug"] not in picks]
     if missing:
         raise SystemExit(f"no USDA pick for: {', '.join(missing)}")
+    extras = {}
+    with (HERE / "extra_portions.csv").open(encoding="utf-8", newline="") as f:
+        for r in csv.DictReader(f):
+            extras.setdefault(r["slug"], []).append(r)
+    unknown = set(extras) - {i["slug"] for i in items}
+    if unknown:
+        raise SystemExit(f"extra_portions.csv: unknown ingredient {', '.join(sorted(unknown))}")
     signoffs = read_optional("signoffs.csv", lambda r: r["slug"])
     portion_signoffs = read_optional("portion_signoffs.csv",
                                      lambda r: (r["slug"], r["unit"], r["modifier"]))
@@ -213,7 +234,7 @@ def main() -> None:
                 if v[key] is None and twin[key] is not None:
                     v[key] = twin[key]
                     borrowed.append(f"{key} from FDC {twin_id}")
-        portions = portions_for(slug, portion_ids, foods)
+        portions = portions_for(slug, portion_ids, foods, extras.get(slug, []))
         all_portions += portions
         allergens = set(filter(None, item["allergens"].split("|")))
         unknown = allergens - set(ALLERGEN_COLUMNS)

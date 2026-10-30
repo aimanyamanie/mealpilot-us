@@ -26,5 +26,10 @@
   {"line": "1 14-ounce can crushed tomatoes - drained for 3-4 minutes", "quantity": "1", "unit": "can", "ingredient": "tomatoes-crushed-canned", "package_grams": "396.893"},
   {"line": "1/2 packed cup chopped basil", "quantity": "1/2", "unit": "cup", "modifier": "packed", "ingredient": "basil"},
   {"line": "1 or 2 cloves of Garlic, grated", "quantity": "1", "quantity_max": "2", "unit": "clove", "ingredient": "garlic"},
-  {"line": "1 cup (240ml) dry white wine", "quantity": "1", "unit": "cup", "ingredient": "wine-white"}
+  {"line": "1 cup (240ml) dry white wine", "quantity": "1", "unit": "cup", "ingredient": "wine-white"},
+  {"line": "1 teaspoon lemon zest", "quantity": "1", "unit": "tsp", "ingredient": "lemon-zest"},
+  {"line": "1 cup diced bell pepper", "quantity": "1", "unit": "cup", "modifier": "diced", "ingredient": "bell-pepper-red"},
+  {"line": "1/2 cup yellow bell pepper diced", "quantity": "1/2", "unit": "cup", "ingredient": "bell-pepper-yellow"},
+  {"line": "2 tablespoons unsweetened almond milk", "quantity": "2", "unit": "tbsp", "ingredient": "almond-milk"},
+  {"line": "1 pint cherry tomatoes, quartered", "quantity": "1", "unit": "pint", "ingredient": "tomato"}
 ]

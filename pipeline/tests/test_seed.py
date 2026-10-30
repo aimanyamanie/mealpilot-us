@@ -7,7 +7,7 @@ from pathlib import Path
 import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from build_seed import map_portion  # noqa: E402
+from build_seed import map_portion, portions_for  # noqa: E402
 from validate_seed import check, read  # noqa: E402
 
 
@@ -56,3 +56,27 @@ def test_portion_mapping(portion, expected):
 ])
 def test_portions_that_are_skipped(portion):
     assert map_portion(portion) is None
+
+
+FOODS = {1: {"portions": [p(1, "tbsp chopped", 10)]}}
+SHALLOT = {"unit": "piece", "modifier": "", "grams": "30", "source": "LABEL",
+           "source_ref": "FDC 2436047 (Branded): 1 piece (30 g)"}
+
+
+def test_extra_portion_is_added_with_its_source():
+    rows = portions_for("shallot", [1], FOODS, [SHALLOT])
+    piece = next(r for r in rows if r["unit"] == "piece")
+    assert (piece["grams"], piece["source"], piece["is_default"]) == (30, "LABEL", True)
+
+
+def test_extra_portion_may_not_duplicate_usda():
+    with pytest.raises(SystemExit):
+        portions_for("shallot", [1], FOODS, [{**SHALLOT, "unit": "tbsp", "modifier": "chopped"}])
+
+
+def test_portion_needs_a_source():
+    ingredients = read("ingredients_seed.csv")
+    portion = {"slug": "shallot", "unit": "piece", "modifier": "", "grams": "30",
+               "source": "GUESS", "source_ref": "", "is_default": "True"}
+    errors, _ = check(ingredients, [portion], read("units.csv"))
+    assert any("needs one of" in e for e in errors)

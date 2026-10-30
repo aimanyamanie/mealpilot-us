@@ -8,7 +8,7 @@ garlic,1104647,169230,
 ginger,169231,169231,
 carrot,2258586,170393,
 celery,2346405,169988,
-bell-pepper-red,170108,170108,
+bell-pepper-red,170108,170108,"'bell pepper' with no colour is counted as red"
 bell-pepper-green,170427,170427,
 jalapeno,168576,168576,Whole jalapeno; the Foundation record is seeded
 potato-russet,170027,170027,
@@ -115,7 +115,7 @@ rice-noodles-dry,169742,169742,
 couscous-dry,169699,169699,
 flour-all-purpose,168894,168894,
 flour-whole-wheat,790085,168893,
-almond-flour,2261420,2261420,No cup weight in USDA: volume lines will need a measured portion
+almond-flour,2261420,2261420,No cup weight in USDA: cup from a product label (extra_portions.csv)
 cornmeal,169697,169697,
 cornstarch,169698,169698,
 bread-whole-wheat,172688,172688,
@@ -244,3 +244,6 @@ tarragon-dried,170937,170937,
 poppy-seed,171330,171330,
 lettuce-leaf,2346390,168431,
 fennel-bulb,2747655,169385,
+lemon-zest,167749,167749,
+almond-milk,1999631,174832,"Portions from SR Legacy: its cup is 262 g (1.11 g/ml), heavy for almond milk; check on review"
+bell-pepper-yellow,2258589,169383,"Orange bell peppers counted as yellow: USDA has no orange record"

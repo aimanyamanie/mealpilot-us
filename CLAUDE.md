@@ -45,6 +45,8 @@ Done so far:
   sample cards. No creator has granted permission yet.
 
 - Frying-oil rule and USDA FSIS storage defaults, in both loaders.
+- Weights the USDA records lack, in `extra_portions.csv` with their sources. The seed
+  is now 248 ingredients and 596 portions.
 
 Next: steps in our own words, portion descriptions, and cost.
 
@@ -238,6 +240,12 @@ re-run) **and** in `schema.sql`.
 To add an ingredient, add a row to `ingredient_list.csv`, then pick its record
 into `usda_picks.csv` (add a `pick_note` when it isn't the obvious match), then
 build, validate and load. Never edit `*_seed.csv` by hand: they're generated.
+
+A weight the picked USDA records lack (a cup of Greek yogurt, one shallot) goes in
+`extra_portions.csv` with its source: another USDA record or FNDDS first, then a
+Branded Foods label for packaged foods, then a measurement
+(`docs/decisions/2026-10-29-extra-portions.md`). After a seed change, also run
+`python load_seed.py --test`, then `python load_recipes.py`.
 
 ## Schema rules
 

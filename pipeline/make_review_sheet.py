@@ -125,13 +125,14 @@ def ingredients_sheet(wb, seed, picks):
 def portions_sheet(wb, portions, names):
     ws = wb.create_sheet("Portions")
     titles = ["Slug", "Ingredient", "Unit", "Modifier", "Grams per 1 unit", "Default?",
-              "USDA source", "Portion OK?", "Reviewer", "Correction / comment"]
+              "Source", "Portion OK?", "Reviewer", "Correction / comment"]
     widths = [24, 28, 9, 13, 11, 9, 44, 12, 12, 40]
     input_from = 8
     header(ws, 1, titles, widths, input_from)
     for i, p in enumerate(portions, start=2):
         values = [p["slug"], names[p["slug"]], p["unit"], p["modifier"] or "(none)",
-                  float(p["grams"]), "yes" if p["is_default"] == "True" else "", p["source_ref"]]
+                  float(p["grams"]), "yes" if p["is_default"] == "True" else "",
+                  p["source_ref"] if p["source"] == "USDA" else f"{p['source']}: {p['source_ref']}"]
         for col, v in enumerate(values, start=1):
             ws.cell(row=i, column=col, value=v)
     last = len(portions) + 1

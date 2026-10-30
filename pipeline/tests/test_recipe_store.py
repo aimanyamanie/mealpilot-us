@@ -111,3 +111,10 @@ def test_garlic_cloves_without_a_unit():
     l = line("2 garlic cloves, minced", ingredient="garlic")
     assert l["unit"] is None
     assert grams_for(l, (UNITS, INGREDIENTS, PORTIONS, {**DEFAULTS, ("garlic", "clove"): F(3)})) == (F(6), "portion")
+
+
+def test_bay_leaves_use_the_leaf_weight():
+    ref = (UNITS | {"leaf": (9, "count", None)}, INGREDIENTS | {"bay-leaf": ing(313)},
+           PORTIONS, DEFAULTS | {("bay-leaf", "leaf"): F("0.5")})
+    l = line("3 large bay leaves", ingredient="bay-leaf")
+    assert grams_for(l, ref) == (F("1.5"), "portion")
