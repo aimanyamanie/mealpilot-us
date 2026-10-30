@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Lemon Garlic Chicken Thighs",
+  "url": "https://example.com/lemon-garlic-chicken-thighs/",
+  "image": ["https://example.com/images/lemon-chicken.jpg"],
+  "datePublished": "2026-09-14",
+  "recipeYield": ["4", "4 servings"],
+  "prepTime": "PT10M",
+  "cookTime": "PT25M",
+  "totalTime": "PT35M",
+  "recipeCategory": ["Main Course"],
+  "recipeCuisine": ["American"],
+  "recipeIngredient": [
+    "1 1/2 lbs boneless skinless chicken thighs",
+    "1 tsp kosher salt",
+    "1/2 tsp black pepper",
+    "2 tbsp olive oil",
+    "4 cloves garlic, minced",
+    "1/2 cup low-sodium chicken broth",
+    "2 tbsp lemon juice",
+    "1 tbsp unsalted butter",
+    "2 tbsp chopped fresh parsley"
+  ],
+  "recipeInstructions": [
+    {"@type": "HowToSection", "name": "Chicken", "itemListElement": [
+      {"@type": "HowToStep", "text": "Pat the chicken dry and season both sides with salt and pepper."},
+      {"@type": "HowToStep", "text": "Sear in hot oil, 5 minutes per side, then set aside."}
+    ]},
+    {"@type": "HowToSection", "name": "Sauce", "itemListElement": [
+      {"@type": "HowToStep", "text": "Cook the garlic 30 seconds, add broth and lemon juice, and simmer 3 minutes."},
+      {"@type": "HowToStep", "text": "Stir in butter, return the chicken, and finish with parsley."}
+    ]}
+  ],
+  "nutrition": {"@type": "NutritionInformation", "calories": "315 kcal", "servingSize": "1 serving"},
+  "video": {"@type": "VideoObject", "name": "Lemon Garlic Chicken Thighs",
+            "embedUrl": "https://www.youtube.com/embed/AbCdEfGhIjK", "contentUrl": "https://www.youtube.com/watch?v=AbCdEfGhIjK"}
+}

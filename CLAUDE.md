@@ -41,8 +41,10 @@ Done so far:
   loaded the same day (`docs/decisions/2026-10-29-ingredient-seed.md`). Every row
   still needs a human sign-off on nutrition and allergens.
 
-Next: the recipe loader (licensed recipe cards to `recipe_ingredients`), once the
-first creator agreement exists.
+- The recipe-card loader and the creator permissions register, tested on our own
+  sample cards. No creator has granted permission yet.
+
+Next: steps in our own words, meal-prep fields, a frying-oil rule, and cost.
 
 ## Neon
 
@@ -198,6 +200,22 @@ python build_seed.py && python validate_seed.py && python load_seed.py
   `ingredient_list.csv` or `usda_picks.csv`.
 - `signoffs.csv` and `portion_signoffs.csv` are the record of who approved what:
   commit them.
+
+Licensed recipe cards (`docs/decisions/2026-10-29-recipe-card-loader.md`):
+
+```bash
+python permissions.py                              # check permissions.csv, sync status to main
+python fetch_card.py <creator> <recipe page URL>   # refuses unless recipe_data is granted
+python load_cards.py <creator>                     # data/cards/<creator>/ -> main, in_review
+python load_cards.py --test tests/cards            # our own sample cards -> dev-youtube-test
+```
+
+- **Creator approvals:**
+  - Save screenshots or agreements in `permissions/evidence/` (gitignored).
+  - Add a row to `permissions.csv` with status, date, channel, scope (`recipe_data`
+    at least), evidence file and who obtained it.
+  - Run `python permissions.py`.
+- **Grams and nutrition rules** live in `recipe_store.py`, shared by both loaders.
 
 YouTube test pipeline (test branch only; see the test-only exception above):
 

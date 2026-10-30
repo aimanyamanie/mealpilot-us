@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Chickpea Cucumber Salad",
+  "recipeYield": "6",
+  "prepTime": "PT15M",
+  "recipeCategory": "Salad",
+  "recipeCuisine": "Mediterranean",
+  "recipeIngredient": [
+    "2 (15 oz) cans chickpeas, drained and rinsed",
+    "1 english cucumber, diced",
+    "1 cup cherry tomatoes, halved",
+    "1/2 red onion, finely chopped",
+    "1/2 cup crumbled feta",
+    "1/4 cup extra virgin olive oil",
+    "3 tbsp red wine vinegar",
+    "1 tsp dried oregano",
+    "salt and pepper to taste"
+  ],
+  "recipeInstructions": [
+    "Combine the chickpeas, cucumber, tomatoes, onion and feta in a large bowl.",
+    "Whisk the oil, vinegar and oregano, pour over the salad, and toss.",
+    "Season to taste and chill 30 minutes before serving."
+  ],
+  "nutrition": {"@type": "NutritionInformation", "calories": "250 kcal"}
+}

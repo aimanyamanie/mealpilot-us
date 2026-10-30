@@ -79,6 +79,19 @@ def test_sections_separators_and_credits():
                    ("vinegar-red-wine", "Dressing"), ("basil", "Toppings")]
 
 
+def test_heading_variant_and_dash_group():
+    # Joshua Weissman's format (2019 chicken katsu video), shortened
+    text = ("FOLLOW ME:\nInstagram: https://www.instagram.com/x\n"
+            "---------------------------------------------\n"
+            "Ingredients you'll need:\nChicken Katsu-\n4 chicken breasts or thighs\n"
+            "2 cups (290g) All purpose flour\n3 Eggs\n\nTonkatsu Sauce Recipe:\n3tbsp (42ml) Ketchup\n")
+    parsed = parse_description(text, VOCAB)
+    got = [(l["ingredient"], l["group_label"]) for l in parsed["lines"]]
+    assert got == [("chicken-breast", "Chicken Katsu"), ("flour-all-purpose", "Chicken Katsu"),
+                   ("egg", "Chicken Katsu"), ("ketchup", "Tonkatsu Sauce Recipe")]
+    assert parsed["lines"][1]["stated_grams"] == 290
+
+
 def test_numbered_steps_end_the_ingredient_list():
     text = ("Ingredients\n1 lb spaghetti\n2 tbsp olive oil\n\n"
             "6 While the sauce reduces, cook your spaghetti in boiling water 10-12 minutes.\n")

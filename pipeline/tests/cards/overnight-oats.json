@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Protein Overnight Oats",
+  "recipeYield": "Serves 2",
+  "prepTime": "PT5M",
+  "recipeCategory": "Breakfast",
+  "recipeIngredient": [
+    "1 cup rolled oats",
+    "1 cup 2% milk",
+    "1/2 cup plain Greek yogurt",
+    "1 tbsp chia seeds",
+    "1 tbsp maple syrup",
+    "1/2 cup blueberries"
+  ],
+  "recipeInstructions": [{"@type": "HowToStep", "text": "Stir everything except the berries in a jar, cover, and refrigerate overnight. Top with blueberries."}]
+}

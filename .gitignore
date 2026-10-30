@@ -44,3 +44,6 @@ pipeline/data/
 
 # Review workbooks are generated; signoffs.csv is the record of the review
 pipeline/review/*.xlsx
+
+# Creator permission evidence (DM screenshots, agreements): private, kept off git
+permissions/evidence/

@@ -40,7 +40,8 @@ STEP_VERBS = {"while", "heat", "preheat", "mix", "stir", "add", "cook", "bake", 
               "boil", "roast", "fry", "saute", "sauté", "blend", "fold", "divide", "garnish"}
 PAREN_SIZE = re.compile(rf"^\((?P<n>{NUM})\s*-?\s*(?P<u>oz|ounce|ounces|g|grams?|lb|lbs?|ml|fl\.?\s*oz)\.?\)\s*", re.I)
 BULLET = re.compile(r"^\s*(?:[-–•*▢◦●▪✓✔]|\d+[.)]\s+(?=\D))\s*")
-HEADING = re.compile(r"^\s*(?:ingredients?|what you(?:'|’)?ll need|you(?:'|’)?ll need|shopping list)\b[^a-z]*$", re.I)
+HEADING = re.compile(r"^\s*(?:ingredients?(?:\s+(?:you(?:'|’)?ll need|you need|needed|list|used))?|"
+                     r"what you(?:'|’)?ll need|you(?:'|’)?ll need|shopping list)\b[^a-z]*$", re.I)
 GROUP = re.compile(r"^\s*(?:for\s+(?:the\s+)?[\w\s&-]{2,30}|[\w\s&-]{2,30}\s+ingredients?)\s*:?\s*$", re.I)
 STOP = re.compile(r"^\s*(?:instructions?|directions?|method|steps?|how to make|equipment|"
                   r"tools|notes?|nutrition|timestamps?|chapters?|links?|follow|subscribe|"
@@ -49,7 +50,7 @@ STOP = re.compile(r"^\s*(?:instructions?|directions?|method|steps?|how to make|e
                   r"\d{1,2}:\d{2})\b", re.I)
 SEPARATOR = re.compile(r"^\s*[-–—=_*~.]{2,}\s*$")
 # A short line ending in a colon with no quantity: a section ("Dressing:").
-COLON_GROUP = re.compile(r"^\s*[^\d:]{2,40}:\s*$")
+COLON_GROUP = re.compile(r"^\s*[^\d:]{2,40}(?::|\s*[-–])\s*$")    # "Dressing:", "Chicken Katsu-"
 # A number followed by a measure ("yields about 115g") is a weight, not servings.
 SERVINGS = re.compile(r"\b(?:serves|servings?|makes|yields?|yield)\b\s*:?\s*(?:about\s+)?"
                       r"(?P<n>\d+)(?:\s*(?:-|–|to)\s*(?P<n2>\d+))?"
@@ -275,7 +276,7 @@ def ingredient_block(text: str, vocab: Vocab) -> list[tuple[str, str | None]]:
             continue
         is_ingredient = looks_like_ingredient(l, vocab)
         if not is_ingredient and (COLON_GROUP.match(l) or (GROUP.match(l) and len(l) < 40)):
-            group = l.strip().rstrip(":")
+            group = l.strip().rstrip(":-– ").strip()
             continue
         if is_ingredient:
             out.append((l, group))
