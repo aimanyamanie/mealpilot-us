@@ -22,6 +22,7 @@ COVERAGE_MIN = Fraction(9, 10)
 NUTRIENTS = ["kcal", "protein", "carb", "fat", "fiber", "sugar", "sodium_mg"]
 NEGLIGIBLE_SHARE = Fraction(1, 100)
 REFERENCE_VERSION = "FDC Foundation 2026-10 + SR Legacy 2018-04"
+NATURAL_COUNT_UNITS = ["clove", "leaf", "sprig", "stalk", "slice", "fillet"]
 
 
 def frac(v):
@@ -44,11 +45,11 @@ def load_reference(conn):
     ingredients = {}
     for row in conn.execute(
             "SELECT id, slug, kcal_100g, protein_100g, carb_100g, fat_100g, fiber_100g, "
-            "sugar_100g, sodium_mg_100g, density_g_per_ml, edible_pct, needs_verification "
-            "FROM ingredients"):
+            "sugar_100g, sodium_mg_100g, density_g_per_ml, edible_pct, needs_verification, "
+            "category FROM ingredients"):
         ingredients[row[1]] = {"id": row[0], **dict(zip(NUTRIENTS, map(frac, row[2:9]))),
                                "density": frac(row[9]), "edible_pct": frac(row[10]),
-                               "unverified": row[11]}
+                               "unverified": row[11], "category": row[12]}
     portions, defaults = {}, {}
     for slug, unit, modifier, grams, is_default in conn.execute(
             "SELECT i.slug, u.slug, p.modifier, p.grams, p.is_default FROM ingredient_portions p "
@@ -93,9 +94,37 @@ def grams_for(line, ref):
     default = defaults.get((slug, unit))
     if default:
         return q * default, "portion"
+    # "2 garlic cloves", "3 bay leaves": no unit before the name, and the food
+    # is counted in its own natural unit rather than by the piece.
+    if line["unit"] is None:
+        for natural in NATURAL_COUNT_UNITS:
+            natural_default = defaults.get((slug, natural))
+            if natural_default:
+                return q * natural_default, "portion"
     if kind == "volume" and ing["density"]:
         return q * units[unit][2] * ing["density"], "density"
     return None, "no_grams"
+
+
+FRYING_TEXT = re.compile(r"\b(?:for (?:deep[- ]|shallow[- ]|pan[- ])?fry(?:ing)?|frying oil|deep[- ]fry(?:ing)?|"
+                         r"for frying|oil for (?:the )?fry(?:ing|er))\b", re.I)
+FRYING_UNITS = {"quart", "l", "gallon"}
+
+
+def is_frying_oil(line, ref) -> bool:
+    """Oil the food is fried in, not oil that ends up in it: "2 cups oil" for a
+    katsu, "vegetable oil, for frying", a quart for the fryer. Only part of it
+    is absorbed, and no authority gives one factor for how much, so the
+    calories are held for a decision instead of guessed. The line still goes
+    on the shopping list."""
+    slug = line["ingredient"]
+    if not slug or ref[1][slug]["category"] != "oil":
+        return False
+    if FRYING_TEXT.search(line["raw_text"]):
+        return True
+    q = line["quantity"]
+    return (line["unit"] in FRYING_UNITS
+            or (line["unit"] == "cup" and q is not None and q >= 1))
 
 
 def prepare_lines(parsed_lines, ref):
@@ -113,6 +142,11 @@ def prepare_lines(parsed_lines, ref):
         line["review_reason"] = None if grams is not None or not line["counts_for_coverage"] else how
         if line["ingredient"] is None:
             line["review_reason"] = "unmatched_ingredient"
+        line["frying_oil"] = is_frying_oil(line, ref)
+        if line["frying_oil"]:
+            line["grams_edible"] = None          # bought, not eaten in full
+            line["counts_for_coverage"] = False
+            line["review_reason"] = "frying_oil"
         line["display_order"] = order
         out.append(line)
     return out
@@ -138,8 +172,29 @@ def nutrition(lines, ingredients, servings):
     unverified = (sum((l["grams_edible"] for l in computed if ingredients[l["ingredient"]]["unverified"]),
                       Fraction(0)) / total_grams) if total_grams else None
     total_kcal = per_serving["kcal"] * servings if per_serving["kcal"] is not None else None
+    if any(l.get("frying_oil") for l in lines):
+        held.append("frying_oil_absorption_unknown")
     return {"per_serving": per_serving, "coverage": coverage, "unverified": unverified,
             "total_kcal": total_kcal, "held": held}
+
+
+# USDA FSIS, "Leftovers and Food Safety": refrigerate cooked leftovers 3 to 4
+# days, freeze 3 to 4 months for best quality, reheat to 165 °F. A default
+# for every cooked dish, not a recipe-specific ruling: who sets storage per
+# recipe is still open (CLAUDE.md), so recipes carry storage_default_unreviewed.
+FSIS_SOURCE = "USDA FSIS Leftovers and Food Safety (default, not recipe-specific)"
+NO_FREEZE = re.compile(r"\b(?:salad|slaw|sandwich|wrap|toast|smoothie|parfait|overnight oats)\b", re.I)
+
+
+def storage_defaults(title: str, recipe_type) -> dict:
+    """Fridge days use the low end (3), freezer the low end (90 days).
+    Salads, sandwiches and the like are not frozen."""
+    if recipe_type in ("drink", "component"):
+        return {}
+    freezes = not NO_FREEZE.search(title or "")
+    return {"fridge_days": 3, "freezer_days": 90 if freezes else None,
+            "storage_source": FSIS_SOURCE,
+            "reheat_method": "Reheat until steaming hot throughout (165 °F)" if freezes else None}
 
 
 def save_recipe(conn, fields: dict, lines, ref, result, steps=None) -> int:

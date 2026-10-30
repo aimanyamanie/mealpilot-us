@@ -13,7 +13,8 @@ from collections import Counter
 from fractions import Fraction
 
 from parse_recipe import load_vocab, parse_description
-from recipe_store import COVERAGE_MIN, dec, load_reference, nutrition, prepare_lines, save_recipe
+from recipe_store import (COVERAGE_MIN, dec, load_reference, nutrition, prepare_lines, save_recipe,
+                          storage_defaults)
 from youtube_test import DATA, connect
 
 MIN_LINES = 3
@@ -45,7 +46,8 @@ def load_video(conn, creator_id, creator_slug, video, vocab, ref, stats):
     hold = [] if parsed["servings"] else ["servings_unknown"]
     if result["coverage"] < COVERAGE_MIN:
         hold.append("coverage_below_90")
-    hold += result["held"] + ["nutrition_unreviewed", "no_licence"]
+    hold += result["held"] + ["no_steps", "category_unknown", "storage_default_unreviewed",
+                              "portion_description_missing", "nutrition_unreviewed", "no_licence"]
     save_recipe(conn, {
         "slug": f"{creator_slug}-{video['video_id']}".lower(), "market": "US",
         "title": video["title"], "creator_id": creator_id, "video_id": video["video_id"],
@@ -56,6 +58,7 @@ def load_video(conn, creator_id, creator_slug, video, vocab, ref, stats):
         "servings_confidence": "stated" if parsed["servings"] else "guess",
         "servings_evidence": parsed["servings_evidence"], "status": "in_review",
         "hold_reasons": hold,
+        **storage_defaults(video["title"], None),
     }, lines, ref, result)
     stats["recipes"] += 1
     stats["lines"] += len(lines)

@@ -58,9 +58,28 @@ Joshua Weissman's latest 50 uploads gave 0 recipes. His full catalogue of 836
 uploads gave 93, all from 2017–2022: he stopped putting ingredients in
 descriptions in 2023. Older uploads matter for description parsing.
 
+## Added later the same day
+- **Frying oil** (`recipe_store.is_frying_oil`): an oil line that says "for frying"
+  or "deep fry", or is a cup or more, or is measured in quarts or liters.
+  - It stays on the shopping list, but its calories are not counted.
+  - It doesn't count against coverage.
+  - The recipe is held with `frying_oil_absorption_unknown`.
+
+  Only part of frying oil ends up in the food, and no single authoritative factor
+  covers every fried food. Choosing one is a decision; it's listed as open in
+  CLAUDE.md. Before this rule, Joshua Weissman's katsu counted all 2 cups.
+- **Storage defaults** (`recipe_store.storage_defaults`): from USDA FSIS,
+  "Leftovers and Food Safety":
+  - 3 days in the fridge (the low end of FSIS's 3–4);
+  - 90 days in the freezer (low end of 3–4 months), or none for salads,
+    sandwiches, smoothies and overnight oats;
+  - reheat to 165 °F.
+
+  `storage_source` says it's a default. Every recipe stays held as
+  `storage_default_unreviewed` until someone decides who sets storage per recipe.
+
 ## Not yet
-- Frying oil: "2 cups oil" for deep-frying counts as eaten.
 - Steps in our own words.
-- Meal-prep fields: fridge and freezer days, reheat method, portion description.
+- Portion description in household measures.
 - Cost per serving.
 - Refreshing the 30-day YouTube metadata.

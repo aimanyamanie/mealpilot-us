@@ -44,7 +44,9 @@ Done so far:
 - The recipe-card loader and the creator permissions register, tested on our own
   sample cards. No creator has granted permission yet.
 
-Next: steps in our own words, meal-prep fields, a frying-oil rule, and cost.
+- Frying-oil rule and USDA FSIS storage defaults, in both loaders.
+
+Next: steps in our own words, portion descriptions, and cost.
 
 ## Neon
 
@@ -162,6 +164,9 @@ Fill these in as they are made, then move each into the right section above.
       they're refreshed
 - [ ] Who sets fridge and freezer days and reheat methods (USDA FSIS charts
       vs per recipe), and who the reviewing nutritionist is
+- [ ] Frying oil: how much of the frying oil to count as absorbed. Until this is
+      decided, those calories are left out and the recipe is held
+      (`frying_oil_absorption_unknown`)
 - [ ] Halal and kosher: is ingredient-level "compatible" enough, or do we need
       certified meat? (Medina)
 - [ ] The off-plan food database (US-17: US restaurant chains and packaged

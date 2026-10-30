@@ -25,7 +25,8 @@ import youtube_test
 from parse_card import find_recipe, parse_card
 from parse_recipe import load_vocab
 from permissions import granted
-from recipe_store import COVERAGE_MIN, dec, load_reference, nutrition, prepare_lines, save_recipe
+from recipe_store import (COVERAGE_MIN, dec, load_reference, nutrition, prepare_lines, save_recipe,
+                          storage_defaults)
 
 HERE = Path(__file__).resolve().parent
 CARDS = HERE / "data" / "cards"
@@ -62,7 +63,7 @@ def hold_reasons(card, result, licensed: bool) -> list[str]:
         hold.append("category_unknown")
     if not card["video_id"]:
         hold.append("no_video")
-    hold += ["meal_prep_fields_missing", "nutrition_unreviewed"]
+    hold += ["storage_default_unreviewed", "portion_description_missing", "nutrition_unreviewed"]
     if not licensed:
         hold.append("no_licence")
     return hold
@@ -91,6 +92,7 @@ def load_card(conn, creator_id, creator_slug, recipe, vocab, ref, licensed, page
         "prep_minutes": card["prep_minutes"], "cook_minutes": card["cook_minutes"],
         "status": "in_review", "hold_reasons": hold_reasons(card, result, licensed),
         "review_notes": notes,
+        **storage_defaults(card["title"], card["recipe_type"]),
     }, lines, ref, result, steps=card["steps"])
     return card, result
 
