@@ -1,0 +1,13 @@
+slug,name,category,food_group,gluten,animal_rennet,alcohol,fdc_id,allergens,aliases,pick_note
+chicken-thigh,"Chicken thigh, skin-on",poultry,poultry,false,false,false,172385,,chicken thigh;chicken thighs;skin-on chicken thigh,"SR Legacy raw meat and skin; same record gives the 193 g edible weight of one thigh. Not 172386, which is fried in batter."
+canola-oil,Canola oil,oils,plant,false,false,false,172336,,canola oil;vegetable oil;neutral oil;oil,"Stands in for an unnamed neutral cooking oil."
+salt,Salt,pantry,mineral,false,false,false,173468,,salt;table salt;kosher salt,"Table salt. Kosher salt weighs less per teaspoon; give it its own row when a recipe names it."
+black-pepper,Black pepper,spices,plant,false,false,false,170931,,black pepper;pepper;ground black pepper,
+pasta-dry,Dried pasta,grains,plant,true,false,false,169736,wheat,dried pasta;pasta;fettuccine;spaghetti;linguine;penne,"Enriched dry wheat pasta; shape does not change nutrition per gram."
+heavy-cream,Heavy cream,dairy,dairy,false,false,false,170859,milk,heavy cream;heavy whipping cream;cream,"Use the 'fluid' cup (238 g), never the whipped cup (120 g)."
+butter-unsalted,Unsalted butter,dairy,dairy,false,false,false,173430,milk,unsalted butter;butter,
+garlic,Garlic,produce,plant,false,false,false,169230,,garlic;garlic clove;garlic cloves,
+thyme-fresh,Fresh thyme,herbs,plant,false,false,false,173470,,fresh thyme;thyme,
+nutmeg,Nutmeg,spices,plant,false,false,false,171326,,nutmeg;ground nutmeg;fresh nutmeg,"Ground nutmeg record; freshly grated is the same food."
+parmigiano-reggiano,Parmigiano Reggiano,dairy,dairy,false,true,false,170848,milk,parmigiano reggiano;parmigiano;parmesan;parmesan cheese,"Hard parmesan, since the recipe grates it fresh. Made with calf rennet, so not vegetarian."
+pecorino-romano,Pecorino Romano,dairy,dairy,false,true,false,171249,milk,pecorino romano;pecorino;romano,"Made with lamb rennet, so not vegetarian."

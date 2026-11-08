@@ -1,11 +1,3 @@
-slug,unit,modifier,grams,source,source_ref
-greek-yogurt,cup,,245,USDA,"FDC 2705424 (FNDDS, Yogurt, Greek, nonfat milk, plain): 1 cup"
-chia-seeds,cup,,168,USDA,"FDC 2707590 (FNDDS, Chia seeds): 1 cup"
-almond-flour,cup,,112,LABEL,"FDC 2432750 (Branded, Costco blanched almond flour): 1/4 cup = 28 g, x 4"
-pecorino-romano,tbsp,,5,LABEL,"FDC 2615660 (Branded, Ambriola grated Pecorino Romano): 1 tbsp (5 g)"
-shallot,piece,,30,LABEL,"FDC 2436047 (Branded, Christopher Ranch shallots): 1 piece (30 g)"
-bay-leaf,leaf,,0.5,LABEL,"FDC 2642856 (Branded, Sugar 'N Spice bay leaves): 1 leaf (0.5 g)"
-brown-sugar,tbsp,packed,13.8,USDA,"FDC 168833: 3 x 1 tsp packed (4.6 g)"
-marinara,cup,,264,USDA,"FDC 171192: 2 x 1 serving of 1/2 cup (132 g)"
-chickpeas-canned,cup,,164,USDA,"FDC 173757 (chickpeas, cooked; the same drained bean): 1 cup"
-tomato,pint,,298,USDA,"FDC 170457: 2 x 1 cup cherry tomatoes (149 g); pints are sold as cherry or grape tomatoes"
+ingredient,unit,qualifier,grams_per_unit,source_fdc_id,source_note
+parmigiano-reggiano,cup,grated,100,171247,"USDA SR Legacy 171247 'Cheese, parmesan, grated', 1 cup = 100 g. That is packaged grated cheese; fresh microplane gratings are fluffier, so this likely overstates the cheese."
+pecorino-romano,cup,grated,100,171247,"Borrowed from USDA 171247 grated parmesan (1 cup = 100 g); the romano record 171249 has no cup weight."
