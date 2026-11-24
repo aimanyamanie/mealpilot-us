@@ -20,8 +20,18 @@ up in `docs/decisions/YYYY-MM-DD-topic.md`.
    stores it in `sources.transcript`).
 2. Claude extracts the recipe into `pipeline/recipes/<slug>.json` (format: copy
    the Chicken Alfredo file). Rules for extraction:
-   - Every ingredient line has `basis`: `stated` (the creator said the amount),
-     `estimated` (we chose it), or `to_taste` (no amount).
+   - Every ingredient line has `basis`: `stated` (the creator gave the amount
+     for this dish), `estimated` (not the creator's amount for this dish), or
+     `to_taste` (no amount).
+   - Amounts come from the transcript first. Where the transcript is unclear,
+     use the creator's written recipe (usually the link in the video
+     description) as the reference; only then estimate. Each line records it in
+     `amount_source`: `transcript` (default for stated), `creator_recipe`, or
+     `our_estimate` (default for estimated). `creator_recipe` needs `amount_url`
+     and `amount_note` (which recipe, how it was scaled). A written recipe for a
+     different version of the dish gives `estimated` + `creator_recipe`; the
+     transcript wins wherever it states an amount
+     (`docs/decisions/2026-11-16-amount-sources.md`).
    - Every line quotes the transcript words it rests on (`evidence`, pieces
      joined with `...`) and their time `t`. The loader rejects quotes that are
      not in the transcript within 20 s of `t`.
@@ -47,6 +57,7 @@ up in `docs/decisions/YYYY-MM-DD-topic.md`.
 - A weight USDA lacks goes in `extra_portions.csv` with its source.
 - Diet tags and allergens come from matched ingredients only; unknown is never
   shown as "free". Parmigiano and Pecorino use animal rennet, so they're not vegetarian.
+- A low `stated_share` does not block publishing (Aiman, 2026-11-16).
 - Status: `needs_review` after loading. Nobody has reviewed an ingredient or
   recipe yet (`reviewed_by` is null everywhere).
 
@@ -64,7 +75,8 @@ python load_recipe.py recipes/<slug>.json
 ```
 
 `schema.sql` runs once on an empty schema. Schema changes to the live database
-go in `pipeline/migrations/` (dated) and in `schema.sql`.
+go in `pipeline/migrations/` (dated) and in `schema.sql`; apply one with
+`python apply_sql.py migrations/<file>.sql`.
 
 ## Neon
 
@@ -76,9 +88,9 @@ go in `pipeline/migrations/` (dated) and in `schema.sql`.
 
 ## Open questions
 
-- [ ] Transcripts give few amounts (28% of the Alfredo's grams were stated).
-      Do we accept estimated amounts in published recipes, or cross-check
-      against the creator's written recipe first?
+- [x] Transcripts give few amounts. Decided 2026-11-16: fill unclear amounts
+      from the creator's written recipe, else estimate; record the source per
+      line; estimated amounts may be published.
 - [ ] Who reviews ingredients and recipes before `approved`?
 - [ ] Creator permission: transcript-based recipes are in `main` by Aiman's
       decision of 2026-11-08; the earlier licence-only rule is suspended.

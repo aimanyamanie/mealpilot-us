@@ -158,9 +158,22 @@ create table recipe_ingredients (
     optional        boolean not null default false,
     evidence        text,                             -- transcript words this line rests on
     evidence_sec    numeric,                          -- where in the video
+    -- where the number came from (migration 2026-11-16): transcript first, then the
+    -- creator's written recipe when the transcript is unclear, else our estimate
+    amount_source     text check (amount_source in ('transcript', 'creator_recipe', 'our_estimate')),
+    amount_source_url text,                           -- the creator's written recipe page
+    amount_note       text,                           -- how the number was taken or scaled
     unique (recipe_id, position),
     check (in_nutrition or excluded_reason is not null),
-    check ((grams is null) = (grams_method is null))
+    check ((grams is null) = (grams_method is null)),
+    constraint recipe_ingredients_amount_source_fits_basis check (
+        (quantity_basis = 'to_taste'  and amount_source is null) or
+        (quantity_basis = 'stated'    and amount_source in ('transcript', 'creator_recipe')) or
+        (quantity_basis = 'estimated' and amount_source in ('creator_recipe', 'our_estimate'))),
+    constraint recipe_ingredients_creator_recipe_has_url check (
+        (amount_source = 'creator_recipe') = (amount_source_url is not null)),
+    constraint recipe_ingredients_creator_recipe_has_note check (
+        amount_source is distinct from 'creator_recipe' or amount_note is not null)
 );
 
 create table recipe_steps (

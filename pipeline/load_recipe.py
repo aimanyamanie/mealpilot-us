@@ -7,7 +7,9 @@ Checks before writing:
   * every ingredient slug exists and every quoted piece of evidence is really in
     the transcript, near the timestamp given (catches invented quotes);
   * every counted line converts to grams (otherwise the recipe loads as 'draft',
-    and its nutrition shows as unknown).
+    and its nutrition shows as unknown);
+  * every amount says where it came from (`amount_source`): the transcript, the
+    creator's written recipe (with `amount_url` and `amount_note`), or our estimate.
 Re-running replaces the recipe's lines and steps; the recipe keeps its id.
 """
 import hashlib
@@ -60,6 +62,32 @@ def check_evidence(lines, segments):
     return errors
 
 
+DEFAULT_SOURCE = {"stated": "transcript", "estimated": "our_estimate", "to_taste": None}
+ALLOWED_SOURCES = {"stated": {"transcript", "creator_recipe"},
+                   "estimated": {"creator_recipe", "our_estimate"},
+                   "to_taste": {None}}
+
+
+def amount_source(ln):
+    """-> (source, url, note) for one line; the source defaults from its basis."""
+    return (ln.get("amount_source", DEFAULT_SOURCE.get(ln["basis"])),
+            ln.get("amount_url"), ln.get("amount_note"))
+
+
+def check_sources(lines):
+    """Same rules as the database constraints, checked before writing."""
+    errors = []
+    for ln in lines:
+        src, url, note = amount_source(ln)
+        if src not in ALLOWED_SOURCES.get(ln["basis"], set()):
+            errors.append(f"{ln['text']!r}: amount_source {src!r} does not fit basis {ln['basis']!r}")
+        if (src == "creator_recipe") != bool(url):
+            errors.append(f"{ln['text']!r}: amount_url is required with creator_recipe, and only then")
+        if src == "creator_recipe" and not note:
+            errors.append(f"{ln['text']!r}: creator_recipe needs amount_note (which recipe, how scaled)")
+    return errors
+
+
 def main(paths, write=True):
     units = load_units()
     conn = connect()
@@ -81,6 +109,7 @@ def main(paths, write=True):
         print(f"\n== {rec['slug']}  ({tr['metadata']['title']})")
 
         problems = check_evidence(rec["ingredients"], tr["transcript"])
+        problems += check_sources(rec["ingredients"])
         lines, unknown = [], 0
         for pos, ln in enumerate(rec["ingredients"], 1):
             iid = ing.get(ln["ingredient"])
@@ -96,7 +125,7 @@ def main(paths, write=True):
             if counted and (grams is None or iid is None):
                 unknown += 1
             lines.append((pos, ln, iid, grams, method, pid, counted))
-            print(f"  {pos:>2}. {ln['text']:<48} {ln['basis']:<9} "
+            print(f"  {pos:>2}. {ln['text']:<48} {ln['basis']:<9} {str(amount_source(ln)[0]):<14} "
                   f"{(f'{float(grams):8.1f} g' if grams is not None else '       ? g')}"
                   f"{'' if counted else '   (not counted: ' + ln['excluded_reason'][:40] + ')'}")
         for p in problems:
@@ -160,12 +189,14 @@ def main(paths, write=True):
             cur.execute("""insert into recipe_ingredients (recipe_id, position, group_label,
                     ingredient_id, display_text, quantity, unit, qualifier, preparation,
                     quantity_basis, grams, grams_method, portion_id, in_nutrition,
-                    excluded_reason, optional, evidence, evidence_sec)
-                values (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""",
+                    excluded_reason, optional, evidence, evidence_sec,
+                    amount_source, amount_source_url, amount_note)
+                values (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""",
                         (rid, pos, ln.get("group"), iid, ln["text"], dec(to_fraction(ln.get("quantity"))),
                          ln.get("unit"), ln.get("qualifier"), ln.get("preparation"), ln["basis"],
                          dec(grams), method, pid, counted, ln.get("excluded_reason"),
-                         ln.get("optional", False), ln.get("evidence"), ln.get("t")))
+                         ln.get("optional", False), ln.get("evidence"), ln.get("t"),
+                         *amount_source(ln)))
         for n, st in enumerate(rec["steps"], 1):
             cur.execute("insert into recipe_steps values (%s,%s,%s,%s)", (rid, n, st["text"], st.get("t")))
         conn.commit()
