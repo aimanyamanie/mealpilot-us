@@ -1,0 +1,508 @@
+{
+  "slug": "salmon-tuna-poke-bowls-joshua-weissman",
+  "market": "US",
+  "title": "Salmon and Tuna Poke Bowls",
+  "summary": "Lightly cured salmon and ahi tuna over warm short-grain rice with charred edamame, quick-pickled carrots, homemade fried shallots, radish, avocado and green onion, with ponzu and a numbing spicy mayo on the side.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/0ZMRL8blTsY.json"
+  },
+  "cuisine": "Hawaiian-Japanese",
+  "course": "main",
+  "meal_slots": [
+    "lunch",
+    "dinner"
+  ],
+  "servings": 4,
+  "servings_basis": "stated",
+  "prep_minutes": 30,
+  "cook_minutes": 45,
+  "times_basis": "stated",
+  "difficulty": "medium",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'The Healthiest Poke Bowls at Home' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe for the same dish: https://www.joshuaweissman.com/recipes/easy-healthy-homemade-poke-bowls-recipe (serves 4, prep 30 min, cook 45 min). The video states the fish, marinade, rice, pickle, shallots, edamame and both sauces. From the written recipe, where the captions are garbled or give a range: 1/2 tsp sugar and 1/2 tsp sesame oil in the marinade, 2 avocados (video: two to three), 4-5 green onions (we use 4). Radishes: the video says four to five, we use 4. Edamame salt (1/2 tsp kosher) is our estimate. Not counted: the pickling liquid, the garlic cloves left whole in the marinade, the frying oil for the shallots (absorption unknown, so fat is understated), and both sauces, which are served on the side (the spicy mayo alone is about 1,300 kcal for the batch if all of it is eaten). Raw fish: sushi-grade only. Shallot weight (4 medium, about 160 g) is our estimate; USDA gives no per-shallot weight. Mirin and gochujang use branded records.",
+  "ingredients": [
+    {
+      "group": "Fish",
+      "ingredient": "salmon",
+      "text": "8 oz sushi-grade salmon, in 1/2-inch cubes",
+      "quantity": 8,
+      "unit": "oz",
+      "basis": "stated",
+      "evidence": "you're going to need about 8 ounces each of sushi grade salmon and sushi grade tuna",
+      "preparation": "1/2-inch cubes",
+      "t": 50.719
+    },
+    {
+      "group": "Fish",
+      "ingredient": "tuna",
+      "text": "8 oz sushi-grade ahi tuna (akami), in 1/2-inch cubes",
+      "quantity": 8,
+      "unit": "oz",
+      "basis": "stated",
+      "evidence": "you're going to need about 8 ounces each of sushi grade salmon and sushi grade tuna",
+      "preparation": "1/2-inch cubes",
+      "t": 50.719
+    },
+    {
+      "group": "Fish",
+      "ingredient": "kosher-salt",
+      "text": "1 tsp kosher salt",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "add 1 teaspoon of kosher salt",
+      "t": 119.68
+    },
+    {
+      "group": "Fish",
+      "ingredient": "sugar",
+      "text": "1/2 tsp sugar",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "teaspoon of sugar 1 teaspoon",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/easy-healthy-homemade-poke-bowls-recipe",
+      "amount_note": "Garbled in the captions ('a/ teaspoon'); the written recipe gives 1/2 tsp.",
+      "t": 121.28
+    },
+    {
+      "group": "Fish",
+      "ingredient": "mirin",
+      "text": "1 tsp mirin",
+      "quantity": 6,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "of mirin",
+      "t": 123.759,
+      "amount_note": "1 tsp in the video; about 6 g at mirin's density (our conversion)."
+    },
+    {
+      "group": "Fish",
+      "ingredient": "sesame-oil",
+      "text": "1/2 tsp sesame oil",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "teaspoon of sesame oil",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/easy-healthy-homemade-poke-bowls-recipe",
+      "amount_note": "Garbled in the captions ('a/ teaspoon'); the written recipe gives 1/2 tsp.",
+      "t": 123.759
+    },
+    {
+      "group": "Fish",
+      "ingredient": "soy-sauce",
+      "text": "2 Tbsp white shoyu or light soy sauce",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "2 tablespoons of white shooyu",
+      "t": 125.84
+    },
+    {
+      "group": "Fish",
+      "ingredient": "garlic",
+      "text": "2 cloves garlic, crushed and left whole",
+      "quantity": 2,
+      "unit": "clove",
+      "basis": "stated",
+      "evidence": "two garlic cloves which i'm just going to crush left whole",
+      "in_nutrition": false,
+      "excluded_reason": "left whole to perfume the fish; not eaten",
+      "t": 135.92
+    },
+    {
+      "group": "Rice",
+      "ingredient": "rice-short-grain-dry",
+      "text": "2 cups short-grain sushi rice, rinsed",
+      "quantity": 2,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "two cups of a short grain rice",
+      "preparation": "rinsed",
+      "t": 156.64
+    },
+    {
+      "group": "Rice",
+      "ingredient": "water",
+      "text": "2 cups water",
+      "quantity": 2,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "two cups of tamaki gold and two cups of water",
+      "t": 194.72
+    },
+    {
+      "group": "Pickled carrots",
+      "ingredient": "white-vinegar",
+      "text": "3 Tbsp white vinegar",
+      "quantity": 3,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "3 tablespoons of white vinegar",
+      "in_nutrition": false,
+      "excluded_reason": "pickling liquid; mostly left in the bowl",
+      "t": 226.959
+    },
+    {
+      "group": "Pickled carrots",
+      "ingredient": "water",
+      "text": "1 1/2 Tbsp water",
+      "quantity": "1 1/2",
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "1 and 1/2 tbsps of water",
+      "in_nutrition": false,
+      "excluded_reason": "pickling liquid; mostly left in the bowl",
+      "t": 229.2
+    },
+    {
+      "group": "Pickled carrots",
+      "ingredient": "kosher-salt",
+      "text": "1 tsp kosher salt",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 teaspoon of kosher salt and 1 tsp of sugar",
+      "in_nutrition": false,
+      "excluded_reason": "dissolved in the pickling liquid; mostly left in the bowl",
+      "t": 229.2
+    },
+    {
+      "group": "Pickled carrots",
+      "ingredient": "sugar",
+      "text": "1 tsp sugar",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 teaspoon of kosher salt and 1 tsp of sugar",
+      "in_nutrition": false,
+      "excluded_reason": "dissolved in the pickling liquid; mostly left in the bowl",
+      "t": 229.2
+    },
+    {
+      "group": "Pickled carrots",
+      "ingredient": "carrot",
+      "text": "2 large carrots, peeled and julienned",
+      "quantity": 2,
+      "unit": "large",
+      "basis": "stated",
+      "evidence": "we have two beautifully peeled carrots",
+      "preparation": "julienned",
+      "t": 236.879
+    },
+    {
+      "group": "Fried shallots",
+      "ingredient": "shallot",
+      "text": "4 medium shallots, sliced just under 1/4 inch",
+      "quantity": 160,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "i have four mediumsized shallots here",
+      "preparation": "sliced, fried",
+      "t": 318.96
+    },
+    {
+      "group": "Fried shallots",
+      "ingredient": "canola-oil",
+      "text": "Vegetable oil, for frying",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "this is vegetable oil",
+      "in_nutrition": false,
+      "excluded_reason": "frying oil; how much the shallots absorb is unknown",
+      "t": 345.199
+    },
+    {
+      "group": "Fried shallots",
+      "ingredient": "kosher-salt",
+      "text": "Kosher salt, to taste",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "immediately season them generously kosher salt",
+      "in_nutrition": false,
+      "excluded_reason": "amount not stated",
+      "t": 421.039
+    },
+    {
+      "group": "Edamame",
+      "ingredient": "canola-oil",
+      "text": "2 Tbsp neutral high-heat oil",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "2 tablespoons of a neutral high heat oil",
+      "t": 462.24
+    },
+    {
+      "group": "Edamame",
+      "ingredient": "edamame",
+      "text": "2 cups frozen shelled edamame",
+      "quantity": 2,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "add two cups of frozen edamame",
+      "t": 470.0
+    },
+    {
+      "group": "Edamame",
+      "ingredient": "kosher-salt",
+      "text": "1/2 tsp kosher salt",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "little bit of salt to taste",
+      "t": 476.96
+    },
+    {
+      "group": "Edamame",
+      "ingredient": "lemon-juice",
+      "text": "1 Tbsp lemon juice",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "about a tablespoon or so of lemon juice",
+      "t": 502.8
+    },
+    {
+      "group": "Ponzu (on the side)",
+      "ingredient": "soy-sauce",
+      "text": "1/2 cup soy sauce",
+      "quantity": "1/2",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "half a cup of soy sauce",
+      "optional": true,
+      "in_nutrition": false,
+      "excluded_reason": "served on the side; how much is eaten varies",
+      "t": 517.12
+    },
+    {
+      "group": "Ponzu (on the side)",
+      "ingredient": "lemon-juice",
+      "text": "1/4 cup yuzu juice",
+      "quantity": "1/4",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "1/4 cup of yuzu juice",
+      "optional": true,
+      "in_nutrition": false,
+      "excluded_reason": "served on the side; how much is eaten varies",
+      "t": 517.12
+    },
+    {
+      "group": "Ponzu (on the side)",
+      "ingredient": "mirin",
+      "text": "2 Tbsp mirin",
+      "quantity": 36,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "2 tbsps of mirin",
+      "optional": true,
+      "in_nutrition": false,
+      "excluded_reason": "served on the side; how much is eaten varies",
+      "t": 519.76,
+      "amount_note": "2 Tbsp in the video; converted to grams by us (mirin about 1.2 g/mL, gochujang about 1 tsp = 5 g)."
+    },
+    {
+      "group": "Ponzu (on the side)",
+      "ingredient": "rice-vinegar",
+      "text": "1 Tbsp rice vinegar",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "1 tbsp of rice vinegar",
+      "optional": true,
+      "in_nutrition": false,
+      "excluded_reason": "served on the side; how much is eaten varies",
+      "t": 519.76
+    },
+    {
+      "group": "Spicy mayo (on the side)",
+      "ingredient": "mayonnaise",
+      "text": "3/4 cup Kewpie mayonnaise",
+      "quantity": "3/4",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "3/4 of a cup of koopi mayonnaise",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side; how much is eaten varies",
+      "t": 550.32
+    },
+    {
+      "group": "Spicy mayo (on the side)",
+      "ingredient": "sriracha",
+      "text": "2 Tbsp Sriracha",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "2 tbsp of sriracha",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side; how much is eaten varies",
+      "t": 554.32
+    },
+    {
+      "group": "Spicy mayo (on the side)",
+      "ingredient": "gochujang",
+      "text": "1 tsp gochujang",
+      "quantity": 5,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "1 teaspoon of gochi jang",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side; how much is eaten varies",
+      "t": 554.32,
+      "amount_note": "1 tsp in the video; converted to grams by us (mirin about 1.2 g/mL, gochujang about 1 tsp = 5 g)."
+    },
+    {
+      "group": "Spicy mayo (on the side)",
+      "ingredient": "black-pepper",
+      "text": "2 tsp Sichuan peppercorns, freshly ground",
+      "quantity": 2,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "two teaspoons sichuan pepperc corn fresh ground",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side; how much is eaten varies",
+      "t": 557.76
+    },
+    {
+      "group": "Spicy mayo (on the side)",
+      "ingredient": "rice-vinegar",
+      "text": "1 tsp rice vinegar",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 teaspoon of rice ... vinegar and 1 teaspoon of soy sauce",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side; how much is eaten varies",
+      "t": 564.32
+    },
+    {
+      "group": "Spicy mayo (on the side)",
+      "ingredient": "soy-sauce",
+      "text": "1 tsp soy sauce",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 teaspoon of rice ... vinegar and 1 teaspoon of soy sauce",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side; how much is eaten varies",
+      "t": 564.32
+    },
+    {
+      "group": "Spicy mayo (on the side)",
+      "ingredient": "sugar",
+      "text": "Sugar and salt, a generous pinch each",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "generous pinch of sugar and a generous pinch of salt",
+      "in_nutrition": false,
+      "excluded_reason": "amount not stated",
+      "t": 569.279
+    },
+    {
+      "group": "Toppings",
+      "ingredient": "green-onion",
+      "text": "4 green onions, thinly sliced into threads",
+      "quantity": 4,
+      "unit": "medium",
+      "basis": "estimated",
+      "evidence": "green onion you can slice this into rounds",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/easy-healthy-homemade-poke-bowls-recipe",
+      "amount_note": "No amount in the video; the written recipe gives 4-5 green onions. We use 4.",
+      "t": 596.32
+    },
+    {
+      "group": "Toppings",
+      "ingredient": "radish",
+      "text": "4 medium red radishes, thinly sliced",
+      "quantity": 4,
+      "unit": "medium",
+      "basis": "estimated",
+      "evidence": "you really only need like maybe four to five mediumsized red radishes",
+      "t": 669.6
+    },
+    {
+      "group": "Toppings",
+      "ingredient": "avocado",
+      "text": "2 ripe avocados, sliced",
+      "quantity": 2,
+      "unit": "whole",
+      "basis": "stated",
+      "evidence": "you're going to need two to three avocados",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/easy-healthy-homemade-poke-bowls-recipe",
+      "amount_note": "The video says two to three; the written recipe gives 2.",
+      "t": 674.24
+    },
+    {
+      "group": "Toppings",
+      "ingredient": "furikake",
+      "text": "Furikake, optional",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "optionally you can add some furake",
+      "optional": true,
+      "in_nutrition": false,
+      "excluded_reason": "optional garnish, amount not stated",
+      "t": 757.68
+    }
+  ],
+  "steps": [
+    {
+      "t": 75,
+      "text": "Cut the salmon and tuna into 1/2-inch cubes with single clean strokes, keeping the fish cold."
+    },
+    {
+      "t": 118,
+      "text": "Gently fold the fish with the salt, sugar, mirin, sesame oil, white shoyu and the crushed whole garlic. Cover and refrigerate while you prep the rest."
+    },
+    {
+      "t": 158,
+      "text": "Rinse the short-grain rice about three times until the water runs mostly clear, level it, add an equal volume of water and cook in a rice cooker. Fluff as soon as it's done and let it cool about 10 minutes."
+    },
+    {
+      "t": 225,
+      "text": "Whisk the vinegar, water, salt and sugar until dissolved. Julienne the carrots and toss them in the liquid."
+    },
+    {
+      "t": 312,
+      "text": "Slice the shallots just under 1/4 inch. Put them in a pot of cold neutral oil (no more than half full), heat over medium and stir constantly for 5-8 minutes, until they stop bubbling and are lightly golden. Drain on paper towels and salt them while hot; they crisp as they cool."
+    },
+    {
+      "t": 460,
+      "text": "Heat the oil in a skillet over medium-high until nearly smoking. Add the edamame, salt, and sear undisturbed 2-3 minutes, then toss until hot through. Finish with lemon juice."
+    },
+    {
+      "t": 516,
+      "text": "Ponzu (optional): whisk the soy sauce, yuzu juice, mirin and rice vinegar; steep with kombu and katsuobushi 10-15 minutes or overnight, then strain."
+    },
+    {
+      "t": 550,
+      "text": "Spicy mayo: whisk the Kewpie, Sriracha, gochujang, ground Sichuan pepper, rice vinegar, soy sauce, and a pinch each of sugar and salt."
+    },
+    {
+      "t": 597,
+      "text": "Slice the green onions into thin threads and crisp them in ice water; dry well. Slice the radishes paper-thin and the avocados."
+    },
+    {
+      "t": 744,
+      "text": "Build each bowl: rice, marinated fish, avocado, edamame, drained carrots, radish, fried shallots, green onion and furikake. Serve the sauces on the side."
+    }
+  ]
+}

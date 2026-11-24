@@ -1,0 +1,556 @@
+{
+  "slug": "butter-chicken-joshua-weissman",
+  "market": "US",
+  "title": "Smoky Charcoal-Grilled Butter Chicken",
+  "summary": "Chicken thighs in a salted first marinade and a thick hung-yogurt spice marinade, grilled until charred, then simmered in a blended tomato, ghee and cream gravy finished with smoked ghee and butter. Served with a spicy green chutney.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/h_ZWXncC0CI.json"
+  },
+  "cuisine": "Indian",
+  "course": "main",
+  "meal_slots": [
+    "lunch",
+    "dinner"
+  ],
+  "servings": 4,
+  "servings_basis": "stated",
+  "prep_minutes": 30,
+  "cook_minutes": 60,
+  "times_basis": "stated",
+  "difficulty": "hard",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'Perfect Butter Chicken at Home' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe for the same dish: https://www.joshuaweissman.com/recipes/the-best-butter-chicken-at-home (serves 4, prep 30 min plus overnight marinating, cook 1 hour). The video states nearly every amount; the curry gravy only, without the rice and naan he serves it with. Ranges: sugar 2-3 tsp (we use 2 1/2), finishing butter 1-2 Tbsp (we use 1 1/2). Ginger knobs are our weights: 2-inch about 20 g, 1 1/2-inch about 15 g. The written recipe weighs the 2 tsp of fine sea salt at 6 g; we use USDA's table-salt weight for 2 tsp (about 12 g), so sodium may read high. The yogurt is counted at its full 145 g although hanging drains off some whey. Not counted: the green chutney (on the side), the whole spices in the bag (removed), salt 'to taste', and the cream, kasuri methi and cilantro garnishes. Proxies: Kashmiri chili uses USDA paprika, kasuri methi (dried fenugreek leaves) uses USDA fenugreek seed, garam masala as noted on its ingredient. Garam masala uses a branded garam masala record (MDH).",
+  "ingredients": [
+    {
+      "group": "Green chutney (on the side)",
+      "ingredient": "cilantro",
+      "text": "2 cups fresh cilantro leaves",
+      "quantity": 2,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "two cups of fresh cilantro leaves",
+      "in_nutrition": false,
+      "excluded_reason": "green chutney, served on the side",
+      "t": 71.04
+    },
+    {
+      "group": "Green chutney (on the side)",
+      "ingredient": "garlic",
+      "text": "3 cloves garlic",
+      "quantity": 3,
+      "unit": "clove",
+      "basis": "stated",
+      "evidence": "three cloves of garlic",
+      "in_nutrition": false,
+      "excluded_reason": "green chutney, served on the side",
+      "t": 73.439
+    },
+    {
+      "group": "Green chutney (on the side)",
+      "ingredient": "cumin",
+      "text": "1 tsp toasted cumin seeds",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "one teaspoon of toasted cumin seeds",
+      "in_nutrition": false,
+      "excluded_reason": "green chutney, served on the side",
+      "t": 73.439
+    },
+    {
+      "group": "Green chutney (on the side)",
+      "ingredient": "kosher-salt",
+      "text": "1 tsp kosher salt",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "one teaspoon of kosher salt",
+      "in_nutrition": false,
+      "excluded_reason": "green chutney, served on the side",
+      "t": 75.84
+    },
+    {
+      "group": "Green chutney (on the side)",
+      "ingredient": "ginger",
+      "text": "1-inch knob ginger, peeled",
+      "quantity": 10,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "a 1-in knob of peeled ginger",
+      "in_nutrition": false,
+      "excluded_reason": "green chutney, served on the side",
+      "t": 78.08
+    },
+    {
+      "group": "Green chutney (on the side)",
+      "ingredient": "green-chili",
+      "text": "3 green Thai (bird's eye) chilies",
+      "quantity": 3,
+      "unit": "pepper",
+      "basis": "stated",
+      "evidence": "i have three thai chilis here",
+      "in_nutrition": false,
+      "excluded_reason": "green chutney, served on the side",
+      "t": 83.92
+    },
+    {
+      "group": "1st marinade",
+      "ingredient": "chicken-thigh-boneless",
+      "text": "1 1/2 lb boneless, skinless chicken thighs, in 1-inch cubes",
+      "quantity": "1 1/2",
+      "unit": "lb",
+      "basis": "stated",
+      "evidence": "we have a pound and a half of boneless skinless chicken thighs",
+      "preparation": "1-inch cubes",
+      "t": 152.08
+    },
+    {
+      "group": "1st marinade",
+      "ingredient": "kosher-salt",
+      "text": "2 tsp kosher salt",
+      "quantity": 2,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "add 2 tepoon of kosher salt and 1 tbsp of lemon juice",
+      "t": 162.959
+    },
+    {
+      "group": "1st marinade",
+      "ingredient": "lemon-juice",
+      "text": "1 Tbsp lemon juice",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "1 tbsp of lemon juice",
+      "t": 162.959
+    },
+    {
+      "group": "1st marinade",
+      "ingredient": "ginger",
+      "text": "1 tsp freshly grated ginger",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 teaspoon of grated ginger fresh",
+      "t": 166.239
+    },
+    {
+      "group": "1st marinade",
+      "ingredient": "garlic",
+      "text": "1 medium clove garlic, grated",
+      "quantity": 1,
+      "unit": "clove",
+      "basis": "stated",
+      "evidence": "one medium sized garlic clove also grated",
+      "t": 171.84
+    },
+    {
+      "group": "2nd marinade",
+      "ingredient": "yogurt-whole",
+      "text": "1 cup (145 g) whole-milk yogurt, hung overnight",
+      "quantity": 145,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "1 cup or 145 g of whole milk yogurt",
+      "t": 206.0
+    },
+    {
+      "group": "2nd marinade",
+      "ingredient": "kashmiri-chili",
+      "text": "2 1/2 tsp Kashmiri chili powder",
+      "quantity": "2 1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "2 and 1/2 tesps of kashmir chili",
+      "t": 295.84
+    },
+    {
+      "group": "2nd marinade",
+      "ingredient": "turmeric",
+      "text": "1 tsp ground turmeric",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 teaspoon of turmeric powder",
+      "t": 298.0
+    },
+    {
+      "group": "2nd marinade",
+      "ingredient": "lemon-juice",
+      "text": "2 tsp lemon juice",
+      "quantity": 2,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "2 tesps of lemon juice",
+      "t": 300.88
+    },
+    {
+      "group": "2nd marinade",
+      "ingredient": "cumin",
+      "text": "1 tsp ground cumin",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 teaspoon ground cumin",
+      "t": 303.68
+    },
+    {
+      "group": "2nd marinade",
+      "ingredient": "kasuri-methi",
+      "text": "1 tsp kasuri methi (dried fenugreek leaves)",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 teaspoon of meti or fenugreek leaves",
+      "t": 303.68
+    },
+    {
+      "group": "2nd marinade",
+      "ingredient": "coriander",
+      "text": "1 tsp ground coriander",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 teaspoon of coriander powder",
+      "t": 306.8
+    },
+    {
+      "group": "2nd marinade",
+      "ingredient": "garam-masala",
+      "text": "1 Tbsp garam masala",
+      "quantity": 7,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "1 tbsp of garam masala",
+      "t": 310.32,
+      "amount_note": "1 Tbsp in the video; weighed at 7 g in the written recipe.",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/the-best-butter-chicken-at-home"
+    },
+    {
+      "group": "2nd marinade",
+      "ingredient": "salt",
+      "text": "2 tsp fine sea salt",
+      "quantity": 6,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "and 2 tsps of fine sea salt",
+      "t": 313.199,
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/the-best-butter-chicken-at-home",
+      "amount_note": "2 tsp in the video; the written recipe gives 2 tsp (6 g) fine sea salt. USDA's table-salt teaspoon (6 g) would give 12 g; we follow the creator's weight."
+    },
+    {
+      "group": "2nd marinade",
+      "ingredient": "ginger",
+      "text": "2-inch knob fresh ginger, grated",
+      "quantity": 20,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "a 2-in knob of fresh grated",
+      "t": 316.4
+    },
+    {
+      "group": "2nd marinade",
+      "ingredient": "garlic",
+      "text": "2 cloves garlic, grated",
+      "quantity": 2,
+      "unit": "clove",
+      "basis": "stated",
+      "evidence": "two cloves of grated garlic",
+      "t": 319.199
+    },
+    {
+      "group": "2nd marinade",
+      "ingredient": "mustard-oil",
+      "text": "1 tsp mustard oil (optional)",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "one teaspoon of mustard oil",
+      "optional": true,
+      "t": 327.36
+    },
+    {
+      "group": "Gravy",
+      "ingredient": "ghee",
+      "text": "2 Tbsp ghee",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "you're going to add two tablespoons of ghee",
+      "t": 451.44
+    },
+    {
+      "group": "Gravy",
+      "ingredient": "onion",
+      "text": "1 small yellow onion, diced",
+      "quantity": 1,
+      "unit": "small",
+      "basis": "stated",
+      "evidence": "one small diced yellow onion",
+      "preparation": "small dice",
+      "t": 459.039
+    },
+    {
+      "group": "Gravy",
+      "ingredient": "ginger",
+      "text": "1 1/2-inch knob ginger, finely chopped",
+      "quantity": 15,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "a 1 and 1/2 in knob of ginger finely chopped",
+      "t": 461.52
+    },
+    {
+      "group": "Gravy",
+      "ingredient": "garlic",
+      "text": "7 cloves garlic, finely chopped",
+      "quantity": 7,
+      "unit": "clove",
+      "basis": "stated",
+      "evidence": "seven whopping cloves of finely chopped",
+      "t": 466.16
+    },
+    {
+      "group": "Gravy",
+      "ingredient": "sugar",
+      "text": "2-3 tsp sugar",
+      "quantity": "2 1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "anywhere from 2 to 3 teaspoon of granulated sugar",
+      "t": 483.28
+    },
+    {
+      "group": "Gravy",
+      "ingredient": "coriander",
+      "text": "2 tsp ground coriander",
+      "quantity": 2,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "2 tsps of coriander powder",
+      "t": 492.0
+    },
+    {
+      "group": "Gravy",
+      "ingredient": "cumin",
+      "text": "1/2 tsp ground cumin",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "half a teaspoon of cumin powder",
+      "t": 494.0
+    },
+    {
+      "group": "Gravy",
+      "ingredient": "turmeric",
+      "text": "1/2 tsp ground turmeric",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "half a teaspoon of turmeric powder",
+      "t": 494.0
+    },
+    {
+      "group": "Gravy",
+      "ingredient": "kashmiri-chili",
+      "text": "1 tsp Kashmiri chili powder",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 teaspoon of kashmir chili",
+      "t": 495.759
+    },
+    {
+      "group": "Gravy",
+      "ingredient": "garam-masala",
+      "text": "1 tsp garam masala",
+      "quantity": 2,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "1 teaspoon of garam masala and a hefty pinch",
+      "t": 497.68,
+      "amount_note": "1 tsp in the video; weighed at 2 g in the written recipe.",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/the-best-butter-chicken-at-home"
+    },
+    {
+      "group": "Gravy",
+      "ingredient": "kosher-salt",
+      "text": "Salt, to taste",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "a hefty pinch of salt to taste",
+      "in_nutrition": false,
+      "excluded_reason": "amount not stated",
+      "t": 500.24
+    },
+    {
+      "group": "Gravy",
+      "ingredient": "tomato-paste",
+      "text": "1 Tbsp tomato paste",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "so we have 1 tbsp of tomato paste",
+      "t": 527.44
+    },
+    {
+      "group": "Gravy",
+      "ingredient": "tomatoes-crushed",
+      "text": "14 oz can crushed tomatoes",
+      "quantity": 14,
+      "unit": "oz",
+      "basis": "stated",
+      "evidence": "you're going to add a 14 can of crushed tomatoes",
+      "t": 545.839
+    },
+    {
+      "group": "Gravy",
+      "ingredient": "water",
+      "text": "1 1/4 cups water",
+      "quantity": "1 1/4",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "followed by 1 and 1/4 cup of water",
+      "t": 558.88
+    },
+    {
+      "group": "Gravy",
+      "ingredient": "kasuri-methi",
+      "text": "1 Tbsp kasuri methi",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "1 tbsp of methi which is fenugreek leaves",
+      "t": 558.88
+    },
+    {
+      "group": "Gravy",
+      "ingredient": "cinnamon",
+      "text": "1 cinnamon stick, 6 green cardamom pods, 5 whole cloves, in a cheesecloth bag",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "one cinnamon stick",
+      "optional": true,
+      "in_nutrition": false,
+      "excluded_reason": "whole spices in a bag, removed after simmering",
+      "t": 572.32
+    },
+    {
+      "group": "Gravy",
+      "ingredient": "water",
+      "text": "1/2 cup water, to loosen",
+      "quantity": "1/2",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "so i'm adding a/2 cup of water",
+      "t": 650.48
+    },
+    {
+      "group": "Gravy",
+      "ingredient": "ghee",
+      "text": "2 Tbsp ghee, smoked with charcoal (optional)",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "you're going to add another 2 tbsps of ghee",
+      "t": 655.04
+    },
+    {
+      "group": "Gravy",
+      "ingredient": "heavy-cream",
+      "text": "1/2 cup heavy whipping cream",
+      "quantity": "1/2",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "we're now adding a/2 cup of heavy whipping cream",
+      "qualifier": "fluid",
+      "t": 691.92
+    },
+    {
+      "group": "Gravy",
+      "ingredient": "butter-unsalted",
+      "text": "1-2 Tbsp cold unsalted butter",
+      "quantity": "1 1/2",
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "add is 1 to 2 tablespoon of cold unsalted butter",
+      "t": 718.64
+    },
+    {
+      "group": "To serve",
+      "ingredient": "cilantro",
+      "text": "Extra cream, kasuri methi and cilantro leaves, to garnish",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "two fresh cilantro leaves",
+      "optional": true,
+      "in_nutrition": false,
+      "excluded_reason": "garnish, amount not stated",
+      "t": 782.48
+    }
+  ],
+  "steps": [
+    {
+      "t": 70,
+      "text": "Green chutney: blend the cilantro, garlic, toasted cumin, salt, ginger and green chilies with a splash of cold water until smooth."
+    },
+    {
+      "t": 155,
+      "text": "Cut the chicken into 1-inch cubes and toss with the salt, lemon juice, grated ginger and garlic. Refrigerate 30 minutes to 2 hours."
+    },
+    {
+      "t": 211,
+      "text": "Hang the yogurt in a clean tea towel for 2-3 hours or overnight until very thick (or thicken it with 1 1/2-3 tsp besan flour instead)."
+    },
+    {
+      "t": 290,
+      "text": "Whisk the hung yogurt with the Kashmiri chili, turmeric, lemon juice, cumin, kasuri methi, coriander, garam masala, sea salt, ginger, garlic and mustard oil. Coat the chicken and refrigerate 2-3 hours or overnight."
+    },
+    {
+      "t": 394,
+      "text": "Skewer the chicken and grill over charcoal (or broil) 2-3 minutes per side on three sides, until charred."
+    },
+    {
+      "t": 450,
+      "text": "Melt 2 Tbsp ghee over medium heat. Cook the onion, ginger and garlic with a little salt 3-4 minutes, until soft. Add the sugar and ground spices and toast 30-60 seconds."
+    },
+    {
+      "t": 527,
+      "text": "Stir in the tomato paste for 1-2 minutes, then the crushed tomatoes, water and kasuri methi. Bring to a boil, lower to a simmer, add the whole-spice bag and simmer 10-15 minutes."
+    },
+    {
+      "t": 612,
+      "text": "Remove the spice bag, blend the sauce until smooth, return it to the pot and loosen with water."
+    },
+    {
+      "t": 655,
+      "text": "Optional: smoke the remaining 2 Tbsp melted ghee with a hot piece of charcoal under a lid for 1-2 minutes, then strain it into the gravy."
+    },
+    {
+      "t": 690,
+      "text": "Add the cream, bring to a boil, lower to a simmer for a minute, then add the chicken and simmer 5 minutes."
+    },
+    {
+      "t": 716,
+      "text": "Off the heat, stir in the cold butter until glossy. Taste for salt."
+    },
+    {
+      "t": 775,
+      "text": "Serve with basmati rice and naan, a drizzle of cream, kasuri methi, cilantro and the green chutney."
+    }
+  ]
+}

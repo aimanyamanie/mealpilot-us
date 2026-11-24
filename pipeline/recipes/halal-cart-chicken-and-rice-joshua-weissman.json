@@ -1,0 +1,541 @@
+{
+  "slug": "halal-cart-chicken-and-rice-joshua-weissman",
+  "market": "US",
+  "title": "Halal Cart Chicken and Rice",
+  "summary": "Spiced, harissa-marinated chicken thigh pieces seared until charred, over turmeric-cumin rice cooked in stock, with lettuce, salted tomatoes, a creamy white sauce and a mellow red chili sauce.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/0K_PLf6SMYk.json"
+  },
+  "cuisine": "Middle Eastern-American",
+  "course": "main",
+  "meal_slots": [
+    "lunch",
+    "dinner"
+  ],
+  "servings": 6,
+  "servings_basis": "stated",
+  "prep_minutes": 30,
+  "cook_minutes": 45,
+  "times_basis": "stated",
+  "difficulty": "medium",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'Halal Guys Chicken And Rice But Better' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe for the same dish: https://www.joshuaweissman.com/recipes/halal-guys-chicken-over-rice-but-better-recipe (serves 6, prep 30 min, cook 45 min, plus optional overnight marinating). The video states almost every amount. Where the two differ, the video wins: MSG in the rice is 1/2 tsp in the video, 1 tsp in the written recipe. From the written recipe: the word 'harissa' in the marinade (the captions drop it), 3 Roma tomatoes, 1 head of iceberg. Our estimate: 2 Tbsp oil for searing in batches. Both sauces are counted in full, as if every serving gets its share; he says to go lighter on the red sauce, so real intake is probably lower. Not counted: salt and pepper 'to taste' in the sauces, the oil and salt on the tomatoes (no amount), and the optional pita. Smoked paprika uses USDA paprika; chiles de árbol use USDA sun-dried hot chile. Harissa uses a branded harissa paste record (USDA FDC 2546030), MSG a branded MSG record.",
+  "ingredients": [
+    {
+      "group": "Chicken",
+      "ingredient": "chicken-thigh-boneless",
+      "text": "2 lb boneless, skinless chicken thighs, cut into 1/2-3/4 inch pieces",
+      "quantity": 2,
+      "unit": "lb",
+      "basis": "stated",
+      "evidence": "2 lbs of chicken breast just kidding ... we use chicken thighs",
+      "preparation": "cut into 1/2-3/4 inch pieces",
+      "t": 43.44
+    },
+    {
+      "group": "Chicken",
+      "ingredient": "kosher-salt",
+      "text": "1 Tbsp + 1 tsp kosher salt",
+      "quantity": 4,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 tbsp plus 1 teaspoon of kosher salt",
+      "t": 90.72
+    },
+    {
+      "group": "Chicken",
+      "ingredient": "turmeric",
+      "text": "1/2 tsp ground turmeric",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "half a teaspoon of turmeric",
+      "t": 92.64
+    },
+    {
+      "group": "Chicken",
+      "ingredient": "cumin",
+      "text": "2 tsp ground cumin",
+      "quantity": 2,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "2 tsp of ground cumin",
+      "t": 95.2
+    },
+    {
+      "group": "Chicken",
+      "ingredient": "coriander",
+      "text": "1 tsp ground coriander",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 teaspoon of ground coriander",
+      "t": 97.84
+    },
+    {
+      "group": "Chicken",
+      "ingredient": "black-pepper",
+      "text": "1/2 tsp freshly ground black pepper",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "half a teaspoon of fresh ground black pepperc corn",
+      "qualifier": "ground",
+      "t": 100.56
+    },
+    {
+      "group": "Chicken",
+      "ingredient": "paprika",
+      "text": "2 tsp smoked paprika",
+      "quantity": 2,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "2 tsps of smoked paprika",
+      "t": 102.24
+    },
+    {
+      "group": "Chicken",
+      "ingredient": "cayenne",
+      "text": "1/2 tsp cayenne pepper",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "half a teaspoon of cayenne",
+      "t": 104.96
+    },
+    {
+      "group": "Chicken",
+      "ingredient": "oregano-dried",
+      "text": "1 tsp dried oregano",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 teaspoon of dried oregano",
+      "t": 106.88,
+      "qualifier": "leaves"
+    },
+    {
+      "group": "Chicken",
+      "ingredient": "lemon-juice",
+      "text": "3 Tbsp fresh lemon juice",
+      "quantity": 3,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "3 tablespoon of lemon juice",
+      "t": 108.96
+    },
+    {
+      "group": "Chicken",
+      "ingredient": "harissa",
+      "text": "1/4 cup harissa paste (optional)",
+      "quantity": 60,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "optionally if you want 1/4 cup of a nice quality",
+      "optional": true,
+      "t": 112.56,
+      "amount_note": "1/4 cup in the video; weighed at 60 g in the written recipe.",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/halal-guys-chicken-over-rice-but-better-recipe"
+    },
+    {
+      "group": "Chicken",
+      "ingredient": "canola-oil",
+      "text": "2 Tbsp vegetable oil, for searing in batches",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "little bit of vegetable oil to coat",
+      "t": 580.08
+    },
+    {
+      "group": "Chicken",
+      "ingredient": "garlic",
+      "text": "1 clove garlic, grated over the cooked chicken",
+      "quantity": 1,
+      "unit": "clove",
+      "basis": "stated",
+      "evidence": "grate one clove of garlic over the chicken",
+      "preparation": "grated",
+      "t": 633.6
+    },
+    {
+      "group": "Rice",
+      "ingredient": "rice-long-grain-dry",
+      "text": "2 cups basmati rice, rinsed",
+      "quantity": 2,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "we have two cups of a nice basmati rice",
+      "preparation": "rinsed",
+      "t": 174.4
+    },
+    {
+      "group": "Rice",
+      "ingredient": "turmeric",
+      "text": "1 tsp ground turmeric",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 teaspoon of turmeric half a teaspoon of cumin",
+      "t": 227.2
+    },
+    {
+      "group": "Rice",
+      "ingredient": "cumin",
+      "text": "1/2 tsp ground cumin",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "half a teaspoon of cumin",
+      "t": 229.84
+    },
+    {
+      "group": "Rice",
+      "ingredient": "onion-powder",
+      "text": "1/4 tsp onion powder",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1/4 teaspoon of onion powder",
+      "t": 229.84
+    },
+    {
+      "group": "Rice",
+      "ingredient": "garlic-powder",
+      "text": "1/2 tsp garlic powder",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "half a teaspoon of garlic powder",
+      "t": 232.08
+    },
+    {
+      "group": "Rice",
+      "ingredient": "msg",
+      "text": "1/2 tsp MSG",
+      "quantity": "1 1/2",
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "half a teaspoon of msg and 1 and 1/2 teaspoons of kosher salt",
+      "t": 234.239,
+      "amount_note": "1/2 tsp in the video; the written recipe weighs MSG at 3 g per tsp.",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/halal-guys-chicken-over-rice-but-better-recipe"
+    },
+    {
+      "group": "Rice",
+      "ingredient": "kosher-salt",
+      "text": "1 1/2 tsp kosher salt",
+      "quantity": "1 1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 and 1/2 teaspoons of kosher salt",
+      "t": 237.12
+    },
+    {
+      "group": "Rice",
+      "ingredient": "chicken-broth",
+      "text": "2 cups chicken stock",
+      "quantity": 2,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "equal parts chicken stock not water chicken stock",
+      "t": 239.84
+    },
+    {
+      "group": "Rice",
+      "ingredient": "butter-unsalted",
+      "text": "2 Tbsp cold unsalted butter, cubed",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "two tablespoons of cold unsalted butter",
+      "t": 671.6
+    },
+    {
+      "group": "Red sauce",
+      "ingredient": "water",
+      "text": "1 cup water",
+      "quantity": 1,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "one cup of water and 10 chili to arable",
+      "t": 283.759
+    },
+    {
+      "group": "Red sauce",
+      "ingredient": "dried-chili",
+      "text": "10 dried chiles de árbol",
+      "quantity": 10,
+      "unit": "pepper",
+      "basis": "stated",
+      "evidence": "10 chili to arable dried",
+      "t": 283.759
+    },
+    {
+      "group": "Red sauce",
+      "ingredient": "harissa",
+      "text": "1/2 cup harissa paste",
+      "quantity": 120,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "add half a cup of harissa",
+      "t": 300.56,
+      "amount_note": "1/2 cup in the video; weighed at 120 g in the written recipe.",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/halal-guys-chicken-over-rice-but-better-recipe"
+    },
+    {
+      "group": "Red sauce",
+      "ingredient": "paprika",
+      "text": "1 tsp smoked paprika",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "one teaspoon of smoked paprika",
+      "t": 322.479
+    },
+    {
+      "group": "Red sauce",
+      "ingredient": "sugar",
+      "text": "2 tsp sugar",
+      "quantity": 2,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "two teaspoons of sugar",
+      "t": 322.479
+    },
+    {
+      "group": "Red sauce",
+      "ingredient": "white-vinegar",
+      "text": "3 Tbsp white distilled vinegar",
+      "quantity": 3,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "three tablespoons of white distilled vinegar",
+      "t": 327.6
+    },
+    {
+      "group": "Red sauce",
+      "ingredient": "garlic",
+      "text": "2 cloves garlic",
+      "quantity": 2,
+      "unit": "clove",
+      "basis": "stated",
+      "evidence": "then two cloves of garlic",
+      "t": 331.52
+    },
+    {
+      "group": "Red sauce",
+      "ingredient": "kosher-salt",
+      "text": "Salt, to taste",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "generous pinch of salt now we're going to wait",
+      "excluded_reason": "amount not stated",
+      "in_nutrition": false,
+      "t": 335.039
+    },
+    {
+      "group": "White sauce",
+      "ingredient": "mayonnaise",
+      "text": "3/4 cup mayonnaise",
+      "quantity": "3/4",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "the first ingredient 3/4 of a cup of mayo",
+      "t": 418.639
+    },
+    {
+      "group": "White sauce",
+      "ingredient": "sour-cream",
+      "text": "1/2 cup sour cream",
+      "quantity": "1/2",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "half a cup of sour cream",
+      "t": 428.319
+    },
+    {
+      "group": "White sauce",
+      "ingredient": "sugar",
+      "text": "1/2 tsp sugar",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "half a teaspoon of sugar just to curb",
+      "t": 440.639
+    },
+    {
+      "group": "White sauce",
+      "ingredient": "msg",
+      "text": "1/2 tsp MSG",
+      "quantity": "1 1/2",
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "half a teaspoon of msg generous pinch of salt",
+      "t": 446.0,
+      "amount_note": "1/2 tsp in the video; the written recipe weighs MSG at 3 g per tsp.",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/halal-guys-chicken-over-rice-but-better-recipe"
+    },
+    {
+      "group": "White sauce",
+      "ingredient": "kosher-salt",
+      "text": "Salt, to taste",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "msg generous pinch of salt",
+      "excluded_reason": "amount not stated",
+      "in_nutrition": false,
+      "t": 447.68
+    },
+    {
+      "group": "White sauce",
+      "ingredient": "lemon-juice",
+      "text": "1 1/2 Tbsp lemon juice",
+      "quantity": "1 1/2",
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "1 and 1/2 tbsps of lemon juice",
+      "t": 447.68
+    },
+    {
+      "group": "White sauce",
+      "ingredient": "white-vinegar",
+      "text": "2 tsp white distilled vinegar",
+      "quantity": 2,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "and 2 tsp of vinegar",
+      "t": 450.08
+    },
+    {
+      "group": "White sauce",
+      "ingredient": "garlic",
+      "text": "1 clove garlic, grated",
+      "quantity": 1,
+      "unit": "clove",
+      "basis": "stated",
+      "evidence": "one clove of grated garlic",
+      "preparation": "grated",
+      "t": 455.759
+    },
+    {
+      "group": "White sauce",
+      "ingredient": "black-pepper",
+      "text": "Black pepper, to taste",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "fresh cracked black pepper",
+      "excluded_reason": "amount not stated",
+      "in_nutrition": false,
+      "t": 460.16
+    },
+    {
+      "group": "To serve",
+      "ingredient": "tomato",
+      "text": "3 medium Roma tomatoes, cored and diced",
+      "quantity": 3,
+      "unit": "whole",
+      "basis": "stated",
+      "evidence": "next the tomatoes",
+      "qualifier": "plum",
+      "preparation": "seeds removed, 1/2-inch dice",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/halal-guys-chicken-over-rice-but-better-recipe",
+      "amount_note": "No count in the video; the written recipe gives 3 medium Roma tomatoes.",
+      "t": 479.919
+    },
+    {
+      "group": "To serve",
+      "ingredient": "olive-oil",
+      "text": "Extra-virgin olive oil and salt, to dress the tomatoes",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "season them with just a touch of salt and a little extra virgin olive oil",
+      "excluded_reason": "amount not stated",
+      "in_nutrition": false,
+      "t": 546.0
+    },
+    {
+      "group": "To serve",
+      "ingredient": "lettuce-iceberg",
+      "text": "1 head iceberg lettuce, shredded",
+      "quantity": 1,
+      "unit": "head",
+      "basis": "stated",
+      "evidence": "shredded lettuce",
+      "qualifier": "medium",
+      "preparation": "shredded",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/halal-guys-chicken-over-rice-but-better-recipe",
+      "amount_note": "No amount in the video; the written recipe gives 1 head.",
+      "t": 693.36
+    },
+    {
+      "group": "To serve",
+      "ingredient": "pita",
+      "text": "Pita bread, optional",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "serve that with a few pieces of pa",
+      "optional": true,
+      "excluded_reason": "optional side; he calls the pita optional",
+      "in_nutrition": false,
+      "t": 710.24
+    }
+  ],
+  "steps": [
+    {
+      "t": 70,
+      "text": "Cut the chicken into 1/2-3/4 inch pieces. Add the salt, spices, oregano, lemon juice and harissa and knead until every piece is coated. Cover and refrigerate overnight (up to 2 days), or cook right away."
+    },
+    {
+      "t": 172,
+      "text": "Rinse the basmati 2-3 times until the water runs clear, level it, add the turmeric, cumin, onion powder, garlic powder, MSG and salt, then an equal volume of chicken stock. Stir and start the rice cooker."
+    },
+    {
+      "t": 280,
+      "text": "Red sauce: boil the chiles de árbol in the water for 3-4 minutes, until soft. Blend them with their water, the harissa, smoked paprika, sugar, vinegar, garlic and salt until smooth. Strain if you like, and adjust the salt."
+    },
+    {
+      "t": 400,
+      "text": "White sauce: whisk the mayo, sour cream, sugar, MSG, salt, lemon juice, vinegar, grated garlic and black pepper. Adjust the seasoning."
+    },
+    {
+      "t": 478,
+      "text": "Core the tomatoes, dice them 1/2 inch, and toss with a little salt and olive oil."
+    },
+    {
+      "t": 575,
+      "text": "Sear the chicken in batches in a hot pan with a little oil, in one layer: 2-3 minutes undisturbed, then flip, lower to medium and cook through to 165°F."
+    },
+    {
+      "t": 630,
+      "text": "Grate a clove of garlic over the cooked chicken and toss."
+    },
+    {
+      "t": 665,
+      "text": "Fluff the rice with the cubed cold butter until it melts in."
+    },
+    {
+      "t": 688,
+      "text": "Serve the rice topped with chicken, shredded lettuce and tomatoes, drizzled with white sauce and, more lightly, red sauce. Pita on the side if you like."
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "slug": "low-calorie-chicken-alfredo-joshua-weissman",
+  "market": "US",
+  "title": "Low-Calorie Cauliflower Chicken Alfredo",
+  "summary": "Fettuccine in a creamy Alfredo-style sauce of puréed cauliflower, skim milk, garlic and a little Parmigiano and Pecorino, topped with thin seared chicken breast.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/oniAMAulMgU.json"
+  },
+  "cuisine": "Italian-American",
+  "course": "main",
+  "meal_slots": [
+    "lunch",
+    "dinner"
+  ],
+  "servings": 4,
+  "servings_basis": "stated",
+  "prep_minutes": 10,
+  "cook_minutes": 30,
+  "times_basis": "stated",
+  "difficulty": "easy",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'The Best Low Calorie Alfredo Pasta Ever' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe for the same dish: https://www.joshuaweissman.com/recipes/easy-low-calorie-52g-protein-alfredo-pasta (serves 4, prep 10 min, cook 30 min; it publishes 470 kcal, 52 g protein, 53 g carbs, 6 g fat per serving, useful as a cross-check). The video states the chicken, milk, both cheeses (22 g each), garlic, bouillon and pasta. From the written recipe: the cauliflower weight (1 head, about 2 lb, before trimming, so it slightly overstates the florets). Our estimates: salt (1 tsp kosher) and pepper on the chicken. Not counted: the salt in the boiling water, the cooking spray, salt 'to taste' in the sauce, and the optional extra Parmigiano on top (he also leaves it out of his macros). He may not use all the sauce or all the milk; we count all of both.",
+  "ingredients": [
+    {
+      "group": "Sauce",
+      "ingredient": "cauliflower",
+      "text": "1 head cauliflower (about 2 lb), cut into florets",
+      "quantity": 2,
+      "unit": "lb",
+      "basis": "stated",
+      "evidence": "starting with a head of cauliflower",
+      "preparation": "florets",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/easy-low-calorie-52g-protein-alfredo-pasta",
+      "amount_note": "The video says a head of cauliflower; the written recipe gives about 2 lb (908 g).",
+      "t": 44.719
+    },
+    {
+      "group": "Sauce",
+      "ingredient": "kosher-salt",
+      "text": "Salt, for the boiling water",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "season that generously with salt",
+      "in_nutrition": false,
+      "excluded_reason": "seasons the cooking water, which is drained",
+      "t": 102.56
+    },
+    {
+      "group": "Sauce",
+      "ingredient": "milk-skim",
+      "text": "1/2 cup skim milk, divided",
+      "quantity": "1/2",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "about a/2 cup of skim milk",
+      "t": 285.44
+    },
+    {
+      "group": "Sauce",
+      "ingredient": "parmigiano-reggiano",
+      "text": "1/4 cup (22 g) freshly grated Parmigiano Reggiano",
+      "quantity": 22,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "1/4 cup or 22 g of parmesan reano",
+      "preparation": "freshly grated",
+      "t": 293.12
+    },
+    {
+      "group": "Sauce",
+      "ingredient": "pecorino-romano",
+      "text": "1/4 cup (22 g) freshly grated Pecorino Romano",
+      "quantity": 22,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "22 g of pecorina romano freshly grated",
+      "preparation": "freshly grated",
+      "t": 298.16
+    },
+    {
+      "group": "Sauce",
+      "ingredient": "garlic",
+      "text": "3 cloves garlic, raw",
+      "quantity": 3,
+      "unit": "clove",
+      "basis": "stated",
+      "evidence": "three whole cloves of garlic",
+      "t": 301.28
+    },
+    {
+      "group": "Sauce",
+      "ingredient": "chicken-bouillon",
+      "text": "1/2 tsp (1 g) chicken bouillon powder (or MSG)",
+      "quantity": 1,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "like half a teaspoon or 1 g",
+      "t": 328.88
+    },
+    {
+      "group": "Sauce",
+      "ingredient": "kosher-salt",
+      "text": "Salt, to taste",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "add a touch of salt to that to taste",
+      "in_nutrition": false,
+      "excluded_reason": "amount not stated",
+      "t": 318.479
+    },
+    {
+      "group": "Chicken",
+      "ingredient": "chicken-breast-boneless",
+      "text": "1 1/2 lb boneless, skinless chicken breasts, butterflied into thin cutlets",
+      "quantity": "1 1/2",
+      "unit": "lb",
+      "basis": "stated",
+      "evidence": "we have 1 and 12 lbs of boneless skinless chicken breast",
+      "preparation": "split into thin cutlets",
+      "t": 136.48
+    },
+    {
+      "group": "Chicken",
+      "ingredient": "kosher-salt",
+      "text": "1 tsp kosher salt",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "just salt and pepper on both sides",
+      "t": 181.92
+    },
+    {
+      "group": "Chicken",
+      "ingredient": "black-pepper",
+      "text": "1/4 tsp black pepper",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "just salt and pepper on both sides",
+      "qualifier": "ground",
+      "t": 181.92
+    },
+    {
+      "group": "Chicken",
+      "ingredient": "canola-oil",
+      "text": "Cooking spray",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "medium high heat little bit of spray oil",
+      "in_nutrition": false,
+      "excluded_reason": "spray oil; a fraction of a gram per serving",
+      "t": 213.519
+    },
+    {
+      "group": "Pasta",
+      "ingredient": "pasta-dry",
+      "text": "1/2 lb dried fettuccine",
+      "quantity": "1/2",
+      "unit": "lb",
+      "basis": "stated",
+      "evidence": "we have a half pound of fetachccini",
+      "t": 363.28
+    },
+    {
+      "group": "Pasta",
+      "ingredient": "kosher-salt",
+      "text": "Salt, for the pasta water",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "boiling water generous salt",
+      "in_nutrition": false,
+      "excluded_reason": "seasons the cooking water, which is drained",
+      "t": 356.88
+    },
+    {
+      "group": "To serve",
+      "ingredient": "parmigiano-reggiano",
+      "text": "Extra grated Parmigiano and black pepper, optional",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "optionally top with more parmesan regiano",
+      "optional": true,
+      "in_nutrition": false,
+      "excluded_reason": "optional garnish; he leaves it out of his macros too",
+      "t": 434.4
+    }
+  ],
+  "steps": [
+    {
+      "t": 62,
+      "text": "Cut the cauliflower into evenly sized florets, discarding the thick stem."
+    },
+    {
+      "t": 100,
+      "text": "Boil the florets in well-salted water for 10-12 minutes, until completely soft and mushy."
+    },
+    {
+      "t": 137,
+      "text": "Butterfly the chicken breasts into thin cutlets (flatten them with your palm if needed) and season both sides with salt and pepper."
+    },
+    {
+      "t": 207,
+      "text": "Sear the chicken in a lightly sprayed skillet over medium-high heat, 2-3 minutes, flip, then 3-4 minutes more, until 165°F inside. Rest, then slice into thin strips."
+    },
+    {
+      "t": 262,
+      "text": "Lift the cauliflower out of the water into a blender. Add half the milk, both cheeses, the raw garlic, the bouillon and a little salt, and blend until completely smooth. Loosen with more milk if needed and adjust the salt."
+    },
+    {
+      "t": 357,
+      "text": "Boil the fettuccine in well-salted water until al dente."
+    },
+    {
+      "t": 392,
+      "text": "Move the pasta with tongs into a pan with some of the sauce and a splash of pasta water, add more sauce and toss until glossy and creamy."
+    },
+    {
+      "t": 427,
+      "text": "Divide into 4 bowls and top each with sliced chicken, plus extra Parmigiano and black pepper if you like."
+    }
+  ]
+}

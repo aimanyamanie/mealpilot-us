@@ -1,13 +1,101 @@
 slug,name,category,food_group,gluten,animal_rennet,alcohol,fdc_id,allergens,aliases,pick_note
 chicken-thigh,"Chicken thigh, skin-on",poultry,poultry,false,false,false,172385,,chicken thigh;chicken thighs;skin-on chicken thigh,"SR Legacy raw meat and skin; same record gives the 193 g edible weight of one thigh. Not 172386, which is fried in batter."
-canola-oil,Canola oil,oils,plant,false,false,false,172336,,canola oil;vegetable oil;neutral oil;oil,"Stands in for an unnamed neutral cooking oil."
-salt,Salt,pantry,mineral,false,false,false,173468,,salt;table salt;kosher salt,"Table salt. Kosher salt weighs less per teaspoon; give it its own row when a recipe names it."
+canola-oil,Canola oil,oils,plant,false,false,false,172336,,canola oil;vegetable oil;neutral oil;oil,Stands in for an unnamed neutral cooking oil.
+salt,Salt,pantry,mineral,false,false,false,173468,,salt;table salt;fine sea salt;flaky salt,Table salt. Kosher salt has its own row (lighter per teaspoon).
 black-pepper,Black pepper,spices,plant,false,false,false,170931,,black pepper;pepper;ground black pepper,
-pasta-dry,Dried pasta,grains,plant,true,false,false,169736,wheat,dried pasta;pasta;fettuccine;spaghetti;linguine;penne,"Enriched dry wheat pasta; shape does not change nutrition per gram."
+pasta-dry,Dried pasta,grains,plant,true,false,false,169736,wheat,dried pasta;pasta;fettuccine;spaghetti;linguine;penne,Enriched dry wheat pasta; shape does not change nutrition per gram.
 heavy-cream,Heavy cream,dairy,dairy,false,false,false,170859,milk,heavy cream;heavy whipping cream;cream,"Use the 'fluid' cup (238 g), never the whipped cup (120 g)."
 butter-unsalted,Unsalted butter,dairy,dairy,false,false,false,173430,milk,unsalted butter;butter,
 garlic,Garlic,produce,plant,false,false,false,169230,,garlic;garlic clove;garlic cloves,
 thyme-fresh,Fresh thyme,herbs,plant,false,false,false,173470,,fresh thyme;thyme,
-nutmeg,Nutmeg,spices,plant,false,false,false,171326,,nutmeg;ground nutmeg;fresh nutmeg,"Ground nutmeg record; freshly grated is the same food."
+nutmeg,Nutmeg,spices,plant,false,false,false,171326,,nutmeg;ground nutmeg;fresh nutmeg,Ground nutmeg record; freshly grated is the same food.
 parmigiano-reggiano,Parmigiano Reggiano,dairy,dairy,false,true,false,170848,milk,parmigiano reggiano;parmigiano;parmesan;parmesan cheese,"Hard parmesan, since the recipe grates it fresh. Made with calf rennet, so not vegetarian."
 pecorino-romano,Pecorino Romano,dairy,dairy,false,true,false,171249,milk,pecorino romano;pecorino;romano,"Made with lamb rennet, so not vegetarian."
+kosher-salt,Kosher salt,pantry,mineral,false,false,false,173468,,kosher salt;diamond crystal,"Same USDA record as table salt; lighter by volume. Teaspoon and tablespoon weights in extra_portions.csv follow Joshua Weissman's written recipes (Diamond Crystal, 3 g per tsp)."
+water,Water,pantry,mineral,false,false,false,173647,,water,Tap water.
+sugar,Granulated sugar,pantry,plant,false,false,false,169655,,sugar;granulated sugar;white sugar,
+honey,Honey,pantry,honey,false,false,false,169640,,honey,
+soy-sauce,Soy sauce,condiments,plant,true,false,false,174277,soy;wheat,soy sauce;shoyu;white shoyu;light soy sauce,Shoyu made from soy and wheat. Also stands in for white shoyu.
+rice-vinegar,Rice vinegar,condiments,plant,false,false,false,172237,,rice vinegar;rice wine vinegar,"Unseasoned rice vinegar; USDA has no record, distilled vinegar is the closest (near zero calories)."
+white-vinegar,White distilled vinegar,condiments,plant,false,false,false,172237,,white vinegar;distilled vinegar;vinegar,
+cornstarch,Cornstarch,pantry,plant,false,false,false,169698,,cornstarch;corn starch,
+olive-oil,Extra-virgin olive oil,oils,plant,false,false,false,171413,,olive oil;extra virgin olive oil;extra-virgin olive oil,
+sesame-oil,Toasted sesame oil,oils,plant,false,false,false,171016,sesame,sesame oil,
+ghee,Ghee,dairy,dairy,false,false,false,173412,milk,ghee;clarified butter,"USDA butter oil, anhydrous."
+rice-long-grain-dry,"Long-grain white rice (basmati or jasmine), dry",grains,plant,false,false,false,168877,,basmati rice;jasmine rice;long grain rice,"Enriched long-grain white rice, raw; stands in for basmati and jasmine."
+rice-medium-grain-dry,"Medium-grain white rice, dry",grains,plant,false,false,false,168879,,medium grain rice;calrose;nishiki,"Enriched medium-grain white rice, raw."
+rice-short-grain-dry,"Short-grain white rice, dry",grains,plant,false,false,false,168881,,short grain rice;sushi rice,"Enriched short-grain white rice, uncooked."
+rice-white-cooked,Cooked long-grain white rice,grains,plant,false,false,false,168878,,cooked rice;cooked jasmine rice;day-old rice,"Enriched long-grain white rice, cooked."
+chicken-thigh-boneless,"Chicken thigh, boneless, skinless",poultry,poultry,false,false,false,173627,,boneless skinless chicken thighs;chicken thighs boneless,"SR Legacy dark meat, thigh, meat only, raw. One thigh without skin = 149 g."
+chicken-breast-boneless,"Chicken breast, boneless, skinless",poultry,poultry,false,false,false,171077,,boneless skinless chicken breast;chicken breast,"SR Legacy breast, skinless, boneless, meat only, raw."
+chicken-breast-skin-on,"Chicken breast, skin-on (edible part)",poultry,poultry,false,false,false,171474,,bone-in skin-on chicken breast,"SR Legacy breast, meat and skin, raw. Weigh without the bone."
+salmon,Salmon,seafood,fish,false,false,false,175167,fish,salmon;sushi-grade salmon,"Atlantic, farmed, raw."
+tuna,Ahi tuna (yellowfin),seafood,fish,false,false,false,175159,fish,ahi tuna;yellowfin tuna;akami,"Yellowfin, fresh, raw."
+beef-ground-lean,"Ground beef, 95% lean",meat,beef,false,false,false,171790,,96% lean ground beef;95% lean ground beef;extra lean ground beef,USDA's leanest raw ground beef is 95/5; used for 96% lean.
+beef-ribeye,Ribeye,meat,beef,false,false,false,168612,,ribeye;rib eye;shabu-shabu beef,"Rib eye, small end, lean and fat, trimmed to 0 in fat, choice, raw."
+pork-ground,Ground pork,meat,pork,false,false,false,167902,,ground pork,"Fresh ground pork, raw (about 21% fat; he asks for 70% lean, so fat is understated)."
+egg,Egg,dairy,egg,false,false,false,171287,egg,egg;eggs;large egg,"Whole, raw. Large = 50 g."
+egg-yolk,Egg yolk,dairy,egg,false,false,false,172184,egg,egg yolk;egg yolks,Large yolk = 17 g.
+broccoli,Broccoli,produce,plant,false,false,false,170379,,broccoli;broccoli florets,
+cauliflower,Cauliflower,produce,plant,false,false,false,169986,,cauliflower,
+carrot,Carrot,produce,plant,false,false,false,170393,,carrot;carrots,Large = 72 g.
+edamame,"Edamame, shelled, frozen",produce,plant,false,false,false,168410,soy,edamame;shelled edamame,
+avocado,Avocado,produce,plant,false,false,false,171706,,avocado;avocados;hass avocado,California (Hass). One fruit without skin and seed = 136 g (extra_portions.csv).
+green-onion,Green onion,produce,plant,false,false,false,170005,,green onion;green onions;scallion;scallions,Medium = 15 g.
+shallot,Shallot,produce,plant,false,false,false,170499,,shallot;shallots,USDA lists no per-shallot weight; recipes give grams.
+onion,Onion (yellow or white),produce,plant,false,false,false,170000,,onion;yellow onion;white onion,"Medium = 110 g, small = 70 g."
+onion-sweet,Sweet onion,produce,plant,false,false,false,170008,,sweet onion;vidalia onion,One onion = 331 g (extra_portions.csv).
+tomato,Tomato,produce,plant,false,false,false,170457,,tomato;tomatoes;roma tomato;plum tomato,"Roma = USDA plum tomato, 62 g (extra_portions.csv)."
+tomatillo,Tomatillo,produce,plant,false,false,false,168566,,tomatillo;tomatillos,Medium = 34 g.
+jalapeno,Jalapeño,produce,plant,false,false,false,168576,,jalapeno;jalapeño;jalapenos,One pepper = 14 g.
+red-chili,"Fresh red chili (Fresno, bird's eye)",produce,plant,false,false,false,170106,,fresno chili;red fresno;red chili;bird's eye chili;red jalapeno,"USDA hot chili, red, raw; one pepper = 45 g, which fits a Fresno, not a bird's eye (weigh those)."
+green-chili,"Fresh green chili (Thai, serrano)",produce,plant,false,false,false,170497,,green chili;thai green chili;serrano,"USDA hot chili, green, raw."
+dried-chili,"Dried chile (árbol, guajillo)",spices,plant,false,false,false,168570,,chile de arbol;chiles de arbol;guajillo;dried chili,"USDA hot chile, sun-dried; one pepper = 0.5 g fits a chile de árbol (weigh guajillos)."
+ancho-chili,Dried ancho chile,spices,plant,false,false,false,169396,,ancho;ancho chile,One pepper = 17 g.
+cilantro,Cilantro,herbs,plant,false,false,false,169997,,cilantro;coriander leaves,
+parsley,Parsley,herbs,plant,false,false,false,170416,,parsley;flat-leaf parsley,
+lettuce-iceberg,Iceberg lettuce,produce,plant,false,false,false,169248,,iceberg;iceberg lettuce,Medium head = 539 g.
+cucumber,Cucumber,produce,plant,false,false,false,168409,,cucumber;english cucumber,With peel; one cucumber (8 1/4 in) = 301 g (extra_portions.csv).
+radish,Radish,produce,plant,false,false,false,169276,,radish;radishes;red radish,Medium = 4.5 g.
+lime-juice,Lime juice,produce,plant,false,false,false,168156,,lime juice;lime,One lime yields 44 g.
+lemon-juice,Lemon juice,produce,plant,false,false,false,167747,,lemon juice;lemon;yuzu juice,One lemon yields 48 g. Also stands in for yuzu juice.
+ginger,Ginger,produce,plant,false,false,false,169231,,ginger;fresh ginger;galangal,Also stands in for galangal (he says ginger works).
+turmeric,Ground turmeric,spices,plant,false,false,false,172231,,turmeric,
+cumin,Cumin,spices,plant,false,false,false,170923,,cumin;ground cumin;cumin seeds,
+coriander,Ground coriander,spices,plant,false,false,false,170922,,coriander;ground coriander,
+paprika,Paprika (incl. smoked),spices,plant,false,false,false,171329,,paprika;smoked paprika,USDA has no smoked paprika; plain paprika.
+kashmiri-chili,Kashmiri chili powder,spices,plant,false,false,false,171329,,kashmiri chili;kashmiri chili powder,No USDA record; mild paprika is the closest.
+cayenne,Cayenne pepper,spices,plant,false,false,false,170932,,cayenne,
+oregano-dried,Dried oregano,spices,plant,false,false,false,171328,,dried oregano;oregano,Use the 'leaves' teaspoon (1 g).
+onion-powder,Onion powder,spices,plant,false,false,false,171327,,onion powder,
+garlic-powder,Garlic powder,spices,plant,false,false,false,171325,,garlic powder,
+cinnamon,Cinnamon,spices,plant,false,false,false,171320,,cinnamon;ground cinnamon;cinnamon stick,
+kasuri-methi,Kasuri methi (dried fenugreek leaves),spices,plant,false,false,false,171324,,kasuri methi;methi;fenugreek leaves,No USDA record for the leaves; fenugreek seed is the closest.
+garam-masala,Garam masala,spices,plant,false,false,false,454414,,garam masala,Branded record (MDH garam masala).
+msg,MSG (monosodium glutamate),pantry,plant,false,false,false,2568847,,msg;monosodium glutamate;accent,Branded record (Ajinomoto MSG umami seasoning).
+chicken-broth,Chicken stock or broth,pantry,poultry,false,false,false,174536,,chicken stock;chicken broth,Ready-to-serve chicken broth.
+chicken-bouillon,Chicken bouillon powder,pantry,poultry,true,false,false,171562,wheat;soy,chicken bouillon;bouillon powder,"Dry chicken bouillon. Commercial bouillons often contain wheat and soy, so flagged; check the label."
+mayonnaise,Mayonnaise,condiments,egg,false,false,false,171009,egg,mayonnaise;mayo;kewpie,Regular mayonnaise; also stands in for Kewpie.
+mayonnaise-light,Light mayonnaise,condiments,egg,false,false,false,173594,egg,light mayo;light mayonnaise,
+sour-cream,Sour cream,dairy,dairy,false,false,false,171257,milk,sour cream,
+sriracha,Sriracha,condiments,plant,false,false,false,171186,,sriracha,
+mustard-yellow,Yellow mustard,condiments,plant,false,false,false,172234,,yellow mustard;mustard,
+american-cheese,American cheese,dairy,dairy,false,true,false,170853,milk,american cheese;american cheese slice,"Pasteurized process. Rennet source varies, so treated as not vegetarian. A 3/4 oz slice = 21 g."
+oaxaca-cheese,Oaxaca cheese (quesillo),dairy,dairy,false,true,false,170845,milk,oaxaca cheese;quesillo,"No USDA record; whole-milk mozzarella is the closest. Rennet source varies, so treated as not vegetarian."
+milk-skim,Skim milk,dairy,dairy,false,false,false,171269,milk,skim milk;nonfat milk,
+yogurt-whole,"Whole-milk yogurt, plain",dairy,dairy,false,false,false,171284,milk,whole milk yogurt;plain yogurt;yogurt,
+tomato-paste,Tomato paste,pantry,plant,false,false,false,170459,,tomato paste,No salt added.
+tomatoes-crushed,"Crushed tomatoes, canned",pantry,plant,false,false,false,170501,,crushed tomatoes,
+pita,Pita bread,grains,plant,true,false,false,174915,wheat,pita;pita bread,
+flour-tortilla,Flour tortilla,grains,plant,true,false,false,167535,wheat,flour tortilla;flour tortillas,One USDA tortilla = 49 g; large burrito tortillas are heavier (recipes give grams).
+hamburger-bun,Whole-wheat hamburger bun,grains,plant,true,false,false,174090,wheat,burger bun;hamburger bun;dave's killer bread burger buns,Whole-wheat roll; one roll = 56 g.
+dill-pickle,Dill pickle,condiments,plant,false,false,false,168558,,dill pickle;dill pickles;pickles,Large (4 in) = 135 g.
+masa-harina,Masa harina,grains,plant,false,false,false,169694,,masa harina;masa flour,Enriched white corn masa flour; 1 cup = 114 g.
+hash-brown,Frozen hash brown patty,produce,plant,false,false,false,170043,,hash brown;hash browns;hash brown patty,"Plain frozen hash browns, unprepared; frying oil not included."
+mustard-oil,Mustard oil,oils,plant,false,false,false,172337,,mustard oil,
+harissa,Harissa paste,condiments,plant,false,false,false,2546030,,harissa;harissa paste,Branded harissa paste record; brands vary a lot in oil and heat.
+mirin,Mirin,condiments,plant,false,false,true,2039206,,mirin;aji-mirin,Branded record (Kikkoman Aji-Mirin); contains alcohol.
+gochujang,Gochujang,condiments,plant,true,false,false,2244609,soy;wheat,gochujang,Branded gochujang sauce record. Most gochujang contains wheat and soy.
+kecap-manis,Kecap manis (sweet soy sauce),condiments,plant,true,false,false,492571,soy;wheat,kecap manis;sweet soy sauce,Branded record (ABC sweet soy sauce).
+shrimp-paste,"Shrimp paste (terasi, belacan)",condiments,shellfish,false,false,false,2032323,shellfish,shrimp paste;terasi;belacan,Branded dried shrimp paste (blachan) record.
+furikake,Furikake,condiments,plant,true,false,false,2195707,sesame;soy;wheat,furikake,"Branded nori furikake record. Furikake varies; versions with bonito contain fish. Flagged for sesame, soy and wheat to be safe."

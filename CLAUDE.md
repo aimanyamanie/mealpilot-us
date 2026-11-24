@@ -14,10 +14,14 @@ up in `docs/decisions/YYYY-MM-DD-topic.md`.
 
 ## How a recipe gets in
 
-1. Aiman supplies a YouTube transcript JSON (`video_id`, `transcript[]` of
-   `{text, start, duration}`, `metadata`). Save it as
+1. Get the transcript: `python fetch_transcript.py <video id or URL> ...` saves
+   TranscriptAPI's JSON (`video_id`, `language`, `transcript[]` of
+   `{text, start, duration}`, `length_seconds`, `metadata`) unchanged as
    `pipeline/data/transcripts/<video_id>.json` (gitignored; the loader also
-   stores it in `sources.transcript`).
+   stores it in `sources.transcript`). 1 credit per video; existing files are
+   skipped. In chat, Claude uses the TranscriptAPI connector only to find videos
+   and check captions (free: latest channel videos, video info), not to save
+   transcripts, because files must be the API's exact bytes.
 2. Claude extracts the recipe into `pipeline/recipes/<slug>.json` (format: copy
    the Chicken Alfredo file). Rules for extraction:
    - Every ingredient line has `basis`: `stated` (the creator gave the amount
@@ -81,7 +85,8 @@ go in `pipeline/migrations/` (dated) and in `schema.sql`; apply one with
 ## Neon
 
 - Project `mealpilot-us` (`patient-thunder-66435711`), `aws-us-east-2`, branch `main`.
-- `.env` holds `DATABASE_URL` and `FDC_API_KEY` (gitignored; see `.env.example`).
+- `.env` holds `DATABASE_URL`, `FDC_API_KEY` and `TRANSCRIPT_API_KEY` (gitignored;
+  see `.env.example`).
   Refresh the URL with `neon connection-string main --project-id patient-thunder-66435711`.
 - Without `FDC_API_KEY`, USDA calls use DEMO_KEY (30 an hour). Records are cached
   in `pipeline/data/usda/`.

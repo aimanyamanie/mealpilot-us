@@ -1,0 +1,238 @@
+{
+  "slug": "ribeye-steak-tacos-cheese-skirt-joshua-weissman",
+  "market": "US",
+  "title": "Thin Ribeye Steak Tacos with Crispy Cheese Skirt",
+  "summary": "Paper-thin seared ribeye on homemade corn tortillas fried onto a crispy Oaxaca cheese skirt, topped with a charred tomatillo-avocado salsa, white onion, cilantro and lime.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/0aS89GsHIBQ.json"
+  },
+  "cuisine": "Mexican",
+  "course": "main",
+  "meal_slots": [
+    "lunch",
+    "dinner"
+  ],
+  "servings": 4,
+  "servings_basis": "stated",
+  "prep_minutes": 30,
+  "cook_minutes": 30,
+  "times_basis": "stated",
+  "difficulty": "medium",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'The Best Steak Tacos at Home' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe for the same dish: https://www.joshuaweissman.com/recipes/the-perfect-steak-tacos (serves 4, prep 30 min, cook 30 min). The video states the salsa, the masa and water, about 1 lb of beef and half an onion for garnish. From the written recipe: 1 lb quesillo/Oaxaca cheese (the video only says 'a little bit, about the size of the tortilla'). The dough makes 15-20 tortillas and he expects 3-4 tacos each, so we count all of it. Our estimates: half a bunch of cilantro is about 40 g, 1 tsp kosher salt in the salsa, and 1 tsp kosher salt plus 1/4 tsp pepper on the beef. Not counted: salt in the masa, flaky salt, lime squeezed at the table and the cilantro leaves on top (no amounts). The water in the dough is counted, so the serving weight includes water that partly cooks off. Oaxaca cheese uses USDA whole-milk mozzarella; ribeye uses USDA ribeye, lean and fat.",
+  "ingredients": [
+    {
+      "group": "Green salsa",
+      "ingredient": "tomatillo",
+      "text": "5 tomatillos (on the larger side), husked and charred",
+      "quantity": 5,
+      "unit": "medium",
+      "basis": "stated",
+      "evidence": "five tomatillos ideally on the larger side",
+      "preparation": "charred, skins rubbed off",
+      "t": 61.68
+    },
+    {
+      "group": "Green salsa",
+      "ingredient": "jalapeno",
+      "text": "1 jalapeño, charred and stemmed",
+      "quantity": 1,
+      "unit": "pepper",
+      "basis": "stated",
+      "evidence": "don't forget your jalapeno one jalapeno",
+      "t": 85.84
+    },
+    {
+      "group": "Green salsa",
+      "ingredient": "onion",
+      "text": "1/2 white onion",
+      "quantity": "1/2",
+      "unit": "medium",
+      "basis": "stated",
+      "evidence": "half of a white onion",
+      "t": 148.72
+    },
+    {
+      "group": "Green salsa",
+      "ingredient": "avocado",
+      "text": "1 medium avocado, peeled and pitted",
+      "quantity": 1,
+      "unit": "whole",
+      "basis": "stated",
+      "evidence": "one whole medium sized avocado",
+      "t": 148.72
+    },
+    {
+      "group": "Green salsa",
+      "ingredient": "cilantro",
+      "text": "1/2 bunch cilantro, stems and leaves",
+      "quantity": 40,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "a half bunch of your finest cilantro",
+      "t": 171.2
+    },
+    {
+      "group": "Green salsa",
+      "ingredient": "kosher-salt",
+      "text": "1 tsp kosher salt",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "a generous couple pinches of kosher salt",
+      "t": 181.52
+    },
+    {
+      "group": "Green salsa",
+      "ingredient": "lime-juice",
+      "text": "Juice of 2 limes",
+      "quantity": 2,
+      "unit": "lime",
+      "basis": "stated",
+      "evidence": "the juice of two limes",
+      "t": 186.64,
+      "qualifier": "yields"
+    },
+    {
+      "group": "Corn tortillas",
+      "ingredient": "masa-harina",
+      "text": "2 cups masa harina",
+      "quantity": 2,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "literally just two cups of masa flour",
+      "t": 240.64
+    },
+    {
+      "group": "Corn tortillas",
+      "ingredient": "kosher-salt",
+      "text": "A generous pinch of salt",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "a generous pinch of salt to my mas flour",
+      "in_nutrition": false,
+      "excluded_reason": "amount not stated",
+      "t": 244.56
+    },
+    {
+      "group": "Corn tortillas",
+      "ingredient": "water",
+      "text": "2 cups water",
+      "quantity": 2,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "and then two cups of water",
+      "t": 248.56
+    },
+    {
+      "group": "Steak",
+      "ingredient": "beef-ribeye",
+      "text": "1 lb ribeye, sliced paper-thin (or shabu-shabu beef)",
+      "quantity": 1,
+      "unit": "lb",
+      "basis": "stated",
+      "evidence": "you're going to get about a pound of that roughly",
+      "t": 417.6
+    },
+    {
+      "group": "Steak",
+      "ingredient": "kosher-salt",
+      "text": "1 tsp kosher salt",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "season with salt and pepper flip",
+      "t": 640.56
+    },
+    {
+      "group": "Steak",
+      "ingredient": "black-pepper",
+      "text": "1/4 tsp black pepper",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "season with salt and pepper flip",
+      "qualifier": "ground",
+      "t": 640.56
+    },
+    {
+      "group": "Cheese skirt",
+      "ingredient": "oaxaca-cheese",
+      "text": "1 lb quesillo or Oaxaca cheese, coarsely grated",
+      "quantity": 1,
+      "unit": "lb",
+      "basis": "stated",
+      "evidence": "and i'm using cassio cheese",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/the-perfect-steak-tacos",
+      "amount_note": "The video says a little cheese about the size of each tortilla; the written recipe gives 1 lb.",
+      "t": 494.24
+    },
+    {
+      "group": "Garnish",
+      "ingredient": "onion",
+      "text": "1/2 white onion, finely diced",
+      "quantity": "1/2",
+      "unit": "medium",
+      "basis": "stated",
+      "evidence": "you only need a half onions worth",
+      "preparation": "brunoise",
+      "t": 538.32
+    },
+    {
+      "group": "Garnish",
+      "ingredient": "cilantro",
+      "text": "Cilantro leaves, flaky salt and lime cheeks from 3 limes",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "cilantro onion lime wedge",
+      "in_nutrition": false,
+      "excluded_reason": "garnish, amount not stated",
+      "t": 517.12
+    }
+  ],
+  "steps": [
+    {
+      "t": 62,
+      "text": "Husk the tomatillos and char them and the jalapeño over an open flame (or under the broiler) 3-5 minutes, turning, until blackened. Steam in a covered bowl, then rub off most of the skin with a damp towel; don't rinse."
+    },
+    {
+      "t": 140,
+      "text": "Blend the tomatillos, stemmed jalapeño, half onion, avocado, cilantro, salt and lime juice until smooth. Taste and add salt."
+    },
+    {
+      "t": 237,
+      "text": "Mix the masa harina, a pinch of salt and the water by hand into a smooth dough. Press 40 g balls into tortillas between plastic."
+    },
+    {
+      "t": 307,
+      "text": "Cook each tortilla on a hot dry griddle over medium-high, about 45-60 seconds, then flip briefly; keep them warm and pliable in a towel or tortilla holder. You'll get 15-20."
+    },
+    {
+      "t": 376,
+      "text": "Slice the ribeye as thin as paper (or buy shabu-shabu beef). Coarsely grate the cheese. Finely dice half an onion and cut the limes into cheeks."
+    },
+    {
+      "t": 619,
+      "text": "Melt a tortilla-sized layer of cheese on a medium griddle; when half melted, set a tortilla on it and cook 1-2 minutes until the cheese is crisp."
+    },
+    {
+      "t": 637,
+      "text": "Meanwhile sear a slice of beef on medium-high 1 minute, season with salt and pepper, flip, sear 30 seconds and salt again."
+    },
+    {
+      "t": 650,
+      "text": "Flip the tortilla cheese side up, add the beef, salsa, onion, flaky salt, cilantro and a squeeze of lime. Repeat."
+    }
+  ]
+}

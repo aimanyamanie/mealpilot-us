@@ -1,0 +1,367 @@
+{
+  "slug": "chorizo-breakfast-burrito-joshua-weissman",
+  "market": "US",
+  "title": "Chorizo, Egg and Hash Brown Breakfast Burrito",
+  "summary": "A toasted flour tortilla filled with homemade guajillo-ancho chorizo, soft-scrambled eggs, a crispy hash brown, thick avocado and Oaxaca cheese, with a creamy confit-garlic jalapeño sauce.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/f0e9cuhGiPg.json"
+  },
+  "cuisine": "Mexican-American",
+  "course": "breakfast",
+  "meal_slots": [
+    "breakfast"
+  ],
+  "servings": 6,
+  "servings_basis": "stated",
+  "prep_minutes": 30,
+  "cook_minutes": 60,
+  "times_basis": "stated",
+  "difficulty": "hard",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'The Perfect Breakfast Burrito' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe for the same dish: https://www.joshuaweissman.com/recipes/the-perfect-breakfast-burrito (serves 6, prep 30 min, cook 1 hour). The video states the garlic oil, sauce, chorizo, eggs and butter, and 'about six' burritos. Where the video and the written recipe differ, the video wins: chorizo vinegar 1/4 cup (page: 2 Tbsp) and salt 1 Tbsp (page: 1 Tbsp + 1 tsp). From the written recipe: 6 hash browns, 3 avocados, 6 large flour tortillas, 2 cups Oaxaca cheese (the page also says 400 g, which does not match 2 cups shredded; we use the cup measure). Our estimate: 1 tsp kosher salt in the eggs. Not counted: the jalapeño sauce and the garlic oil it is made from (drizzled or on the side; the sauce takes 1-1 1/2 cups of the oil, about 2,000-3,000 kcal for the batch), the frying oil for the hash browns, and salt, lime and flaky salt 'to taste'. Chorizo chiles use USDA sun-dried hot chile; Oaxaca cheese uses USDA whole-milk mozzarella. Guajillo weight (4 chiles, about 24 g) is our estimate; ancho uses USDA dried ancho (17 g each); árbol uses USDA sun-dried hot chile (0.5 g each). Hash browns use USDA plain frozen hash browns, unprepared, so the oil they absorb in the fryer is not counted.",
+  "ingredients": [
+    {
+      "group": "Garlic oil and jalapeño sauce (on the side)",
+      "ingredient": "garlic",
+      "text": "1 cup peeled garlic cloves, confited",
+      "quantity": 1,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "one cup of peeled garlic cloves",
+      "in_nutrition": false,
+      "excluded_reason": "jalapeño sauce, drizzled or served on the side; how much is eaten varies",
+      "t": 37.48
+    },
+    {
+      "group": "Garlic oil and jalapeño sauce (on the side)",
+      "ingredient": "canola-oil",
+      "text": "2 cups neutral oil (about 1-1 1/2 cups go into the sauce)",
+      "quantity": 2,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "cups of veg oil",
+      "in_nutrition": false,
+      "excluded_reason": "jalapeño sauce, drizzled or served on the side; how much is eaten varies",
+      "t": 40.8
+    },
+    {
+      "group": "Garlic oil and jalapeño sauce (on the side)",
+      "ingredient": "jalapeno",
+      "text": "8 jalapeños, charred and peeled",
+      "quantity": 8,
+      "unit": "pepper",
+      "basis": "stated",
+      "evidence": "start with eight jalapeños",
+      "in_nutrition": false,
+      "excluded_reason": "jalapeño sauce, drizzled or served on the side; how much is eaten varies",
+      "t": 93.8
+    },
+    {
+      "group": "Garlic oil and jalapeño sauce (on the side)",
+      "ingredient": "egg-yolk",
+      "text": "2 large egg yolks",
+      "quantity": 2,
+      "unit": "large",
+      "basis": "stated",
+      "evidence": "two big egg yolks",
+      "in_nutrition": false,
+      "excluded_reason": "jalapeño sauce, drizzled or served on the side; how much is eaten varies",
+      "t": 184.6
+    },
+    {
+      "group": "Garlic oil and jalapeño sauce (on the side)",
+      "ingredient": "lime-juice",
+      "text": "Juice of 3 limes and 1 Tbsp lime zest",
+      "quantity": 3,
+      "unit": "lime",
+      "basis": "stated",
+      "evidence": "the juice of three limes",
+      "in_nutrition": false,
+      "excluded_reason": "jalapeño sauce, drizzled or served on the side; how much is eaten varies",
+      "t": 184.6,
+      "qualifier": "yields"
+    },
+    {
+      "group": "Garlic oil and jalapeño sauce (on the side)",
+      "ingredient": "cilantro",
+      "text": "1/2 bunch cilantro, stems and all (about 3/4 cup)",
+      "quantity": "3/4",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "about 3/4 of a cup of cilantro fresh",
+      "in_nutrition": false,
+      "excluded_reason": "jalapeño sauce, drizzled or served on the side; how much is eaten varies",
+      "t": 197.519
+    },
+    {
+      "group": "Chorizo",
+      "ingredient": "dried-chili",
+      "text": "4 dried guajillo chiles, seeded",
+      "quantity": 24,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "four dried guajillo chilies",
+      "preparation": "stemmed, seeded, rehydrated",
+      "t": 285.04
+    },
+    {
+      "group": "Chorizo",
+      "ingredient": "ancho-chili",
+      "text": "2 dried ancho chiles, seeded",
+      "quantity": 2,
+      "unit": "pepper",
+      "basis": "stated",
+      "evidence": "two dried ancho chilies",
+      "preparation": "stemmed, seeded, rehydrated",
+      "t": 309.76
+    },
+    {
+      "group": "Chorizo",
+      "ingredient": "dried-chili",
+      "text": "4 chiles de árbol, seeded",
+      "quantity": 4,
+      "unit": "pepper",
+      "basis": "stated",
+      "evidence": "four chile de árbol",
+      "preparation": "stemmed, seeded, rehydrated",
+      "t": 313.04
+    },
+    {
+      "group": "Chorizo",
+      "ingredient": "cinnamon",
+      "text": "1/4 tsp ground cinnamon",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1/4 tsp of cinnamon",
+      "t": 372.16
+    },
+    {
+      "group": "Chorizo",
+      "ingredient": "onion-powder",
+      "text": "1/2 tsp onion powder",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1/2 tsp of onion powder",
+      "t": 375.44
+    },
+    {
+      "group": "Chorizo",
+      "ingredient": "coriander",
+      "text": "1 tsp ground coriander",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 tsp of coriander",
+      "t": 375.44
+    },
+    {
+      "group": "Chorizo",
+      "ingredient": "cumin",
+      "text": "2 tsp ground cumin",
+      "quantity": 2,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "2 tsps of ground cumin",
+      "t": 377.68
+    },
+    {
+      "group": "Chorizo",
+      "ingredient": "kosher-salt",
+      "text": "1 Tbsp kosher salt",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "1 tbsp of kosher salt",
+      "t": 377.68
+    },
+    {
+      "group": "Chorizo",
+      "ingredient": "garlic",
+      "text": "2 cloves garlic",
+      "quantity": 2,
+      "unit": "clove",
+      "basis": "stated",
+      "evidence": "two cloves of fresh",
+      "t": 381.16
+    },
+    {
+      "group": "Chorizo",
+      "ingredient": "white-vinegar",
+      "text": "1/4 cup white distilled vinegar",
+      "quantity": "1/4",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "1/4 cup of white",
+      "t": 384.489
+    },
+    {
+      "group": "Chorizo",
+      "ingredient": "pork-ground",
+      "text": "1 1/2 lb fatty ground pork (ideally 70% lean)",
+      "quantity": "1 1/2",
+      "unit": "lb",
+      "basis": "stated",
+      "evidence": "we have a pound and a half of ground pork",
+      "t": 409.0
+    },
+    {
+      "group": "Hash browns",
+      "ingredient": "hash-brown",
+      "text": "6 frozen hash brown patties, deep-fried",
+      "quantity": 384,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "but look we're already doing a lot here so frozen patties",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/the-perfect-breakfast-burrito",
+      "amount_note": "The video uses one per burrito; the written recipe gives 6. The 64 g weight per frozen patty is our estimate.",
+      "t": 523.479
+    },
+    {
+      "group": "Hash browns",
+      "ingredient": "canola-oil",
+      "text": "Neutral oil, for frying at 350°F",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "we're frying these at 350 f",
+      "in_nutrition": false,
+      "excluded_reason": "frying oil; how much is absorbed is unknown",
+      "t": 531.8
+    },
+    {
+      "group": "Eggs",
+      "ingredient": "butter-unsalted",
+      "text": "2 1/2 Tbsp unsalted butter",
+      "quantity": "2 1/2",
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "start off with 2 and 1/2 tbsp",
+      "t": 605.8
+    },
+    {
+      "group": "Eggs",
+      "ingredient": "egg",
+      "text": "12 large eggs",
+      "quantity": 12,
+      "unit": "large",
+      "basis": "stated",
+      "evidence": "you'll need about 12 eggs",
+      "t": 558.44
+    },
+    {
+      "group": "Eggs",
+      "ingredient": "kosher-salt",
+      "text": "1 tsp kosher salt",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "you can season these a little bit with salt",
+      "t": 621.2
+    },
+    {
+      "group": "Assembly",
+      "ingredient": "avocado",
+      "text": "3 avocados, in 1/2-1 inch slices",
+      "quantity": 3,
+      "unit": "whole",
+      "basis": "stated",
+      "evidence": "so for your avocados",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/the-perfect-breakfast-burrito",
+      "amount_note": "No count in the video; the written recipe gives 3 avocados.",
+      "t": 689.16
+    },
+    {
+      "group": "Assembly",
+      "ingredient": "lime-juice",
+      "text": "Flaky salt and lime juice, to taste",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "add a light sprinkling of flaky salt and squeeze a little bit of lime juice",
+      "in_nutrition": false,
+      "excluded_reason": "amount not stated",
+      "t": 700.92
+    },
+    {
+      "group": "Assembly",
+      "ingredient": "flour-tortilla",
+      "text": "6 large flour tortillas",
+      "quantity": 420,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "you're going to lay down a large hot flour tortilla",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/the-perfect-breakfast-burrito",
+      "amount_note": "The video says about six burritos, one large tortilla each; the written recipe gives 6. 70 g per large tortilla is our estimate (USDA's tortilla is 49 g).",
+      "t": 707.44
+    },
+    {
+      "group": "Assembly",
+      "ingredient": "oaxaca-cheese",
+      "text": "2 cups shredded Oaxaca cheese",
+      "quantity": 2,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "a sprinkle of shredded ... oaxaca cheese",
+      "qualifier": "shredded",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/the-perfect-breakfast-burrito",
+      "amount_note": "No amount in the video; the written recipe gives 2 cups.",
+      "t": 724.36
+    }
+  ],
+  "steps": [
+    {
+      "t": 38,
+      "text": "Garlic oil: gently cook the garlic cloves in the oil over medium-low (low if it bubbles hard) until soft and lightly caramelized. Strain, keeping the oil and the garlic."
+    },
+    {
+      "t": 92,
+      "text": "Char the jalapeños over an open flame, 2-4 minutes, covered bowl to steam, then rub off the skins and remove the stems (and seeds if you want it milder)."
+    },
+    {
+      "t": 184,
+      "text": "Blend the jalapeños, egg yolks, lime juice and zest, confit garlic, cilantro and salt, loosening with cold water. With the blender running, stream in about half to three-quarters of the garlic oil until creamy. Adjust salt and lime; refrigerate."
+    },
+    {
+      "t": 290,
+      "text": "Chorizo: seed the guajillo, ancho and árbol chiles, simmer them in water 3-5 minutes until soft, then blend with the spices, salt, garlic and vinegar, adding a little of the chile water to make a thick purée."
+    },
+    {
+      "t": 410,
+      "text": "Knead the cooled purée into the ground pork. Refrigerate a few hours or overnight if you can."
+    },
+    {
+      "t": 440,
+      "text": "Press the chorizo into a hot 12-inch skillet with a little oil, sear 2-3 minutes, then break it up finely and cook 5-8 minutes more, until crisp and cooked through."
+    },
+    {
+      "t": 518,
+      "text": "Deep-fry the frozen hash brown patties at 350°F for 2-4 minutes, until golden. Drain and salt."
+    },
+    {
+      "t": 597,
+      "text": "Whisk the eggs. Melt the butter in a nonstick skillet over medium heat, add the eggs, season, and keep them moving, taking the pan on and off the heat, until small, just-set curds form. Transfer to a plate."
+    },
+    {
+      "t": 685,
+      "text": "Quarter, peel and thickly slice the avocados; sprinkle with flaky salt and lime juice."
+    },
+    {
+      "t": 705,
+      "text": "On a hot flour tortilla, layer chorizo, eggs, a split hash brown, two avocado slices and Oaxaca cheese. Fold in the sides, roll tightly, and toast seam side down in a skillet over medium heat 1-2 minutes per side. Serve with the jalapeño sauce."
+    }
+  ]
+}

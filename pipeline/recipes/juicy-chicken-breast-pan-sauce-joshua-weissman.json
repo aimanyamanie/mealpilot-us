@@ -1,0 +1,148 @@
+{
+  "slug": "juicy-chicken-breast-pan-sauce-joshua-weissman",
+  "market": "US",
+  "title": "Slow-Roasted Chicken Breast with Lemon Pan Sauce",
+  "summary": "Bone-in, skin-on chicken breast roasted low at 275°F to 155°F, seared for crisp skin, then served with a quick pan sauce of shallot, garlic, stock, lemon, butter and parsley.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/PlFrLeD5sUI.json"
+  },
+  "cuisine": "American",
+  "course": "main",
+  "meal_slots": [
+    "lunch",
+    "dinner"
+  ],
+  "servings": 2,
+  "servings_basis": "estimated",
+  "prep_minutes": 5,
+  "cook_minutes": 50,
+  "times_basis": "estimated",
+  "difficulty": "easy",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "49-second Short, 'Juiciest Chicken Breasts Ever', on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw); auto-generated captions only. The video gives no amounts and we found no written recipe, so every amount is our estimate: two bone-in, skin-on breast halves (USDA edible weight, meat and skin, 290 g for the pair), 1 tsp kosher salt, 1 Tbsp oil (some stays in the pan), 1 shallot, 2 garlic cloves, 1/2 cup stock, 1 Tbsp lemon juice, 1 Tbsp butter, 1 Tbsp parsley. Servings (2) and times (about 45 minutes at 275°F, plus searing) are estimates.",
+  "ingredients": [
+    {
+      "group": "Chicken",
+      "ingredient": "chicken-breast-skin-on",
+      "text": "2 bone-in, skin-on chicken breast halves",
+      "quantity": 290,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "start with the skin on bone in chicken breast",
+      "t": 1.72
+    },
+    {
+      "group": "Chicken",
+      "ingredient": "kosher-salt",
+      "text": "1 tsp kosher salt",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "season it and season with salt",
+      "t": 4.8
+    },
+    {
+      "group": "Chicken",
+      "ingredient": "canola-oil",
+      "text": "1 Tbsp neutral oil, enough to coat the pan",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "add enough oil to coat the bottom",
+      "t": 18.36
+    },
+    {
+      "group": "Pan sauce",
+      "ingredient": "shallot",
+      "text": "1 shallot, finely chopped",
+      "quantity": 40,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "if you add shallots garlic",
+      "preparation": "finely chopped",
+      "t": 27.52
+    },
+    {
+      "group": "Pan sauce",
+      "ingredient": "garlic",
+      "text": "2 cloves garlic, finely chopped",
+      "quantity": 2,
+      "unit": "clove",
+      "basis": "estimated",
+      "evidence": "if you add shallots garlic",
+      "preparation": "finely chopped",
+      "t": 27.52
+    },
+    {
+      "group": "Pan sauce",
+      "ingredient": "chicken-broth",
+      "text": "1/2 cup chicken stock",
+      "quantity": "1/2",
+      "unit": "cup",
+      "basis": "estimated",
+      "evidence": "deglaze with chicken stock and lemon juice",
+      "t": 29.08
+    },
+    {
+      "group": "Pan sauce",
+      "ingredient": "lemon-juice",
+      "text": "1 Tbsp lemon juice",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "deglaze with chicken stock and lemon juice",
+      "t": 29.08
+    },
+    {
+      "group": "Pan sauce",
+      "ingredient": "butter-unsalted",
+      "text": "1 Tbsp butter",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "melt with a little bit of butter",
+      "t": 32.0
+    },
+    {
+      "group": "Pan sauce",
+      "ingredient": "parsley",
+      "text": "1 Tbsp finely chopped parsley",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "a touch of finely chopped parsley",
+      "preparation": "finely chopped",
+      "t": 32.0
+    }
+  ],
+  "steps": [
+    {
+      "t": 3,
+      "text": "Season the bone-in, skin-on breasts with salt and set them on a wire rack over a sheet tray."
+    },
+    {
+      "t": 6,
+      "text": "Roast at 275°F until the thickest part reads 155°F (carryover brings it to 165°F). Rest 5 minutes."
+    },
+    {
+      "t": 15,
+      "text": "Heat a film of oil in a pan over medium-high and sear the chicken skin side down about 2 minutes, then the other side and the edges. Rest again."
+    },
+    {
+      "t": 27,
+      "text": "In the same pan, cook the shallot and garlic briefly, deglaze with the stock and lemon juice and reduce. Off the heat, swirl in the butter and parsley."
+    },
+    {
+      "t": 37,
+      "text": "Slice the chicken and serve it with the pan sauce."
+    }
+  ]
+}

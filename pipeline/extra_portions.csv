@@ -1,3 +1,9 @@
 ingredient,unit,qualifier,grams_per_unit,source_fdc_id,source_note
 parmigiano-reggiano,cup,grated,100,171247,"USDA SR Legacy 171247 'Cheese, parmesan, grated', 1 cup = 100 g. That is packaged grated cheese; fresh microplane gratings are fluffier, so this likely overstates the cheese."
 pecorino-romano,cup,grated,100,171247,"Borrowed from USDA 171247 grated parmesan (1 cup = 100 g); the romano record 171249 has no cup weight."
+kosher-salt,tsp,,3,173468,"Diamond Crystal kosher salt as weighed in Joshua Weissman's written recipes: 1 tsp = 3 g (USDA's table-salt tsp is 6 g)."
+kosher-salt,tbsp,,9,173468,"3 tsp of kosher salt at 3 g per tsp (Joshua Weissman's written recipes)."
+avocado,whole,,136,171706,"USDA 171706: 1 fruit, without skin and seed = 136 g."
+onion-sweet,whole,,331,170008,"USDA 170008: 1 onion = 331 g."
+tomato,whole,plum,62,170457,"USDA 170457: 1 plum tomato = 62 g (Roma)."
+cucumber,whole,,301,168409,"USDA 168409: 1 cucumber (8-1/4"") = 301 g."

@@ -1,0 +1,189 @@
+{
+  "slug": "low-calorie-smash-cheeseburger-joshua-weissman",
+  "market": "US",
+  "title": "Low-Calorie Double Smash Cheeseburger",
+  "summary": "Two thin smashed patties of 96% lean beef with one slice of American cheese, dill pickle planks and paper-thin rinsed onion on a toasted bun, with a light mayo, mustard and Sriracha sauce.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/uNM5ZvNkN1U.json"
+  },
+  "cuisine": "American",
+  "course": "main",
+  "meal_slots": [
+    "lunch",
+    "dinner"
+  ],
+  "servings": 4,
+  "servings_basis": "stated",
+  "prep_minutes": 3,
+  "cook_minutes": 5,
+  "times_basis": "stated",
+  "difficulty": "easy",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'The Best Low Calorie Burger Ever' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe for the same dish: https://www.joshuaweissman.com/recipes/easy-healthy-high-protein-cheeseburger-recipe (serves 4, prep 3 min, cook 5 min; it publishes 450 kcal, 15 g fat, 45 g protein, 44 g carbs per burger; the video says 33 g carbs). The video states the sauce, the beef (1.5 lb, eight 3 oz balls, two per burger), one cheese slice per burger, and the bun (Dave's Killer Bread 'Burger Buns Done Right', 160 kcal each). From the written recipe: 2 large dill pickles and 1/2 sweet onion. He uses 96% lean beef; USDA's closest raw record is 95% lean. The bun weight is our estimate: 60 g each makes the USDA whole-wheat bun about 160 kcal, matching what he says. Salt (1 tsp kosher) and pepper on the patties are our estimates; salt and pepper in the sauce are not counted.",
+  "ingredients": [
+    {
+      "group": "Sauce",
+      "ingredient": "mayonnaise-light",
+      "text": "1 Tbsp light mayonnaise",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "one tablespoon of a light mayo",
+      "t": 44.399
+    },
+    {
+      "group": "Sauce",
+      "ingredient": "mustard-yellow",
+      "text": "1 Tbsp yellow mustard",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "one tablespoon of yellow mustard",
+      "t": 56.48
+    },
+    {
+      "group": "Sauce",
+      "ingredient": "sriracha",
+      "text": "2 Tbsp Sriracha",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "2 tablespoons of sriracha",
+      "t": 58.079
+    },
+    {
+      "group": "Sauce",
+      "ingredient": "kosher-salt",
+      "text": "Salt and black pepper, to taste",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "add a little bit of salt to taste",
+      "in_nutrition": false,
+      "excluded_reason": "amount not stated",
+      "t": 68.799
+    },
+    {
+      "group": "Toppings",
+      "ingredient": "dill-pickle",
+      "text": "2 large dill pickles, sliced lengthwise into planks",
+      "quantity": 2,
+      "unit": "large",
+      "basis": "stated",
+      "evidence": "so the pickle i want whole",
+      "preparation": "sliced lengthwise a little under 1/4 inch",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/easy-healthy-high-protein-cheeseburger-recipe",
+      "amount_note": "No count in the video; the written recipe gives 2 large dill pickles.",
+      "t": 90.64
+    },
+    {
+      "group": "Toppings",
+      "ingredient": "onion-sweet",
+      "text": "1/2 sweet onion, sliced paper-thin, rinsed and drained",
+      "quantity": "1/2",
+      "unit": "whole",
+      "basis": "stated",
+      "evidence": "you can do a yellow onion or a sweet onion",
+      "preparation": "sliced paper-thin, rinsed",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/easy-healthy-high-protein-cheeseburger-recipe",
+      "amount_note": "No amount in the video; the written recipe gives 1/2 sweet onion.",
+      "t": 114.64
+    },
+    {
+      "group": "Burgers",
+      "ingredient": "beef-ground-lean",
+      "text": "1 1/2 lb 96% lean ground beef, in eight 3 oz balls",
+      "quantity": "1 1/2",
+      "unit": "lb",
+      "basis": "stated",
+      "evidence": "this is 1 and 12 lbs of 96 lean ground",
+      "t": 241.36
+    },
+    {
+      "group": "Burgers",
+      "ingredient": "kosher-salt",
+      "text": "1 tsp kosher salt",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "salt pepper and then now our next one",
+      "t": 429.919
+    },
+    {
+      "group": "Burgers",
+      "ingredient": "black-pepper",
+      "text": "1/4 tsp black pepper",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "salt pepper and then now our next one",
+      "qualifier": "ground",
+      "t": 429.919
+    },
+    {
+      "group": "Burgers",
+      "ingredient": "american-cheese",
+      "text": "4 slices American cheese (one per burger)",
+      "quantity": 4,
+      "unit": "slice",
+      "basis": "stated",
+      "evidence": "one slice of american cheese per burger not two",
+      "qualifier": "3/4 oz",
+      "t": 479.84
+    },
+    {
+      "group": "Burgers",
+      "ingredient": "hamburger-bun",
+      "text": "4 whole-grain burger buns (Dave's Killer Bread 'Burger Buns Done Right')",
+      "quantity": 240,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "the dave's killer bread buns",
+      "t": 324.8
+    }
+  ],
+  "steps": [
+    {
+      "t": 44,
+      "text": "Whisk the light mayo, mustard, Sriracha, salt and pepper. This is enough for four burgers."
+    },
+    {
+      "t": 92,
+      "text": "Slice the pickles lengthwise into planks a little under 1/4 inch thick."
+    },
+    {
+      "t": 114,
+      "text": "Slice the onion paper-thin (a mandoline helps), then rinse in cold water, ideally with ice, and drain well."
+    },
+    {
+      "t": 250,
+      "text": "Weigh the beef into eight 3 oz portions and roll them into tight, even balls."
+    },
+    {
+      "t": 340,
+      "text": "Toast the buns dry on both sides over medium heat, about 2 minutes, without butter."
+    },
+    {
+      "t": 400,
+      "text": "On a very hot, well-seasoned griddle or nonstick pan over medium-high heat, smash each ball under parchment to about 25% wider than the bun. Season with salt and pepper."
+    },
+    {
+      "t": 455,
+      "text": "Flip early, when the patty is about two-thirds cooked, so the lean beef stays juicy. Put one slice of cheese on one patty per burger; cook 1-2 minutes per side at most."
+    },
+    {
+      "t": 490,
+      "text": "Stack two patties per burger. Build: sauced bottom bun, pickles, onion, the cheesy double patty, and about a tablespoon of sauce on the top bun."
+    }
+  ]
+}

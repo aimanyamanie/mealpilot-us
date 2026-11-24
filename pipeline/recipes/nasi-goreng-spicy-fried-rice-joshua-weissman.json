@@ -1,0 +1,295 @@
+{
+  "slug": "nasi-goreng-spicy-fried-rice-joshua-weissman",
+  "market": "US",
+  "title": "Nasi Goreng (Spicy Indonesian Fried Rice)",
+  "summary": "Day-old jasmine rice wok-fried with chicken thigh, shallots, chilies, galangal and shrimp paste, seasoned with kecap manis, soy and MSG, and topped with a crispy fried egg, tomato, cucumber and lime.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/eC8gqjQRj1I.json"
+  },
+  "cuisine": "Indonesian",
+  "course": "main",
+  "meal_slots": [
+    "lunch",
+    "dinner"
+  ],
+  "servings": 4,
+  "servings_basis": "estimated",
+  "prep_minutes": 20,
+  "cook_minutes": 15,
+  "times_basis": "stated",
+  "difficulty": "medium",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'The Best Spicy Fried Rice Ever' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe for the same dish: https://www.joshuaweissman.com/recipes/best-spicy-fried-rice-recipe-nasi-goreng (prep 20 min plus day-old rice, cook 15 min; it gives no serving count). Servings (4) are our estimate: four fried eggs, one per plate. The video states the chicken, oil, shallots, green onions, chilies, galangal, shrimp paste, MSG, kecap manis, soy and garlic. From the written recipe: 4 cups (800 g) of cooked, chilled jasmine rice (the video: three and a half, maybe four cups) and 4 eggs. Our estimates: 1/2 tsp kosher salt on the chicken, galangal about 8 g for a 1-inch piece. Cucumber is half, as in the video (the written recipe says 1). Not counted: the oil for frying the eggs (3-4 Tbsp, partly absorbed), store-bought fried shallots, lime, and the optional sambal. Galangal uses USDA ginger (he says ginger works as a substitute). Shallots (2, about 80 g) and bird's eye chilies (2, about 6 g) are weighed by us; USDA's chili pepper (45 g) is far bigger than a bird's eye. Kecap manis uses a branded ABC sweet soy sauce record, shrimp paste a branded dried shrimp paste (belacan) record, MSG a branded MSG record.",
+  "ingredients": [
+    {
+      "group": "Fried rice",
+      "ingredient": "chicken-thigh-boneless",
+      "text": "1 lb boneless, skinless chicken thighs, in 1-inch chunks",
+      "quantity": 1,
+      "unit": "lb",
+      "basis": "stated",
+      "evidence": "we have chicken one lb of chicken thigh",
+      "preparation": "1-inch chunks",
+      "t": 37.28
+    },
+    {
+      "group": "Fried rice",
+      "ingredient": "canola-oil",
+      "text": "2 1/2 Tbsp neutral oil, for the chicken",
+      "quantity": "2 1/2",
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "maybe like 2 and 1/2 tablespoons",
+      "t": 364.56
+    },
+    {
+      "group": "Fried rice",
+      "ingredient": "kosher-salt",
+      "text": "1/2 tsp kosher salt",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "season the taste with salt",
+      "t": 372.639
+    },
+    {
+      "group": "Fried rice",
+      "ingredient": "canola-oil",
+      "text": "2 Tbsp neutral oil, for the aromatics",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "a little bit more oil another two tablespoons",
+      "t": 389.199
+    },
+    {
+      "group": "Fried rice",
+      "ingredient": "shallot",
+      "text": "2 shallots, finely diced",
+      "quantity": 80,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "we have two beautiful shallots",
+      "preparation": "finely diced",
+      "t": 125.36
+    },
+    {
+      "group": "Fried rice",
+      "ingredient": "green-onion",
+      "text": "3 green onions, whites and greens separated, thinly sliced",
+      "quantity": 3,
+      "unit": "medium",
+      "basis": "stated",
+      "evidence": "you have three green onions",
+      "preparation": "thinly sliced",
+      "t": 156.0
+    },
+    {
+      "group": "Fried rice",
+      "ingredient": "red-chili",
+      "text": "2 red bird's eye chilies, thinly sliced",
+      "quantity": 6,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "now we have two red bird's eye chilies",
+      "t": 188.0
+    },
+    {
+      "group": "Fried rice",
+      "ingredient": "ginger",
+      "text": "1-inch piece galangal (or ginger), grated",
+      "quantity": 8,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "you only need a 1 in chunk grated",
+      "t": 97.6
+    },
+    {
+      "group": "Fried rice",
+      "ingredient": "shrimp-paste",
+      "text": "1 tsp shrimp paste",
+      "quantity": 5,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "you're then going to add one teaspoon of shrimp paste",
+      "t": 413.12,
+      "amount_note": "1 tsp in the video; weighed at 5 g in the written recipe.",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/best-spicy-fried-rice-recipe-nasi-goreng"
+    },
+    {
+      "group": "Fried rice",
+      "ingredient": "rice-white-cooked",
+      "text": "4 cups cooked jasmine rice, chilled overnight",
+      "quantity": 800,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "a grand total of about three and a half maybe four cups of cooked rice",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/best-spicy-fried-rice-recipe-nasi-goreng",
+      "amount_note": "The video says three and a half, maybe four cups (two cups dry); the written recipe gives 4 cups (800 g).",
+      "t": 434.639
+    },
+    {
+      "group": "Fried rice",
+      "ingredient": "msg",
+      "text": "1 1/2 tsp MSG",
+      "quantity": 5,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "1 and 1/2 teaspoons of msg",
+      "t": 462.0,
+      "amount_note": "1 1/2 tsp in the video; weighed at 5 g in the written recipe.",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/best-spicy-fried-rice-recipe-nasi-goreng"
+    },
+    {
+      "group": "Fried rice",
+      "ingredient": "kecap-manis",
+      "text": "3 Tbsp kecap manis (sweet soy sauce)",
+      "quantity": 60,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "3 tablespoons of kachop manis",
+      "t": 464.24,
+      "amount_note": "3 Tbsp in the video; about 60 g at kecap manis's density of roughly 1.3 g/mL (our conversion)."
+    },
+    {
+      "group": "Fried rice",
+      "ingredient": "soy-sauce",
+      "text": "2 Tbsp soy sauce",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "and 2 tablespoon of soy sauce",
+      "t": 470.8
+    },
+    {
+      "group": "Fried rice",
+      "ingredient": "garlic",
+      "text": "3 cloves garlic, finely chopped, added off the heat",
+      "quantity": 3,
+      "unit": "clove",
+      "basis": "stated",
+      "evidence": "three cloves of garlic",
+      "preparation": "finely chopped",
+      "t": 214.56
+    },
+    {
+      "group": "Fried egg",
+      "ingredient": "egg",
+      "text": "4 large eggs",
+      "quantity": 4,
+      "unit": "large",
+      "basis": "stated",
+      "evidence": "crack in an egg",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/best-spicy-fried-rice-recipe-nasi-goreng",
+      "amount_note": "One egg per plate in the video; the written recipe gives 4.",
+      "t": 511.68
+    },
+    {
+      "group": "Fried egg",
+      "ingredient": "canola-oil",
+      "text": "3-4 Tbsp neutral oil, for frying the eggs",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "this is 3 to four tablespoons in my pan",
+      "in_nutrition": false,
+      "excluded_reason": "frying oil; how much the eggs absorb is unknown",
+      "t": 507.759
+    },
+    {
+      "group": "To serve",
+      "ingredient": "red-chili",
+      "text": "1 red Fresno chili, thinly sliced (optional)",
+      "quantity": 1,
+      "unit": "pepper",
+      "basis": "stated",
+      "evidence": "for one red fresno chili",
+      "optional": true,
+      "t": 274.72
+    },
+    {
+      "group": "To serve",
+      "ingredient": "tomato",
+      "text": "2 Roma tomatoes, in eighths",
+      "quantity": 2,
+      "unit": "whole",
+      "basis": "stated",
+      "evidence": "two roma tomatoes",
+      "qualifier": "plum",
+      "t": 282.96
+    },
+    {
+      "group": "To serve",
+      "ingredient": "cucumber",
+      "text": "1/2 cucumber, in thin obliques",
+      "quantity": "1/2",
+      "unit": "whole",
+      "basis": "stated",
+      "evidence": "probably only going to need about a half a cucumber",
+      "t": 332.08
+    },
+    {
+      "group": "To serve",
+      "ingredient": "lime-juice",
+      "text": "Fried shallots, lime cheeks and sambal terasi, optional",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "top with fried shallots",
+      "optional": true,
+      "in_nutrition": false,
+      "excluded_reason": "amount not stated",
+      "t": 529.68
+    }
+  ],
+  "steps": [
+    {
+      "t": 63,
+      "text": "Cut the chicken into 1-inch chunks."
+    },
+    {
+      "t": 90,
+      "text": "Peel and grate the galangal. Finely dice the shallots. Slice the green onion whites and greens separately. Slice the bird's eye chilies very thin and finely chop the garlic."
+    },
+    {
+      "t": 272,
+      "text": "For serving, slice the Fresno chili, cut the tomatoes into eighths and the cucumber into thin obliques."
+    },
+    {
+      "t": 347,
+      "text": "Heat a lightly oiled wok over high heat, add 2 1/2 Tbsp oil, then the chicken in one layer; salt it. Sear undisturbed 3-4 minutes, then stir-fry until cooked through (165°F). Remove."
+    },
+    {
+      "t": 389,
+      "text": "Add 2 Tbsp more oil, then the shallots, green onion whites, chilies and galangal; stir-fry until softened. Add the shrimp paste and fry a few seconds until fragrant."
+    },
+    {
+      "t": 420,
+      "text": "Add the cold rice and stir-fry 2-3 minutes, breaking it up, until hot and starting to crisp. Return the chicken, then add the MSG, kecap manis and soy sauce and toss quickly to coat."
+    },
+    {
+      "t": 477,
+      "text": "Turn off the heat and toss in the raw chopped garlic."
+    },
+    {
+      "t": 497,
+      "text": "Fry each egg in a generous layer of very hot oil, basting the white, about a minute, until the edges are brown and the yolk is runny."
+    },
+    {
+      "t": 525,
+      "text": "Plate the rice with fried shallots, green onion greens, Fresno chili, cucumber, tomato, a lime cheek and the fried egg; sambal on the side."
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "slug": "chicken-rice-bowls-joshua-weissman",
+  "market": "US",
+  "title": "Honey-Soy Glazed Chicken Rice Bowls",
+  "summary": "Baked chicken thighs brushed with a honey, soy and Fresno chili glaze, over medium-grain rice with charred broccoli and edamame, quick-pickled carrots and avocado.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/EAmC5DhRbz4.json"
+  },
+  "cuisine": "Asian-inspired",
+  "course": "main",
+  "meal_slots": [
+    "lunch",
+    "dinner"
+  ],
+  "servings": 4,
+  "servings_basis": "stated",
+  "prep_minutes": 15,
+  "cook_minutes": 40,
+  "times_basis": "stated",
+  "difficulty": "easy",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'Easy Chicken Rice Bowls Anyone Can Make' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe for the same dish: https://www.joshuaweissman.com/recipes/easiest-healthy-chicken-bowl-at-home (serves 4, prep 15 min, cook 40 min; servings and times come from it). The video states the rice, water ratio, glaze, broccoli, pickle and carrots. From the written recipe, because the video is unclear: 8 thighs (video: 'six to eight'), cornstarch (garbled in the captions), 8 oz edamame (video: 'half a bag'), 1-2 Tbsp oil (we use 1.5), 1 lemon, 1 large avocado. Our estimates: the salt on the chicken (1 tsp kosher, he says go lighter because of the glaze) and on the vegetables (1/2 tsp). Broccoli is 2 crowns in both; the gram weight of the florets is ours. Pickling liquid, cooking spray, green onion, flaky salt and furikake are not counted (mostly left behind, or no amount). Carrot size ('large') is from the written recipe. The avocado uses USDA's average Hass fruit (136 g edible), so a large one is understated.",
+  "ingredients": [
+    {
+      "group": "Rice",
+      "ingredient": "rice-medium-grain-dry",
+      "text": "2 cups medium-grain white rice (such as Nishiki), rinsed",
+      "quantity": 2,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "two cups of medium grain rice",
+      "t": 45.92
+    },
+    {
+      "group": "Rice",
+      "ingredient": "water",
+      "text": "2 cups water",
+      "quantity": 2,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "i usually go equal parts water",
+      "t": 77.52
+    },
+    {
+      "group": "Chicken",
+      "ingredient": "canola-oil",
+      "text": "Cooking spray, for the tray and the tops",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "first grease your sheet tray",
+      "in_nutrition": false,
+      "excluded_reason": "spray oil; a fraction of a gram per serving",
+      "t": 123.04
+    },
+    {
+      "group": "Chicken",
+      "ingredient": "chicken-thigh-boneless",
+      "text": "8 boneless, skinless chicken thighs",
+      "quantity": 8,
+      "unit": "thigh",
+      "qualifier": "without skin",
+      "basis": "stated",
+      "evidence": "six to eight skinless boneless chicken thighs",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/easiest-healthy-chicken-bowl-at-home",
+      "amount_note": "The video says six to eight; the written recipe says 8.",
+      "t": 127.92
+    },
+    {
+      "group": "Chicken",
+      "ingredient": "kosher-salt",
+      "text": "1 tsp kosher salt",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "season them with salt on both sides try to go a little bit lighter than usual",
+      "t": 151.28
+    },
+    {
+      "group": "Glaze",
+      "ingredient": "soy-sauce",
+      "text": "6 Tbsp soy sauce",
+      "quantity": 6,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "six tablespoons of any soy sauce you like",
+      "t": 198.48
+    },
+    {
+      "group": "Glaze",
+      "ingredient": "rice-vinegar",
+      "text": "4 Tbsp rice vinegar",
+      "quantity": 4,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "four tablespoons of rice vinegar",
+      "t": 198.48
+    },
+    {
+      "group": "Glaze",
+      "ingredient": "honey",
+      "text": "2 Tbsp honey",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "two tablespoons of a nice honey",
+      "t": 198.48
+    },
+    {
+      "group": "Glaze",
+      "ingredient": "red-chili",
+      "text": "1 red Fresno chili (or red jalapeño), seeded and finely chopped",
+      "quantity": 1,
+      "unit": "pepper",
+      "preparation": "seeded, finely chopped",
+      "basis": "stated",
+      "evidence": "a medium sized red jalapeno or red fresno chili",
+      "t": 172.48
+    },
+    {
+      "group": "Glaze",
+      "ingredient": "cornstarch",
+      "text": "1/2 Tbsp cornstarch",
+      "quantity": 4,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "tspoon of cornstarch",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/easiest-healthy-chicken-bowl-at-home",
+      "amount_note": "The captions read 'a/ tspoon of cornstarch' (amount garbled); the written recipe gives 1/2 Tbsp (4 g).",
+      "t": 231.84
+    },
+    {
+      "group": "Glaze",
+      "ingredient": "water",
+      "text": "1/2 Tbsp water",
+      "quantity": "1/2",
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "tsp of water whisk until combined",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/easiest-healthy-chicken-bowl-at-home",
+      "amount_note": "Garbled in the captions; the written recipe gives 1/2 Tbsp.",
+      "t": 231.84
+    },
+    {
+      "group": "Glaze",
+      "ingredient": "garlic",
+      "text": "2 cloves garlic, roughly chopped",
+      "quantity": 2,
+      "unit": "clove",
+      "preparation": "crushed, roughly chopped",
+      "basis": "stated",
+      "evidence": "two cloves of garlic",
+      "t": 216.48
+    },
+    {
+      "group": "Vegetables",
+      "ingredient": "canola-oil",
+      "text": "1 1/2 Tbsp canola or avocado oil",
+      "quantity": "1 1/2",
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "little bit of vegetable oil just enough to coat the bottom",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/easiest-healthy-chicken-bowl-at-home",
+      "amount_note": "The video says 'just enough to coat the bottom'; the written recipe gives 1-2 Tbsp. We use the midpoint.",
+      "t": 297.84
+    },
+    {
+      "group": "Vegetables",
+      "ingredient": "broccoli",
+      "text": "2 crowns broccoli, cut into florets",
+      "quantity": 400,
+      "unit": "g",
+      "preparation": "florets",
+      "basis": "estimated",
+      "evidence": "two crowns of broccoli",
+      "t": 261.6
+    },
+    {
+      "group": "Vegetables",
+      "ingredient": "edamame",
+      "text": "8 oz frozen shelled edamame",
+      "quantity": 8,
+      "unit": "oz",
+      "basis": "stated",
+      "evidence": "a half bag of frozen edamame",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/easiest-healthy-chicken-bowl-at-home",
+      "amount_note": "The video says half a bag; the written recipe gives 8 oz (226 g).",
+      "t": 279.76
+    },
+    {
+      "group": "Vegetables",
+      "ingredient": "kosher-salt",
+      "text": "1/2 tsp kosher salt",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "hit it with some salt",
+      "t": 313.68
+    },
+    {
+      "group": "Vegetables",
+      "ingredient": "lemon-juice",
+      "text": "Juice of 1 lemon",
+      "quantity": 1,
+      "unit": "lemon",
+      "qualifier": "yields",
+      "basis": "stated",
+      "evidence": "hit it with a little bit of lemon juice to taste",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/easiest-healthy-chicken-bowl-at-home",
+      "amount_note": "The video says lemon juice to taste; the written recipe says 1 lemon, juiced.",
+      "t": 339.84
+    },
+    {
+      "group": "Quick-pickled carrots",
+      "ingredient": "white-vinegar",
+      "text": "3 Tbsp white distilled vinegar",
+      "quantity": 3,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "3 tablespoons of vinegar",
+      "in_nutrition": false,
+      "excluded_reason": "pickling liquid; mostly left in the bowl",
+      "t": 368.48
+    },
+    {
+      "group": "Quick-pickled carrots",
+      "ingredient": "water",
+      "text": "1 1/2 Tbsp water",
+      "quantity": "1 1/2",
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "1 and 1/2 tbsps of water",
+      "in_nutrition": false,
+      "excluded_reason": "pickling liquid; mostly left in the bowl",
+      "t": 368.48
+    },
+    {
+      "group": "Quick-pickled carrots",
+      "ingredient": "kosher-salt",
+      "text": "1 tsp kosher salt",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 tsp of kosher salt and 1 tsp of sugar",
+      "in_nutrition": false,
+      "excluded_reason": "dissolved in the pickling liquid; mostly left in the bowl",
+      "t": 373.28
+    },
+    {
+      "group": "Quick-pickled carrots",
+      "ingredient": "sugar",
+      "text": "1 tsp sugar",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 tsp of kosher salt and 1 tsp of sugar",
+      "in_nutrition": false,
+      "excluded_reason": "dissolved in the pickling liquid; mostly left in the bowl",
+      "t": 373.28
+    },
+    {
+      "group": "Quick-pickled carrots",
+      "ingredient": "carrot",
+      "text": "2 large carrots, peeled and julienned",
+      "quantity": 2,
+      "unit": "large",
+      "preparation": "peeled, julienned",
+      "basis": "stated",
+      "evidence": "now we have two carrots",
+      "t": 377.92
+    },
+    {
+      "group": "Toppings",
+      "ingredient": "avocado",
+      "text": "1 large ripe avocado, thinly sliced",
+      "quantity": 1,
+      "unit": "whole",
+      "preparation": "thinly sliced",
+      "basis": "stated",
+      "evidence": "another great topping would be avocado",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/easiest-healthy-chicken-bowl-at-home",
+      "amount_note": "No amount in the video; the written recipe gives 1 large avocado.",
+      "t": 434.32
+    },
+    {
+      "group": "Toppings",
+      "ingredient": "green-onion",
+      "text": "Green onions, thinly sliced",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "you can get some green onions",
+      "in_nutrition": false,
+      "excluded_reason": "garnish, amount not stated",
+      "t": 426.72
+    },
+    {
+      "group": "Toppings",
+      "ingredient": "salt",
+      "text": "Flaky salt, to taste",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "flaky sea salt",
+      "in_nutrition": false,
+      "excluded_reason": "finishing salt, amount not stated",
+      "t": 511.52
+    },
+    {
+      "group": "Toppings",
+      "ingredient": "furikake",
+      "text": "Furikake, optional",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "optional": true,
+      "evidence": "optionally furake",
+      "in_nutrition": false,
+      "excluded_reason": "optional garnish, amount not stated",
+      "t": 511.52
+    }
+  ],
+  "steps": [
+    {
+      "t": 48,
+      "text": "Rinse the rice in the rice-cooker bowl 2-3 times, until the water runs mostly clear. Level it, add the water and start the cooker."
+    },
+    {
+      "t": 117,
+      "text": "Heat the oven to 375°F (convection if you have it). Grease a sheet tray, lay the thighs on it bone side down, spray the tops and season both sides lightly with salt."
+    },
+    {
+      "t": 160,
+      "text": "Roast the chicken for 30-35 minutes in total."
+    },
+    {
+      "t": 172,
+      "text": "For the glaze, finely chop the seeded chili. Bring the soy sauce, rice vinegar, honey and chili to a boil over medium-high, boil 1 minute, lower to medium, stir in the cornstarch slurry until thickened, then turn off the heat and stir in the garlic."
+    },
+    {
+      "t": 263,
+      "text": "Cut the broccoli into florets. Heat the oil in a large skillet over medium-high until nearly smoking, add the broccoli and edamame, salt, and sear without tossing for 2-3 minutes. Toss, lower to medium and cook about 5 minutes more, until the broccoli is crisp-tender. Finish with lemon juice."
+    },
+    {
+      "t": 345,
+      "text": "About halfway through the roast, brush both sides of the chicken with some of the glaze and return it to the oven."
+    },
+    {
+      "t": 368,
+      "text": "For the carrots, whisk the vinegar, water, salt and sugar until dissolved. Julienne the carrots (or slice them thin on a mandoline) and toss them in the liquid."
+    },
+    {
+      "t": 427,
+      "text": "Slice the green onions and the avocado."
+    },
+    {
+      "t": 485,
+      "text": "Brush the rest of the glaze over the tops of the chicken and broil 1-3 minutes, until caramelized and lightly charred."
+    },
+    {
+      "t": 502,
+      "text": "Slice the chicken about 1/2 inch thick. Serve over rice with the vegetables, drained carrots, avocado, flaky salt, green onion and furikake."
+    }
+  ]
+}
