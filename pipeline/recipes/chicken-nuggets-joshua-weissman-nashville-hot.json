@@ -1,0 +1,499 @@
+{
+  "slug": "chicken-nuggets-joshua-weissman-nashville-hot",
+  "market": "US",
+  "title": "Nashville Hot Chicken Nuggets",
+  "summary": "The same juicy ground chicken and pork nuggets, breaded and fried, then dunked in a cayenne, smoked paprika and brown sugar spice oil made with the hot frying oil.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/qDRrXpKCk8M.json"
+  },
+  "cuisine": "Southern American",
+  "course": "main",
+  "meal_slots": [
+    "lunch",
+    "dinner"
+  ],
+  "servings": 4,
+  "servings_basis": "estimated",
+  "prep_minutes": null,
+  "cook_minutes": null,
+  "times_basis": null,
+  "difficulty": "medium",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'Easy Chicken Nuggets at Home' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). The video holds two versions (house rule 6), both in files pointing to the same transcript: plain nuggets and Nashville hot nuggets dunked in spice oil. No written recipe was used: the joshuaweissman.com page for this video could not be retrieved (www.joshuaweissman.com/recipes/easy-chicken-nuggets-at-home returned an error), so servings and times rest on the video alone. Servings: 4, our estimate. The video gives no yield; the mixture is about 760 g raw, which at the 1 1/2-2 oz scoop he uses makes roughly 13-18 nuggets. Prep and cook times are left empty: the video gives only part times (3-4 minutes per frying batch); the farce rests in the fridge at least 3 hours, ideally overnight, which would not go in prep_minutes anyway (house rule 13). Our estimates: 1 1/2 Tbsp ice water ('a tablespoon or two'); large eggs (size not said). House rules applied: flour and panko count at 25% and the egg wash at 50%; the deep-frying oil is excluded and 89 g of absorbed oil is counted (arithmetic on that line). Both sauces (chili crisp garlic mayo, and honey mustard, which uses about 1/3 cup of the mayo) are served on the side and not counted; the mayo alone is about 1 cup of oil, about 1,900 kcal for the batch if all of it is eaten. Not counted: the splash of water in the egg wash and salt to taste in the sauces. Panko uses USDA plain dry breadcrumbs, which are denser per cup than panko, so a cup-based weight may overstate the coating. Chili crisp and Dijon are only in the side sauce and need proxies (see new_h2.csv). Version 2: Nashville hot. All nuggets are assumed dunked ('repeat with as many nuggets as you like'). The spice oil is a dunking oil made in a bigger batch than stays on the nuggets and no share is stated, so every spice-oil line counts at 25% (house rule 10; full batch kept in each line's text). '2 tbsps of garlic' in the spice list is read as garlic powder.",
+  "ingredients": [
+    {
+      "group": "Nuggets",
+      "ingredient": "chicken-ground",
+      "text": "1 lb ground chicken",
+      "quantity": 1,
+      "unit": "lb",
+      "basis": "stated",
+      "evidence": "one lb of already ground chicken",
+      "t": 73.76
+    },
+    {
+      "group": "Nuggets",
+      "ingredient": "pork-ground",
+      "text": "1/2 lb fatty ground pork (as fatty as you can find)",
+      "quantity": "1/2",
+      "unit": "lb",
+      "basis": "stated",
+      "evidence": "half a pound of ground pork",
+      "t": 81.52
+    },
+    {
+      "group": "Nuggets",
+      "ingredient": "kosher-salt",
+      "text": "1 Tbsp kosher salt",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "1 tbsp of kosher salt",
+      "t": 125.12
+    },
+    {
+      "group": "Nuggets",
+      "ingredient": "msg",
+      "text": "1 1/2 tsp MSG",
+      "quantity": "1 1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 and 1/2 tesp of msg",
+      "t": 125.12
+    },
+    {
+      "group": "Nuggets",
+      "ingredient": "sugar",
+      "text": "2 tsp granulated sugar",
+      "quantity": 2,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "2 tsp of granulated sugar",
+      "t": 125.12
+    },
+    {
+      "group": "Nuggets",
+      "ingredient": "white-pepper",
+      "text": "1 tsp ground white pepper",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 tsp of ground white pepper",
+      "t": 132.72
+    },
+    {
+      "group": "Nuggets",
+      "ingredient": "garlic-powder",
+      "text": "2 tsp garlic powder",
+      "quantity": 2,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "2 tsps of garlic powder",
+      "t": 132.72
+    },
+    {
+      "group": "Nuggets",
+      "ingredient": "onion-powder",
+      "text": "1/2 tsp onion powder",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "half a teaspoon of onion powder",
+      "t": 132.72
+    },
+    {
+      "group": "Nuggets",
+      "ingredient": "cornstarch",
+      "text": "3 Tbsp cornstarch",
+      "quantity": 3,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "and 3 tablespoons of cornstarch",
+      "t": 142.0
+    },
+    {
+      "group": "Nuggets",
+      "ingredient": "water",
+      "text": "1-2 Tbsp ice water",
+      "quantity": "1 1/2",
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "about a tablespoon or two of ice water",
+      "amount_source": "our_estimate",
+      "amount_note": "'About a tablespoon or two'; we use the midpoint, 1 1/2 Tbsp.",
+      "t": 169.68
+    },
+    {
+      "group": "Breading",
+      "ingredient": "flour-all-purpose",
+      "text": "1 cup all-purpose flour",
+      "quantity": "1/4",
+      "unit": "cup",
+      "basis": "estimated",
+      "evidence": "1 cup of allpurpose flour",
+      "amount_source": "our_estimate",
+      "amount_note": "1 cup stated; 25% counted as dredge that sticks (house rule): 1 x 0.25 = 1/4 cup.",
+      "t": 403.76
+    },
+    {
+      "group": "Breading",
+      "ingredient": "egg",
+      "text": "3 large eggs, beaten with a splash of water",
+      "quantity": "1 1/2",
+      "unit": "large",
+      "basis": "estimated",
+      "evidence": "three whole eggs",
+      "amount_source": "our_estimate",
+      "amount_note": "3 eggs stated (size not said; we assume large); egg wash counted at 50% (house rule): 3 x 0.5 = 1 1/2 eggs.",
+      "t": 414.32
+    },
+    {
+      "group": "Breading",
+      "ingredient": "water",
+      "text": "A splash of water, for the eggs",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "add a splash of water to this",
+      "in_nutrition": false,
+      "excluded_reason": "amount not stated",
+      "t": 425.92
+    },
+    {
+      "group": "Breading",
+      "ingredient": "panko",
+      "text": "1 1/2 cups panko, pulsed a few times to make it finer",
+      "quantity": "3/8",
+      "unit": "cup",
+      "preparation": "pulsed finer in a food processor",
+      "basis": "estimated",
+      "evidence": "1 and 1/2 cups of panko breadrumbs",
+      "amount_source": "our_estimate",
+      "amount_note": "1 1/2 cups stated; 25% counted as crumb coating that sticks (house rule): 1.5 x 0.25 = 3/8 cup.",
+      "t": 403.76
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "Neutral oil (vegetable, canola or avocado), for deep-frying at 350°F",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "vegetable oil canola oil avocado oil 350 fah",
+      "in_nutrition": false,
+      "excluded_reason": "frying oil; absorbed oil counted separately",
+      "t": 464.88
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "Absorbed frying oil (our estimate)",
+      "quantity": 89,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "vegetable oil canola oil avocado oil 350 fah",
+      "amount_source": "our_estimate",
+      "amount_note": "10% of the raw weight of the fried food (house rule). Raw farce: 454 g chicken + 227 g pork + 9 g kosher salt + 4.5 g MSG + 8 g sugar + 2.4 g white pepper + 6 g garlic powder + 1.2 g onion powder + 24 g cornstarch + 22 g ice water = 758 g. Counted coating: 31 g flour (25% of 125 g) + 22.5 g panko (25% of 1.5 cups at our 60 g per cup) + 75 g egg (50% of 3 x 50 g) = 128.5 g. Total 887 g; x 0.10 = 89 g.",
+      "t": 464.88
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "cayenne",
+      "text": "2 Tbsp cayenne powder",
+      "quantity": "1 1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "2 tbsps of cayenne powder",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch in text; 25% counted as dunked spice oil that stays on the nuggets (house rule 10; no share stated): 6 tsp x 0.25 = 1 1/2 tsp.",
+      "t": 499.44
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "paprika",
+      "text": "1 Tbsp smoked paprika",
+      "quantity": "3/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "1 tbsp of smoked paprika",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch in text; 25% counted as dunked spice oil that stays on the nuggets (house rule 10; no share stated): 3 tsp x 0.25 = 3/4 tsp.",
+      "t": 499.44
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "garlic-powder",
+      "text": "2 Tbsp garlic powder",
+      "quantity": "1 1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "2 tbsps of garlic",
+      "amount_source": "our_estimate",
+      "amount_note": "He says '2 tbsps of garlic' in a list of cabinet spices; we read it as garlic powder (no written recipe to confirm). Full batch in text; 25% counted as dunked spice oil that stays on the nuggets (house rule 10; no share stated): 6 tsp x 0.25 = 1 1/2 tsp.",
+      "t": 499.44
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "onion-powder",
+      "text": "2 tsp onion powder",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "2 tsp of onion powder",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch in text; 25% counted as dunked spice oil that stays on the nuggets (house rule 10; no share stated): 2 tsp x 0.25 = 1/2 tsp.",
+      "t": 505.52
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "brown-sugar",
+      "text": "2 Tbsp light brown sugar",
+      "quantity": "1 1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "2 tbsps of light brown sugar",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch in text; 25% counted as dunked spice oil that stays on the nuggets (house rule 10; no share stated): 6 tsp x 0.25 = 1 1/2 tsp.",
+      "t": 505.52,
+      "qualifier": "packed"
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "kosher-salt",
+      "text": "2 1/2 tsp kosher salt",
+      "quantity": "5/8",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "2 and 1/2 tesps of kosher salt",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch in text; 25% counted as dunked spice oil that stays on the nuggets (house rule 10; no share stated): 2 1/2 tsp x 0.25 = 5/8 tsp.",
+      "t": 505.52
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "msg",
+      "text": "1 1/2 tsp MSG",
+      "quantity": "3/8",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "1 and 1/2 tesp of msg",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch in text; 25% counted as dunked spice oil that stays on the nuggets (house rule 10; no share stated): 1 1/2 tsp x 0.25 = 3/8 tsp.",
+      "t": 505.52
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "canola-oil",
+      "text": "About 1 cup hot frying oil, whisked into the spices",
+      "quantity": "1/4",
+      "unit": "cup",
+      "basis": "estimated",
+      "evidence": "about a cup worth of hot fry oil",
+      "amount_source": "our_estimate",
+      "amount_note": "Ladled from the frying pot. Full batch in text; 25% counted as dunked spice oil that stays on the nuggets (house rule 10; no share stated): 1 cup x 0.25 = 1/4 cup (about 55 g).",
+      "t": 520.72
+    },
+    {
+      "group": "Chili crisp garlic mayo (on the side)",
+      "ingredient": "garlic",
+      "text": "8 cloves garlic, confited",
+      "quantity": 8,
+      "unit": "clove",
+      "basis": "stated",
+      "evidence": "we have eight cloves of garlic",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 212.48
+    },
+    {
+      "group": "Chili crisp garlic mayo (on the side)",
+      "ingredient": "canola-oil",
+      "text": "1 cup high-heat neutral oil (canola, vegetable or avocado), for the confit and the mayo",
+      "quantity": 1,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "one cup of any high heat oil",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 212.48
+    },
+    {
+      "group": "Chili crisp garlic mayo (on the side)",
+      "ingredient": "egg-yolk",
+      "text": "2 large egg yolks",
+      "quantity": 2,
+      "unit": "large",
+      "basis": "stated",
+      "evidence": "two luscious large egg yolks",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 254.56
+    },
+    {
+      "group": "Chili crisp garlic mayo (on the side)",
+      "ingredient": "chili-crisp",
+      "text": "2 Tbsp chili crisp, with its oil",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "two tablespoons of chili crisp",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 261.92
+    },
+    {
+      "group": "Chili crisp garlic mayo (on the side)",
+      "ingredient": "dijon-mustard",
+      "text": "2 Tbsp Dijon mustard",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "2 tbsp of dijon mustard",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 267.36
+    },
+    {
+      "group": "Chili crisp garlic mayo (on the side)",
+      "ingredient": "rice-vinegar",
+      "text": "2 Tbsp rice vinegar",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "2 tbsps of rice vinegar",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 267.36
+    },
+    {
+      "group": "Chili crisp garlic mayo (on the side)",
+      "ingredient": "water",
+      "text": "2 Tbsp chilled water",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "2 tbsps of chilled water",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 274.32
+    },
+    {
+      "group": "Chili crisp garlic mayo (on the side)",
+      "ingredient": "salt",
+      "text": "Salt, to taste",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "don't forget to season with salt",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 274.32
+    },
+    {
+      "group": "Honey mustard (on the side)",
+      "ingredient": "mustard-yellow",
+      "text": "3 Tbsp yellow mustard",
+      "quantity": 3,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "3 tablespoons of yellow mustard",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 324.16
+    },
+    {
+      "group": "Honey mustard (on the side)",
+      "ingredient": "honey",
+      "text": "3 Tbsp honey",
+      "quantity": 3,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "3 tablespoons of honey",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 329.84
+    },
+    {
+      "group": "Honey mustard (on the side)",
+      "ingredient": "rice-vinegar",
+      "text": "1 Tbsp rice vinegar",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "1 tbsp of rice vinegar",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 329.84
+    },
+    {
+      "group": "Honey mustard (on the side)",
+      "ingredient": "salt",
+      "text": "A touch of salt",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "add a touch of salt",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 337.28
+    }
+  ],
+  "steps": [
+    {
+      "t": 76,
+      "text": "Put the ground chicken and the fatty ground pork in a food processor and pulse until fine and paste-like. Without a processor, just mix everything by hand."
+    },
+    {
+      "t": 125,
+      "text": "Spread the meat out, add the salt, MSG, sugar, white pepper, garlic powder, onion powder and cornstarch, pulse to combine, then run the processor until the mixture turns bouncy."
+    },
+    {
+      "t": 158,
+      "text": "Add 1-2 Tbsp ice water and pulse a few more times until smooth. Transfer to a bowl, cover and refrigerate at least 3 hours, ideally overnight, to firm up."
+    },
+    {
+      "t": 206,
+      "text": "Chili crisp garlic mayo: cook the garlic cloves in the oil over medium-low until soft and light brown, then turn off the heat and let them coast. Strain out the garlic and cool the oil to about room temperature (no hotter than about 100°F)."
+    },
+    {
+      "t": 250,
+      "text": "In a tall jar, combine the confit garlic, egg yolks, chili crisp with its oil, Dijon, rice vinegar, chilled water and salt. Pour the cooled oil on top, start the stick blender at the bottom and draw it up slowly to emulsify. In a regular blender, stream the oil in instead."
+    },
+    {
+      "t": 315,
+      "text": "Honey mustard: whisk the yellow mustard, honey and rice vinegar with about 1/3 cup of the chili crisp garlic mayo and a little salt. It thickens as it chills."
+    },
+    {
+      "t": 360,
+      "text": "Scoop 1 1/2-2 oz portions of the chilled mixture and shape them with damp hands into nuggets no thicker than about 1/2 inch."
+    },
+    {
+      "t": 403,
+      "text": "Set up three stations: flour, the eggs beaten with a splash of water, and panko pulsed a few times in the processor to make it finer."
+    },
+    {
+      "t": 436,
+      "text": "Using one dry hand and one wet hand, coat each nugget in flour, then egg, then panko, shaking or draining off the excess each time. Set them on a parchment-lined sheet."
+    },
+    {
+      "t": 464,
+      "text": "Heat oil in a heavy pot filled about halfway to 350°F. Fry in batches of about six for 3-4 minutes, until golden brown and 165°F inside. Drain."
+    },
+    {
+      "t": 499,
+      "text": "For Nashville hot, whisk the cayenne, smoked paprika, garlic powder, onion powder, light brown sugar, salt and MSG in a heatproof bowl."
+    },
+    {
+      "t": 517,
+      "text": "Ladle about 1 cup of the hot frying oil into the spices and whisk. Dunk the fried nuggets and coat them thoroughly, rest them on a wire rack for about 30 seconds, then serve with the two sauces."
+    }
+  ]
+}

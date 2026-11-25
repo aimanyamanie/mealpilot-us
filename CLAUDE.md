@@ -44,6 +44,12 @@ up in `docs/decisions/YYYY-MM-DD-topic.md`.
    - Steps are in our own words, with `t` as the video jump point.
    - Lines that don't end up eaten (pasta-water salt, garnish with no amount)
      set `in_nutrition: false` and an `excluded_reason`.
+   - House counting rules (side sauces, absorbed frying oil, coatings, batch
+     sauces, optional items, bone-in chicken, components) are in
+     `docs/extraction-guide.md`; the decisions behind them are in
+     `docs/decisions/2026-11-24-batch-rules.md`.
+   - Building blocks that are not meals (stock, oils, sauces, buns) use
+     `course: component` with `meal_slots: []`.
 3. New ingredients go in `ingredients.csv` first (see below).
 4. `python load_recipe.py --check recipes/<slug>.json`, then without `--check`.
 

@@ -61,3 +61,13 @@ def test_unknown_is_an_error_not_zero():
     with pytest.raises(GramsError):
         resolve_grams(1, "sprig", None, CREAM, U)
     assert resolve_grams(None, None, None, CREAM, U) == (None, None, None)
+
+
+def test_exact_qualifier_beats_substring():
+    # brown sugar: 'packed' is also a substring of 'unpacked'
+    ports = [{"key": 1, "unit": "cup", "qualifier": "packed", "grams_per_unit": Fraction(220)},
+             {"key": 2, "unit": "cup", "qualifier": "unpacked", "grams_per_unit": Fraction(145)}]
+    g, method, key = resolve_grams(1, "cup", "packed", ports, U)
+    assert (g, key) == (220, 1)
+    g, method, key = resolve_grams(2, "tbsp", "packed", ports, U)
+    assert g == Fraction(220, 8) and method == "volume_scaled"

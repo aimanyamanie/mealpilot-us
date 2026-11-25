@@ -1,0 +1,429 @@
+{
+  "slug": "chicken-wings-joshua-weissman-level-3",
+  "market": "US",
+  "title": "Level 3 Crispy Tomato-Breaded Garlic Parm Chicken Wings",
+  "summary": "Dry-cured wings breaded in flour, a tomato-paste egg wash and panko, double-fried, then tossed in a creamy blender garlic-Parmigiano emulsion with fresh herbs, shallot and Fresno chile.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/PVr4J6Rsnx8.json"
+  },
+  "cuisine": "American",
+  "course": "main",
+  "meal_slots": [
+    "lunch",
+    "dinner",
+    "snack"
+  ],
+  "servings": 2,
+  "servings_basis": "stated",
+  "prep_minutes": null,
+  "cook_minutes": null,
+  "times_basis": null,
+  "difficulty": "hard",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'The Best Chicken Wings At Home (3 Levels)' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe for the same video (it links this video): https://www.joshuaweissman.com/recipes/the-best-chicken-wings-at-home-3-levels-recipe (one page for all three levels: serves 4, prep 20 min, cook 45 min). Level 3 of 3. Servings: he says 2 lb of wings is enough for about two people ('a pound per person'), and every level uses 2 lb, so we use 2 servings (stated, video); the written recipe says 4. Times are left null: the page's 20 + 45 minutes cover all three levels together and are not split by level; the cure also needs 1-2 hours, ideally overnight. The cure (salt and baking soda) stays on the wings and is counted in full. The 2 lb is the as-bought weight of whole wings with bone (and tips, which he says you may remove), entered as bought (house rule 12); the lead converts it to edible weight. Absorbed oil uses the as-bought weight. The wings are deep-fried in vegetable oil: the pot of oil is excluded and absorbed oil is added at 10% of the raw weight with any counted coating (house rule; arithmetic on that line). The video states the sauce and breading amounts; the written recipe matches it (it marks the corn syrup optional and calls the shallot small and the eggs large). Our estimates: 25 g for the shallot (USDA has no per-shallot weight), 1 Tbsp for the splash of water, 1/2 tsp kosher salt and 1/4 tsp pepper to season the full sauce batch (house salt rule; 50% of each counted with the sauce). Sauce: he states no share used, so 50% of the tossed garlic parm sauce is counted (house rule 10); text keeps the full batch. Breading: flour and panko counted at 25%, the egg wash (eggs, water, onion powder, tomato paste, salt) at 50% (house rule). Absorbed oil: 115 g, applied once although the wings are fried twice. Not counted: the pecorino or Parmigiano and chives used to finish (no amounts), and dried thyme, a named alternative. Proxies: Dijon uses USDA prepared yellow mustard; panko uses USDA plain dry breadcrumbs, which weigh more per cup than panko.",
+  "ingredients": [
+    {
+      "group": "Wings and cure",
+      "ingredient": "chicken-wing",
+      "text": "2 lb whole chicken wings, split into drums and flats",
+      "quantity": 562,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "2 lb to me is enough for like two people",
+      "preparation": "split into drums and flats; tips optional",
+      "amount_note": "As bought, bone-in: 2 lb = 907 g. Edible weight 562 g after 38% bone and connective tissue, USDA SR28 refuse for NDB 05100 (wing, meat and skin, raw).",
+      "t": 54.48
+    },
+    {
+      "group": "Wings and cure",
+      "ingredient": "kosher-salt",
+      "text": "1 Tbsp (10 g) kosher salt",
+      "quantity": 10,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "1 tbspoon or 10 grams of kosher salt",
+      "t": 128.64
+    },
+    {
+      "group": "Wings and cure",
+      "ingredient": "baking-soda",
+      "text": "1/2 tsp baking soda",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "half a teaspoon of baking soda",
+      "t": 133.44
+    },
+    {
+      "group": "Garlic parm sauce (tossed)",
+      "ingredient": "egg-yolk",
+      "text": "2 large egg yolks",
+      "quantity": 1,
+      "unit": "large",
+      "basis": "estimated",
+      "evidence": "two egg yolks",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch 2 large; he states no share used, so 50% of this tossed sauce is counted (1 large) (house rule 10).",
+      "t": 484.8
+    },
+    {
+      "group": "Garlic parm sauce (tossed)",
+      "ingredient": "dijon-mustard",
+      "text": "2 Tbsp Dijon mustard",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "2 tbsps of dijon mustard",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch 2 tbsp; he states no share used, so 50% of this tossed sauce is counted (1 tbsp) (house rule 10).",
+      "t": 484.8
+    },
+    {
+      "group": "Garlic parm sauce (tossed)",
+      "ingredient": "corn-syrup-light",
+      "text": "1 Tbsp light corn syrup",
+      "quantity": "1/2",
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "1 tbsp of corn syrup",
+      "amount_note": "Stated in the video; the written recipe marks it optional. Full batch 1 tbsp; he states no share used, so 50% of this tossed sauce is counted (1/2 tbsp) (house rule 10).",
+      "amount_source": "our_estimate",
+      "t": 487.199
+    },
+    {
+      "group": "Garlic parm sauce (tossed)",
+      "ingredient": "lemon-juice",
+      "text": "Juice of 2 lemons",
+      "quantity": 1,
+      "unit": "lemon",
+      "basis": "estimated",
+      "evidence": "the juice from two lemons",
+      "qualifier": "yields",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch 2 lemon; he states no share used, so 50% of this tossed sauce is counted (1 lemon) (house rule 10).",
+      "t": 503.199
+    },
+    {
+      "group": "Garlic parm sauce (tossed)",
+      "ingredient": "garlic",
+      "text": "8 cloves garlic, peeled",
+      "quantity": 4,
+      "unit": "clove",
+      "basis": "estimated",
+      "evidence": "eight garlic cloves",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch 8 clove; he states no share used, so 50% of this tossed sauce is counted (4 clove) (house rule 10).",
+      "t": 505.12
+    },
+    {
+      "group": "Garlic parm sauce (tossed)",
+      "ingredient": "thyme-fresh",
+      "text": "1 1/2 tsp fresh thyme leaves",
+      "quantity": "3/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "1 and 1/2 teaspoon of fresh thyme leaves",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch 1 1/2 tsp; he states no share used, so 50% of this tossed sauce is counted (3/4 tsp) (house rule 10).",
+      "t": 508.8
+    },
+    {
+      "group": "Garlic parm sauce (tossed)",
+      "ingredient": "thyme-dried",
+      "text": "Or dried thyme, if you have no fresh",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "dried thyme if you don't have it",
+      "in_nutrition": false,
+      "excluded_reason": "alternative",
+      "t": 513.599
+    },
+    {
+      "group": "Garlic parm sauce (tossed)",
+      "ingredient": "parmigiano-reggiano",
+      "text": "1 cup finely grated Parmigiano Reggiano",
+      "quantity": "1/2",
+      "unit": "cup",
+      "basis": "estimated",
+      "evidence": "one cup of finely grated parmesano reano",
+      "qualifier": "grated",
+      "preparation": "finely grated",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch 1 cup; he states no share used, so 50% of this tossed sauce is counted (1/2 cup) (house rule 10).",
+      "t": 514.8
+    },
+    {
+      "group": "Garlic parm sauce (tossed)",
+      "ingredient": "canola-oil",
+      "text": "1 cup neutral oil (vegetable, canola or avocado), streamed in",
+      "quantity": "1/2",
+      "unit": "cup",
+      "basis": "estimated",
+      "evidence": "one cup of a neutral tasting oil",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch 1 cup; he states no share used, so 50% of this tossed sauce is counted (1/2 cup) (house rule 10).",
+      "t": 534.0
+    },
+    {
+      "group": "Garlic parm sauce (tossed)",
+      "ingredient": "shallot",
+      "text": "1 shallot, very finely chopped",
+      "quantity": 12.5,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "one shallot, very finely chopped",
+      "amount_source": "our_estimate",
+      "preparation": "very finely chopped",
+      "amount_note": "1 shallot stated ('small' in the written recipe). USDA gives no per-shallot weight; 25 g for a small shallot is our estimate. Full batch 25 g; he states no share used, so 50% of this tossed sauce is counted (12.5 g) (house rule 10).",
+      "t": 546.959
+    },
+    {
+      "group": "Garlic parm sauce (tossed)",
+      "ingredient": "red-chili",
+      "text": "1 Fresno chile, very finely chopped",
+      "quantity": "1/2",
+      "unit": "pepper",
+      "basis": "estimated",
+      "evidence": "one red fresno, very finely chopped",
+      "preparation": "very finely chopped",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch 1 pepper; he states no share used, so 50% of this tossed sauce is counted (1/2 pepper) (house rule 10).",
+      "t": 548.48
+    },
+    {
+      "group": "Garlic parm sauce (tossed)",
+      "ingredient": "rosemary-fresh",
+      "text": "1 Tbsp finely chopped fresh rosemary",
+      "quantity": "1/2",
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "1 tbsp of finely chopped fresh rosemary",
+      "preparation": "finely chopped",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch 1 tbsp; he states no share used, so 50% of this tossed sauce is counted (1/2 tbsp) (house rule 10).",
+      "t": 551.04
+    },
+    {
+      "group": "Garlic parm sauce (tossed)",
+      "ingredient": "parsley",
+      "text": "2 Tbsp very finely chopped parsley",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "2 tbsps of very finely chopped parsley",
+      "preparation": "very finely chopped",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch 2 tbsp; he states no share used, so 50% of this tossed sauce is counted (1 tbsp) (house rule 10).",
+      "t": 554.32
+    },
+    {
+      "group": "Garlic parm sauce (tossed)",
+      "ingredient": "kosher-salt",
+      "text": "Salt, to taste (about 1/2 tsp)",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "season with a touch of salt to taste",
+      "amount_note": "No amount in the video or the written recipe; he seasons, tastes and adds a little more. 1/2 tsp kosher salt is our estimate, counted under the house salt rule. Full batch 1/2 tsp; he states no share used, so 50% of this tossed sauce is counted (1/4 tsp) (house rule 10).",
+      "amount_source": "our_estimate",
+      "t": 558.8
+    },
+    {
+      "group": "Garlic parm sauce (tossed)",
+      "ingredient": "black-pepper",
+      "text": "Freshly cracked black pepper, to taste (about 1/4 tsp)",
+      "quantity": "1/8",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "little bit of fresh cracked black pepper",
+      "amount_note": "No amount in the video or the written recipe; 1/4 tsp is our estimate. Full batch 1/4 tsp; he states no share used, so 50% of this tossed sauce is counted (1/8 tsp) (house rule 10).",
+      "amount_source": "our_estimate",
+      "t": 560.399,
+      "qualifier": "ground"
+    },
+    {
+      "group": "Breading",
+      "ingredient": "flour-all-purpose",
+      "text": "2 cups all-purpose flour",
+      "quantity": "1/2",
+      "unit": "cup",
+      "basis": "estimated",
+      "evidence": "the first all-purpose flour. two cups of that",
+      "amount_source": "our_estimate",
+      "amount_note": "2 cups stated; 25% counted (1/2 cup) as dredge that sticks (house rule).",
+      "t": 586.959
+    },
+    {
+      "group": "Breading",
+      "ingredient": "egg",
+      "text": "4 large eggs, whisked",
+      "quantity": 2,
+      "unit": "large",
+      "basis": "estimated",
+      "evidence": "four eggs that have been whisked",
+      "amount_source": "our_estimate",
+      "amount_note": "4 eggs stated (size 'large' from the written recipe). Egg wash, so 50% counted (2 large eggs) (house rule).",
+      "t": 591.279
+    },
+    {
+      "group": "Breading",
+      "ingredient": "water",
+      "text": "A splash of water, in the egg wash",
+      "quantity": "1/2",
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "add a splash of water",
+      "amount_source": "our_estimate",
+      "amount_note": "No amount in the video or the written recipe; a splash read as 1 Tbsp (our estimate), 50% counted as egg wash (house rule).",
+      "t": 595.92
+    },
+    {
+      "group": "Breading",
+      "ingredient": "onion-powder",
+      "text": "1/2 tsp onion powder, in the egg wash",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "half a teaspoon of onion powder",
+      "amount_source": "our_estimate",
+      "amount_note": "1/2 tsp stated; part of the egg wash, so 50% counted (1/4 tsp) (house rule).",
+      "t": 597.76
+    },
+    {
+      "group": "Breading",
+      "ingredient": "tomato-paste",
+      "text": "2 Tbsp tomato paste, in the egg wash",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "two tablespoons of tomato paste",
+      "amount_source": "our_estimate",
+      "amount_note": "2 Tbsp stated; part of the egg wash, so 50% counted (1 Tbsp) (house rule).",
+      "t": 597.76
+    },
+    {
+      "group": "Breading",
+      "ingredient": "kosher-salt",
+      "text": "About 1 tsp salt, in the egg wash",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "generous pinch of salt to taste. like around a teaspoon is fine",
+      "amount_source": "our_estimate",
+      "amount_note": "About 1 tsp stated (the video says salt; the written recipe says kosher salt). Part of the egg wash, so 50% counted (1/2 tsp) (house rule).",
+      "t": 602.64
+    },
+    {
+      "group": "Breading",
+      "ingredient": "panko",
+      "text": "3 cups panko breadcrumbs",
+      "quantity": "3/4",
+      "unit": "cup",
+      "basis": "estimated",
+      "evidence": "three cups of a nice panko",
+      "amount_source": "our_estimate",
+      "amount_note": "3 cups stated; 25% counted (3/4 cup) as crumbs that stick (house rule).",
+      "t": 609.839
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "Vegetable oil, for deep-frying at 325°F, then 350°F",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "now we fry. 325° oil",
+      "in_nutrition": false,
+      "excluded_reason": "frying oil; absorbed oil counted separately",
+      "t": 658.64
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "Absorbed frying oil (our estimate)",
+      "quantity": 115,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "now we fry. 325° oil",
+      "amount_source": "our_estimate",
+      "amount_note": "10% of the coated raw weight (house rule). Wings 908 g (2 lb) + cure 12.3 g (10 g salt + 1/2 tsp baking soda at USDA 4.6 g/tsp) + counted flour 62.5 g (1/2 cup at USDA 125 g/cup) + counted egg wash 125.5 g (2 large eggs 100 g + 1/2 Tbsp water 7.4 g + 1/4 tsp onion powder 0.6 g + 1 Tbsp tomato paste 16 g + 1/2 tsp kosher salt 1.5 g) + counted panko 45 g (3/4 cup at about 60 g/cup, our estimate for panko) = 1153.3 g; x 10% = 115.3 g, rounded to 115 g. The wings are fried twice; the 10% rule is applied once.",
+      "t": 658.64
+    },
+    {
+      "group": "To serve",
+      "ingredient": "pecorino-romano",
+      "text": "Freshly grated pecorino (or Parmigiano), to finish",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "fresh grated pecorino or parmesan",
+      "optional": true,
+      "in_nutrition": false,
+      "excluded_reason": "garnish, amount not stated",
+      "t": 748.88
+    },
+    {
+      "group": "To serve",
+      "ingredient": "chives",
+      "text": "Thinly sliced chives, to finish",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "thinly sliced chives",
+      "in_nutrition": false,
+      "excluded_reason": "garnish, amount not stated",
+      "t": 752.8
+    }
+  ],
+  "steps": [
+    {
+      "t": 42,
+      "text": "If using whole wings, cut away the flap of skin at the joint, bend the joint until it pops, and cut through it to separate the drum. Do the same at the next joint to take off the tip if you like (freeze tips for stock)."
+    },
+    {
+      "t": 128,
+      "text": "Toss the drums and flats with the kosher salt and baking soda, rubbing it in well. Arrange on a wire rack over a baking sheet and refrigerate uncovered 1-2 hours, ideally overnight, to dry the skin."
+    },
+    {
+      "t": 484,
+      "text": "Sauce: in a blender (or a bowl with a whisk), combine the egg yolks, Dijon, corn syrup, lemon juice, garlic, thyme and Parmigiano. Blend on medium to medium-high until as smooth as possible."
+    },
+    {
+      "t": 532,
+      "text": "With the blender running, stream in the oil slowly until it is all added and the sauce is thick and creamy, like mayonnaise. Pour into a bowl."
+    },
+    {
+      "t": 546,
+      "text": "Add the shallot, Fresno chile, rosemary and parsley, season with salt and pepper, and mix. Taste and adjust the seasoning now, before it goes on the wings."
+    },
+    {
+      "t": 584,
+      "text": "Breading: set out the flour; whisk the eggs with a splash of water, the onion powder, tomato paste and about 1 tsp salt until smooth; and set out the panko."
+    },
+    {
+      "t": 618,
+      "text": "Working a few wings at a time, toss them in the flour and shake off the excess, then coat in the tomato egg wash, then tumble in the panko and press it on so they are fully covered."
+    },
+    {
+      "t": 661,
+      "text": "Fry in 2-3 batches of similar-sized pieces at 325°F, about 5 minutes, until they reach at least 165°F inside. Remove, and repeat."
+    },
+    {
+      "t": 681,
+      "text": "Raise the oil to 350°F and fry the wings again 1-3 minutes, until deep golden brown and crisp, without burning them."
+    },
+    {
+      "t": 696,
+      "text": "In a large bowl, pour the garlic parm sauce around the edge and a little on top, then fold the wings gently (or brush the sauce on) so the breading stays intact. Plate, and finish with grated pecorino or Parmigiano and sliced chives."
+    }
+  ]
+}

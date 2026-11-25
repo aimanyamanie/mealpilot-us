@@ -1,0 +1,284 @@
+{
+  "slug": "chicken-wings-joshua-weissman-level-2",
+  "market": "US",
+  "title": "Level 2 Sweet Chili Glazed Chicken Wings",
+  "summary": "Dry-cured wings with a light flour and potato starch dusting, deep-fried and tossed in a sticky homemade sweet chili glaze with Fresno chiles, sambal, garlic and ginger.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/PVr4J6Rsnx8.json"
+  },
+  "cuisine": "American",
+  "course": "main",
+  "meal_slots": [
+    "lunch",
+    "dinner",
+    "snack"
+  ],
+  "servings": 2,
+  "servings_basis": "stated",
+  "prep_minutes": null,
+  "cook_minutes": null,
+  "times_basis": null,
+  "difficulty": "medium",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'The Best Chicken Wings At Home (3 Levels)' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe for the same video (it links this video): https://www.joshuaweissman.com/recipes/the-best-chicken-wings-at-home-3-levels-recipe (one page for all three levels: serves 4, prep 20 min, cook 45 min). Level 2 of 3. Servings: he says 2 lb of wings is enough for about two people ('a pound per person'), and every level uses 2 lb, so we use 2 servings (stated, video); the written recipe says 4. Times are left null: the page's 20 + 45 minutes cover all three levels together and are not split by level; the cure also needs 1-2 hours, ideally overnight. The cure (salt and baking soda) stays on the wings and is counted in full. The 2 lb is the as-bought weight of whole wings with bone (and tips, which he says you may remove), entered as bought (house rule 12); the lead converts it to edible weight. Absorbed oil uses the as-bought weight. The wings are deep-fried in vegetable oil: the pot of oil is excluded and absorbed oil is added at 10% of the raw weight with any counted coating (house rule; arithmetic on that line). The video states the sauce and dredge amounts. Where the written recipe differs, the video wins: soy sauce 2 Tbsp (page: 2-3 Tbsp), ginger about a 1/2-inch knob (page: 1 inch). Our estimate: 5 g for the 1/2-inch ginger knob. Sauce: he states no share used, so 50% of the tossed sweet chili sauce is counted (house rule 10); text keeps the full batch. Dredge: flour and potato starch counted at 25% (house rule); cornstarch is a named alternative and is not counted. Absorbed oil: 101 g. Not counted: the optional peanut or sesame garnish (mentioned, not added in the video), and ranch or carrots and celery, which he mentions only as optional sides. Proxy: sambal oelek uses a ready-to-serve hot pepper sauce record (no sambal in USDA).",
+  "ingredients": [
+    {
+      "group": "Wings and cure",
+      "ingredient": "chicken-wing",
+      "text": "2 lb whole chicken wings, split into drums and flats",
+      "quantity": 562,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "2 lb to me is enough for like two people",
+      "preparation": "split into drums and flats; tips optional",
+      "amount_note": "As bought, bone-in: 2 lb = 907 g. Edible weight 562 g after 38% bone and connective tissue, USDA SR28 refuse for NDB 05100 (wing, meat and skin, raw).",
+      "t": 54.48
+    },
+    {
+      "group": "Wings and cure",
+      "ingredient": "kosher-salt",
+      "text": "1 Tbsp (10 g) kosher salt",
+      "quantity": 10,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "1 tbspoon or 10 grams of kosher salt",
+      "t": 128.64
+    },
+    {
+      "group": "Wings and cure",
+      "ingredient": "baking-soda",
+      "text": "1/2 tsp baking soda",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "half a teaspoon of baking soda",
+      "t": 133.44
+    },
+    {
+      "group": "Sweet chili sauce (tossed)",
+      "ingredient": "sugar",
+      "text": "3/4 cup sugar",
+      "quantity": "3/8",
+      "unit": "cup",
+      "basis": "estimated",
+      "evidence": "3/4 of a cup of sugar",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch 3/4 cup; he states no share used, so 50% of this tossed sauce is counted (3/8 cup) (house rule 10).",
+      "t": 300.96
+    },
+    {
+      "group": "Sweet chili sauce (tossed)",
+      "ingredient": "water",
+      "text": "3/4 cup water",
+      "quantity": "3/8",
+      "unit": "cup",
+      "basis": "estimated",
+      "evidence": "3/4 of a cup of water",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch 3/4 cup; he states no share used, so 50% of this tossed sauce is counted (3/8 cup) (house rule 10).",
+      "t": 303.759
+    },
+    {
+      "group": "Sweet chili sauce (tossed)",
+      "ingredient": "white-vinegar",
+      "text": "1/2 cup white distilled vinegar",
+      "quantity": "1/4",
+      "unit": "cup",
+      "basis": "estimated",
+      "evidence": "half a cup of white distilled vinegar",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch 1/2 cup; he states no share used, so 50% of this tossed sauce is counted (1/4 cup) (house rule 10).",
+      "t": 306.4
+    },
+    {
+      "group": "Sweet chili sauce (tossed)",
+      "ingredient": "soy-sauce",
+      "text": "2 Tbsp soy sauce",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "2 tablespoon of your favorite soy sauce",
+      "amount_note": "The video says 2 Tbsp; the written recipe gives 2-3 Tbsp. The video wins. Full batch 2 tbsp; he states no share used, so 50% of this tossed sauce is counted (1 tbsp) (house rule 10).",
+      "amount_source": "our_estimate",
+      "t": 308.56
+    },
+    {
+      "group": "Sweet chili sauce (tossed)",
+      "ingredient": "red-chili",
+      "text": "2 Fresno chiles, seeded and finely chopped",
+      "quantity": 1,
+      "unit": "pepper",
+      "basis": "estimated",
+      "evidence": "two fresno chilis that have been seated",
+      "preparation": "seeded, finely chopped",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch 2 pepper; he states no share used, so 50% of this tossed sauce is counted (1 pepper) (house rule 10).",
+      "t": 311.28
+    },
+    {
+      "group": "Sweet chili sauce (tossed)",
+      "ingredient": "cornstarch",
+      "text": "2 Tbsp cornstarch, slurried with some of the hot sauce",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "2 tbsps of cornstarch",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch 2 tbsp; he states no share used, so 50% of this tossed sauce is counted (1 tbsp) (house rule 10).",
+      "t": 324.8
+    },
+    {
+      "group": "Sweet chili sauce (tossed)",
+      "ingredient": "sambal-oelek",
+      "text": "2 Tbsp sambal oelek",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "you're going to add 2 tablespoons ... of sambal",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch 2 tbsp; he states no share used, so 50% of this tossed sauce is counted (1 tbsp) (house rule 10).",
+      "t": 356.16
+    },
+    {
+      "group": "Sweet chili sauce (tossed)",
+      "ingredient": "garlic",
+      "text": "4 cloves garlic, very finely chopped",
+      "quantity": 2,
+      "unit": "clove",
+      "basis": "estimated",
+      "evidence": "four cloves of very finely chopped garlic",
+      "preparation": "very finely chopped",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch 4 clove; he states no share used, so 50% of this tossed sauce is counted (2 clove) (house rule 10).",
+      "t": 362.56
+    },
+    {
+      "group": "Sweet chili sauce (tossed)",
+      "ingredient": "ginger",
+      "text": "1/2-inch knob ginger, peeled and very finely chopped",
+      "quantity": 2.5,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "about a halfin knob of ginger",
+      "amount_source": "our_estimate",
+      "preparation": "peeled, very finely chopped",
+      "amount_note": "The video says about a 1/2-inch knob (the written recipe says 1 inch; the video wins). About 5 g is our estimate for a 1/2-inch piece. Full batch 5 g; he states no share used, so 50% of this tossed sauce is counted (2.5 g) (house rule 10).",
+      "t": 365.44
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "flour-all-purpose",
+      "text": "1 cup all-purpose flour",
+      "quantity": "1/4",
+      "unit": "cup",
+      "basis": "estimated",
+      "evidence": "one cup of all-purpose flour",
+      "amount_source": "our_estimate",
+      "amount_note": "1 cup stated; 25% counted (1/4 cup) as dredge that sticks (house rule). He shakes off the excess for a very light dusting.",
+      "t": 391.759
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "potato-starch",
+      "text": "2 cups potato starch (or cornstarch)",
+      "quantity": "1/2",
+      "unit": "cup",
+      "basis": "estimated",
+      "evidence": "two cups of potato starch or corn starch",
+      "amount_source": "our_estimate",
+      "amount_note": "2 cups stated; 25% counted (1/2 cup) as dredge that sticks (house rule). Potato starch is named first, so it is the one counted.",
+      "t": 393.199
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "cornstarch",
+      "text": "Or cornstarch, in place of the potato starch",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "potato starch or corn starch",
+      "in_nutrition": false,
+      "excluded_reason": "alternative",
+      "t": 393.199
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "Vegetable oil, for deep-frying at 350°F (same pot as level 1)",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "drop your wings in the oil",
+      "in_nutrition": false,
+      "excluded_reason": "frying oil; absorbed oil counted separately",
+      "t": 417.68
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "Absorbed frying oil (our estimate)",
+      "quantity": 101,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "drop your wings in the oil",
+      "amount_source": "our_estimate",
+      "amount_note": "10% of the coated raw weight (house rule). Wings 908 g (2 lb) + cure 12.3 g (10 g salt + 1/2 tsp baking soda at USDA 4.6 g/tsp) + counted flour 31.3 g (1/4 cup at USDA 125 g/cup) + counted potato starch 60 g (1/2 cup at the written recipe's 240 g per 2 cups) = 1011.6 g; x 10% = 101.2 g, rounded to 101 g.",
+      "t": 417.68
+    },
+    {
+      "group": "To serve",
+      "ingredient": "peanuts-roasted",
+      "text": "Crushed toasted peanuts (or sesame seeds), optional",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "crushed ... toasted peanuts or sesame seeds",
+      "optional": true,
+      "in_nutrition": false,
+      "excluded_reason": "optional, not added in the video",
+      "t": 462.08
+    }
+  ],
+  "steps": [
+    {
+      "t": 42,
+      "text": "If using whole wings, cut away the flap of skin at the joint, bend the joint until it pops, and cut through it to separate the drum. Do the same at the next joint to take off the tip if you like (freeze tips for stock)."
+    },
+    {
+      "t": 128,
+      "text": "Toss the drums and flats with the kosher salt and baking soda, rubbing it in well. Arrange on a wire rack over a baking sheet and refrigerate uncovered 1-2 hours, ideally overnight, to dry the skin."
+    },
+    {
+      "t": 298,
+      "text": "Sauce: in a small pot over medium heat, combine the sugar, water, vinegar, soy sauce and chopped Fresno chiles, stir so the sugar is not left on the bottom, and bring to a boil."
+    },
+    {
+      "t": 324,
+      "text": "Whisk a little of the hot liquid into the cornstarch until completely smooth, pour it back into the boiling sauce, and stir as it thickens almost at once. Turn off the heat."
+    },
+    {
+      "t": 354,
+      "text": "Whisk in the sambal, garlic and ginger. Taste and adjust with a little more soy or salt if you like. Let it cool until just warm or close to room temperature."
+    },
+    {
+      "t": 389,
+      "text": "Whisk the flour and potato starch together. Tumble the cured wings in it, shake off the excess so only a thin dusting remains, and set on a separate tray."
+    },
+    {
+      "t": 415,
+      "text": "Fry the wings in batches at 350°F, lowering them in away from you, about 8 minutes until golden, crisp and cooked through (check with a thermometer if unsure)."
+    },
+    {
+      "t": 438,
+      "text": "Put the wings in a bowl, pour the sweet chili sauce around the edge and over the top, and toss generously. Plate, and top with crushed toasted peanuts or sesame seeds if you like."
+    }
+  ]
+}

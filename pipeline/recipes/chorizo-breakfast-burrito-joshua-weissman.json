@@ -26,7 +26,7 @@
   "times_basis": "stated",
   "difficulty": "hard",
   "extracted_by": "Claude (Opus 5.5), from the transcript",
-  "notes": "Video: 'The Perfect Breakfast Burrito' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe for the same dish: https://www.joshuaweissman.com/recipes/the-perfect-breakfast-burrito (serves 6, prep 30 min, cook 1 hour). The video states the garlic oil, sauce, chorizo, eggs and butter, and 'about six' burritos. Where the video and the written recipe differ, the video wins: chorizo vinegar 1/4 cup (page: 2 Tbsp) and salt 1 Tbsp (page: 1 Tbsp + 1 tsp). From the written recipe: 6 hash browns, 3 avocados, 6 large flour tortillas, 2 cups Oaxaca cheese (the page also says 400 g, which does not match 2 cups shredded; we use the cup measure). Our estimate: 1 tsp kosher salt in the eggs. Not counted: the jalapeño sauce and the garlic oil it is made from (drizzled or on the side; the sauce takes 1-1 1/2 cups of the oil, about 2,000-3,000 kcal for the batch), the frying oil for the hash browns, and salt, lime and flaky salt 'to taste'. Chorizo chiles use USDA sun-dried hot chile; Oaxaca cheese uses USDA whole-milk mozzarella. Guajillo weight (4 chiles, about 24 g) is our estimate; ancho uses USDA dried ancho (17 g each); árbol uses USDA sun-dried hot chile (0.5 g each). Hash browns use USDA plain frozen hash browns, unprepared, so the oil they absorb in the fryer is not counted.",
+  "notes": "Video: 'The Perfect Breakfast Burrito' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe for the same dish: https://www.joshuaweissman.com/recipes/the-perfect-breakfast-burrito (serves 6, prep 30 min, cook 1 hour). The video states the garlic oil, sauce, chorizo, eggs and butter, and 'about six' burritos. Where the video and the written recipe differ, the video wins: chorizo vinegar 1/4 cup (page: 2 Tbsp) and salt 1 Tbsp (page: 1 Tbsp + 1 tsp). From the written recipe: 6 hash browns, 3 avocados, 6 large flour tortillas, 2 cups Oaxaca cheese (the page also says 400 g, which does not match 2 cups shredded; we use the cup measure). Our estimate: 1 tsp kosher salt in the eggs. Not counted: the jalapeño sauce and the garlic oil it is made from (drizzled or on the side; the sauce takes 1-1 1/2 cups of the oil, about 2,000-3,000 kcal for the batch), the frying oil for the hash browns, and salt, lime and flaky salt 'to taste'. Chorizo chiles use USDA sun-dried hot chile; Oaxaca cheese uses USDA whole-milk mozzarella. Guajillo weight (4 chiles, about 24 g) is our estimate; ancho uses USDA dried ancho (17 g each); árbol uses USDA sun-dried hot chile (0.5 g each). Hash browns use USDA plain frozen hash browns, unprepared, plus absorbed frying oil at our house rate (10% of their raw weight).",
   "ingredients": [
     {
       "group": "Garlic oil and jalapeño sauce (on the side)",
@@ -236,8 +236,20 @@
       "basis": "to_taste",
       "evidence": "we're frying these at 350 f",
       "in_nutrition": false,
-      "excluded_reason": "frying oil; how much is absorbed is unknown",
+      "excluded_reason": "frying oil; absorbed oil counted separately",
       "t": 531.8
+    },
+    {
+      "group": "Hash browns",
+      "ingredient": "canola-oil",
+      "text": "Absorbed frying oil (our estimate)",
+      "quantity": 38,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "we're frying these at 350 f",
+      "t": 531.8,
+      "amount_source": "our_estimate",
+      "amount_note": "House rule: absorbed oil = 10% of the raw weight of the fried food. 6 hash brown patties at 64 g = 384 g; 10% = 38 g."
     },
     {
       "group": "Eggs",

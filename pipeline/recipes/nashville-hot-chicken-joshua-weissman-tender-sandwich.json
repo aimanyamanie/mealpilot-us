@@ -1,0 +1,563 @@
+{
+  "slug": "nashville-hot-chicken-joshua-weissman-tender-sandwich",
+  "market": "US",
+  "title": "Nashville Hot Chicken Tender Sandwich",
+  "summary": "Buttermilk-marinated chicken breast strips, crunchy-dredged, fried and tossed in cayenne spice oil, stacked on butter-toasted brioche with herby ranch, pickles and a creamy cabbage slaw.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/mKu7Qg8wFKQ.json"
+  },
+  "cuisine": "Southern American",
+  "course": "main",
+  "meal_slots": [
+    "lunch",
+    "dinner"
+  ],
+  "servings": 4,
+  "servings_basis": "stated",
+  "prep_minutes": 30,
+  "cook_minutes": 45,
+  "times_basis": "stated",
+  "difficulty": "medium",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'Perfect Nashville Hot Fried Chicken At Home (2 Ways)' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). This file is one of two versions in the video (house rule 6), both pointing to the same transcript: the classic bone-in leg quarters on white toast, and a boneless tender sandwich. Written recipe for both: https://www.joshuaweissman.com/recipes/perfect-nashville-hot-fried-chicken-at-home-2-ways-recipe (serves 4, prep 30 min, cook 45 min for the page as a whole). Marinating time is not in prep_minutes (house rule 13): at least 2 hours, ideally overnight. The page gives a separate marinade for each version but one dredge and one hot-oil mix; the video says the tenders are breaded 'exactly like the leg quarters' and tossed in the spicy oil, so this file repeats the full dredge and hot oil so it stands alone. All marinade, dredge and hot-oil amounts are stated in the video and match the page. House rules applied: the buttermilk marinade is poured off and excluded; the dredge counts at 25%; the deep-frying oil is excluded and absorbed oil is counted at 10% of the raw breaded weight (arithmetic on that line). The hot spice oil (about 1 cup of the frying oil whisked into the spices) is a dunking oil made in a bigger batch than stays on the chicken and no share is stated, so every hot-oil line counts at 25% (house rule 10; full batch kept in each line's text). Optional chicken bouillon powder is counted (at 25%) because the transcript narrates it being added with the other spices (house rule 11); this is inferred from the narration, not seen on screen. The optional extra spoonful of spice oil is excluded (mentioned, not added). The cayenne in the hot oil can go up to 1/2 cup; we use 1/4 cup. Potato starch is listed as an excluded alternative to the cornstarch. Smoked paprika uses the existing paprika slug. Brown sugar is dark brown (light is allowed). Version 2 (tender sandwich): 4 servings, from the 4 buns the video asks for ('you'll need four for this recipe') and the page's 4 servings. The ranch batch (about 1 1/3 cups) is bigger than what he spreads on the 4 sandwiches: he says it keeps a couple of days and gives no amount per bun, so 50% of each ranch line is counted (house rule 10). The slaw is made for the sandwiches and piled on in full, so it counts in full. Buns: he lists burger bun, brioche or potato rolls; we use brioche, as the written recipe does (the existing hamburger-bun slug is whole-wheat, which does not fit), with a USDA plain hamburger roll proxy and 65 g per bun as our estimate. Our estimates: 1 Tbsp butter to toast the buns, about 120 g sliced dill pickles, 1/2 tsp salt each in the ranch batch (1/4 tsp counted) and the slaw (house rule 4). Black pepper to taste is not counted. Slaw vinegar: he says '2 tbsp or 20 g'; 2 Tbsp is closer to 30 g, so we keep the tablespoons. Prep and cook times are the page's figures for both versions together.",
+  "ingredients": [
+    {
+      "group": "Marinade (poured off)",
+      "ingredient": "buttermilk",
+      "text": "2 cups buttermilk",
+      "quantity": 2,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "two cups of buttermilk",
+      "in_nutrition": false,
+      "excluded_reason": "liquid marinade, poured off",
+      "t": 41.6
+    },
+    {
+      "group": "Marinade (poured off)",
+      "ingredient": "hot-sauce",
+      "text": "2 Tbsp Frank's RedHot",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "two tablespoons of frank's redhot",
+      "in_nutrition": false,
+      "excluded_reason": "liquid marinade, poured off",
+      "t": 43.76
+    },
+    {
+      "group": "Marinade (poured off)",
+      "ingredient": "kosher-salt",
+      "text": "1 Tbsp kosher salt",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "one tablespoon of kosher salt",
+      "in_nutrition": false,
+      "excluded_reason": "liquid marinade, poured off",
+      "t": 45.8
+    },
+    {
+      "group": "Marinade (poured off)",
+      "ingredient": "msg",
+      "text": "2 tsp MSG",
+      "quantity": 2,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "two teaspoons of msg",
+      "in_nutrition": false,
+      "excluded_reason": "liquid marinade, poured off",
+      "t": 47.92
+    },
+    {
+      "group": "Chicken",
+      "ingredient": "chicken-breast-boneless",
+      "text": "2 lb boneless chicken breast, cut lengthwise into 1/2-inch strips",
+      "quantity": 2,
+      "unit": "lb",
+      "preparation": "cut lengthwise into 1/2-inch strips",
+      "basis": "stated",
+      "evidence": "you need 2 lb of chicken breast",
+      "amount_note": "The strips get 'the exact same marinade' as the leg quarters (334 s); the written recipe gives the same marinade amounts again.",
+      "t": 324.8
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "flour-all-purpose",
+      "text": "3 cups all-purpose flour",
+      "quantity": "3/4",
+      "unit": "cup",
+      "basis": "estimated",
+      "evidence": "three cups of all-purpose flour",
+      "amount_source": "our_estimate",
+      "amount_note": "3 cups stated; 25% counted as dredge that sticks (house rule): 3 x 0.25 = 3/4 cup.",
+      "t": 107.6
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "cornstarch",
+      "text": "1/2 cup cornstarch",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "half a cup of cornstarch",
+      "amount_source": "our_estimate",
+      "amount_note": "1/2 cup stated; 25% counted as dredge that sticks (house rule): 1/2 x 0.25 = 1/8 cup = 2 Tbsp.",
+      "t": 122.96
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "potato-starch",
+      "text": "Potato starch, instead of the cornstarch",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "you could also do potato starch",
+      "in_nutrition": false,
+      "excluded_reason": "alternative",
+      "t": 124.76
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "kosher-salt",
+      "text": "1 Tbsp kosher salt",
+      "quantity": "3/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "1 tbsp of kosher salt",
+      "amount_source": "our_estimate",
+      "amount_note": "1 Tbsp stated; 25% counted as dredge that sticks (house rule): 3 tsp x 0.25 = 3/4 tsp.",
+      "t": 127.04
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "msg",
+      "text": "1 tsp MSG",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "1 tsp of msg",
+      "amount_source": "our_estimate",
+      "amount_note": "1 tsp stated; 25% counted as dredge that sticks (house rule): 1 x 0.25 = 1/4 tsp.",
+      "t": 129.0
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "paprika",
+      "text": "2 tsp smoked paprika",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "2 tsp of smoked paprika",
+      "amount_source": "our_estimate",
+      "amount_note": "2 tsp stated; 25% counted as dredge that sticks (house rule): 2 x 0.25 = 1/2 tsp.",
+      "t": 135.56
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "cayenne",
+      "text": "1 tsp cayenne",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "1 tsp of cayenne",
+      "amount_source": "our_estimate",
+      "amount_note": "1 tsp stated; 25% counted as dredge that sticks (house rule): 1 x 0.25 = 1/4 tsp.",
+      "t": 135.56
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "garlic-powder",
+      "text": "2 tsp garlic powder",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "2 tsp of garlic powder",
+      "amount_source": "our_estimate",
+      "amount_note": "2 tsp stated; 25% counted as dredge that sticks (house rule): 2 x 0.25 = 1/2 tsp.",
+      "t": 137.52
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "cayenne",
+      "text": "1/4 cup cayenne powder (up to 1/2 cup for hotter)",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "a quarter cup of cayenne powder",
+      "amount_source": "our_estimate",
+      "amount_note": "He allows up to a half cup; we use the stated base of 1/4 cup. Full batch in text; 25% counted as dunked spice oil that stays on the chicken (house rule 10; no share stated): 1/4 cup x 0.25 = 1 Tbsp.",
+      "t": 153.72
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "paprika",
+      "text": "1 Tbsp smoked paprika",
+      "quantity": "3/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "a tablespoon of smoked paprika",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch in text; 25% counted as dunked spice oil that stays on the chicken (house rule 10; no share stated): 3 tsp x 0.25 = 3/4 tsp.",
+      "t": 158.04
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "garlic-powder",
+      "text": "1 Tbsp garlic powder",
+      "quantity": "3/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "a tablespoon of garlic powder",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch in text; 25% counted as dunked spice oil that stays on the chicken (house rule 10; no share stated): 3 tsp x 0.25 = 3/4 tsp.",
+      "t": 159.84
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "onion-powder",
+      "text": "1/2 tsp onion powder",
+      "quantity": "1/8",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "half a teaspoon of ... onion powder",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch in text; 25% counted as dunked spice oil that stays on the chicken (house rule 10; no share stated): 1/2 tsp x 0.25 = 1/8 tsp.",
+      "t": 162.48
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "kosher-salt",
+      "text": "2 tsp kosher salt",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "2 tsp of kosher salt",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch in text; 25% counted as dunked spice oil that stays on the chicken (house rule 10; no share stated): 2 tsp x 0.25 = 1/2 tsp.",
+      "t": 176.36
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "brown-sugar",
+      "text": "2 Tbsp dark (or light) brown sugar",
+      "quantity": "1 1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "of dark brown sugar",
+      "amount_source": "our_estimate",
+      "amount_note": "'2 tbsp' is split from 'of dark brown sugar' by a [music] tag in the captions (176-179 s). Full batch in text; 25% counted as dunked spice oil that stays on the chicken (house rule 10; no share stated): 6 tsp x 0.25 = 1 1/2 tsp.",
+      "t": 179.72,
+      "qualifier": "packed"
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "chicken-bouillon",
+      "text": "2 tsp chicken bouillon powder (optional, recommended)",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "of chicken bouillon powder",
+      "amount_source": "our_estimate",
+      "amount_note": "Optional, but narrated as added (house rule 11): he gives the amount in the same running list as the other spices he puts in the bowl, then says 'whisk all that together'. Inferred from the transcript, not seen on screen. Full batch in text; 25% counted as dunked spice oil that stays on the chicken (house rule 10; no share stated): 2 tsp x 0.25 = 1/2 tsp.",
+      "optional": true,
+      "t": 186.36
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "canola-oil",
+      "text": "About 1 cup hot frying oil (about 350°F), whisked into the spices",
+      "quantity": "1/4",
+      "unit": "cup",
+      "basis": "estimated",
+      "evidence": "ladle about a cup of your hot frying oil",
+      "amount_source": "our_estimate",
+      "amount_note": "Ladled from the frying pot. Full batch in text; 25% counted as dunked spice oil that stays on the chicken (house rule 10; no share stated): 1 cup x 0.25 = 1/4 cup (about 55 g).",
+      "t": 286.2
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "canola-oil",
+      "text": "More spice oil spooned over, optional",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "optionally you can always coat it with a little bit more oil",
+      "in_nutrition": false,
+      "excluded_reason": "optional, not added in the video",
+      "t": 304.0
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "Neutral oil, for deep-frying at 350°F",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "fry in batches at 350 f",
+      "in_nutrition": false,
+      "excluded_reason": "frying oil; absorbed oil counted separately",
+      "t": 422.04
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "Absorbed frying oil (our estimate)",
+      "quantity": 104,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "fry in batches at 350 f",
+      "amount_source": "our_estimate",
+      "amount_note": "10% of the raw weight of the fried food (house rule). Raw breaded tenders: 908 g chicken breast + 135 g counted dredge (25% of 540 g: 450 g flour, 60 g cornstarch, 10 g salt, 3 g MSG, 7 g smoked paprika, 3 g cayenne, 7 g garlic powder, written-recipe weights) = 1043 g; x 0.10 = 104 g. The buttermilk marinade is poured off and not included.",
+      "t": 422.04
+    },
+    {
+      "group": "Ranch (spread on the buns)",
+      "ingredient": "mayonnaise",
+      "text": "3/4 cup mayonnaise (Kewpie or Duke's)",
+      "quantity": 6,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "3/4 of a cup of a nice mayo",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch in text. He says the ranch keeps a couple of days and gives no amount per sandwich, so 50% is counted as the share spread on the 4 sandwiches (house rule 10): 3/4 cup x 0.5 = 6 Tbsp.",
+      "t": 352.28
+    },
+    {
+      "group": "Ranch (spread on the buns)",
+      "ingredient": "sour-cream",
+      "text": "1/2 cup sour cream",
+      "quantity": "1/4",
+      "unit": "cup",
+      "basis": "estimated",
+      "evidence": "half a cup of sour",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch in text. He says the ranch keeps a couple of days and gives no amount per sandwich, so 50% is counted as the share spread on the 4 sandwiches (house rule 10): 1/2 cup x 0.5 = 1/4 cup.",
+      "t": 357.96
+    },
+    {
+      "group": "Ranch (spread on the buns)",
+      "ingredient": "garlic",
+      "text": "3 cloves garlic, grated",
+      "quantity": "1 1/2",
+      "unit": "clove",
+      "preparation": "grated",
+      "basis": "estimated",
+      "evidence": "three cloves of garlic grated",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch in text. He says the ranch keeps a couple of days and gives no amount per sandwich, so 50% is counted as the share spread on the 4 sandwiches (house rule 10): 3 x 0.5 = 1 1/2 cloves.",
+      "t": 361.32
+    },
+    {
+      "group": "Ranch (spread on the buns)",
+      "ingredient": "parsley",
+      "text": "2 Tbsp fresh parsley, finely chopped",
+      "quantity": 1,
+      "unit": "tbsp",
+      "preparation": "finely chopped",
+      "basis": "estimated",
+      "evidence": "fresh parsley about 2 tbsp",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch in text. He says the ranch keeps a couple of days and gives no amount per sandwich, so 50% is counted as the share spread on the 4 sandwiches (house rule 10): 2 Tbsp x 0.5 = 1 Tbsp.",
+      "t": 364.68
+    },
+    {
+      "group": "Ranch (spread on the buns)",
+      "ingredient": "dill-fresh",
+      "text": "2 Tbsp fresh dill, finely chopped",
+      "quantity": 1,
+      "unit": "tbsp",
+      "preparation": "finely chopped",
+      "basis": "estimated",
+      "evidence": "2 tbsp of fresh dill",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch in text. He says the ranch keeps a couple of days and gives no amount per sandwich, so 50% is counted as the share spread on the 4 sandwiches (house rule 10): 2 Tbsp x 0.5 = 1 Tbsp.",
+      "t": 367.6
+    },
+    {
+      "group": "Ranch (spread on the buns)",
+      "ingredient": "buttermilk",
+      "text": "About 1 Tbsp buttermilk, to thin",
+      "quantity": "1 1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "a little bit of buttermilk about a tablespoon",
+      "amount_source": "our_estimate",
+      "amount_note": "He adds about 1 Tbsp, offers a second for a runnier ranch, and stops at one. Full batch in text. He says the ranch keeps a couple of days and gives no amount per sandwich, so 50% is counted as the share spread on the 4 sandwiches (house rule 10): 1 Tbsp x 0.5 = 1 1/2 tsp.",
+      "t": 391.2
+    },
+    {
+      "group": "Ranch (spread on the buns)",
+      "ingredient": "kosher-salt",
+      "text": "Kosher salt, to taste",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "season taste with salt",
+      "amount_source": "our_estimate",
+      "amount_note": "'Season to taste'; 1/2 tsp for the batch is our estimate (house rule 4). Full batch in text. He says the ranch keeps a couple of days and gives no amount per sandwich, so 50% is counted as the share spread on the 4 sandwiches (house rule 10): 1/2 tsp x 0.5 = 1/4 tsp.",
+      "t": 411.16
+    },
+    {
+      "group": "Ranch (spread on the buns)",
+      "ingredient": "black-pepper",
+      "text": "Black pepper, to taste",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "a little bit of pepper",
+      "in_nutrition": false,
+      "excluded_reason": "amount not stated",
+      "t": 411.16
+    },
+    {
+      "group": "Slaw",
+      "ingredient": "cabbage-green",
+      "text": "4 cups very thinly sliced green cabbage (about 1/4 head)",
+      "quantity": 4,
+      "unit": "cup",
+      "qualifier": "shredded",
+      "preparation": "very thinly sliced",
+      "basis": "stated",
+      "evidence": "4 cups of thinly",
+      "t": 447.68
+    },
+    {
+      "group": "Slaw",
+      "ingredient": "mayonnaise",
+      "text": "1/4 cup (60 g) mayonnaise",
+      "quantity": "1/4",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "a quarter cup or 60 g of mayonnaise",
+      "t": 457.04
+    },
+    {
+      "group": "Slaw",
+      "ingredient": "kosher-salt",
+      "text": "Kosher salt, to taste",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "kosher salt to taste",
+      "amount_source": "our_estimate",
+      "amount_note": "'To taste'; 1/2 tsp is our estimate (house rule 4: small estimated salt counts).",
+      "t": 458.76
+    },
+    {
+      "group": "Slaw",
+      "ingredient": "sugar",
+      "text": "1 tsp (4 g) granulated sugar",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "a teaspoon or 4 g of granulated sugar",
+      "t": 458.76
+    },
+    {
+      "group": "Slaw",
+      "ingredient": "apple-cider-vinegar",
+      "text": "2 Tbsp apple cider vinegar",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "2 tbsp or 20 g of apple cider vinegar",
+      "amount_note": "He says '2 tbsp or 20 g' (the written recipe too); 2 Tbsp of vinegar weighs about 30 g, so we keep the volume.",
+      "t": 460.96
+    },
+    {
+      "group": "Slaw",
+      "ingredient": "black-pepper",
+      "text": "Freshly cracked black pepper, to taste",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "freshly cracked black pepper to taste",
+      "in_nutrition": false,
+      "excluded_reason": "amount not stated",
+      "t": 466.2
+    },
+    {
+      "group": "Assembly",
+      "ingredient": "brioche-bun",
+      "text": "4 brioche buns (or burger buns or potato rolls), toasted in butter",
+      "quantity": 260,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "burger bun brioche buns potato rolls ... you'll need four for this recipe",
+      "amount_source": "our_estimate",
+      "amount_note": "4 buns stated in the video. He names burger bun, brioche or potato rolls; we use brioche, the written recipe's choice (St. Pierre). About 65 g per bun is our estimate.",
+      "t": 481.52
+    },
+    {
+      "group": "Assembly",
+      "ingredient": "butter-unsalted",
+      "text": "Unsalted butter, for toasting the buns",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "make sure that they're toasted in butter",
+      "amount_source": "our_estimate",
+      "amount_note": "No amount in the video or written recipe (which specifies unsalted butter); 1 Tbsp for 4 buns is our estimate.",
+      "t": 487.64
+    },
+    {
+      "group": "Assembly",
+      "ingredient": "dill-pickle",
+      "text": "Dill pickles, thinly sliced lengthwise",
+      "quantity": 120,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "layer on your pickles",
+      "amount_source": "our_estimate",
+      "amount_note": "No amount in the video or written recipe (whole dill pickles sliced lengthwise); about 2 pickles, 120 g, for 4 sandwiches (30 g each) is our estimate.",
+      "t": 490.48
+    }
+  ],
+  "steps": [
+    {
+      "t": 41,
+      "text": "Whisk the buttermilk, Frank's RedHot, salt and MSG for the marinade."
+    },
+    {
+      "t": 324,
+      "text": "Cut the chicken breasts lengthwise into strips about 1/2 inch thick (thinner is fine). Massage them in the marinade, cover and refrigerate, ideally overnight."
+    },
+    {
+      "t": 107,
+      "text": "Whisk the dredge: flour, cornstarch, salt, MSG, smoked paprika, cayenne and garlic powder."
+    },
+    {
+      "t": 153,
+      "text": "In a heatproof bowl, whisk the hot-oil spices: cayenne, smoked paprika, garlic powder, onion powder, salt, brown sugar and bouillon powder. Set aside."
+    },
+    {
+      "t": 349,
+      "text": "For the ranch, combine the mayo and sour cream with the grated garlic and the finely chopped parsley and dill. Thin with about 1 Tbsp buttermilk to a thick, spreadable sauce and season with salt and pepper. It keeps a couple of days in the fridge."
+    },
+    {
+      "t": 420,
+      "text": "Bread the strips as for the leg quarters: flick some marinade into the dredge to make clumps, press the flour onto each strip on all sides and shake off the excess. Fry in batches at 350°F for 3-5 minutes, until golden and 165°F inside."
+    },
+    {
+      "t": 436,
+      "text": "Ladle about 1 cup of the hot frying oil into the spice mix and whisk. Toss the tenders in the spice oil as soon as they come out of the fryer, then drain on a wire rack."
+    },
+    {
+      "t": 440,
+      "text": "Just before assembling, toss the sliced cabbage with the mayo, salt, sugar, cider vinegar and pepper by hand until evenly coated. Don't make it ahead or it goes soggy."
+    },
+    {
+      "t": 479,
+      "text": "Toast the buns in butter. Spread ranch on the bottom buns, add pickles, 2-3 tenders and a mound of slaw, then close with a ranch-spread top bun."
+    }
+  ]
+}

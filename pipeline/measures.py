@@ -97,6 +97,9 @@ def resolve_grams(quantity, unit, qualifier, portions, units):
 
     def pick(cands):
         if qualifier:
+            exact = [p for p in cands if p["qualifier"].lower() == qualifier.lower()]
+            if exact:  # 'packed' must not also pick 'unpacked'
+                return exact
             cands = [p for p in cands if qualifier.lower() in p["qualifier"].lower()]
             return cands
         plain = [p for p in cands if not p["qualifier"]]

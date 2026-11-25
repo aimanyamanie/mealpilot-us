@@ -1,0 +1,464 @@
+{
+  "slug": "chicken-burrito-joshua-weissman",
+  "market": "US",
+  "title": "Chipotle Chicken Burrito with Homemade Flour Tortillas",
+  "summary": "Chewy homemade flour tortillas rolled around chipotle-marinated chicken thigh, bacon-spiked pinto beans, buttery cilantro-lime rice and a simple guacamole.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/dxZgcuxQTFs.json"
+  },
+  "cuisine": "Mexican-American",
+  "course": "main",
+  "meal_slots": [
+    "lunch",
+    "dinner"
+  ],
+  "servings": 6,
+  "servings_basis": "stated",
+  "prep_minutes": 30,
+  "cook_minutes": 60,
+  "times_basis": "stated",
+  "difficulty": "medium",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'Perfect Chicken Burritos At Home' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe: https://www.joshuaweissman.com/recipes/perfect-chicken-burritos-at-home-recipe (serves 6, prep 30 min, cook 1 hour; the times leave out the dough rest and the optional overnight marinade). The video divides the dough into six tortillas, one per burrito. Where the video and the written recipe differ, the video wins: medium-grain rice (page: basmati, 300 g), juice of 1 whole lime in the rice (page: 1 Tbsp) and about 1/4 onion in the guacamole (page: 3 Tbsp, 30 g). From the written recipe: 1-2 jalapeños (midpoint 1 1/2 used), 2 lb for the six thighs, 15.5 oz cans of beans, 3 large avocados, 1-2 limes in the guacamole (midpoint 1 1/2 used). Our estimates: drained beans 260 g per can; salt in the beans (1/2 tsp kosher), the marinade (1 tsp kosher) and the guacamole (1 tsp kosher), all salted by taste in the video; onion size (USDA medium). The whole marinade is a thick blended paste that stays on the chicken, so it counts in full (house rule). The shallow searing oil stays in the pan with the chicken and counts. The bacon's rendered fat stays in the beans, so raw bacon counts in full. Not counted: bench flour for rolling the tortillas and the splash of water used to rinse the can. Chipotles in adobo have no SR Legacy record (see the new-ingredient note). Lime zest uses USDA lemon peel as a proxy. Assembly amounts are 'as much as you like'; the whole batch of each component is divided over the six burritos.",
+  "ingredients": [
+    {
+      "group": "Flour tortillas",
+      "ingredient": "flour-all-purpose",
+      "text": "2 cups all-purpose flour",
+      "quantity": 2,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "two cups of allpurpose flour",
+      "t": 55.76
+    },
+    {
+      "group": "Flour tortillas",
+      "ingredient": "salt",
+      "text": "1 tsp fine sea salt",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 teaspoon of salt",
+      "t": 57.6
+    },
+    {
+      "group": "Flour tortillas",
+      "ingredient": "baking-powder",
+      "text": "1/2 tsp baking powder",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "half a teaspoon of baking powder",
+      "t": 57.6
+    },
+    {
+      "group": "Flour tortillas",
+      "ingredient": "water",
+      "text": "3/4 cup warm water",
+      "quantity": "3/4",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "3/4 of a cup of warm water",
+      "t": 61.52
+    },
+    {
+      "group": "Flour tortillas",
+      "ingredient": "canola-oil",
+      "text": "1/4 cup vegetable oil",
+      "quantity": "1/4",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "1/4 cup of vegetable oil",
+      "t": 64.159
+    },
+    {
+      "group": "Flour tortillas",
+      "ingredient": "flour-all-purpose",
+      "text": "All-purpose flour, for dusting the counter and dough",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "a lot of allpurpose flour dusted",
+      "excluded_reason": "bench flour for rolling; amount not stated and mostly not eaten",
+      "in_nutrition": false,
+      "t": 95.04
+    },
+    {
+      "group": "Bacon pinto beans",
+      "ingredient": "bacon",
+      "text": "4 oz smoky bacon, cut into lardons",
+      "quantity": 4,
+      "unit": "oz",
+      "basis": "stated",
+      "evidence": "4 oz of the smokiest bacon",
+      "preparation": "roughly chopped",
+      "amount_note": "Rendered fat stays in the pot with the beans, so the full raw weight is counted.",
+      "t": 167.04
+    },
+    {
+      "group": "Bacon pinto beans",
+      "ingredient": "onion",
+      "text": "1/2 white onion, finely diced",
+      "quantity": "1/2",
+      "unit": "medium",
+      "basis": "stated",
+      "evidence": "half of a white onion",
+      "preparation": "finely diced",
+      "amount_note": "Half an onion is stated; the size is not, so we use USDA's medium onion (110 g).",
+      "t": 136.56
+    },
+    {
+      "group": "Bacon pinto beans",
+      "ingredient": "garlic",
+      "text": "3 cloves garlic, thinly sliced",
+      "quantity": 3,
+      "unit": "clove",
+      "basis": "stated",
+      "evidence": "three cloves of garlic",
+      "preparation": "thinly sliced",
+      "t": 150.56
+    },
+    {
+      "group": "Bacon pinto beans",
+      "ingredient": "jalapeno",
+      "text": "1-2 jalapeños, thinly sliced (seeds optional)",
+      "quantity": "1 1/2",
+      "unit": "pepper",
+      "basis": "estimated",
+      "evidence": "same thing with some jalapenos",
+      "preparation": "thinly sliced",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/perfect-chicken-burritos-at-home-recipe",
+      "amount_note": "The video says only 'some jalapenos'; the written recipe gives 1-2. We use the midpoint, 1 1/2.",
+      "t": 154.4
+    },
+    {
+      "group": "Bacon pinto beans",
+      "ingredient": "kosher-salt",
+      "text": "A touch of salt, plus a touch more after the stock (about 1/2 tsp total)",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "touch of salt to draw out that water",
+      "amount_note": "Two unmeasured 'touch of salt' additions (at the veg and after the stock); 1/2 tsp kosher salt total is our estimate. The bacon is already salty.",
+      "t": 205.68
+    },
+    {
+      "group": "Bacon pinto beans",
+      "ingredient": "pinto-beans-canned",
+      "text": "2 cans (15.5 oz / 439 g each) pinto beans, rinsed and drained",
+      "quantity": 520,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "two cans of rinsed and drained pinto",
+      "amount_note": "Two cans stated in the video; the written recipe gives 15.5 oz (439 g) net per can. Drained weight about 260 g per can (roughly 1 1/2 cups) is our estimate: 2 x 260 = 520 g.",
+      "t": 215.04
+    },
+    {
+      "group": "Bacon pinto beans",
+      "ingredient": "chicken-broth",
+      "text": "1/4 cup chicken stock (or water)",
+      "quantity": "1/4",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "1/4 cup of chicken stock",
+      "t": 228.64
+    },
+    {
+      "group": "Chipotle chicken",
+      "ingredient": "chipotle-in-adobo",
+      "text": "1 can (7 oz) chipotle peppers in adobo, with the sauce",
+      "quantity": 7,
+      "unit": "oz",
+      "basis": "stated",
+      "evidence": "one 7 oz can of chipotle peppers and adobo",
+      "t": 246.64
+    },
+    {
+      "group": "Chipotle chicken",
+      "ingredient": "water",
+      "text": "A splash of water to rinse out the can",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "a little splash of water",
+      "in_nutrition": false,
+      "excluded_reason": "amount not stated",
+      "t": 255.04
+    },
+    {
+      "group": "Chipotle chicken",
+      "ingredient": "garlic",
+      "text": "2 cloves garlic",
+      "quantity": 2,
+      "unit": "clove",
+      "basis": "stated",
+      "evidence": "two cloves of garlic",
+      "t": 260.799
+    },
+    {
+      "group": "Chipotle chicken",
+      "ingredient": "lime-juice",
+      "text": "4 Tbsp lime juice",
+      "quantity": 4,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "about four tablespoons of lime juice",
+      "t": 260.799
+    },
+    {
+      "group": "Chipotle chicken",
+      "ingredient": "kosher-salt",
+      "text": "Kosher salt, to taste (about 1 tsp)",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "ever squeezed to salt",
+      "amount_note": "Salted to taste in the video and the written recipe; 1 tsp kosher salt for about 2 lb chicken is our estimate, kept modest because the adobo is already salty. This is the only salt the chicken gets.",
+      "t": 266.72
+    },
+    {
+      "group": "Chipotle chicken",
+      "ingredient": "canola-oil",
+      "text": "1 heaping Tbsp neutral oil, blended into the marinade",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "one large tablespoon of a neutral",
+      "t": 279.04
+    },
+    {
+      "group": "Chipotle chicken",
+      "ingredient": "chicken-thigh-boneless",
+      "text": "6 boneless, skinless chicken thighs (about 2 lb)",
+      "quantity": 2,
+      "unit": "lb",
+      "basis": "stated",
+      "evidence": "six of them to be exact",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/perfect-chicken-burritos-at-home-recipe",
+      "amount_note": "The video gives six boneless, skinless thighs; the written recipe gives 6 thighs, about 2 lb (908 g). We use the weight.",
+      "t": 292.133
+    },
+    {
+      "group": "Chipotle chicken",
+      "ingredient": "canola-oil",
+      "text": "About 2 Tbsp high-heat oil, for searing",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "add two tablespoons or so of a high",
+      "amount_note": "Shallow searing oil that stays in the pan with the chicken (the cubed chicken goes back into the pan), so counted as stated.",
+      "t": 328.16
+    },
+    {
+      "group": "Cilantro-lime rice",
+      "ingredient": "rice-medium-grain-dry",
+      "text": "1 1/2 cups medium-grain white rice, rinsed",
+      "quantity": "1 1/2",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "the point is 1 and 1/2 cups",
+      "amount_note": "The video uses medium-grain rice ('could be long grain'); the written recipe lists 1.5 cups (300 g) basmati. The video wins on the type.",
+      "t": 396.96
+    },
+    {
+      "group": "Cilantro-lime rice",
+      "ingredient": "water",
+      "text": "1 1/2 cups water",
+      "quantity": "1 1/2",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "another 1 and 1/2 cups of water",
+      "t": 404.96
+    },
+    {
+      "group": "Cilantro-lime rice",
+      "ingredient": "kosher-salt",
+      "text": "1 1/2 tsp kosher salt",
+      "quantity": "1 1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 and 1/2 teaspoons of kosher salt",
+      "t": 436.16
+    },
+    {
+      "group": "Cilantro-lime rice",
+      "ingredient": "butter-unsalted",
+      "text": "1 Tbsp unsalted butter, softened",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "1 tbsp of softened butter",
+      "t": 438.0
+    },
+    {
+      "group": "Cilantro-lime rice",
+      "ingredient": "lime-zest",
+      "text": "1/2 tsp lime zest",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "half teaspoon of lime zest",
+      "t": 459.28
+    },
+    {
+      "group": "Cilantro-lime rice",
+      "ingredient": "lime-juice",
+      "text": "Juice of 1 lime",
+      "quantity": 1,
+      "unit": "lime",
+      "basis": "stated",
+      "evidence": "the juice of one whole lime",
+      "qualifier": "yields",
+      "amount_note": "The video says the juice of one whole lime; the written recipe gives 1 Tbsp. The video wins.",
+      "t": 461.199
+    },
+    {
+      "group": "Cilantro-lime rice",
+      "ingredient": "cilantro",
+      "text": "3 Tbsp finely chopped cilantro",
+      "quantity": 3,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "about 3 tablespoons of very finely freshly chopped cilantro",
+      "preparation": "finely chopped",
+      "t": 463.599
+    },
+    {
+      "group": "Guacamole",
+      "ingredient": "avocado",
+      "text": "3 large avocados, roughly chopped",
+      "quantity": 3,
+      "unit": "whole",
+      "basis": "stated",
+      "evidence": "we're going to cut our avocados in half",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/perfect-chicken-burritos-at-home-recipe",
+      "amount_note": "No count in the video; the written recipe gives 3 large avocados. Counted at USDA's 136 g per avocado (flesh), which may understate large ones.",
+      "t": 502.24
+    },
+    {
+      "group": "Guacamole",
+      "ingredient": "kosher-salt",
+      "text": "Kosher salt, generously, to taste (about 1 tsp)",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "season it generously with kosher salt",
+      "amount_note": "Seasoned 'generously', then 'a touch more' and 'a little bit more' by taste; 1 tsp kosher salt for 3 avocados is our estimate.",
+      "t": 535.68
+    },
+    {
+      "group": "Guacamole",
+      "ingredient": "lime-juice",
+      "text": "Juice of 1-2 limes, to taste",
+      "quantity": "1 1/2",
+      "unit": "lime",
+      "basis": "estimated",
+      "evidence": "add the juice of one lime just to start",
+      "qualifier": "yields",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/perfect-chicken-burritos-at-home-recipe",
+      "amount_note": "The video adds the juice of one lime to start, then a little more to taste; the written recipe gives 1-2 limes. We use the midpoint, 1 1/2.",
+      "t": 558.32
+    },
+    {
+      "group": "Guacamole",
+      "ingredient": "onion",
+      "text": "1/4 white onion, very finely chopped (the other half of the bean onion)",
+      "quantity": "1/4",
+      "unit": "medium",
+      "basis": "stated",
+      "evidence": "we'll call that a quarter of a wide onion",
+      "preparation": "very finely chopped",
+      "amount_note": "The video says about a quarter of the onion ('wide onion' is a caption error for white onion); the written recipe gives 3 Tbsp (30 g). The video wins; USDA medium onion (110 g) assumed, so about 28 g.",
+      "t": 599.2
+    },
+    {
+      "group": "Guacamole",
+      "ingredient": "cilantro",
+      "text": "2 Tbsp finely chopped cilantro",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "i'm going to do like a couple tablespoons",
+      "preparation": "finely chopped",
+      "t": 606.64
+    }
+  ],
+  "steps": [
+    {
+      "t": 52,
+      "text": "Tortillas: whisk the flour, salt and baking powder, then mix in the warm water and oil by hand. Knead 2-3 minutes until smooth and elastic, cover, and rest 5-30 minutes."
+    },
+    {
+      "t": 88,
+      "text": "Divide into six balls. On a well-floured counter, flatten each and roll to a thin 12-inch round, about 1/8 inch thick."
+    },
+    {
+      "t": 111,
+      "text": "Cook each tortilla in a very hot 12-inch cast-iron pan or comal for 15-30 seconds per side, until puffed and lightly charred. Keep warm wrapped in towels."
+    },
+    {
+      "t": 133,
+      "text": "Beans: finely dice half the onion and thinly slice the garlic and jalapeños (seeding is optional). Cut the bacon into small lardons."
+    },
+    {
+      "t": 183,
+      "text": "Render the bacon in a cold large pot over medium-low, stirring, 3-4 minutes until crisp and browned. Raise to medium, add the vegetables with a little salt, and sauté about 3 minutes until soft."
+    },
+    {
+      "t": 213,
+      "text": "Add the rinsed, drained pinto beans, the stock and a little more salt. Simmer until the liquid is reduced by half and everything is hot. Adjust the salt."
+    },
+    {
+      "t": 244,
+      "text": "Marinade: blend the whole can of chipotles in adobo (rinse the can with a splash of water), the garlic, lime juice and salt, starting low and going to high until very smooth, then stream in the tablespoon of oil. Taste and adjust the salt now."
+    },
+    {
+      "t": 290,
+      "text": "Massage the marinade into the six boneless, skinless thighs in a bowl. Cook right away or cover and refrigerate overnight."
+    },
+    {
+      "t": 323,
+      "text": "Heat about 2 Tbsp oil in a heavy 10-12-inch pan over medium-high until just smoking. Lay the chicken in one layer and sear 2-3 minutes per side, then keep turning until it reaches 165°F inside, or finish in a 375°F oven for 5-10 minutes."
+    },
+    {
+      "t": 387,
+      "text": "Rice: rinse the rice and cook it with an equal volume of water in a rice cooker (or on the stove)."
+    },
+    {
+      "t": 422,
+      "text": "Fluff the hot rice into a large bowl and fold in the kosher salt and softened butter until every grain is coated, then the lime zest, lime juice and cilantro. Taste, then return it to the cooker on keep-warm."
+    },
+    {
+      "t": 492,
+      "text": "Guacamole: halve, pit, peel and roughly chop the avocados. Salt them generously and mash partway, then add the juice of one lime and mash again, stopping just short of the texture you want."
+    },
+    {
+      "t": 578,
+      "text": "Taste for salt, then fold in finely chopped onion from the other half (about a quarter onion) and a couple tablespoons of finely chopped cilantro. Finish with more salt and lime to taste."
+    },
+    {
+      "t": 650,
+      "text": "Take the chicken out of the pan, cut it into 1/2-inch cubes, return it to the warm pan with its juices, toss, cover and keep warm."
+    },
+    {
+      "t": 679,
+      "text": "Assemble on a hot tortilla: rice in the lower third, then beans, chicken and a generous spoon of guacamole. Fold in the sides and roll up tightly from the bottom."
+    },
+    {
+      "t": 705,
+      "text": "Optionally wrap each burrito tightly in foil for a couple of minutes to set and steam, then cut in half and serve."
+    }
+  ]
+}

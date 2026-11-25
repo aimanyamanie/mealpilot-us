@@ -48,7 +48,7 @@ onion-sweet,Sweet onion,produce,plant,false,false,false,170008,,sweet onion;vida
 tomato,Tomato,produce,plant,false,false,false,170457,,tomato;tomatoes;roma tomato;plum tomato,"Roma = USDA plum tomato, 62 g (extra_portions.csv)."
 tomatillo,Tomatillo,produce,plant,false,false,false,168566,,tomatillo;tomatillos,Medium = 34 g.
 jalapeno,Jalapeño,produce,plant,false,false,false,168576,,jalapeno;jalapeño;jalapenos,One pepper = 14 g.
-red-chili,"Fresh red chili (Fresno, bird's eye)",produce,plant,false,false,false,170106,,fresno chili;red fresno;red chili;bird's eye chili;red jalapeno,"USDA hot chili, red, raw; one pepper = 45 g, which fits a Fresno, not a bird's eye (weigh those)."
+red-chili,"Fresh red chili (Fresno, bird's eye)",produce,plant,false,false,false,170106,,fresno chili;red fresno;red chili;bird's eye chili;red jalapeno,"USDA hot chili, red, raw. One pepper is set to 14 g in extra_portions.csv (Fresno/red jalapeño size); bird's eye chilies are entered in grams."
 green-chili,"Fresh green chili (Thai, serrano)",produce,plant,false,false,false,170497,,green chili;thai green chili;serrano,"USDA hot chili, green, raw."
 dried-chili,"Dried chile (árbol, guajillo)",spices,plant,false,false,false,168570,,chile de arbol;chiles de arbol;guajillo;dried chili,"USDA hot chile, sun-dried; one pepper = 0.5 g fits a chile de árbol (weigh guajillos)."
 ancho-chili,Dried ancho chile,spices,plant,false,false,false,169396,,ancho;ancho chile,One pepper = 17 g.
@@ -99,3 +99,91 @@ gochujang,Gochujang,condiments,plant,true,false,false,2244609,soy;wheat,gochujan
 kecap-manis,Kecap manis (sweet soy sauce),condiments,plant,true,false,false,492571,soy;wheat,kecap manis;sweet soy sauce,Branded record (ABC sweet soy sauce).
 shrimp-paste,"Shrimp paste (terasi, belacan)",condiments,shellfish,false,false,false,2032323,shellfish,shrimp paste;terasi;belacan,Branded dried shrimp paste (blachan) record.
 furikake,Furikake,condiments,plant,true,false,false,2195707,sesame;soy;wheat,furikake,"Branded nori furikake record. Furikake varies; versions with bonito contain fish. Flagged for sesame, soy and wheat to be safe."
+aleppo-pepper,Aleppo pepper,spices,plant,false,false,false,171329,,aleppo pepper,No USDA record for Aleppo pepper; paprika (a mild ground red pepper) is the proxy.
+allspice,"Allspice (pimento), ground or whole berries",spices,plant,false,false,false,171315,,"allspice;allspice, ground or whole berries",Ground allspice; whole berries use the same record by weight.
+apple-cider-vinegar,Apple cider vinegar,condiments,plant,false,false,false,173469,,apple cider vinegar,
+avocado-oil,Avocado oil,oils,plant,false,false,false,173573,,avocado oil,
+bacon,Bacon,meat,pork,false,false,false,168277,,bacon,"Cured bacon, raw (unprepared)."
+baking-powder,Baking powder,pantry,mineral,false,false,false,172803,,baking powder,Double-acting (sodium aluminum sulfate) baking powder.
+baking-soda,Baking soda,pantry,mineral,false,false,false,175040,,baking soda,
+banana-ketchup,Banana ketchup,condiments,plant,false,false,false,2217507,,banana ketchup,Branded banana ketchup record (Baron).
+bay-leaf,Bay leaf (dried),spices,plant,false,false,false,170917,,bay leaf,Dried bay leaf.
+beef-tallow,Beef tallow,oils,beef,false,false,false,171400,,beef tallow,
+bell-pepper-red,Red bell pepper,produce,plant,false,false,false,170108,,bell pepper red;red bell pepper,"Sweet red pepper, raw."
+black-vinegar,Chinese black vinegar (Chinkiang),condiments,plant,true,false,false,2436644,wheat,black vinegar;chinese black vinegar,"Branded Chinkiang vinegar record (Rhee Bros). Chinkiang vinegar is brewed from rice and wheat bran, so flagged for wheat and gluten."
+brioche-bun,Brioche bun,grains,plant,true,false,false,1933067,wheat;milk;egg,brioche bun,Branded brioche hamburger bun record (Gonnella). Brioche contains butter and egg.
+brown-sugar,Brown sugar,pantry,plant,false,false,false,168833,,brown sugar,Light or dark brown sugar.
+buttermilk,Buttermilk,dairy,dairy,false,false,false,170874,milk,buttermilk,"Cultured low-fat buttermilk, the usual US supermarket buttermilk."
+cabbage-green,Green cabbage,produce,plant,false,false,false,169975,,cabbage green;green cabbage,"Green cabbage, raw; 1 cup shredded = 70 g."
+cardamom,Cardamom,spices,plant,false,false,false,170919,,cardamom,Ground cardamom; also stands in for black cardamom pods.
+celery,Celery,produce,plant,false,false,false,169988,,celery,
+chicken-ground,Ground chicken,poultry,poultry,false,false,false,171116,,chicken ground;ground chicken,"Ground chicken, raw."
+chicken-leg-quarter,"Chicken leg quarter, bone-in, skin-on",poultry,poultry,false,false,false,172378,,"chicken leg quarter;chicken leg quarter, bone-in, skin-on","Leg (thigh + drumstick), meat and skin, raw. Recipes enter edible weight: as-bought weight less 27% bone (USDA SR28 refuse for NDB 05075)."
+chicken-seasoning,Jamaican chicken seasoning powder,spices,plant,false,false,false,172242,,chicken seasoning;jamaican chicken seasoning powder,"No USDA Jamaican chicken seasoning; USDA dry sazon seasoning mix (salt-based, MSG) is the proxy. Sodium is uncertain."
+chicken-tenderloin,"Chicken tenderloins (tenders), raw",poultry,poultry,false,false,false,171077,,"chicken tenderloin;chicken tenderloins, raw",Same USDA record as boneless skinless breast (tenderloins are part of the breast).
+chicken-thigh-bone-in,"Chicken thigh, bone-in, skin-on",poultry,poultry,false,false,false,172385,,"chicken thigh bone in;chicken thigh, bone-in, skin-on","Thigh, meat and skin, raw. Recipes enter edible weight: as-bought weight less 19% bone. USDA's raw thigh record prints 0% refuse (boneless sample), so the 19% is from USDA's thigh, fried, batter record (NDB 05092)."
+chicken-whole,"Whole chicken, meat and skin (edible part)",poultry,poultry,false,false,false,171447,,"chicken whole;whole chicken, meat and skin","Broiler meat and skin, raw. Recipes enter edible weight: as-bought weight less 32% bone (USDA SR28 refuse for NDB 05006)."
+chicken-wing,"Chicken wing, skin-on (drums and flats)",poultry,poultry,false,false,false,172390,,"chicken wing;chicken wing, skin-on","Wing, meat and skin, raw. Recipes enter edible weight: as-bought weight less 38% bone and connective tissue (USDA SR28 refuse for NDB 05100)."
+chili-crisp,Chili crisp,condiments,plant,false,false,false,2417385,soy,chili crisp,"Branded chili crisp record. Brands vary; many contain soy, so flagged."
+chili-flakes,Red pepper flakes,spices,plant,false,false,false,170932,,chili flakes;red pepper flakes,Crushed red pepper flakes; USDA ground red (cayenne) pepper is the proxy.
+chipotle-in-adobo,Chipotle peppers in adobo sauce,condiments,plant,false,false,false,1855560,,chipotle in adobo;chipotle peppers in adobo sauce,Branded canned chipotle peppers in adobo record.
+chives,Chives,herbs,plant,false,false,false,169994,,chives,
+cloves,Cloves (spice),spices,plant,false,false,false,171321,,cloves,Ground cloves; whole cloves by weight.
+corn-syrup-light,Light corn syrup,pantry,plant,false,false,false,168837,,corn syrup light;light corn syrup,
+curry-powder,Curry powder,spices,plant,false,false,false,170924,,curry powder,
+dijon-mustard,Dijon mustard,condiments,plant,false,false,false,172234,,dijon mustard,No USDA Dijon; prepared yellow mustard is the proxy.
+dill-dried,Dried dill,spices,plant,false,false,false,171322,,dill dried;dried dill,
+dill-fresh,Fresh dill,herbs,plant,false,false,false,172233,,dill fresh;fresh dill,
+eden-cheese,Eden processed cheese,dairy,dairy,false,true,false,171252,milk,eden cheese;eden processed cheese,"Kraft Eden (Filipino processed cheese) has no USDA record; American pasteurized process cheese food is the proxy. Rennet source unknown, so treated as not vegetarian."
+egg-white,Egg white,dairy,egg,false,false,false,172183,egg,egg white,Large white = 33 g.
+festival-mix,Festival mix (Jamaican fried dumpling mix),grains,plant,true,false,false,174908,wheat,festival mix,"No USDA festival (Jamaican fried dumpling) mix; enriched cornbread dry mix (cornmeal, flour, sugar, leavening) is the proxy."
+fish-sauce,Fish sauce,condiments,fish,false,false,false,174531,fish,fish sauce,
+flour-all-purpose,All-purpose flour,grains,plant,true,false,false,168894,wheat,flour all purpose;all-purpose flour,Enriched all-purpose flour; 1 cup = 125 g.
+fortified-wine,"Fortified red wine (Red Label, ruby port)",pantry,plant,false,false,true,173176,,fortified wine;fortified red wine,Sweet dessert wine; stands in for Red Label wine or ruby port.
+french-fries-frozen,"French fries, frozen, unprepared",produce,plant,false,false,false,2597171,,"french fries frozen;french fries, frozen, unprepared","Branded frozen crinkle-cut fries, unprepared (Ore-Ida-type par-fried). Frying oil absorbed at home is counted separately."
+ginger-ground,"Ginger, ground",spices,plant,false,false,false,170926,,"ginger ground;ginger, ground",
+guanciale,Guanciale (cured pork jowl),meat,pork,false,false,false,168269,,guanciale,"No USDA guanciale; fresh pork jowl is the proxy, so sodium from curing is understated."
+hibiscus-dried,Dried hibiscus flowers (sorrel),produce,plant,false,false,false,168170,,hibiscus dried;dried hibiscus flowers,"Roselle (hibiscus), raw; steeped and strained out where used."
+hot-sauce,"Hot sauce, Frank's RedHot style",condiments,plant,false,false,false,174527,,"hot sauce;hot sauce, frank's redhot style",Cayenne-vinegar hot sauce (Frank's RedHot style).
+jerk-seasoning,"Jerk seasoning, dry",spices,plant,false,false,false,1889437,,"jerk seasoning;jerk seasoning, dry",Branded dry jerk seasoning record.
+ketchup,Ketchup,condiments,plant,false,false,false,168556,,ketchup,
+kimchi,Kimchi (napa cabbage),condiments,fish,false,false,false,170392,fish;shellfish,kimchi,"USDA cabbage kimchi. Traditional kimchi is made with fish sauce or salted shrimp, so it is not tagged vegetarian and is flagged for fish and shellfish."
+lemon-zest,Lemon zest,produce,plant,false,false,false,167749,,lemon zest,"USDA lemon peel, raw."
+lettuce-butterhead,Butter lettuce,produce,plant,false,false,false,168429,,lettuce butterhead;butter lettuce,"Butterhead (Boston, Bibb) lettuce."
+lime-zest,Lime zest,produce,plant,false,false,false,167749,,lime zest,"No USDA lime peel; lemon peel, raw is the proxy."
+miso,Miso (white/light),condiments,plant,false,false,false,172442,soy,miso,
+mozzarella,"Mozzarella, low-moisture part-skim",dairy,dairy,false,true,false,171244,milk,"mozzarella;mozzarella, low-moisture part-skim","Low-moisture part-skim mozzarella. Rennet source varies, so treated as not vegetarian."
+mozzarella-whole-milk,"Mozzarella, whole milk (full-fat)",dairy,dairy,false,true,false,170845,milk,"mozzarella whole milk;mozzarella, whole milk","Whole-milk mozzarella. Rennet source varies, so treated as not vegetarian."
+mushroom-seasoning,Mushroom seasoning / mushroom soup base powder,spices,plant,true,false,false,2419960,wheat;soy,mushroom seasoning;mushroom seasoning / mushroom soup base powder,No USDA mushroom seasoning; a branded mushroom soup and seasoning mix is the proxy. Flagged for wheat and soy to be safe.
+onion-red,Red onion,produce,plant,false,false,false,170000,,onion red;red onion,Same USDA record as yellow onion (USDA's red-onion record has no household portions).
+orange-juice,"Orange juice, fresh",produce,plant,false,false,false,169098,,"orange juice;orange juice, fresh","Orange juice, raw (fresh-squeezed)."
+orange-zest,Orange zest,produce,plant,false,false,false,169103,,orange zest,"USDA orange peel, raw."
+panko,Panko breadcrumbs,grains,plant,true,false,false,2489340,wheat,panko;panko breadcrumbs,"Branded panko record. Panko is much lighter than dry breadcrumbs: 1 cup = 84 g from its label (28 g per 1/3 cup), in extra_portions.csv."
+peanuts-roasted,"Peanuts, roasted",pantry,plant,false,false,false,174262,peanuts,"peanuts roasted;peanuts, roasted",
+pimento-pepper,Jamaican pimento (seasoning) pepper,produce,plant,false,false,false,170108,,pimento pepper;jamaican pimento pepper,Jamaican pimento (seasoning) pepper is mild; USDA sweet red pepper is the proxy.
+pinto-beans-canned,"Pinto beans, canned, drained",pantry,plant,false,false,false,174286,,"pinto beans canned;pinto beans, canned, drained","Canned pinto beans, drained solids."
+plantain,"Plantain, ripe (yellow)",produce,plant,false,false,false,169130,,"plantain;plantain, ripe","Yellow (ripe) plantain, raw."
+pomegranate-molasses,Pomegranate molasses,condiments,plant,false,false,false,2560758,,pomegranate molasses,Branded pomegranate molasses record.
+potato-starch,Potato starch,pantry,plant,false,false,false,2671914,,potato starch,"Branded potato starch record (Bob's Red Mill); 1 Tbsp = 12 g from its label, in extra_portions.csv."
+rice-syrup,Korean rice syrup (ssal-jocheong),pantry,plant,false,false,false,2076589,,rice syrup;korean rice syrup,No Korean rice syrup (ssal-jocheong) record; a branded brown rice syrup is the closest.
+rosemary-fresh,Fresh rosemary,herbs,plant,false,false,false,173473,,rosemary fresh;fresh rosemary,
+rum,"White rum, 80 proof",pantry,plant,false,false,true,174817,,"rum;white rum, 80 proof",
+saj-bread,Saj / shrak flatbread,grains,plant,true,false,false,174915,wheat,saj bread;saj / shrak flatbread,"No USDA saj/shrak; white pita (same flour, water, salt base) is the proxy."
+sambal-oelek,Sambal oelek,condiments,plant,false,false,false,2016176,,sambal oelek,Branded sambal oelek record (Huy Fong).
+sazon-seasoning,Sazón seasoning (Sazón Clásico),spices,plant,false,false,false,172242,,sazon seasoning;sazón seasoning,Dry sazon seasoning mix (coriander and annatto).
+scotch-bonnet,Scotch bonnet pepper,produce,plant,false,false,false,170106,,scotch bonnet;scotch bonnet pepper,"No USDA Scotch bonnet; red hot chili, raw is the proxy. Recipes give grams."
+sesame-seeds,"Sesame seeds, toasted",pantry,plant,false,false,false,170151,sesame,"sesame seeds;sesame seeds, toasted","Whole sesame seeds, roasted and toasted."
+shaoxing-wine,Shaoxing cooking wine,condiments,plant,true,false,true,167723,wheat,shaoxing wine;shaoxing cooking wine,"No USDA Shaoxing wine; sake is the nearest rice wine. Shaoxing is brewed with wheat, so flagged for wheat and gluten. Contains alcohol."
+shatta,Shatta (Levantine red chili paste),condiments,plant,false,false,false,2028283,,shatta,No USDA shatta; a branded fried chili paste (chilies in oil) is the proxy.
+shrimp,"Shrimp, raw",seafood,shellfish,false,false,false,175179,shellfish,"shrimp;shrimp, raw","Raw, shelled and deveined."
+sichuan-peppercorn,Sichuan peppercorn,spices,plant,false,false,false,170931,,sichuan peppercorn,No USDA Sichuan pepper; black pepper is the proxy.
+sorrel-drink,Jamaican sorrel (hibiscus-ginger) drink,pantry,plant,false,false,false,2567132,,sorrel drink;jamaican sorrel drink,Branded non-alcoholic sorrel ginger drink record.
+spring-roll-wrapper,Spring roll / lumpia wrapper,grains,plant,true,false,false,172802,wheat,spring roll wrapper;spring roll / lumpia wrapper,USDA wonton/egg roll wrapper is the proxy for lumpia wrappers.
+star-anise,Star anise,spices,plant,false,false,false,171316,,star anise,No USDA star anise; anise seed is the proxy.
+thyme-dried,Dried thyme,spices,plant,false,false,false,170938,,thyme dried;dried thyme,
+toasted-rapeseed-oil,Toasted rapeseed oil (caiziyou),oils,plant,false,false,false,172336,,toasted rapeseed oil,No USDA roasted rapeseed oil; canola oil is the proxy (fat profile is the same).
+white-bread,White bread,grains,plant,true,false,false,174924,wheat,white bread,Commercial white bread; also Texas toast.
+white-pepper,White pepper,spices,plant,false,false,false,170933,,white pepper,
+wonton-wrapper,Wonton wrapper,grains,plant,true,false,false,172802,wheat;egg,wonton wrapper,"Wonton wrappers usually contain egg, so flagged."
+worcestershire-sauce,Worcestershire sauce,condiments,fish,false,false,false,171610,fish,worcestershire sauce,"Contains anchovies, so not tagged vegetarian."
+xanthan-gum,Xanthan gum,pantry,plant,false,false,false,169045,,xanthan gum,"No USDA xanthan gum; seed gums (guar, locust bean) are the proxy."

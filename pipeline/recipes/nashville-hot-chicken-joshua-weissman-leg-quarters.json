@@ -1,0 +1,381 @@
+{
+  "slug": "nashville-hot-chicken-joshua-weissman-leg-quarters",
+  "market": "US",
+  "title": "Classic Nashville Hot Chicken Leg Quarters",
+  "summary": "Buttermilk-marinated, bone-in chicken leg quarters with an extra-crunchy seasoned flour crust, fried and tossed in a cayenne-brown sugar spice oil, served on white Texas toast with pickles.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/mKu7Qg8wFKQ.json"
+  },
+  "cuisine": "Southern American",
+  "course": "main",
+  "meal_slots": [
+    "lunch",
+    "dinner"
+  ],
+  "servings": 4,
+  "servings_basis": "stated",
+  "prep_minutes": 30,
+  "cook_minutes": 45,
+  "times_basis": "stated",
+  "difficulty": "medium",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'Perfect Nashville Hot Fried Chicken At Home (2 Ways)' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). This file is one of two versions in the video (house rule 6), both pointing to the same transcript: the classic bone-in leg quarters on white toast, and a boneless tender sandwich. Written recipe for both: https://www.joshuaweissman.com/recipes/perfect-nashville-hot-fried-chicken-at-home-2-ways-recipe (serves 4, prep 30 min, cook 45 min for the page as a whole). Marinating time is not in prep_minutes (house rule 13): at least 2 hours, ideally overnight. The page gives a separate marinade for each version but one dredge and one hot-oil mix; the video says the tenders are breaded 'exactly like the leg quarters' and tossed in the spicy oil, so this file repeats the full dredge and hot oil so it stands alone. All marinade, dredge and hot-oil amounts are stated in the video and match the page. House rules applied: the buttermilk marinade is poured off and excluded; the dredge counts at 25%; the deep-frying oil is excluded and absorbed oil is counted at 10% of the raw breaded weight (arithmetic on that line). The hot spice oil (about 1 cup of the frying oil whisked into the spices) is a dunking oil made in a bigger batch than stays on the chicken and no share is stated, so every hot-oil line counts at 25% (house rule 10; full batch kept in each line's text). Optional chicken bouillon powder is counted (at 25%) because the transcript narrates it being added with the other spices (house rule 11); this is inferred from the narration, not seen on screen. The optional extra spoonful of spice oil is excluded (mentioned, not added). The cayenne in the hot oil can go up to 1/2 cup; we use 1/4 cup. Potato starch is listed as an excluded alternative to the cornstarch. Smoked paprika uses the existing paprika slug. Brown sugar is dark brown (light is allowed). Version 1 (classic): 4 servings, one leg quarter on one slice of toast each; the written recipe's 4 servings and 4 slices of Texas toast agree. From the written recipe: 4 slices Texas toast (weight ours, 40 g each). Our estimate: 12 pickle coins (72 g) for 'a few dill pickle slices'. The leg quarters are entered as bought, bone-in (2 lb, house rule 12); the lead converts to edible weight with USDA's yield for the cut. Absorbed oil uses the as-bought weight. Prep and cook times are the page's figures for both versions together.",
+  "ingredients": [
+    {
+      "group": "Marinade (poured off)",
+      "ingredient": "buttermilk",
+      "text": "2 cups buttermilk",
+      "quantity": 2,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "two cups of buttermilk",
+      "in_nutrition": false,
+      "excluded_reason": "liquid marinade, poured off",
+      "t": 41.6
+    },
+    {
+      "group": "Marinade (poured off)",
+      "ingredient": "hot-sauce",
+      "text": "2 Tbsp Frank's RedHot",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "two tablespoons of frank's redhot",
+      "in_nutrition": false,
+      "excluded_reason": "liquid marinade, poured off",
+      "t": 43.76
+    },
+    {
+      "group": "Marinade (poured off)",
+      "ingredient": "kosher-salt",
+      "text": "1 Tbsp kosher salt",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "one tablespoon of kosher salt",
+      "in_nutrition": false,
+      "excluded_reason": "liquid marinade, poured off",
+      "t": 45.8
+    },
+    {
+      "group": "Marinade (poured off)",
+      "ingredient": "msg",
+      "text": "2 tsp MSG",
+      "quantity": 2,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "two teaspoons of msg",
+      "in_nutrition": false,
+      "excluded_reason": "liquid marinade, poured off",
+      "t": 47.92
+    },
+    {
+      "group": "Chicken",
+      "ingredient": "chicken-leg-quarter",
+      "text": "4 chicken leg quarters, about 2 lb (900 g), bone-in and skin-on",
+      "quantity": 662,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "four chicken leg quarters that's about 2 lb or 900 g",
+      "amount_note": "As bought, bone-in: 2 lb = 907 g. Edible weight 662 g after 27% bone, USDA SR28 refuse for NDB 05075 (leg, meat and skin, raw).",
+      "t": 74.88
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "flour-all-purpose",
+      "text": "3 cups all-purpose flour",
+      "quantity": "3/4",
+      "unit": "cup",
+      "basis": "estimated",
+      "evidence": "three cups of all-purpose flour",
+      "amount_source": "our_estimate",
+      "amount_note": "3 cups stated; 25% counted as dredge that sticks (house rule): 3 x 0.25 = 3/4 cup.",
+      "t": 107.6
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "cornstarch",
+      "text": "1/2 cup cornstarch",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "half a cup of cornstarch",
+      "amount_source": "our_estimate",
+      "amount_note": "1/2 cup stated; 25% counted as dredge that sticks (house rule): 1/2 x 0.25 = 1/8 cup = 2 Tbsp.",
+      "t": 122.96
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "potato-starch",
+      "text": "Potato starch, instead of the cornstarch",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "you could also do potato starch",
+      "in_nutrition": false,
+      "excluded_reason": "alternative",
+      "t": 124.76
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "kosher-salt",
+      "text": "1 Tbsp kosher salt",
+      "quantity": "3/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "1 tbsp of kosher salt",
+      "amount_source": "our_estimate",
+      "amount_note": "1 Tbsp stated; 25% counted as dredge that sticks (house rule): 3 tsp x 0.25 = 3/4 tsp.",
+      "t": 127.04
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "msg",
+      "text": "1 tsp MSG",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "1 tsp of msg",
+      "amount_source": "our_estimate",
+      "amount_note": "1 tsp stated; 25% counted as dredge that sticks (house rule): 1 x 0.25 = 1/4 tsp.",
+      "t": 129.0
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "paprika",
+      "text": "2 tsp smoked paprika",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "2 tsp of smoked paprika",
+      "amount_source": "our_estimate",
+      "amount_note": "2 tsp stated; 25% counted as dredge that sticks (house rule): 2 x 0.25 = 1/2 tsp.",
+      "t": 135.56
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "cayenne",
+      "text": "1 tsp cayenne",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "1 tsp of cayenne",
+      "amount_source": "our_estimate",
+      "amount_note": "1 tsp stated; 25% counted as dredge that sticks (house rule): 1 x 0.25 = 1/4 tsp.",
+      "t": 135.56
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "garlic-powder",
+      "text": "2 tsp garlic powder",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "2 tsp of garlic powder",
+      "amount_source": "our_estimate",
+      "amount_note": "2 tsp stated; 25% counted as dredge that sticks (house rule): 2 x 0.25 = 1/2 tsp.",
+      "t": 137.52
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "cayenne",
+      "text": "1/4 cup cayenne powder (up to 1/2 cup for hotter)",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "a quarter cup of cayenne powder",
+      "amount_source": "our_estimate",
+      "amount_note": "He allows up to a half cup; we use the stated base of 1/4 cup. Full batch in text; 25% counted as dunked spice oil that stays on the chicken (house rule 10; no share stated): 1/4 cup x 0.25 = 1 Tbsp.",
+      "t": 153.72
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "paprika",
+      "text": "1 Tbsp smoked paprika",
+      "quantity": "3/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "a tablespoon of smoked paprika",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch in text; 25% counted as dunked spice oil that stays on the chicken (house rule 10; no share stated): 3 tsp x 0.25 = 3/4 tsp.",
+      "t": 158.04
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "garlic-powder",
+      "text": "1 Tbsp garlic powder",
+      "quantity": "3/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "a tablespoon of garlic powder",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch in text; 25% counted as dunked spice oil that stays on the chicken (house rule 10; no share stated): 3 tsp x 0.25 = 3/4 tsp.",
+      "t": 159.84
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "onion-powder",
+      "text": "1/2 tsp onion powder",
+      "quantity": "1/8",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "half a teaspoon of ... onion powder",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch in text; 25% counted as dunked spice oil that stays on the chicken (house rule 10; no share stated): 1/2 tsp x 0.25 = 1/8 tsp.",
+      "t": 162.48
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "kosher-salt",
+      "text": "2 tsp kosher salt",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "2 tsp of kosher salt",
+      "amount_source": "our_estimate",
+      "amount_note": "Full batch in text; 25% counted as dunked spice oil that stays on the chicken (house rule 10; no share stated): 2 tsp x 0.25 = 1/2 tsp.",
+      "t": 176.36
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "brown-sugar",
+      "text": "2 Tbsp dark (or light) brown sugar",
+      "quantity": "1 1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "of dark brown sugar",
+      "amount_source": "our_estimate",
+      "amount_note": "'2 tbsp' is split from 'of dark brown sugar' by a [music] tag in the captions (176-179 s). Full batch in text; 25% counted as dunked spice oil that stays on the chicken (house rule 10; no share stated): 6 tsp x 0.25 = 1 1/2 tsp.",
+      "t": 179.72,
+      "qualifier": "packed"
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "chicken-bouillon",
+      "text": "2 tsp chicken bouillon powder (optional, recommended)",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "of chicken bouillon powder",
+      "amount_source": "our_estimate",
+      "amount_note": "Optional, but narrated as added (house rule 11): he gives the amount in the same running list as the other spices he puts in the bowl, then says 'whisk all that together'. Inferred from the transcript, not seen on screen. Full batch in text; 25% counted as dunked spice oil that stays on the chicken (house rule 10; no share stated): 2 tsp x 0.25 = 1/2 tsp.",
+      "optional": true,
+      "t": 186.36
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "canola-oil",
+      "text": "About 1 cup hot frying oil (about 350°F), whisked into the spices",
+      "quantity": "1/4",
+      "unit": "cup",
+      "basis": "estimated",
+      "evidence": "ladle about a cup of your hot frying oil",
+      "amount_source": "our_estimate",
+      "amount_note": "Ladled from the frying pot. Full batch in text; 25% counted as dunked spice oil that stays on the chicken (house rule 10; no share stated): 1 cup x 0.25 = 1/4 cup (about 55 g).",
+      "t": 286.2
+    },
+    {
+      "group": "Nashville hot oil (tossed on)",
+      "ingredient": "canola-oil",
+      "text": "More spice oil spooned over, optional",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "optionally you can always coat it with a little bit more oil",
+      "in_nutrition": false,
+      "excluded_reason": "optional, not added in the video",
+      "t": 304.0
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "Neutral oil, for deep-frying at 325°F",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "fry your chicken leg quarters in 325 f oil",
+      "in_nutrition": false,
+      "excluded_reason": "frying oil; absorbed oil counted separately",
+      "t": 270.4
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "Absorbed frying oil (our estimate)",
+      "quantity": 104,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "fry your chicken leg quarters in 325 f oil",
+      "amount_source": "our_estimate",
+      "amount_note": "10% of the raw weight of the fried food (house rule). Raw breaded leg quarters: 908 g bone-in chicken (bone included, as weighed raw) + 135 g counted dredge (25% of 540 g: 450 g flour, 60 g cornstarch, 10 g salt, 3 g MSG, 7 g smoked paprika, 3 g cayenne, 7 g garlic powder, written-recipe weights) = 1043 g; x 0.10 = 104 g. The buttermilk marinade is poured off and not included.",
+      "t": 270.4
+    },
+    {
+      "group": "To serve",
+      "ingredient": "white-bread",
+      "text": "4 thick slices white Texas toast (or thick-cut white bread)",
+      "quantity": 160,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "a slice of white texas toast or thick-cut white bread",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/perfect-nashville-hot-fried-chicken-at-home-2-ways-recipe",
+      "amount_note": "The video serves each piece on 'a slice'; the written recipe gives 4 slices thick-sliced Texas toast. About 40 g per thick slice is our estimate.",
+      "t": 311.04
+    },
+    {
+      "group": "To serve",
+      "ingredient": "dill-pickle",
+      "text": "A few dill pickle slices per serving (about 12 coins)",
+      "quantity": 72,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "with a few dill pickle slices",
+      "amount_source": "our_estimate",
+      "amount_note": "'A few' slices; the written recipe gives no amount. We use 3 coins per serving x 4 = 12, at about 6 g each = 72 g.",
+      "t": 315.08
+    }
+  ],
+  "steps": [
+    {
+      "t": 41,
+      "text": "Whisk the buttermilk, Frank's RedHot, salt and MSG. Add the leg quarters, work the marinade under the skin and make sure they are submerged. Cover and refrigerate, ideally overnight (frying right away works but the meat is less seasoned)."
+    },
+    {
+      "t": 107,
+      "text": "Whisk the dredge: flour, cornstarch, salt, MSG, smoked paprika, cayenne and garlic powder."
+    },
+    {
+      "t": 153,
+      "text": "In a heatproof bowl, whisk the hot-oil spices: cayenne, smoked paprika, garlic powder, onion powder, salt, brown sugar and bouillon powder, breaking up any sugar lumps. Set aside. Wash your hands well after handling it."
+    },
+    {
+      "t": 218,
+      "text": "With your wet hand, flick a little marinade into the dredge and toss; repeat up to three times to build small clumps. Lift each leg quarter from the marinade, press it into the flour on all sides and under the skin until there are no bare spots, then shake off the excess and set it down."
+    },
+    {
+      "t": 263,
+      "text": "Heat oil to 325°F, ideally in two pots with two leg quarters each. Fry 12-15 minutes, to 165°F inside, watching the heat so they don't scorch on the bottom."
+    },
+    {
+      "t": 286,
+      "text": "While they fry, ladle about 1 cup of the hot frying oil (around 350°F) into the spice mix and whisk immediately. The spices settle, so stir again before using."
+    },
+    {
+      "t": 298,
+      "text": "As soon as the chicken comes out, toss it in the spice oil and set it on a wire rack to drain. Spoon over a little more spice oil if you want more color and heat."
+    },
+    {
+      "t": 309,
+      "text": "Serve each leg quarter on a thick slice of white Texas toast with a few dill pickle slices."
+    }
+  ]
+}

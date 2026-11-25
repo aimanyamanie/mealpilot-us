@@ -27,7 +27,7 @@
   "times_basis": "stated",
   "difficulty": "medium",
   "extracted_by": "Claude (Opus 5.5), from the transcript",
-  "notes": "Video: 'The Best Spicy Fried Rice Ever' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe for the same dish: https://www.joshuaweissman.com/recipes/best-spicy-fried-rice-recipe-nasi-goreng (prep 20 min plus day-old rice, cook 15 min; it gives no serving count). Servings (4) are our estimate: four fried eggs, one per plate. The video states the chicken, oil, shallots, green onions, chilies, galangal, shrimp paste, MSG, kecap manis, soy and garlic. From the written recipe: 4 cups (800 g) of cooked, chilled jasmine rice (the video: three and a half, maybe four cups) and 4 eggs. Our estimates: 1/2 tsp kosher salt on the chicken, galangal about 8 g for a 1-inch piece. Cucumber is half, as in the video (the written recipe says 1). Not counted: the oil for frying the eggs (3-4 Tbsp, partly absorbed), store-bought fried shallots, lime, and the optional sambal. Galangal uses USDA ginger (he says ginger works as a substitute). Shallots (2, about 80 g) and bird's eye chilies (2, about 6 g) are weighed by us; USDA's chili pepper (45 g) is far bigger than a bird's eye. Kecap manis uses a branded ABC sweet soy sauce record, shrimp paste a branded dried shrimp paste (belacan) record, MSG a branded MSG record.",
+  "notes": "Video: 'The Best Spicy Fried Rice Ever' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe for the same dish: https://www.joshuaweissman.com/recipes/best-spicy-fried-rice-recipe-nasi-goreng (prep 20 min plus day-old rice, cook 15 min; it gives no serving count). Servings (4) are our estimate: four fried eggs, one per plate. The video states the chicken, oil, shallots, green onions, chilies, galangal, shrimp paste, MSG, kecap manis, soy and garlic. From the written recipe: 4 cups (800 g) of cooked, chilled jasmine rice (the video: three and a half, maybe four cups) and 4 eggs. Our estimates: 1/2 tsp kosher salt on the chicken, galangal about 8 g for a 1-inch piece. Cucumber is half, as in the video (the written recipe says 1). Not counted: the oil for frying the eggs (3-4 Tbsp, partly absorbed), store-bought fried shallots, lime, and the optional sambal. Galangal uses USDA ginger (he says ginger works as a substitute). Shallots (2, about 80 g) and bird's eye chilies (2, about 6 g) are weighed by us; USDA's chili pepper (45 g) is far bigger than a bird's eye. Kecap manis uses a branded ABC sweet soy sauce record, shrimp paste a branded dried shrimp paste (belacan) record, MSG a branded MSG record. The crispy fried eggs count absorbed oil at our house rate (10% of the eggs' raw weight); the Fresno garnish is weighed as a jalapeño-sized chili (14 g).",
   "ingredients": [
     {
       "group": "Fried rice",
@@ -205,19 +205,33 @@
       "basis": "to_taste",
       "evidence": "this is 3 to four tablespoons in my pan",
       "in_nutrition": false,
-      "excluded_reason": "frying oil; how much the eggs absorb is unknown",
+      "excluded_reason": "frying oil; absorbed oil counted separately",
       "t": 507.759
+    },
+    {
+      "group": "Fried egg",
+      "ingredient": "canola-oil",
+      "text": "Absorbed frying oil (our estimate)",
+      "quantity": 20,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "this is 3 to four tablespoons in my pan",
+      "t": 507.759,
+      "amount_source": "our_estimate",
+      "amount_note": "House rule: absorbed oil = 10% of the raw weight of the fried food. 4 large eggs at 50 g = 200 g; 10% = 20 g."
     },
     {
       "group": "To serve",
       "ingredient": "red-chili",
       "text": "1 red Fresno chili, thinly sliced (optional)",
-      "quantity": 1,
-      "unit": "pepper",
-      "basis": "stated",
+      "quantity": 14,
+      "unit": "g",
+      "basis": "estimated",
       "evidence": "for one red fresno chili",
       "optional": true,
-      "t": 274.72
+      "t": 274.72,
+      "amount_source": "our_estimate",
+      "amount_note": "A Fresno is about jalapeño-sized; weighed at USDA's jalapeño (FDC 168576, 1 pepper = 14 g). USDA's generic hot chili (45 g) is far bigger."
     },
     {
       "group": "To serve",

@@ -1,0 +1,399 @@
+{
+  "slug": "jollof-rice-joshua-weissman",
+  "market": "US",
+  "title": "Jollof Rice with Fried Plantains and Dressed Greens",
+  "summary": "West African-style jollof: basmati rice steamed in a reduced purée of charred red peppers, tomato, Scotch bonnet and ginger with deeply cooked tomato paste and spices, finished with butter. Served with crisp fried ripe plantains and a lemony butter-lettuce salad.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/3iNyUwPKrXQ.json"
+  },
+  "cuisine": "West African",
+  "course": "side",
+  "meal_slots": [
+    "lunch",
+    "dinner"
+  ],
+  "servings": 6,
+  "servings_basis": "stated",
+  "prep_minutes": 25,
+  "cook_minutes": 60,
+  "times_basis": "estimated",
+  "difficulty": "medium",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'Perfect Peri Peri Chicken at Home' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe for the same dish: https://www.joshuaweissman.com/recipes/the-best-chicken-and-rice-peri-peri-jollof-recipes ('The Best Chicken and Rice (Peri Peri & Jollof)'). The page lists 'Jollof Rice, Plantains and Salad' as its own recipe: serves 6-8 (we use 6, the low end), prep 25 min, active time 1 hour. The peri peri chicken it is served with is a separate file (peri-peri-chicken-joshua-weissman). Prep 25 min is the page's; cook 60 min is the page's active time, which fits the video (reduce the purée, about 15 minutes of sautéing, 30-35 minutes covered), so times_basis is estimated. The video states the jollof amounts; from the written recipe: 5 cups of greens and 2 Tbsp olive oil for the salad (the video says butter lettuce and 'a little bit' of olive oil). Our estimates: 2-inch knob of ginger 25 g; Scotch bonnets 12 g each; Knorr chicken bouillon cubes 10 g each (cube sizes vary by market; this drives much of the sodium); peeled large plantains 220 g each; small salt amounts (1/4 tsp for the onion, 1/2 tsp for the plantains, 1/4 tsp flaky salt for the salad). Ranges: plantain oil 1/3-1/2 cup, we use 1/3 (the page also says 1/3). The plantains are shallow-fried and drained on paper towels, so their oil is treated as frying oil: not counted, with absorbed oil at 10% of the plantains' raw weight (house rule). The 1/3 cup oil in the rice stays in the dish and is counted. The optional 3 Tbsp butter is counted because he folds it into the rice on camera (house rule 11). Not counted: the two whole bay leaves simmered in the rice (not eaten). Red onion uses USDA 'Onions, raw', and Scotch bonnet USDA red hot chili, as proxies (see new_h3.csv). Basmati uses the existing long-grain white rice record.",
+  "ingredients": [
+    {
+      "group": "Pepper paste",
+      "ingredient": "bell-pepper-red",
+      "text": "4 large red bell peppers, charred, peeled and seeded",
+      "quantity": 4,
+      "unit": "large",
+      "preparation": "charred, peeled, seeded",
+      "basis": "stated",
+      "evidence": "four large red bell peppers",
+      "t": 392.88
+    },
+    {
+      "group": "Pepper paste",
+      "ingredient": "tomato",
+      "text": "4 Roma tomatoes, halved",
+      "quantity": 4,
+      "unit": "whole",
+      "qualifier": "plum",
+      "preparation": "halved",
+      "basis": "stated",
+      "evidence": "four roma tomatoes",
+      "t": 444.48
+    },
+    {
+      "group": "Pepper paste",
+      "ingredient": "onion-red",
+      "text": "1/2 red onion, roughly chopped",
+      "quantity": "1/2",
+      "unit": "whole",
+      "preparation": "roughly chopped",
+      "basis": "stated",
+      "evidence": "half of a red onion",
+      "t": 448.88
+    },
+    {
+      "group": "Pepper paste",
+      "ingredient": "scotch-bonnet",
+      "text": "2 Scotch bonnet peppers, stemmed, seeds in",
+      "quantity": 24,
+      "unit": "g",
+      "preparation": "stemmed, seeds left in",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "2 peppers stated; about 12 g each is our estimate (USDA's 45 g chili is too big): 2 x 12 = 24 g.",
+      "evidence": "two scotch bonnet peppers",
+      "t": 457.52
+    },
+    {
+      "group": "Pepper paste",
+      "ingredient": "ginger",
+      "text": "2-inch knob fresh ginger, peeled",
+      "quantity": 25,
+      "unit": "g",
+      "preparation": "peeled",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "A 2-inch knob stated; about 25 g is our estimate.",
+      "evidence": "a 2-in knob of peeled ginger",
+      "t": 480.0
+    },
+    {
+      "group": "Jollof rice",
+      "ingredient": "canola-oil",
+      "text": "1/3 cup neutral oil (vegetable, canola, peanut or avocado)",
+      "quantity": "1/3",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "third cup of neutral tasting oil",
+      "t": 556.08
+    },
+    {
+      "group": "Jollof rice",
+      "ingredient": "onion-red",
+      "text": "1/2 red onion, medium diced",
+      "quantity": "1/2",
+      "unit": "whole",
+      "preparation": "medium diced",
+      "basis": "stated",
+      "evidence": "our other half of the onion",
+      "t": 529.6
+    },
+    {
+      "group": "Jollof rice",
+      "ingredient": "garlic",
+      "text": "4 cloves garlic, roughly chopped",
+      "quantity": 4,
+      "unit": "clove",
+      "preparation": "roughly chopped",
+      "basis": "stated",
+      "evidence": "four cloves of peeled garlic",
+      "t": 534.08
+    },
+    {
+      "group": "Jollof rice",
+      "ingredient": "kosher-salt",
+      "text": "A touch of salt, for the onion",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_note": "'A touch of salt' stated; 1/4 tsp kosher salt is our estimate.",
+      "evidence": "now add a touch of salt",
+      "t": 567.6
+    },
+    {
+      "group": "Jollof rice",
+      "ingredient": "tomato-paste",
+      "text": "6 oz (1 small can) tomato paste",
+      "quantity": 6,
+      "unit": "oz",
+      "basis": "stated",
+      "evidence": "6 oz of tomato paste",
+      "t": 586.08
+    },
+    {
+      "group": "Jollof rice",
+      "ingredient": "kosher-salt",
+      "text": "1 3/4 tsp kosher salt",
+      "quantity": "1 3/4",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 and 3/4 of a teaspoon of salt",
+      "t": 605.6
+    },
+    {
+      "group": "Jollof rice",
+      "ingredient": "thyme-dried",
+      "text": "1 tsp dried thyme",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 teaspoon of dried thyme",
+      "t": 610.08,
+      "qualifier": "leaves"
+    },
+    {
+      "group": "Jollof rice",
+      "ingredient": "curry-powder",
+      "text": "1 Tbsp curry powder",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "1 tbsp of curry powder",
+      "t": 610.08
+    },
+    {
+      "group": "Jollof rice",
+      "ingredient": "chicken-bouillon",
+      "text": "4 cubes chicken bouillon (Knorr)",
+      "quantity": 40,
+      "unit": "g",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "4 blocks stated (written recipe: '4 Blocks Knorr chicken bouillon'); about 10 g per cube is our estimate: 4 x 10 = 40 g.",
+      "evidence": "four blocks of any chicken bouillon",
+      "t": 610.08
+    },
+    {
+      "group": "Jollof rice",
+      "ingredient": "paprika",
+      "text": "2 1/2 tsp smoked paprika",
+      "quantity": "2 1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "2 and 1/2 teaspoons of smoked paprika",
+      "t": 617.36
+    },
+    {
+      "group": "Jollof rice",
+      "ingredient": "water",
+      "text": "1 cup water",
+      "quantity": 1,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "add 1 cup of water",
+      "t": 636.56
+    },
+    {
+      "group": "Jollof rice",
+      "ingredient": "chicken-broth",
+      "text": "2 cups chicken stock",
+      "quantity": 2,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "two cups of chicken stock",
+      "t": 636.56
+    },
+    {
+      "group": "Jollof rice",
+      "ingredient": "rice-long-grain-dry",
+      "text": "4 cups basmati rice, rinsed until the water runs clear",
+      "quantity": 4,
+      "unit": "cup",
+      "preparation": "rinsed until clear",
+      "basis": "stated",
+      "evidence": "four cups of white rice, more specifically basmati",
+      "t": 651.12
+    },
+    {
+      "group": "Jollof rice",
+      "ingredient": "bay-leaf",
+      "text": "2 bay leaves",
+      "quantity": "1/2",
+      "unit": "g",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "2 bay leaves stated; about 0.25 g each (our estimate).",
+      "evidence": "two bay leaves. make sure they're submerged",
+      "in_nutrition": false,
+      "excluded_reason": "whole bay leaves, not eaten",
+      "t": 674.8
+    },
+    {
+      "group": "Jollof rice",
+      "ingredient": "butter-unsalted",
+      "text": "3 Tbsp unsalted butter, in small cubes (optional)",
+      "quantity": 3,
+      "unit": "tbsp",
+      "preparation": "cut into small cubes",
+      "basis": "stated",
+      "evidence": "3 tablespoons of butter, unsalted",
+      "t": 796.72
+    },
+    {
+      "group": "Fried plantains",
+      "ingredient": "plantain",
+      "text": "2 large ripe plantains, peeled, sliced 1/2 inch on the diagonal",
+      "quantity": 440,
+      "unit": "g",
+      "preparation": "peeled, sliced 1/2 inch on the diagonal",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "2 large ripe plantains stated; about 220 g each peeled is our estimate: 2 x 220 = 440 g.",
+      "evidence": "two large plantains ripe",
+      "t": 705.6
+    },
+    {
+      "group": "Fried plantains",
+      "ingredient": "canola-oil",
+      "text": "1/3-1/2 cup vegetable oil, for frying",
+      "quantity": "1/3",
+      "unit": "cup",
+      "basis": "stated",
+      "amount_note": "He says about 1/3 to 1/2 cup; we use the low end, which is also the written recipe's amount.",
+      "evidence": "1/3 cup to 1/2 cup of vegetable oil",
+      "in_nutrition": false,
+      "excluded_reason": "frying oil; absorbed oil counted separately",
+      "t": 712.72
+    },
+    {
+      "group": "Fried plantains",
+      "ingredient": "canola-oil",
+      "text": "Absorbed frying oil (our estimate)",
+      "quantity": 44,
+      "unit": "g",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "The plantains are fried in a layer of oil and drained on paper towels, so we treat this as frying oil: 10% of the raw weight of the fried food (house rule): 440 g x 0.10 = 44 g.",
+      "evidence": "1/3 cup to 1/2 cup of vegetable oil",
+      "t": 712.72
+    },
+    {
+      "group": "Fried plantains",
+      "ingredient": "kosher-salt",
+      "text": "Salt, right after frying",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_note": "'Season immediately with salt' stated; 1/2 tsp kosher salt for two plantains is our estimate.",
+      "evidence": "season immediately with salt",
+      "t": 745.36
+    },
+    {
+      "group": "Salad",
+      "ingredient": "lettuce-butterhead",
+      "text": "5 cups butter lettuce (or other tender greens)",
+      "quantity": 5,
+      "unit": "cup",
+      "qualifier": "shredded",
+      "basis": "stated",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/the-best-chicken-and-rice-peri-peri-jollof-recipes",
+      "amount_note": "The video names butter lettuce but no amount; the written recipe gives 5 cups baby greens (bib lettuce, red lettuce, etc.).",
+      "evidence": "some light butter lettuce",
+      "t": 834.0
+    },
+    {
+      "group": "Salad",
+      "ingredient": "salt",
+      "text": "A touch of flaky salt",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_note": "'A touch of flaky salt' stated; 1/4 tsp is our estimate.",
+      "evidence": "a touch of flaky salt",
+      "t": 834.0
+    },
+    {
+      "group": "Salad",
+      "ingredient": "olive-oil",
+      "text": "2 Tbsp extra-virgin olive oil",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/the-best-chicken-and-rice-peri-peri-jollof-recipes",
+      "amount_note": "The video says 'a little bit of olive oil, extra virgin'; the written recipe gives 2 Tbsp (30 ml).",
+      "evidence": "little bit of olive oil, extra virgin",
+      "t": 834.0
+    },
+    {
+      "group": "Salad",
+      "ingredient": "lemon-juice",
+      "text": "Juice of 1/2 lemon",
+      "quantity": "1/2",
+      "unit": "lemon",
+      "qualifier": "yields",
+      "basis": "stated",
+      "evidence": "half of a lemon juice",
+      "t": 837.68
+    }
+  ],
+  "steps": [
+    {
+      "t": 392,
+      "text": "Pepper paste: char the red bell peppers all over (flame, torch or broiler), steam them in a covered bowl 2-3 minutes, then wipe off the skins with a damp paper towel (don't rinse them) and remove most of the seeds."
+    },
+    {
+      "t": 440,
+      "text": "Blend the peppers with the halved tomatoes, half the red onion, the Scotch bonnets (seeds in) and the ginger, starting low and working up to high, until very smooth."
+    },
+    {
+      "t": 505,
+      "text": "Pour into a 4-quart saucepan, bring to a boil over medium-high, then simmer over medium until reduced to about 1 1/2 cups."
+    },
+    {
+      "t": 529,
+      "text": "Dice the other half onion and roughly chop the garlic. Heat the oil in a 5-6 quart sauté pan or pot over medium, add the onion, garlic and a touch of salt, and cook, stirring often, 4-6 minutes until lightly browned."
+    },
+    {
+      "t": 586,
+      "text": "Stir in the tomato paste and cook over medium, stirring often, 4-5 minutes until dark and deeply caramelized. Add the salt, thyme, curry powder, crumbled bouillon cubes and smoked paprika and toast about 20 seconds."
+    },
+    {
+      "t": 633,
+      "text": "Stir in the reduced pepper paste, then the water and chicken stock, until smooth. Bring to a boil over medium-high."
+    },
+    {
+      "t": 651,
+      "text": "Rinse the basmati in several changes of water until it runs clear. Stir it into the pot, spreading it evenly, and tuck in the bay leaves. Return to a gentle simmer, cover with foil and a lid, and cook over medium-low 25 minutes, then over low 5-10 minutes more."
+    },
+    {
+      "t": 699,
+      "text": "Plantains: peel and slice on the diagonal about 1/2 inch thick. Heat the oil in a large cast-iron skillet over medium until very hot, then fry in a single layer 2-3 minutes per side until deep golden. Drain on paper towels and salt right away."
+    },
+    {
+      "t": 761,
+      "text": "Uncover the rice and fluff it, scraping up any crispy bits from the bottom. If you like, gently fold in the cubed butter until melted."
+    },
+    {
+      "t": 834,
+      "text": "Salad: toss the butter lettuce with a little flaky salt, the olive oil and the lemon juice until lightly coated."
+    },
+    {
+      "t": 846,
+      "text": "Serve a generous mound of jollof with the plantains and salad, alongside the peri peri chicken."
+    }
+  ]
+}

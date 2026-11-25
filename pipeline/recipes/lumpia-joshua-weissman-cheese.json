@@ -1,0 +1,233 @@
+{
+  "slug": "lumpia-joshua-weissman-cheese",
+  "market": "US",
+  "title": "Cheese Lumpia (Eden Cheese Sticks)",
+  "summary": "Batons of Filipino Eden processed cheese rolled in lumpia wrappers and fried until crisp outside and soft and creamy inside, like a crunchy cheese stick.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/ldVuxgEc1m0.json"
+  },
+  "cuisine": "Filipino",
+  "course": "snack",
+  "meal_slots": [
+    "snack"
+  ],
+  "servings": 6,
+  "servings_basis": "estimated",
+  "prep_minutes": 30,
+  "cook_minutes": 30,
+  "times_basis": "estimated",
+  "difficulty": "easy",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'Crispy Spring Rolls At Home (Lumpia)' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe: https://www.joshuaweissman.com/post/easy-filipino-lumpia-recipe (serves 6, prep 30 min, cook 30 min for the page as a whole; 35-40 wrappers for the original lumpia). The video holds three versions (original pork, dynamite with serrano, cheese); each has its own file, all pointing to this transcript, and the shared sauce, filling and frying lines are repeated. This file is the cheese version (no pork filling). Servings and times are the page's figures for the whole recipe, applied to this version (estimated); about 28 sticks makes 6 servings of 4-5. The cheese amount (1 lb) comes from the written recipe; the video names Eden cheese, and the page also allows low-moisture mozzarella (alternative, not counted). The optional pipe of meat inside is not counted. The sweet chili sauce (all amounts stated) is a dipping sauce served on the side, as are the Kewpie mayo and banana ketchup, so none of them is counted. Frying oil (2 1/2-3 quarts in the video, 2 quarts on the page) is excluded; absorbed oil is counted at 10% of the raw weight of the rolls (house rule). Our estimates: about 28 sticks and wrappers (see the wrapper line), 15 g per wrapper, egg wash 1 egg counted at 50%. Eden cheese uses USDA pasteurized process American cheese food as a proxy. Lumpia wrappers use USDA wonton/egg roll wrappers (proxy), at our estimate of 15 g per wrapper. Banana ketchup uses tomato ketchup as its proxy (excluded anyway). ",
+  "ingredients": [
+    {
+      "group": "Sweet chili sauce (on the side)",
+      "ingredient": "red-chili",
+      "text": "2 Fresno chiles, seeded and finely chopped",
+      "quantity": 2,
+      "unit": "pepper",
+      "basis": "stated",
+      "evidence": "two fresno chilies",
+      "preparation": "seeded, finely chopped",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 51.76
+    },
+    {
+      "group": "Sweet chili sauce (on the side)",
+      "ingredient": "sugar",
+      "text": "3/4 cup sugar",
+      "quantity": "3/4",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "3/4 of a cup of sugar",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 119.2
+    },
+    {
+      "group": "Sweet chili sauce (on the side)",
+      "ingredient": "water",
+      "text": "3/4 cup water",
+      "quantity": "3/4",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "3/4 of a cup of water",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 129.52
+    },
+    {
+      "group": "Sweet chili sauce (on the side)",
+      "ingredient": "white-vinegar",
+      "text": "1/2 cup white distilled vinegar",
+      "quantity": "1/2",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "1/2 cup of white distilled vinegar",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 129.52
+    },
+    {
+      "group": "Sweet chili sauce (on the side)",
+      "ingredient": "cornstarch",
+      "text": "2 Tbsp cornstarch, slurried with 2-4 Tbsp of the hot syrup",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "two tablespoons of cornstarch",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 152.32
+    },
+    {
+      "group": "Sweet chili sauce (on the side)",
+      "ingredient": "sambal-oelek",
+      "text": "2 Tbsp sambal oelek",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "two tablespoons of sambal",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 182.08
+    },
+    {
+      "group": "Sweet chili sauce (on the side)",
+      "ingredient": "garlic",
+      "text": "4 cloves garlic, finely minced, stirred in off the heat",
+      "quantity": 4,
+      "unit": "clove",
+      "basis": "stated",
+      "evidence": "four cloves",
+      "preparation": "finely minced",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 119.2
+    },
+    {
+      "group": "Pork filling",
+      "ingredient": "eden-cheese",
+      "text": "1 lb Eden processed cheese, cut into 1/2-inch batons",
+      "quantity": 1,
+      "unit": "lb",
+      "basis": "stated",
+      "evidence": "we specifically use eden cheese",
+      "preparation": "edges trimmed, cut into 1/2-inch batons",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/post/easy-filipino-lumpia-recipe",
+      "amount_note": "No amount in the video; the written recipe gives 1 lb (454 g) (it names the brand 'Edelicious' and offers low-moisture mozzarella as an alternative, not counted).",
+      "t": 681.6
+    },
+    {
+      "group": "Wrapping",
+      "ingredient": "spring-roll-wrapper",
+      "text": "About 28 lumpia wrappers",
+      "quantity": 420,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "take your beautiful supple bumpia wrapper",
+      "amount_note": "No count in the video or the written recipe. A 1/2 x 1/2 x about 3 1/2-inch baton is about 14 cm3, about 16 g of cheese, so 454 / 16 = about 28 sticks, one wrapper each. About 15 g per wrapper (our estimate): 28 x 15 = 420 g.",
+      "t": 588.08
+    },
+    {
+      "group": "Wrapping",
+      "ingredient": "egg",
+      "text": "1 large egg, beaten, for sealing",
+      "quantity": "1/2",
+      "unit": "large",
+      "basis": "estimated",
+      "evidence": "brush that with some egg wash",
+      "amount_note": "The video and the written recipe give no amount; 1 large egg is our estimate. Egg wash counted at 50% (house rule): 1/2 large egg, about 25 g.",
+      "t": 606.32
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "2 1/2-3 quarts vegetable oil (or peanut or canola), for frying at 350°F",
+      "quantity": "2 3/4",
+      "unit": "quart",
+      "basis": "stated",
+      "evidence": "350 oil vegetable peanut canola",
+      "in_nutrition": false,
+      "excluded_reason": "frying oil; absorbed oil counted separately",
+      "amount_note": "2 1/2-3 quarts in the video (midpoint shown); the written recipe says 2 quarts.",
+      "t": 443.6
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "Absorbed frying oil (our estimate)",
+      "quantity": 90,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "350 oil vegetable peanut canola",
+      "amount_source": "our_estimate",
+      "amount_note": "House rule: 10% of the raw weight of the fried food. Raw weight cheese 454 + wrappers 420 + egg wash 25 = 899 g; 10% = 90 g.",
+      "t": 443.6
+    },
+    {
+      "group": "To serve (on the side)",
+      "ingredient": "mayonnaise",
+      "text": "Kewpie mayo, for dipping",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "i like koopy mayo",
+      "excluded_reason": "served on the side",
+      "in_nutrition": false,
+      "t": 636.88
+    },
+    {
+      "group": "To serve (on the side)",
+      "ingredient": "banana-ketchup",
+      "text": "Banana ketchup, for dipping",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "and of course banana ketchup",
+      "excluded_reason": "served on the side",
+      "in_nutrition": false,
+      "t": 641.44
+    }
+  ],
+  "steps": [
+    {
+      "t": 51,
+      "text": "Sweet chili sauce: trim, seed and finely chop the Fresno chiles; finely mince the garlic and set it aside."
+    },
+    {
+      "t": 124,
+      "text": "In a small pot, stir the chiles with the sugar, water and vinegar. Boil over medium-high about 2 minutes, until slightly syrupy, then lower to medium-low."
+    },
+    {
+      "t": 155,
+      "text": "Whisk the cornstarch with 2-4 Tbsp of the hot syrup into a smooth slurry, whisk it back into the pot and heat until thick. Off the heat, stir in the sambal and the raw garlic (never boil the garlic). Cool to room temperature; keeps about 2 weeks refrigerated."
+    },
+    {
+      "t": 571,
+      "text": "Trim the edges of the cheese block, then cut it into 1/2-inch planks and the planks into 1/2-inch batons."
+    },
+    {
+      "t": 588,
+      "text": "Set a wrapper down as a diamond with a point toward you. Lay a cheese baton at the near point, roll it up tightly against the cheese to the middle, fold in the sides, keep rolling, and seal the last point with egg wash. Repeat."
+    },
+    {
+      "t": 616,
+      "text": "Fry at 350°F in batches for 3-5 minutes, until golden and crisp. Drain on a wire rack and let cool a little."
+    },
+    {
+      "t": 631,
+      "text": "Serve hot with banana ketchup, Kewpie mayo or the sweet chili sauce for dipping."
+    }
+  ]
+}

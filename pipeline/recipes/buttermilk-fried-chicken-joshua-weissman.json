@@ -1,0 +1,309 @@
+{
+  "slug": "buttermilk-fried-chicken-joshua-weissman",
+  "market": "US",
+  "title": "Extra-Crunchy Buttermilk Fried Chicken",
+  "summary": "A whole chicken cut into eight pieces, marinated in seasoned buttermilk, then dipped in the thickened marinade and a flour and potato starch dredge for a flaky, very crunchy crust before deep-frying.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/qEHvmINXUfk.json"
+  },
+  "cuisine": "Southern American",
+  "course": "main",
+  "meal_slots": [
+    "lunch",
+    "dinner"
+  ],
+  "servings": 4,
+  "servings_basis": "stated",
+  "prep_minutes": 30,
+  "cook_minutes": 30,
+  "times_basis": "estimated",
+  "difficulty": "medium",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'The Best Fried Chicken at Home' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe for the same dish: https://www.joshuaweissman.com/recipes/the-best-fried-chicken-at-home-recipe (serves 4, prep 24 hrs, cook 30 min). The page's 24-hour prep is mostly marinating, so prep_minutes is our hands-on estimate (30 min: butchering, marinade, dredge and breading) and times_basis is estimated; cook 30 min is the page's. Marinating: at least 1 hour, ideally overnight or up to two nights, in the fridge; rest 2-3 minutes after frying. The video states every marinade and dredge amount. From the written recipe: 3.5 quarts of frying oil (the video says about halfway up a 7-quart pot), and 'garlic' in the dredge is garlic powder. Neither source gives the chicken's weight. We assume a 4 lb (1,814 g) bird, a typical supermarket whole chicken, and subtract the back and neck (about 15%, our estimate), which he cuts off and saves for stock; that leaves about 1,540 g of bone-in pieces, entered as bought, bone-in (the lead converts to edible weight). House rules applied: after draining, the leftover marinade is thickened with 1/3 cup of the dredge and every piece is dipped in it before the dredge, so we treat the marinade as a wet batter and count 50% of it (a judgment call: it is also a liquid marinade, which would otherwise be excluded); the dredge is counted at 25% (the 1/3 cup that goes into the batter is left at 25% too, which understates the coating by about 10 g of flour); absorbed frying oil is 10% of the raw weight of the fried pieces with counted coating, using the bone-in weight because that is what goes into the fryer; the frying oil itself is not counted. The back and neck are saved for stock and not counted. Optional herbs for garnish are not counted (no amount). Potato starch may need the USDA potato flour record as a proxy (see new_h3.csv).",
+  "ingredients": [
+    {
+      "group": "Chicken",
+      "ingredient": "chicken-whole",
+      "text": "1 whole chicken (about 4 lb), cut into 2 bone-in breasts, 2 thighs, 2 drumsticks and 2 whole wings; back and neck saved for stock (about 1,540 g bone-in pieces)",
+      "quantity": 1047,
+      "unit": "g",
+      "preparation": "cut into 8 pieces",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "as bought, bone-in. No weight in the video or the written recipe: we assume a 4 lb (1,814 g) bird and subtract the back and neck he saves for stock (about 15%), leaving about 1,540 g of bone-in pieces that are fried and eaten. As bought, bone-in: 1540 g = 1540 g. Edible weight 1047 g after 32% bone, USDA SR28 refuse for NDB 05006 (broiler meat and skin, raw).",
+      "evidence": "got a whole chicken right",
+      "t": 64.799
+    },
+    {
+      "group": "Marinade and batter (50% counted)",
+      "ingredient": "buttermilk",
+      "text": "2 cups buttermilk",
+      "quantity": 1,
+      "unit": "cup",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "2 cups stated. The leftover marinade becomes the batter each piece is dipped in, so 50% is counted as wet batter (house rule): 2 x 0.5 = 1 cup.",
+      "evidence": "two cups of the finest buttermilk",
+      "t": 288.0
+    },
+    {
+      "group": "Marinade and batter (50% counted)",
+      "ingredient": "kosher-salt",
+      "text": "2 Tbsp kosher salt",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "2 Tbsp stated; 50% counted as wet batter (house rule): 1 Tbsp.",
+      "evidence": "2 tbsps of kosher salt",
+      "t": 294.16
+    },
+    {
+      "group": "Marinade and batter (50% counted)",
+      "ingredient": "sugar",
+      "text": "1 tsp sugar",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "1 tsp stated; 50% counted as wet batter (house rule): 1/2 tsp.",
+      "evidence": "1 teaspoon of sugar",
+      "t": 300.88
+    },
+    {
+      "group": "Marinade and batter (50% counted)",
+      "ingredient": "msg",
+      "text": "1 1/2 tsp MSG",
+      "quantity": "3/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "1 1/2 tsp stated; 50% counted as wet batter (house rule): 3/4 tsp.",
+      "evidence": "1 and 1/2 teaspoons of msg",
+      "t": 300.88
+    },
+    {
+      "group": "Marinade and batter (50% counted)",
+      "ingredient": "garlic-powder",
+      "text": "1 Tbsp garlic powder",
+      "quantity": "1 1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "1 Tbsp (3 tsp) stated; 50% counted as wet batter (house rule): 1 1/2 tsp.",
+      "evidence": "1 tbsp of garlic powder",
+      "t": 324.479
+    },
+    {
+      "group": "Marinade and batter (50% counted)",
+      "ingredient": "paprika",
+      "text": "2 tsp smoked paprika",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "2 tsp stated; 50% counted as wet batter (house rule): 1 tsp.",
+      "evidence": "2 tsp of smoked paprika",
+      "t": 326.479
+    },
+    {
+      "group": "Marinade and batter (50% counted)",
+      "ingredient": "cayenne",
+      "text": "1 tsp cayenne",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "1 tsp stated; 50% counted as wet batter (house rule): 1/2 tsp.",
+      "evidence": "1 teaspoon of cayenne powder",
+      "t": 329.36
+    },
+    {
+      "group": "Dredge (25% counted)",
+      "ingredient": "flour-all-purpose",
+      "text": "2 1/2 cups all-purpose flour",
+      "quantity": "5/8",
+      "unit": "cup",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "2 1/2 cups stated; 25% counted as dredge that sticks (house rule): 2.5 x 0.25 = 5/8 cup.",
+      "evidence": "2 and 1/2 cups of allpurpose",
+      "t": 397.759
+    },
+    {
+      "group": "Dredge (25% counted)",
+      "ingredient": "potato-starch",
+      "text": "1/2 cup potato starch (or cornstarch, or more flour)",
+      "quantity": "1/8",
+      "unit": "cup",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "1/2 cup stated; 25% counted as dredge (house rule): 1/8 cup. Cornstarch and extra flour are his alternatives and are not counted.",
+      "evidence": "cup of potato starch",
+      "t": 403.68
+    },
+    {
+      "group": "Dredge (25% counted)",
+      "ingredient": "kosher-salt",
+      "text": "1 Tbsp kosher salt",
+      "quantity": "3/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "1 Tbsp (3 tsp) stated; 25% counted as dredge (house rule): 3/4 tsp.",
+      "evidence": "1 tbspoon of kosher salt",
+      "t": 427.199
+    },
+    {
+      "group": "Dredge (25% counted)",
+      "ingredient": "msg",
+      "text": "1 tsp MSG",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "1 tsp stated; 25% counted as dredge (house rule): 1/4 tsp.",
+      "evidence": "1 teaspoon of msg",
+      "t": 427.199
+    },
+    {
+      "group": "Dredge (25% counted)",
+      "ingredient": "cayenne",
+      "text": "1 tsp cayenne",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "1 tsp stated; 25% counted as dredge (house rule): 1/4 tsp.",
+      "evidence": "1 teaspoon of cayenne",
+      "t": 431.199
+    },
+    {
+      "group": "Dredge (25% counted)",
+      "ingredient": "garlic-powder",
+      "text": "1 tsp garlic powder",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "1 tsp 'garlic' stated (the written recipe specifies garlic powder); 25% counted as dredge (house rule): 1/4 tsp.",
+      "evidence": "teaspoon of garlic, half teaspoon",
+      "t": 434.0
+    },
+    {
+      "group": "Dredge (25% counted)",
+      "ingredient": "onion-powder",
+      "text": "1/2 tsp onion powder",
+      "quantity": "1/8",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "1/2 tsp stated; 25% counted as dredge (house rule): 1/8 tsp.",
+      "evidence": "half teaspoon of onion powder",
+      "t": 434.0
+    },
+    {
+      "group": "Dredge (25% counted)",
+      "ingredient": "black-pepper",
+      "text": "2 tsp freshly ground black pepper",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "qualifier": "ground",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "2 tsp stated; 25% counted as dredge (house rule): 1/2 tsp.",
+      "evidence": "2 tsp of black pepper",
+      "t": 440.479
+    },
+    {
+      "group": "Dredge (25% counted)",
+      "ingredient": "oregano-dried",
+      "text": "1 tsp dried oregano",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "qualifier": "leaves",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "1 tsp stated; 25% counted as dredge (house rule): 1/4 tsp.",
+      "evidence": "teaspoon of dried oregano",
+      "t": 442.72
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "About 3 1/2 quarts canola oil, for frying at 325-350°F",
+      "quantity": "3 1/2",
+      "unit": "quart",
+      "basis": "stated",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/the-best-fried-chicken-at-home-recipe",
+      "amount_note": "The video says to fill a roughly 7-quart Dutch oven about halfway; the written recipe gives 3.5 quarts (3.3 L).",
+      "evidence": "we're using canola",
+      "in_nutrition": false,
+      "excluded_reason": "frying oil; absorbed oil counted separately",
+      "t": 553.04
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "Absorbed frying oil (our estimate)",
+      "quantity": 192,
+      "unit": "g",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "10% of the raw weight of the fried food with its coating (house rule). Bone-in pieces about 1,540 g (4 lb bird less back and neck); counted batter = 1 cup buttermilk (245 g) + half the marinade seasonings (46 g in the written recipe, so 23 g); counted dredge = 25% of the written recipe's 461 g dredge = 115 g. (1,540 + 245 + 23 + 115) x 0.10 = 192 g.",
+      "evidence": "we're using canola",
+      "t": 553.04
+    }
+  ],
+  "steps": [
+    {
+      "t": 64,
+      "text": "Break down the chicken: cut through the skin between leg and body, pop the thigh joint, and cut off each leg quarter (scooping out the oyster if you like). Cut around and through the shoulder joint to remove the wings, then split the breast along the breastbone into two bone-in breasts."
+    },
+    {
+      "t": 234,
+      "text": "Follow the fat line on the underside of each leg quarter to separate the thigh from the drumstick at the joint. Leave the wings whole. Freeze the back pieces for stock."
+    },
+    {
+      "t": 286,
+      "text": "Marinade: whisk the buttermilk with the salt, sugar, MSG, garlic powder, smoked paprika and cayenne until completely smooth, with no clumps of spice."
+    },
+    {
+      "t": 345,
+      "text": "Add the chicken, turn it so every surface is coated and press it under the marinade. Cover and refrigerate at least 1 hour, ideally overnight or up to two nights."
+    },
+    {
+      "t": 396,
+      "text": "Dredge: whisk the flour and potato starch with the salt, MSG, cayenne, garlic powder, onion powder, black pepper and oregano. Keep the spices light so they don't burn in the oil."
+    },
+    {
+      "t": 468,
+      "text": "Lift the chicken out onto a wire rack to drain. Whisk 1/3 cup of the dredge into the leftover marinade until smooth, then flick a little of this thickened marinade into the dredge a couple of times and whisk, to make small flaky clumps."
+    },
+    {
+      "t": 497,
+      "text": "With one wet hand and one dry hand, dip each piece in the thickened marinade, shake off the excess, then toss and press it in the dredge, getting it into every crevice and under the skin. Shake off and set on a sheet tray."
+    },
+    {
+      "t": 543,
+      "text": "Heat a Dutch oven filled about halfway with canola oil to 325-350°F (use the lower end for big breasts). Fry in batches, for example a thigh, a drumstick and a wing at a time, adjusting the heat so the crust doesn't over-brown."
+    },
+    {
+      "t": 596,
+      "text": "Fry until the thickest part reads 165°F and the crust is deep golden: about 10-15 minutes for smaller pieces and 15-20 for large breasts."
+    },
+    {
+      "t": 614,
+      "text": "Drain on a wire rack over a baking sheet (or on paper towels) for 2-3 minutes and serve right away."
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "slug": "chili-oil-pork-wontons-joshua-weissman",
+  "market": "US",
+  "title": "Spicy Chili Oil Pork and Shrimp Wontons",
+  "summary": "Juicy pork and shrimp wontons, boiled and drenched in a homemade Sichuan-style chili oil infused with shallot, star anise and black cardamom, finished with green onion.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/CPM_pP9V5GU.json"
+  },
+  "cuisine": "Chinese (Sichuan-style)",
+  "course": "main",
+  "meal_slots": [
+    "lunch",
+    "dinner"
+  ],
+  "servings": 6,
+  "servings_basis": "stated",
+  "prep_minutes": 30,
+  "cook_minutes": 45,
+  "times_basis": "stated",
+  "difficulty": "medium",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'Spicy Chili Garlic Wontons At Home' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Auto-generated captions; evidence is quoted as they read. Written recipe: https://www.joshuaweissman.com/recipes/the-best-spicy-chili-oil-wontons-recipe (serves 6, prep 30 min, cook 45 min; the page embeds this video). Every chili-oil and filling amount is stated in the video and matches the written recipe; grams for the chili flakes (40 g), mushroom seasoning (7 g) and MSG (3 g) come from the page. Optional items he adds on camera count (rule 11): the mushroom seasoning, the MSG in the filling and the raw garlic stirred into the oil. Judgment call: the chili oil is a storable batch (about 2 1/4 cups) and only part of it goes on the wontons. Spooned over the dish, it counts (house rule), but neither the video nor the page states the share used, so house rule 10 applies: a spooned-over spice oil counts at 25% of the batch (about 9 Tbsp, 1 1/2 Tbsp per serving). Every chili-oil line keeps the full batch amount in its text and shows the 25% in its quantity and note. The shallots, whole spices, 7 garlic cloves and cinnamon stick are strained out of the oil and not counted. Ranges: raw garlic in the oil 2-3 cloves (midpoint), ginger 2-3 tsp (midpoint; the page's 2-inch knob would be heavier), 30-40 wontons (midpoint 35 wrappers at USDA's 8 g). Green onion garnish: 1 bunch on the page, about 7 onions (our estimate). Not counted: the optional black vinegar on the side and the boiling water. Proxies: toasted rapeseed oil uses canola oil; Sichuan chili flakes use cayenne; black vinegar uses balsamic vinegar; Sichuan peppercorn, star anise and black cardamom (all excluded) use black pepper, anise seed and cardamom. A separate component file for the chili oil was not written.",
+  "ingredients": [
+    {
+      "group": "Chili oil (25% of the batch counted)",
+      "ingredient": "canola-oil",
+      "text": "1 1/2 cups neutral oil (canola, vegetable or avocado)",
+      "quantity": 6,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "1 and 1/2 cups of a neutral tasting oil",
+      "amount_note": "1 1/2 cups (24 Tbsp) stated for the whole batch; 25% counted = 6 Tbsp. House rule 10: no share used is stated in the video or the written recipe, so a spooned-over spice oil counts at 25% of the batch (about 9 Tbsp of the ~2 1/4 cups, 1 1/2 Tbsp per serving); the rest is stored.",
+      "t": 34.88
+    },
+    {
+      "group": "Chili oil (25% of the batch counted)",
+      "ingredient": "toasted-rapeseed-oil",
+      "text": "1/2 cup toasted rapeseed oil",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "1/2 a cup of toasted rapeseed oil",
+      "amount_note": "1/2 cup (8 Tbsp) stated for the whole batch; 25% counted = 2 Tbsp. House rule 10: no share used is stated in the video or the written recipe, so a spooned-over spice oil counts at 25% of the batch (about 9 Tbsp of the ~2 1/4 cups, 1 1/2 Tbsp per serving); the rest is stored.",
+      "t": 46.04
+    },
+    {
+      "group": "Chili oil aromatics (strained out)",
+      "ingredient": "shallot",
+      "text": "4 shallots",
+      "quantity": 4,
+      "unit": null,
+      "basis": "stated",
+      "evidence": "four shallots",
+      "in_nutrition": false,
+      "excluded_reason": "strained out of the oil",
+      "t": 69.32
+    },
+    {
+      "group": "Chili oil aromatics (strained out)",
+      "ingredient": "sichuan-peppercorn",
+      "text": "2 tsp whole Sichuan peppercorns",
+      "quantity": 2,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "two teaspoons of sichuan peppercorn",
+      "in_nutrition": false,
+      "excluded_reason": "strained out of the oil",
+      "t": 72.4
+    },
+    {
+      "group": "Chili oil aromatics (strained out)",
+      "ingredient": "star-anise",
+      "text": "4 star anise",
+      "quantity": 4,
+      "unit": null,
+      "basis": "stated",
+      "evidence": "four star anise",
+      "in_nutrition": false,
+      "excluded_reason": "strained out of the oil",
+      "t": 73.84
+    },
+    {
+      "group": "Chili oil aromatics (strained out)",
+      "ingredient": "cardamom",
+      "text": "3 black cardamom pods",
+      "quantity": 3,
+      "unit": null,
+      "basis": "stated",
+      "evidence": "three black cardamom pods",
+      "in_nutrition": false,
+      "excluded_reason": "strained out of the oil",
+      "t": 76.52
+    },
+    {
+      "group": "Chili oil aromatics (strained out)",
+      "ingredient": "garlic",
+      "text": "7 cloves garlic, peeled",
+      "quantity": 7,
+      "unit": "clove",
+      "basis": "stated",
+      "evidence": "seven whole peeled cloves of garlic",
+      "in_nutrition": false,
+      "excluded_reason": "strained out of the oil",
+      "t": 79.8
+    },
+    {
+      "group": "Chili oil aromatics (strained out)",
+      "ingredient": "cinnamon",
+      "text": "1 cinnamon stick",
+      "quantity": 1,
+      "unit": "stick",
+      "basis": "stated",
+      "evidence": "and one cinnamon stick",
+      "in_nutrition": false,
+      "excluded_reason": "strained out of the oil",
+      "t": 84.2
+    },
+    {
+      "group": "Chili oil (25% of the batch counted)",
+      "ingredient": "chili-flakes",
+      "text": "2/3 cup (40 g) Sichuan red chili flakes",
+      "quantity": 10,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "sichuan chili flake ... into a large bowl 2/3 of a cup",
+      "amount_note": "2/3 cup in the video; the written recipe gives 40 g. 25% counted: 0.25 x 40 = 10 g. House rule 10: no share used is stated in the video or the written recipe, so a spooned-over spice oil counts at 25% of the batch (about 9 Tbsp of the ~2 1/4 cups, 1 1/2 Tbsp per serving); the rest is stored.",
+      "t": 132.16
+    },
+    {
+      "group": "Chili oil (25% of the batch counted)",
+      "ingredient": "sesame-seeds",
+      "text": "1 Tbsp toasted sesame seeds",
+      "quantity": "3/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "1 tbsp of sesame seeds",
+      "amount_note": "1 Tbsp (3 tsp) stated for the whole batch; 25% counted = 3/4 tsp. House rule 10: no share used is stated in the video or the written recipe, so a spooned-over spice oil counts at 25% of the batch (about 9 Tbsp of the ~2 1/4 cups, 1 1/2 Tbsp per serving); the rest is stored.",
+      "t": 150.16
+    },
+    {
+      "group": "Chili oil (25% of the batch counted)",
+      "ingredient": "mushroom-seasoning",
+      "text": "2 tsp mushroom seasoning (mushroom soup base powder)",
+      "quantity": 1.75,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "2 tsp of a mushroom seasoning",
+      "amount_note": "2 tsp in the video; the written recipe gives 7 g and marks it optional, but he adds it on camera (rule 11), so it counts. 25% counted: 0.25 x 7 = 1.75 g. House rule 10: no share used is stated in the video or the written recipe, so a spooned-over spice oil counts at 25% of the batch (about 9 Tbsp of the ~2 1/4 cups, 1 1/2 Tbsp per serving); the rest is stored.",
+      "t": 153.36
+    },
+    {
+      "group": "Chili oil (25% of the batch counted)",
+      "ingredient": "sugar",
+      "text": "2 tsp sugar",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "2 tsp of sugar",
+      "amount_note": "2 tsp stated for the whole batch; 25% counted = 1/2 tsp. House rule 10: no share used is stated in the video or the written recipe, so a spooned-over spice oil counts at 25% of the batch (about 9 Tbsp of the ~2 1/4 cups, 1 1/2 Tbsp per serving); the rest is stored.",
+      "t": 157.6
+    },
+    {
+      "group": "Chili oil (25% of the batch counted)",
+      "ingredient": "kosher-salt",
+      "text": "1 Tbsp kosher salt",
+      "quantity": "3/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "1 tbsp of kosher salt",
+      "amount_note": "1 Tbsp (3 tsp) stated for the whole batch; 25% counted = 3/4 tsp. House rule 10: no share used is stated in the video or the written recipe, so a spooned-over spice oil counts at 25% of the batch (about 9 Tbsp of the ~2 1/4 cups, 1 1/2 Tbsp per serving); the rest is stored.",
+      "t": 157.6
+    },
+    {
+      "group": "Chili oil (25% of the batch counted)",
+      "ingredient": "msg",
+      "text": "1 tsp MSG",
+      "quantity": 0.75,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "1 tsp of msg",
+      "amount_note": "1 tsp in the video; the written recipe gives 3 g. 25% counted: 0.25 x 3 = 0.75 g. House rule 10: no share used is stated in the video or the written recipe, so a spooned-over spice oil counts at 25% of the batch (about 9 Tbsp of the ~2 1/4 cups, 1 1/2 Tbsp per serving); the rest is stored.",
+      "t": 161.64
+    },
+    {
+      "group": "Chili oil (25% of the batch counted)",
+      "ingredient": "black-vinegar",
+      "text": "1 Tbsp Chinese black (Chinkiang) vinegar",
+      "quantity": 3.75,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "chinese black vinegar that is also called chinkiang vinegar",
+      "amount_note": "1 Tbsp (about 15 g, our conversion) stated for the whole batch; 25% counted: 0.25 x 15 = 3.75 g. House rule 10: no share used is stated in the video or the written recipe, so a spooned-over spice oil counts at 25% of the batch (about 9 Tbsp of the ~2 1/4 cups, 1 1/2 Tbsp per serving); the rest is stored.",
+      "t": 166.371
+    },
+    {
+      "group": "Chili oil (25% of the batch counted)",
+      "ingredient": "garlic",
+      "text": "2-3 cloves garlic, finely chopped, stirred into the warm oil (optional)",
+      "quantity": "5/8",
+      "unit": "clove",
+      "basis": "estimated",
+      "evidence": "two to three garlic cloves",
+      "optional": true,
+      "preparation": "finely chopped",
+      "amount_note": "Two to three cloves in the video (the written recipe gives 3); midpoint 2 1/2, and 25% counted: 0.25 x 2 1/2 = 5/8 clove. Optional, but he adds it on camera ('very gently, garlic goes in', about 4:33), so it counts (rule 11). House rule 10: no share used is stated in the video or the written recipe, so a spooned-over spice oil counts at 25% of the batch (about 9 Tbsp of the ~2 1/4 cups, 1 1/2 Tbsp per serving); the rest is stored.",
+      "t": 245.08
+    },
+    {
+      "group": "Pork and shrimp filling",
+      "ingredient": "pork-ground",
+      "text": "1 lb fatty ground pork",
+      "quantity": 1,
+      "unit": "lb",
+      "basis": "stated",
+      "evidence": "1 lb of a fatty ground pork",
+      "t": 314.76
+    },
+    {
+      "group": "Pork and shrimp filling",
+      "ingredient": "shrimp",
+      "text": "1/2 lb peeled, deveined shrimp, very finely chopped",
+      "quantity": "1/2",
+      "unit": "lb",
+      "basis": "stated",
+      "evidence": "a half pound of very finely ground shrimp",
+      "preparation": "very finely chopped",
+      "t": 327.12
+    },
+    {
+      "group": "Pork and shrimp filling",
+      "ingredient": "garlic",
+      "text": "5 large cloves garlic, grated",
+      "quantity": 5,
+      "unit": "clove",
+      "basis": "stated",
+      "evidence": "five big juicy cloves of garlic",
+      "preparation": "grated",
+      "t": 374.64
+    },
+    {
+      "group": "Pork and shrimp filling",
+      "ingredient": "ginger",
+      "text": "2-3 tsp finely grated ginger",
+      "quantity": "2 1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "two to three teaspoons of finely grated ginger",
+      "preparation": "finely grated",
+      "amount_note": "Two to three teaspoons in the video (or 'around 2 in'; the written recipe gives a 2-inch knob). Midpoint 2 1/2 tsp of the teaspoon measure used.",
+      "t": 383.96
+    },
+    {
+      "group": "Pork and shrimp filling",
+      "ingredient": "kosher-salt",
+      "text": "2 tsp kosher salt",
+      "quantity": 2,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "two teaspoons of kosher salt",
+      "t": 393.6
+    },
+    {
+      "group": "Pork and shrimp filling",
+      "ingredient": "sugar",
+      "text": "1 tsp sugar",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "one teaspoon of sugar",
+      "t": 393.6
+    },
+    {
+      "group": "Pork and shrimp filling",
+      "ingredient": "msg",
+      "text": "1 tsp MSG (optional)",
+      "quantity": 3,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "one teaspoon of msg",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/the-best-spicy-chili-oil-wontons-recipe",
+      "amount_note": "1 tsp in the video; the written recipe gives 1 tsp (3 g). Grams used because MSG is a branded record. He calls it skippable but adds it on camera, so it counts (rule 11).",
+      "t": 397.32
+    },
+    {
+      "group": "Pork and shrimp filling",
+      "ingredient": "soy-sauce",
+      "text": "1 Tbsp soy sauce",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "one tablespoon of soy sauce",
+      "t": 403.48
+    },
+    {
+      "group": "Pork and shrimp filling",
+      "ingredient": "green-onion",
+      "text": "1 green onion, finely chopped",
+      "quantity": 1,
+      "unit": "medium",
+      "basis": "stated",
+      "evidence": "last but not least one green onion",
+      "preparation": "finely chopped",
+      "t": 403.48
+    },
+    {
+      "group": "Wrapping and serving",
+      "ingredient": "wonton-wrapper",
+      "text": "About 35 square wonton wrappers (1 package)",
+      "quantity": 280,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "this will make anywhere between 30 to 40 wontons",
+      "amount_note": "30-40 wontons stated, one wrapper each; midpoint 35. USDA's 3 1/2-inch wonton wrapper is 8 g: 35 x 8 = 280 g. The written recipe says 1 package.",
+      "t": 531.28
+    },
+    {
+      "group": "Wrapping and serving",
+      "ingredient": "green-onion",
+      "text": "1 bunch green onions, thinly sliced, to garnish",
+      "quantity": 7,
+      "unit": "medium",
+      "basis": "estimated",
+      "evidence": "fresh sliced green onion",
+      "preparation": "thinly sliced",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/the-best-spicy-chili-oil-wontons-recipe",
+      "amount_note": "No amount in the video; the written recipe gives 1 bunch. About 7 green onions per bunch is our estimate.",
+      "t": 567.56
+    },
+    {
+      "group": "Wrapping and serving",
+      "ingredient": "black-vinegar",
+      "text": "Extra Chinese black vinegar, on the side (optional)",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "a little side of chinese black vinegar",
+      "excluded_reason": "served on the side",
+      "in_nutrition": false,
+      "t": 611.68
+    }
+  ],
+  "steps": [
+    {
+      "t": 34,
+      "text": "Chili oil: put the neutral oil and toasted rapeseed oil in a small pot with the shallots, Sichuan peppercorns, star anise, black cardamom, whole garlic and cinnamon stick, all submerged."
+    },
+    {
+      "t": 67,
+      "text": "Over medium-low, hold the oil at about 250°F, stirring now and then, for 20-30 minutes, until the aromatics are very soft and deeply browned."
+    },
+    {
+      "t": 107,
+      "text": "Strain out the aromatics, then heat the oil alone to 350°F (left in, they would burn)."
+    },
+    {
+      "t": 132,
+      "text": "In a large heat-proof bowl, whisk the chili flakes with the sesame seeds, mushroom seasoning, sugar, kosher salt, MSG and black vinegar."
+    },
+    {
+      "t": 188,
+      "text": "Standing back, carefully pour the 350°F oil over the chili mixture (it foams hard) and whisk until all the chili is saturated."
+    },
+    {
+      "t": 243,
+      "text": "Optionally, once the oil has cooled slightly, stir in 2-3 finely chopped raw garlic cloves. Cool to room temperature, then store covered in the fridge."
+    },
+    {
+      "t": 312,
+      "text": "Filling: very finely chop the shrimp with a knife, slicing thinly one way and then across, until almost a paste."
+    },
+    {
+      "t": 374,
+      "text": "Add the shrimp to the ground pork with the grated garlic and ginger, kosher salt, sugar, MSG, soy sauce and finely chopped green onion. Knead and fold like a dough until evenly mixed and tacky."
+    },
+    {
+      "t": 451,
+      "text": "Spoon the filling into a piping bag (optional, but faster)."
+    },
+    {
+      "t": 484,
+      "text": "Cup a wonton wrapper in your hand, less-starchy side up. Pipe filling into it until full to the edges, pinch it off at the bag and press the top closed. Makes 30-40."
+    },
+    {
+      "t": 539,
+      "text": "Boil the wontons in batches (or from frozen) for 2-3 minutes, until the filling is firm and the wrapper soft."
+    },
+    {
+      "t": 560,
+      "text": "Lift them out with a spider, drain, and serve in bowls topped generously with chili oil and sliced green onion, with a little black vinegar on the side if you like."
+    }
+  ]
+}

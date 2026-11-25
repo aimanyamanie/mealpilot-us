@@ -1,0 +1,506 @@
+{
+  "slug": "chicken-parmesan-joshua-weissman",
+  "market": "US",
+  "title": "Brined Panko Chicken Parmesan with Gochujang-Guanciale Tomato Sauce",
+  "summary": "Thin, brined chicken breast cutlets coated in seasoned flour, egg and panko, shallow-fried until crisp, then broiled under a tomato sauce deepened with gochujang and crisp guanciale and a blend of two mozzarellas and pecorino.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/fWQzaXMOBU8.json"
+  },
+  "cuisine": "Italian-American",
+  "course": "main",
+  "meal_slots": [
+    "lunch",
+    "dinner"
+  ],
+  "servings": 4,
+  "servings_basis": "stated",
+  "prep_minutes": 30,
+  "cook_minutes": 40,
+  "times_basis": "stated",
+  "difficulty": "medium",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'The Best Chicken Parmesan Ever' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe for the same dish (it embeds this video): https://www.joshuaweissman.com/recipes/the-perfect-cheesy-chicken-parmesan-recipe (serves 4, hands-on prep 30 min, cook 40 min; brining 3-4 hours or overnight is extra and not in prep_minutes). The video gives no serving count, so servings and times come from the written recipe. The video states the chicken, the brine, the sauce, the breading and the cheeses. Where the two differ, the video wins: the flour is seasoned with the 2 tsp salt and 1 tsp pepper (the page puts them in the eggs), the sauce reduces about 5 minutes (page: 15-20) and the oil is about 1/2 inch deep (page: about 1 inch). From the written recipe: panko 2 cups (video: two to three cups), large eggs, kosher salt for the flour. Ranges: water to rinse the tomato can, 1/4-1/2 cup (we use 1/4 cup; it reduces off and has no calories). Our estimates: 1/2 tsp kosher salt to season the sauce (house rule: small estimated salt is counted), a pinch of sugar read as 0.3 g. House rules applied: the brine (water, salt, lemon, garlic, chili flakes, peppercorns, rosemary) is poured off and the chicken rinsed, so none of it is counted, and sodium the meat takes up is not captured. Flour, salt, pepper and panko are dredge, counted at 25%; the egg wash (eggs and water) is counted at 50%. The 1/2-inch oil in a 12-inch skillet is treated as frying oil (it does not stay with the food): it is excluded and 112 g absorbed oil is added (10% of the coated raw weight, arithmetic on that line). The rosemary sprig fried in the oil and the thyme bundle in the sauce are removed. The whole batch of sauce goes on the chicken (he says there is just enough), so it is counted. All the cheese is counted, though he says there is more than enough, so cheese may be somewhat overstated. Not counted (house rule 11, optional and not added in the video): black pepper in the sauce, and the chives and extra pecorino garnish. Named alternatives not counted: bacon for the guanciale. Proxies: guanciale uses USDA fresh pork jowl (sodium understated); red pepper flakes use USDA ground red pepper; panko uses USDA plain dry breadcrumbs, which weigh more per cup than panko.",
+  "ingredients": [
+    {
+      "group": "Chicken",
+      "ingredient": "chicken-breast-boneless",
+      "text": "2 lb boneless, skinless chicken breasts, split into cutlets and pounded about 1/3 inch thick",
+      "quantity": 2,
+      "unit": "lb",
+      "preparation": "split horizontally, pounded to about 1/3 inch",
+      "basis": "stated",
+      "evidence": "2 lb of chicken breast",
+      "t": 37.48
+    },
+    {
+      "group": "Brine (poured off)",
+      "ingredient": "water",
+      "text": "1 quart water",
+      "quantity": 1,
+      "unit": "quart",
+      "basis": "stated",
+      "evidence": "1 qt of water",
+      "in_nutrition": false,
+      "excluded_reason": "brine; poured off and the chicken rinsed",
+      "t": 190.76
+    },
+    {
+      "group": "Brine (poured off)",
+      "ingredient": "kosher-salt",
+      "text": "2 Tbsp kosher salt",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "2 tbsp of kosher salt",
+      "in_nutrition": false,
+      "excluded_reason": "brine; poured off and the chicken rinsed",
+      "t": 190.76
+    },
+    {
+      "group": "Brine (poured off)",
+      "ingredient": "lemon-juice",
+      "text": "1 lemon, sliced about 1/4 inch thick",
+      "quantity": 1,
+      "unit": "lemon",
+      "qualifier": "yields",
+      "preparation": "sliced",
+      "basis": "stated",
+      "evidence": "one whole lemon",
+      "in_nutrition": false,
+      "excluded_reason": "brine; poured off and the chicken rinsed",
+      "t": 206.48
+    },
+    {
+      "group": "Brine (poured off)",
+      "ingredient": "garlic",
+      "text": "4 cloves garlic, peeled, lightly smashed",
+      "quantity": 4,
+      "unit": "clove",
+      "basis": "stated",
+      "evidence": "four cloves of garlic",
+      "in_nutrition": false,
+      "excluded_reason": "brine; poured off and the chicken rinsed",
+      "t": 220.88
+    },
+    {
+      "group": "Brine (poured off)",
+      "ingredient": "chili-flakes",
+      "text": "1 tsp red pepper flakes",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "a teaspoon of red pepper flakes",
+      "in_nutrition": false,
+      "excluded_reason": "brine; poured off and the chicken rinsed",
+      "t": 231.92
+    },
+    {
+      "group": "Brine (poured off)",
+      "ingredient": "black-pepper",
+      "text": "2 tsp whole black peppercorns",
+      "quantity": 2,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "2 tsp of black peppercorns",
+      "in_nutrition": false,
+      "excluded_reason": "brine; poured off and the chicken rinsed",
+      "t": 231.92,
+      "qualifier": "ground"
+    },
+    {
+      "group": "Brine (poured off)",
+      "ingredient": "rosemary-fresh",
+      "text": "2 sprigs fresh rosemary, crushed in the hand",
+      "quantity": 2,
+      "unit": "sprig",
+      "basis": "stated",
+      "evidence": "two fresh sprigs of rosemary",
+      "in_nutrition": false,
+      "excluded_reason": "brine; poured off and the chicken rinsed",
+      "t": 241.44
+    },
+    {
+      "group": "Sauce",
+      "ingredient": "guanciale",
+      "text": "3 oz guanciale, in 1/4-inch cubes",
+      "quantity": 3,
+      "unit": "oz",
+      "preparation": "1/4-inch cubes, rendered crisp, finely chopped",
+      "basis": "stated",
+      "evidence": "you don't have guanciale, use bacon. 3 oz",
+      "amount_note": "Counted at its raw weight: the fat it renders stays in the pot and goes into the sauce.",
+      "t": 323.68
+    },
+    {
+      "group": "Sauce",
+      "ingredient": "bacon",
+      "text": "Or bacon, in place of the guanciale",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "you don't have guanciale, use bacon",
+      "in_nutrition": false,
+      "excluded_reason": "alternative",
+      "t": 323.68
+    },
+    {
+      "group": "Sauce",
+      "ingredient": "olive-oil",
+      "text": "2 1/2 Tbsp extra-virgin olive oil",
+      "quantity": "2 1/2",
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "2 and 1/2 tablespoons of extra virgin olive oil",
+      "t": 370.2
+    },
+    {
+      "group": "Sauce",
+      "ingredient": "garlic",
+      "text": "5 cloves garlic, thinly sliced",
+      "quantity": 5,
+      "unit": "clove",
+      "preparation": "thinly sliced",
+      "basis": "stated",
+      "evidence": "five cloves of thinly sliced garlic",
+      "t": 460.56
+    },
+    {
+      "group": "Sauce",
+      "ingredient": "gochujang",
+      "text": "1/4 cup gochujang",
+      "quantity": 60,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "a quarter cup of gochujang",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/the-perfect-cheesy-chicken-parmesan-recipe",
+      "amount_note": "1/4 cup in the video; the written recipe gives 1/4 cup (60 g), and we use its gram weight.",
+      "t": 472.24
+    },
+    {
+      "group": "Sauce",
+      "ingredient": "sugar",
+      "text": "A pinch of sugar",
+      "quantity": 0.3,
+      "unit": "g",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "evidence": "a pinch of sugar",
+      "amount_note": "A pinch, read as 1/16 tsp of granulated sugar (about 0.3 g); our conversion.",
+      "t": 500.76
+    },
+    {
+      "group": "Sauce",
+      "ingredient": "kosher-salt",
+      "text": "Kosher salt, to taste (about 1/2 tsp)",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "a little bit of salt to taste",
+      "amount_note": "No amount in the video or the written recipe ('to taste'); 1/2 tsp is our estimate, kept light because the guanciale and pecorino are salty. Counted under the house salt rule.",
+      "t": 500.76
+    },
+    {
+      "group": "Sauce",
+      "ingredient": "chili-flakes",
+      "text": "1 tsp red pepper flakes",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "a teaspoon of red pepper flakes",
+      "t": 503.48
+    },
+    {
+      "group": "Sauce",
+      "ingredient": "tomatoes-crushed",
+      "text": "1 (28 oz) can crushed tomatoes",
+      "quantity": 28,
+      "unit": "oz",
+      "basis": "stated",
+      "evidence": "finally, 1 28 oz ... can of crushed tomato",
+      "t": 508.08
+    },
+    {
+      "group": "Sauce",
+      "ingredient": "water",
+      "text": "1/4-1/2 cup water, to rinse the can",
+      "quantity": "1/4",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "a quarter cup to a half cup of water",
+      "amount_note": "The video gives a range of 1/4-1/2 cup; we use 1/4 cup. It reduces off.",
+      "t": 511.4
+    },
+    {
+      "group": "Sauce",
+      "ingredient": "thyme-fresh",
+      "text": "A small bundle of fresh thyme",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "a little bundle of fresh thyme",
+      "in_nutrition": false,
+      "excluded_reason": "simmered as a bundle and removed before serving",
+      "t": 525.16
+    },
+    {
+      "group": "Sauce",
+      "ingredient": "black-pepper",
+      "text": "Black pepper, optional",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "optional": true,
+      "evidence": "add a little black pepper if you want",
+      "in_nutrition": false,
+      "excluded_reason": "optional, not added in the video",
+      "t": 584.72
+    },
+    {
+      "group": "Breading",
+      "ingredient": "flour-all-purpose",
+      "text": "2 cups all-purpose flour",
+      "quantity": "1/2",
+      "unit": "cup",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "evidence": "two cups of all-purpose flour",
+      "amount_note": "2 cups stated; 25% counted (1/2 cup) as dredge that sticks (house rule).",
+      "t": 642.8
+    },
+    {
+      "group": "Breading",
+      "ingredient": "kosher-salt",
+      "text": "2 tsp kosher salt, mixed into the flour",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "evidence": "two teaspoons of salt",
+      "amount_note": "2 tsp stated (the video says salt; the written recipe says kosher salt). Part of the seasoned flour dredge, so 25% counted (1/2 tsp) (house rule).",
+      "t": 648.28
+    },
+    {
+      "group": "Breading",
+      "ingredient": "black-pepper",
+      "text": "1 tsp freshly ground black pepper, mixed into the flour",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "evidence": "salt and a teaspoon ... of fresh ground black pepper",
+      "amount_note": "1 tsp stated. Part of the seasoned flour dredge, so 25% counted (1/4 tsp) (house rule).",
+      "t": 648.28,
+      "qualifier": "ground"
+    },
+    {
+      "group": "Breading",
+      "ingredient": "egg",
+      "text": "4 large eggs, whisked with the water",
+      "quantity": 2,
+      "unit": "large",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "evidence": "four eggs and two tablespoons of",
+      "amount_note": "4 eggs stated (size 'large' from the written recipe). Egg wash, so 50% counted (2 large eggs) (house rule).",
+      "t": 674.28
+    },
+    {
+      "group": "Breading",
+      "ingredient": "water",
+      "text": "2 Tbsp water, for the egg wash",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "evidence": "two tablespoons of ... water",
+      "amount_note": "2 Tbsp stated. Part of the egg wash, so 50% counted (1 Tbsp) (house rule).",
+      "t": 674.28
+    },
+    {
+      "group": "Breading",
+      "ingredient": "panko",
+      "text": "2 cups panko breadcrumbs (video: two to three cups)",
+      "quantity": "1/2",
+      "unit": "cup",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "evidence": "to three cups of the best panko",
+      "amount_note": "The video says two to three cups; the written recipe gives 2 cups, which we use. 25% counted (1/2 cup) as dredge that sticks (house rule).",
+      "t": 685.792
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "Vegetable or avocado oil, about 1/2 inch deep in a 12-inch skillet, heated to 350°F",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "high heat oil, vegetable oil, avocado",
+      "in_nutrition": false,
+      "excluded_reason": "frying oil; absorbed oil counted separately",
+      "t": 606.72
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "Absorbed frying oil (our estimate)",
+      "quantity": 112,
+      "unit": "g",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "evidence": "high heat oil, vegetable oil, avocado",
+      "amount_note": "10% of the coated raw weight (house rule). Raw chicken 908 g (2 lb) + counted flour 62.5 g (1/2 cup at USDA 125 g/cup) + counted dredge salt 1.5 g (1/2 tsp at 3 g/tsp) + counted pepper 0.6 g (1/4 tsp at 2.3 g/tsp) + counted egg wash 114.8 g (2 large eggs at 50 g + 1 Tbsp water 14.8 g) + counted panko 30 g (1/2 cup at about 60 g/cup, our estimate for panko) = 1117.4 g; x 10% = 111.7 g, rounded to 112 g.",
+      "t": 606.72
+    },
+    {
+      "group": "Frying",
+      "ingredient": "rosemary-fresh",
+      "text": "1 sprig fresh rosemary, added to the oil while frying",
+      "quantity": 1,
+      "unit": "sprig",
+      "basis": "stated",
+      "evidence": "one sprig of rosemary",
+      "in_nutrition": false,
+      "excluded_reason": "flavors the frying oil; removed",
+      "t": 768.76
+    },
+    {
+      "group": "Cheese topping",
+      "ingredient": "mozzarella-whole-milk",
+      "text": "2 cups shredded full-fat mozzarella",
+      "quantity": 2,
+      "unit": "cup",
+      "qualifier": "shredded",
+      "basis": "stated",
+      "evidence": "we have two cups ... full-fat mozzarella",
+      "amount_note": "All of it counted, though he says there is more than enough cheese for the chicken, so this may overstate what is eaten.",
+      "t": 806.84
+    },
+    {
+      "group": "Cheese topping",
+      "ingredient": "mozzarella",
+      "text": "2 cups shredded low-moisture, lower-fat mozzarella",
+      "quantity": 2,
+      "unit": "cup",
+      "qualifier": "shredded",
+      "basis": "stated",
+      "evidence": "two cups of a lower-fat, low-moisture mozzarella",
+      "amount_note": "All of it counted, though he says there is more than enough cheese for the chicken, so this may overstate what is eaten.",
+      "t": 813.88
+    },
+    {
+      "group": "Cheese topping",
+      "ingredient": "pecorino-romano",
+      "text": "1/2 cup finely grated Pecorino Romano",
+      "quantity": "1/2",
+      "unit": "cup",
+      "qualifier": "grated",
+      "preparation": "finely grated",
+      "basis": "stated",
+      "evidence": "half a cup of finely grated ... pecorino romano",
+      "amount_note": "All of it counted, though he says there is more than enough cheese for the chicken, so this may overstate what is eaten.",
+      "t": 818.64
+    },
+    {
+      "group": "To serve",
+      "ingredient": "chives",
+      "text": "Thinly sliced fresh chives, optional",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "optional": true,
+      "evidence": "fresh, thinly sliced chives",
+      "in_nutrition": false,
+      "excluded_reason": "optional, not added in the video",
+      "t": 924.88
+    },
+    {
+      "group": "To serve",
+      "ingredient": "pecorino-romano",
+      "text": "Extra grated pecorino, optional",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "optional": true,
+      "evidence": "more pecorino grated on top",
+      "in_nutrition": false,
+      "excluded_reason": "optional, not added in the video",
+      "t": 926.24
+    }
+  ],
+  "steps": [
+    {
+      "t": 55,
+      "text": "Trim any excess fat from the chicken breasts, then slice each one horizontally all the way through into two thinner pieces."
+    },
+    {
+      "t": 99,
+      "text": "Between two sheets of plastic wrap or parchment, pound each piece to an even thickness of about 1/3 inch."
+    },
+    {
+      "t": 190,
+      "text": "Brine: whisk the kosher salt into the water until dissolved. Add the sliced lemon, garlic, red pepper flakes, peppercorns and the rosemary sprigs, crushed in your hand to release their oils."
+    },
+    {
+      "t": 260,
+      "text": "Lay the cutlets into the brine one at a time so liquid sits between them, make sure all are submerged, cover and refrigerate overnight (at least 3-4 hours)."
+    },
+    {
+      "t": 324,
+      "text": "Sauce: cut the guanciale into 1/4-inch cubes. In a medium saucepan over medium to medium-low heat, coat it in the olive oil and render 2-4 minutes, stirring now and then, then raise to medium and cook 2-3 minutes more until deep brown and crisp."
+    },
+    {
+      "t": 428,
+      "text": "Lift the guanciale out with a slotted spoon onto paper towels, leaving the fat in the pot. Let it cool, then chop it very finely or pulse it in a blender (not to a paste)."
+    },
+    {
+      "t": 458,
+      "text": "Over medium heat, cook the sliced garlic in the fat just until fragrant, about 15-20 seconds, without browning. Stir in the gochujang and fry it 1-2 minutes until it darkens a little."
+    },
+    {
+      "t": 500,
+      "text": "Add the sugar, a little salt and the red pepper flakes, then the crushed tomatoes, rinsing the can with the water. Bring to a gentle simmer over medium heat, add the thyme bundle and reduce about 5 minutes, stirring occasionally, until it clings to a spoon."
+    },
+    {
+      "t": 571,
+      "text": "Remove the thyme, stir in the chopped guanciale, and adjust the salt (and pepper, if you like)."
+    },
+    {
+      "t": 593,
+      "text": "Heat about 1/2 inch of high-heat oil in a 12-inch deep cast-iron skillet over medium heat to about 350°F."
+    },
+    {
+      "t": 642,
+      "text": "Set up three stations: flour seasoned with the salt and pepper; the eggs whisked smooth with the water; and the panko."
+    },
+    {
+      "t": 700,
+      "text": "Drain the brined chicken, rinse it briefly so it is not too salty, then coat each cutlet in seasoned flour (shake off the excess), then egg, then panko, pressing so there are no bare spots. Set on a sheet tray."
+    },
+    {
+      "t": 752,
+      "text": "Lay a cutlet into the oil away from you and keep the pan gently moving. Once it starts to color, add a rosemary sprig. Fry 2-3 minutes, flip, and fry 2-3 minutes more, until golden and 165°F inside. Drain on a wire rack; remove the rosemary. Repeat with the rest."
+    },
+    {
+      "t": 803,
+      "text": "Toss the two mozzarellas and the pecorino together."
+    },
+    {
+      "t": 857,
+      "text": "Move the cutlets to a foil-lined baking sheet. Spread about 4 oz of sauce on each, keeping it on the chicken, then mound the cheese on top and press it down lightly."
+    },
+    {
+      "t": 909,
+      "text": "Broil on high 4-6 minutes, checking at 3-4 minutes, until the cheese is melted with some browning. Serve as is or with chives or more pecorino."
+    }
+  ]
+}

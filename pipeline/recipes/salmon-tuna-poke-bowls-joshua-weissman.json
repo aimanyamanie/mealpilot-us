@@ -375,7 +375,8 @@
       "evidence": "two teaspoons sichuan pepperc corn fresh ground",
       "in_nutrition": false,
       "excluded_reason": "served on the side; how much is eaten varies",
-      "t": 557.76
+      "t": 557.76,
+      "qualifier": "ground"
     },
     {
       "group": "Spicy mayo (on the side)",

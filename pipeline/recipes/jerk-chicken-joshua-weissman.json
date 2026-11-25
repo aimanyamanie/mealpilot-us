@@ -1,0 +1,522 @@
+{
+  "slug": "jerk-chicken-joshua-weissman",
+  "market": "US",
+  "title": "Jamaican Jerk Chicken with Escovitch, Honey Jerk Sauce and Festival",
+  "summary": "Leg quarters rubbed with a heavy layer of dried spices and a blended Scotch bonnet, thyme and allspice paste, marinated for a day or two, then grilled and smoked over lump charcoal. Served on fried festival bread with a quick escovitch pickle and a sweet honey jerk sauce, in Irie Jerk Chicken's style.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/AFzx37MGW6o.json"
+  },
+  "cuisine": "Jamaican",
+  "course": "main",
+  "meal_slots": [
+    "lunch",
+    "dinner"
+  ],
+  "servings": 4,
+  "servings_basis": "stated",
+  "prep_minutes": 30,
+  "cook_minutes": 60,
+  "times_basis": "stated",
+  "difficulty": "medium",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'Authentic Jerk Chicken at Home' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Guest: Niki Gordon of Irie Jerk Chicken, Brooklyn. Written recipe: https://www.joshuaweissman.com/recipes/authentic-jerk-chicken-at-home (serves 4, prep 30 min, cook 1 hour). Marinating (24 hours minimum, ideally 48) is not in prep_minutes (house rule 13). The video cooks a restaurant-size batch and says the 4-serving amounts are in on-screen notes and the written recipe; the on-screen notes are not in the transcript, so nearly every amount comes from the written recipe. The leg quarters are entered as bought, bone-in (house rule 12): 4 x about 340 g = 1360 g (our estimate; the lead converts to edible weight). Other estimates: 15 g per Scotch bonnet or Jamaican hot pepper, 10 g pimento pepper, 100 g for a bunch of green onions, 200 g festival mix for 4 servings (50 g each), 1/2 cup water for the dough, 1/4 tsp salt in the sauce, 32 g absorbed oil (10% of the raw dough). Proxies: Scotch bonnet for the Jamaican hot pepper; sweet red pepper for the pimento seasoning pepper; the sorrel drink (store-bought ginger-sorrel in the video; the page calls it sorrel tea and gives a homemade version, written up separately as sorrel-drink-joshua-weissman) uses a cranberry juice cocktail proxy; Jamaican chicken seasoning and Sazón use the USDA sazon seasoning mix and dry jerk seasoning uses the USDA chili seasoning mix, so sodium is uncertain. The salt in this recipe comes from those blends (the video says no plain salt is added to the chicken). The thick wet marinade stays on the chicken and is counted in full; the 1/2 cup set aside for the sauce is part of it, and the sauce (spooned over, made for these 4 plates, about 2/3 cup) adds only honey, sorrel and salt, and is counted in full: it is drizzled, not a tossed glaze from a bigger batch (house rules 1 and 10). Nutmeg powder is on the page but not named in the video. Not counted: the vinegar and lime wash (rinsed off), allspice and nutmeg thrown on the coals, the escovitch's whole allspice and its vinegar, and the festival frying oil in the pot. The written recipe adds 1 Tbsp kosher salt to the escovitch, but the video says 'no salt', so it is left out. Festival bread and escovitch are served on the same plate, so they are groups here, not separate recipes.",
+  "ingredients": [
+    {
+      "group": "Chicken",
+      "ingredient": "chicken-leg-quarter",
+      "text": "4 chicken leg quarters, skin on, cavity cleaned",
+      "quantity": 993,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "yeah we have a lot of leg quarters",
+      "preparation": "innards cleaned out, skin left on",
+      "amount_source": "our_estimate",
+      "amount_note": "As bought, bone-in. The written recipe gives 4 leg quarters with no weight; 340 g (12 oz) each is our estimate: 4 x 340 = 1360 g. As bought, bone-in: 1360 g = 1360 g. Edible weight 993 g after 27% bone, USDA SR28 refuse for NDB 05075 (leg, meat and skin, raw).",
+      "t": 55.44
+    },
+    {
+      "group": "Chicken",
+      "ingredient": "white-vinegar",
+      "text": "1/4 cup white distilled vinegar, for washing",
+      "quantity": "1/4",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "rinse it with vinegar and lime",
+      "in_nutrition": false,
+      "excluded_reason": "used to wash the chicken; rinsed off",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/authentic-jerk-chicken-at-home",
+      "amount_note": "The video gives no amount; the written recipe gives 1/4 cup.",
+      "t": 107.92
+    },
+    {
+      "group": "Chicken",
+      "ingredient": "lime-juice",
+      "text": "1 lime, juiced, for washing",
+      "quantity": 1,
+      "unit": "lime",
+      "basis": "stated",
+      "evidence": "rinse it with vinegar and lime",
+      "qualifier": "yields",
+      "in_nutrition": false,
+      "excluded_reason": "used to wash the chicken; rinsed off",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/authentic-jerk-chicken-at-home",
+      "amount_note": "The video gives no amount; the written recipe gives 1 lime.",
+      "t": 107.92
+    },
+    {
+      "group": "Wet marinade (1/2 cup is set aside for the sauce)",
+      "ingredient": "scotch-bonnet",
+      "text": "2 Scotch bonnet peppers, whole, seeds in",
+      "quantity": 30,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "we got scotch bonnet",
+      "amount_source": "our_estimate",
+      "amount_note": "The written recipe gives 2 Scotch bonnets (the video uses nine in a restaurant batch). 15 g per pepper is our estimate: 2 x 15 = 30 g.",
+      "t": 125.52
+    },
+    {
+      "group": "Wet marinade (1/2 cup is set aside for the sauce)",
+      "ingredient": "scotch-bonnet",
+      "text": "1 Jamaican hot pepper",
+      "quantity": 15,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "another six jamaican hot pepper",
+      "amount_source": "our_estimate",
+      "amount_note": "The written recipe gives 1 Jamaican pepper. Scotch bonnet stands in for it; 15 g is our estimate.",
+      "t": 147.52
+    },
+    {
+      "group": "Wet marinade (1/2 cup is set aside for the sauce)",
+      "ingredient": "pimento-pepper",
+      "text": "1 pimento (seasoning) pepper",
+      "quantity": 10,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "so these are the pimentos",
+      "amount_source": "our_estimate",
+      "amount_note": "The written recipe gives 1 pimento pepper (mild; the video says they are not hot). 10 g is our estimate.",
+      "t": 143.04
+    },
+    {
+      "group": "Wet marinade (1/2 cup is set aside for the sauce)",
+      "ingredient": "ginger",
+      "text": "3-inch knob (31 g) fresh ginger, peeled",
+      "quantity": 31,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "real ginger",
+      "preparation": "peeled",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/authentic-jerk-chicken-at-home",
+      "amount_note": "31 g (3-inch knob) from the written recipe. Page amount, scaled for 4 servings; the video makes a restaurant batch and gives no amounts.",
+      "t": 130.8
+    },
+    {
+      "group": "Wet marinade (1/2 cup is set aside for the sauce)",
+      "ingredient": "thyme-fresh",
+      "text": "1/2 bunch (14 g) fresh thyme",
+      "quantity": 14,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "a load of thyme",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/authentic-jerk-chicken-at-home",
+      "amount_note": "14 g (1/2 bunch) from the written recipe. Page amount, scaled for 4 servings; the video makes a restaurant batch and gives no amounts.",
+      "t": 130.8
+    },
+    {
+      "group": "Wet marinade (1/2 cup is set aside for the sauce)",
+      "ingredient": "green-onion",
+      "text": "1 bunch green onions, cut into 3-inch pieces",
+      "quantity": 100,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "our spring onion or green onion rather",
+      "preparation": "cut into 3-inch pieces",
+      "amount_source": "our_estimate",
+      "amount_note": "The written recipe gives 1 bunch; 100 g (about 6-7 onions at 15 g) is our estimate.",
+      "t": 186.24
+    },
+    {
+      "group": "Wet marinade (1/2 cup is set aside for the sauce)",
+      "ingredient": "sorrel-drink",
+      "text": "1/3 cup sorrel drink (store-bought, or the homemade sorrel tea)",
+      "quantity": "1/3",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "this is ginger sorrel drink",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/authentic-jerk-chicken-at-home",
+      "amount_note": "1/3 cup (80 ml) from the written recipe. Page amount, scaled for 4 servings; the video makes a restaurant batch and gives no amounts.",
+      "t": 167.52
+    },
+    {
+      "group": "Wet marinade (1/2 cup is set aside for the sauce)",
+      "ingredient": "allspice",
+      "text": "3 Tbsp (17 g) whole allspice berries",
+      "quantity": 17,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "so we have whole allspice two jars",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/authentic-jerk-chicken-at-home",
+      "amount_note": "17 g (3 Tbsp) from the written recipe; the video uses two jars for a restaurant batch.",
+      "t": 174.56
+    },
+    {
+      "group": "Wet marinade (1/2 cup is set aside for the sauce)",
+      "ingredient": "onion-sweet",
+      "text": "1 sweet onion, peeled and quartered",
+      "quantity": 1,
+      "unit": "whole",
+      "basis": "stated",
+      "evidence": "onion fresh beautiful",
+      "preparation": "peeled and quartered",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/authentic-jerk-chicken-at-home",
+      "amount_note": "1 sweet onion from the written recipe (the video just says onion). Page amount, scaled for 4 servings; the video makes a restaurant batch and gives no amounts.",
+      "t": 186.24
+    },
+    {
+      "group": "Dry seasoning",
+      "ingredient": "garlic-powder",
+      "text": "4 Tbsp (40 g) garlic powder",
+      "quantity": 40,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "we put the garlic on it",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/authentic-jerk-chicken-at-home",
+      "amount_note": "40 g (4 Tbsp) from the written recipe. Page amount, scaled for 4 servings; the video makes a restaurant batch and gives no amounts.",
+      "t": 205.12
+    },
+    {
+      "group": "Dry seasoning",
+      "ingredient": "nutmeg",
+      "text": "1 Tbsp (8 g) ground nutmeg",
+      "quantity": 8,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "we've got the dry seasoning going in",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/authentic-jerk-chicken-at-home",
+      "amount_note": "Not named in the video's dry seasoning; the written recipe lists 1 Tbsp (8 g) nutmeg powder.",
+      "t": 201.12
+    },
+    {
+      "group": "Dry seasoning",
+      "ingredient": "ginger-ground",
+      "text": "2 Tbsp (16 g) ground ginger",
+      "quantity": 16,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "this is the ginger, the ground ginger",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/authentic-jerk-chicken-at-home",
+      "amount_note": "16 g (2 Tbsp) from the written recipe. Page amount, scaled for 4 servings; the video makes a restaurant batch and gives no amounts.",
+      "t": 218.4
+    },
+    {
+      "group": "Dry seasoning",
+      "ingredient": "chicken-seasoning",
+      "text": "4 Tbsp (32 g) chicken seasoning powder",
+      "quantity": 32,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "this is the dried chicken seasoning",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/authentic-jerk-chicken-at-home",
+      "amount_note": "32 g (4 Tbsp) from the written recipe. Page amount, scaled for 4 servings; the video makes a restaurant batch and gives no amounts.",
+      "t": 223.36
+    },
+    {
+      "group": "Dry seasoning",
+      "ingredient": "sazon-seasoning",
+      "text": "1/4 cup (40 g) Sazón Clásico",
+      "quantity": 40,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "saan classic",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/authentic-jerk-chicken-at-home",
+      "amount_note": "40 g (1/4 cup) from the written recipe; captioned 'Saan classic co.'. Page amount, scaled for 4 servings; the video makes a restaurant batch and gives no amounts.",
+      "t": 223.36
+    },
+    {
+      "group": "Dry seasoning",
+      "ingredient": "jerk-seasoning",
+      "text": "2 Tbsp (20 g) dry jerk seasoning",
+      "quantity": 20,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "jerk seasoning and this essential",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/authentic-jerk-chicken-at-home",
+      "amount_note": "20 g (2 Tbsp) from the written recipe. Page amount, scaled for 4 servings; the video makes a restaurant batch and gives no amounts.",
+      "t": 223.36
+    },
+    {
+      "group": "Dry seasoning",
+      "ingredient": "allspice",
+      "text": "3 Tbsp (30 g) ground allspice",
+      "quantity": 30,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "this is b pimento allspice grounded up",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/authentic-jerk-chicken-at-home",
+      "amount_note": "30 g (3 Tbsp) from the written recipe. Page amount, scaled for 4 servings; the video makes a restaurant batch and gives no amounts.",
+      "t": 230.8
+    },
+    {
+      "group": "Grill",
+      "ingredient": "allspice",
+      "text": "Extra whole allspice berries, thrown on the coals",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "throw some pimento seeds in there",
+      "in_nutrition": false,
+      "excluded_reason": "thrown on the coals for smoke; not eaten",
+      "t": 378.32
+    },
+    {
+      "group": "Grill",
+      "ingredient": "nutmeg",
+      "text": "Whole nutmeg, thrown on the coals",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "put some whole nutmeg in there",
+      "in_nutrition": false,
+      "excluded_reason": "thrown on the coals for smoke; not eaten",
+      "t": 386.8
+    },
+    {
+      "group": "Sweet honey jerk sauce (spooned over)",
+      "ingredient": "honey",
+      "text": "1 Tbsp (17 g) honey, blended with 1/2 cup of the reserved wet marinade",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "add a little sweet honey",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/authentic-jerk-chicken-at-home",
+      "amount_note": "1 Tbsp from the written recipe. The 1/2 cup of marinade in the sauce is already counted in the marinade lines.",
+      "t": 562.88
+    },
+    {
+      "group": "Sweet honey jerk sauce (spooned over)",
+      "ingredient": "sorrel-drink",
+      "text": "1 Tbsp sorrel drink",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "you got to have the juicy sour",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/authentic-jerk-chicken-at-home",
+      "amount_note": "1 Tbsp (15 ml) sorrel tea from the written recipe; we read 'the juicy sour' as the sorrel.",
+      "t": 567.76
+    },
+    {
+      "group": "Sweet honey jerk sauce (spooned over)",
+      "ingredient": "kosher-salt",
+      "text": "Kosher salt, to taste",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "season it to taste with salt",
+      "amount_source": "our_estimate",
+      "amount_note": "To taste, no amount; 1/4 tsp is our estimate (small salt is counted, house rule 4).",
+      "t": 589.6
+    },
+    {
+      "group": "Escovitch",
+      "ingredient": "onion-sweet",
+      "text": "1 sweet onion, sliced into thin rounds",
+      "quantity": 1,
+      "unit": "whole",
+      "basis": "stated",
+      "evidence": "to take the onions",
+      "preparation": "sliced paper-thin",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/authentic-jerk-chicken-at-home",
+      "amount_note": "1 sweet onion from the written recipe. Page amount, scaled for 4 servings; the video makes a restaurant batch and gives no amounts.",
+      "t": 502.16
+    },
+    {
+      "group": "Escovitch",
+      "ingredient": "scotch-bonnet",
+      "text": "1 Jamaican hot pepper, sliced into rounds",
+      "quantity": 15,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "cut your peppers",
+      "amount_source": "our_estimate",
+      "amount_note": "The written recipe gives 1 Jamaican pepper; Scotch bonnet stands in, 15 g is our estimate.",
+      "t": 511.28
+    },
+    {
+      "group": "Escovitch",
+      "ingredient": "scotch-bonnet",
+      "text": "1 Scotch bonnet pepper, sliced into rounds",
+      "quantity": 15,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "cut your peppers",
+      "amount_source": "our_estimate",
+      "amount_note": "The written recipe gives 1 Scotch bonnet; 15 g is our estimate.",
+      "t": 511.28
+    },
+    {
+      "group": "Escovitch",
+      "ingredient": "carrot",
+      "text": "1 carrot, peeled and cut into thin pieces",
+      "quantity": 1,
+      "unit": "medium",
+      "basis": "stated",
+      "evidence": "getting the carrot done",
+      "preparation": "peeled, thinly cut (the page says grated)",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/authentic-jerk-chicken-at-home",
+      "amount_note": "1 carrot from the written recipe; 'medium' size is our assumption.",
+      "t": 519.92
+    },
+    {
+      "group": "Escovitch",
+      "ingredient": "allspice",
+      "text": "1 tsp whole allspice berries",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "we have a lot of allspice going in",
+      "in_nutrition": false,
+      "excluded_reason": "whole berries flavor the pickle; not eaten",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/authentic-jerk-chicken-at-home",
+      "amount_note": "1 tsp from the written recipe (the page also prints 5 g).",
+      "t": 529.2
+    },
+    {
+      "group": "Escovitch",
+      "ingredient": "white-vinegar",
+      "text": "White distilled vinegar, just enough to cover",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "just enough vinegar to cover it up",
+      "in_nutrition": false,
+      "excluded_reason": "pickling liquid; amount not stated and mostly left behind",
+      "t": 538.96
+    },
+    {
+      "group": "Festival bread",
+      "ingredient": "festival-mix",
+      "text": "Festival mix (Spur Tree), enough for 4 servings by the package directions",
+      "quantity": 200,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "so now we're making our festival bread",
+      "amount_source": "our_estimate",
+      "amount_note": "The video uses a whole restaurant bag; the written recipe says enough for 4 servings per the package. 50 g dry mix per serving is our estimate: 4 x 50 = 200 g.",
+      "t": 652.08
+    },
+    {
+      "group": "Festival bread",
+      "ingredient": "water",
+      "text": "Water, as needed for a soft, non-sticky dough",
+      "quantity": "1/2",
+      "unit": "cup",
+      "basis": "estimated",
+      "evidence": "we're going to add the water to it",
+      "amount_source": "our_estimate",
+      "amount_note": "No amount in the video or on the page ('as needed'); 1/2 cup for 200 g mix is our estimate.",
+      "t": 667.04
+    },
+    {
+      "group": "Festival bread",
+      "ingredient": "canola-oil",
+      "text": "3-4 quarts canola oil, for frying at 350°F",
+      "quantity": 3,
+      "unit": "quart",
+      "basis": "stated",
+      "evidence": "now we're going to let it fry",
+      "in_nutrition": false,
+      "excluded_reason": "frying oil; absorbed oil counted separately",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/authentic-jerk-chicken-at-home",
+      "amount_note": "The video does not name the oil or amount; the written recipe gives 3-4 quarts canola oil at 350°F.",
+      "t": 727.6
+    },
+    {
+      "group": "Festival bread",
+      "ingredient": "canola-oil",
+      "text": "Absorbed frying oil (our estimate)",
+      "quantity": 32,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "now we're going to let it fry",
+      "amount_source": "our_estimate",
+      "amount_note": "10% of the raw fried weight (house rule): dough = 200 g mix + 118.3 g water (1/2 cup) = 318.3 g; x 0.10 = 31.8 g, rounded to 32 g. The video never mentions the oil itself, so the frying mention is quoted.",
+      "t": 727.6
+    }
+  ],
+  "steps": [
+    {
+      "t": 59,
+      "text": "Clean the leg quarters: scrape out the leftover liver and kidney bits from the cavity side, leaving the fat and skin on."
+    },
+    {
+      "t": 107,
+      "text": "Wash the chicken with the lime juice and vinegar in cold water, rubbing away any remaining bits, then drain well."
+    },
+    {
+      "t": 125,
+      "text": "Wet marinade: blend the Scotch bonnets, Jamaican and pimento peppers (seeds and all), ginger, thyme, green onions, sorrel drink, whole allspice and sweet onion into a smooth paste. Set aside 1/2 cup for the sauce."
+    },
+    {
+      "t": 201,
+      "text": "Season the chicken all over with the garlic powder, nutmeg, ground ginger, chicken seasoning, Sazón, jerk seasoning and ground allspice, then pour on the wet paste and massage it in, pushing it under the skin and into any cuts."
+    },
+    {
+      "t": 342,
+      "text": "Cover and refrigerate at least 24 hours, ideally 48."
+    },
+    {
+      "t": 366,
+      "text": "Light hardwood lump charcoal (not briquettes), banked in the middle of the grill, and toss some whole allspice berries and whole nutmeg onto the coals for aroma."
+    },
+    {
+      "t": 400,
+      "text": "Grill the chicken without oil over the coals with the lid closed and a vent open, at around 300°F, about 15 minutes per side, poking it all over with a fork after turning. Once both sides are charred, move it to the top rack for another 15 minutes, until it reaches at least 165°F in the thickest part."
+    },
+    {
+      "t": 498,
+      "text": "Escovitch: slice the onion into very thin rounds and the peppers into rounds, and cut the carrot into thin pieces. Put them in a pot with the whole allspice, add vinegar just to cover (no salt), bring to a boil over medium-high heat, then turn off the heat."
+    },
+    {
+      "t": 554,
+      "text": "Sweet honey jerk sauce: blend the reserved marinade with the honey and a splash of sorrel drink on high until smoother, then season with salt to taste."
+    },
+    {
+      "t": 652,
+      "text": "Festival: mix most of the festival mix with water by hand into a soft dough that is firm but not sticky, adding the rest of the mix if needed. Shape into logs and fry in oil at 350°F until golden, 3-4 minutes. Drain."
+    },
+    {
+      "t": 749,
+      "text": "Chop each leg quarter into three pieces if you like. Plate the festival bread, add the jerk chicken, a mound of escovitch and spoon the honey jerk sauce over the chicken."
+    }
+  ]
+}

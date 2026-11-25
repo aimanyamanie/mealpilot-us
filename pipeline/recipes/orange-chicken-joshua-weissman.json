@@ -1,0 +1,406 @@
+{
+  "slug": "orange-chicken-joshua-weissman",
+  "market": "US",
+  "title": "Takeout-Style Orange Chicken",
+  "summary": "Marinated chicken thigh bites, double-dredged in flour, cornstarch and egg, deep-fried and tossed in a sweet, tangy orange sauce with fresh chile, ginger and garlic.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/p2ynn-fvbyw.json"
+  },
+  "cuisine": "American Chinese",
+  "course": "main",
+  "meal_slots": [
+    "lunch",
+    "dinner"
+  ],
+  "servings": 4,
+  "servings_basis": "stated",
+  "prep_minutes": 15,
+  "cook_minutes": 45,
+  "times_basis": "stated",
+  "difficulty": "medium",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'The Best Orange Chicken Ever (Takeout Style)' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe for the same dish: https://www.joshuaweissman.com/recipes/the-best-orange-chicken-ever-recipe (serves 4, prep 15 min, cook 45 min). Marinating is not in prep_minutes (house rule 13): the page says at least 2 hours, and the video says ideally overnight. The video also says it 'makes just enough for four'. Every amount is stated in the video; the written recipe agrees and confirms boneless, skinless thighs, 2 Fresno chilies and 1/3 cup water (captions: '3rd cup of la la water'). Our estimates: 1 Tbsp oil to sweat the aromatics ('just enough to coat the bottom'), 1/8 tsp salt for the 'tiny pinch', 10 g and 20 g for the 1-inch and 2-inch ginger knobs, 85 g juice and 6 g zest from one orange. House rules applied: the marinade is a paste with nothing poured off, so it counts in full; the flour-cornstarch dredge counts at 25% and the egg wash at 50% (the chicken is double-dredged, dry-wet-dry, from one dry bowl); the deep-frying oil is excluded and 111 g of absorbed oil is counted instead (arithmetic on that line). The whole sauce is counted in full (house rule 10, last case): it is one batch made for this chicken, he ladles it on in two batches and tosses until everything is coated, and neither the video nor the written recipe makes extra or sets any aside for serving. If some is left in the bowl, sugar and sodium are slightly overstated. Not counted: the splash of water in the egg wash, the green-onion garnish (no amount) and rice or other sides (served separately). Shaoxing wine uses a USDA rice wine (sake) proxy; orange zest uses USDA raw orange peel.",
+  "ingredients": [
+    {
+      "group": "Chicken and marinade",
+      "ingredient": "chicken-thigh-boneless",
+      "text": "2 lb boneless, skinless chicken thighs, in 1/2-inch pieces",
+      "quantity": 2,
+      "unit": "lb",
+      "preparation": "cut into 1/2-inch pieces",
+      "basis": "stated",
+      "evidence": "i have 2 lb of chicken thighs",
+      "amount_note": "2 lb in the video; the written recipe specifies boneless, skinless (908 g).",
+      "t": 48.08
+    },
+    {
+      "group": "Chicken and marinade",
+      "ingredient": "kosher-salt",
+      "text": "1 Tbsp + 1 tsp kosher salt",
+      "quantity": 4,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 tbsp plus 1 tsp of kosher salt",
+      "amount_note": "1 Tbsp + 1 tsp = 4 tsp. The marinade is a thin paste with nothing poured off, so it counts in full.",
+      "t": 106.24
+    },
+    {
+      "group": "Chicken and marinade",
+      "ingredient": "msg",
+      "text": "1 tsp MSG",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 tsp of msg that's not optional",
+      "t": 108.96
+    },
+    {
+      "group": "Chicken and marinade",
+      "ingredient": "baking-soda",
+      "text": "1/2 tsp baking soda",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "half a tsp of baking soda",
+      "t": 112.84
+    },
+    {
+      "group": "Chicken and marinade",
+      "ingredient": "shaoxing-wine",
+      "text": "1 Tbsp Shaoxing cooking wine",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "1 tbsp of shaoxing cooking wine",
+      "t": 112.84
+    },
+    {
+      "group": "Chicken and marinade",
+      "ingredient": "garlic",
+      "text": "2 cloves garlic, freshly grated",
+      "quantity": 2,
+      "unit": "clove",
+      "preparation": "grated",
+      "basis": "stated",
+      "evidence": "two cloves of garlic fresh grated",
+      "t": 115.84
+    },
+    {
+      "group": "Chicken and marinade",
+      "ingredient": "ginger",
+      "text": "1-inch knob ginger, peeled and grated",
+      "quantity": 10,
+      "unit": "g",
+      "preparation": "peeled, grated",
+      "basis": "estimated",
+      "evidence": "a 1-in knob of ginger grated",
+      "amount_source": "our_estimate",
+      "amount_note": "1-inch knob stated; about 10 g is our estimate (no 'knob' unit).",
+      "t": 134.72
+    },
+    {
+      "group": "Orange chicken sauce",
+      "ingredient": "red-chili",
+      "text": "2 red Fresno chiles (or red jalapeños), seeded, 1/4-inch dice",
+      "quantity": 2,
+      "unit": "pepper",
+      "preparation": "seeded, diced 1/4 inch",
+      "basis": "stated",
+      "evidence": "red fresno or red",
+      "amount_note": "Count from 'repeat that with both peppers' (236 s); the written recipe also gives 2 Fresno chilies.",
+      "t": 176.2
+    },
+    {
+      "group": "Orange chicken sauce",
+      "ingredient": "ginger",
+      "text": "2-inch knob ginger, 1/4-inch dice",
+      "quantity": 20,
+      "unit": "g",
+      "preparation": "peeled, diced 1/4 inch",
+      "basis": "estimated",
+      "evidence": "a 2-in knob",
+      "amount_source": "our_estimate",
+      "amount_note": "2-inch knob stated; about 20 g is our estimate (no 'knob' unit).",
+      "t": 240.28
+    },
+    {
+      "group": "Orange chicken sauce",
+      "ingredient": "garlic",
+      "text": "6 cloves garlic, smashed and finely chopped",
+      "quantity": 6,
+      "unit": "clove",
+      "preparation": "finely chopped",
+      "basis": "stated",
+      "evidence": "we've got six cloves of garlic",
+      "t": 278.8
+    },
+    {
+      "group": "Orange chicken sauce",
+      "ingredient": "canola-oil",
+      "text": "Neutral oil, just enough to coat the pot",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "little bit of vegetable oil canola oil something neutral tasting",
+      "amount_source": "our_estimate",
+      "amount_note": "'Just enough to coat the bottom' of a medium pot; 1 Tbsp is our estimate. It stays in the pot the sauce is cooked in, so it counts.",
+      "t": 294.56
+    },
+    {
+      "group": "Orange chicken sauce",
+      "ingredient": "kosher-salt",
+      "text": "A tiny pinch of kosher salt",
+      "quantity": "1/8",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "add a tiny pinch of salt",
+      "amount_source": "our_estimate",
+      "amount_note": "'Tiny pinch'; 1/8 tsp is our estimate (house rule 4: small estimated salt counts).",
+      "t": 314.24
+    },
+    {
+      "group": "Orange chicken sauce",
+      "ingredient": "sugar",
+      "text": "1 cup granulated white sugar",
+      "quantity": 1,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "one cup of white sugar",
+      "t": 335.12
+    },
+    {
+      "group": "Orange chicken sauce",
+      "ingredient": "rice-vinegar",
+      "text": "1 cup rice vinegar",
+      "quantity": 1,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "one cup of rice vinegar",
+      "t": 335.12
+    },
+    {
+      "group": "Orange chicken sauce",
+      "ingredient": "soy-sauce",
+      "text": "1/2 cup regular soy sauce (or shoyu)",
+      "quantity": "1/2",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "half a cup of soy sauce",
+      "t": 337.76
+    },
+    {
+      "group": "Orange chicken sauce",
+      "ingredient": "fish-sauce",
+      "text": "3 Tbsp fish sauce",
+      "quantity": 3,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "tbsp of fish sauce",
+      "t": 347.04
+    },
+    {
+      "group": "Orange chicken sauce",
+      "ingredient": "water",
+      "text": "1/3 cup water",
+      "quantity": "1/3",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "3rd cup of la la water",
+      "amount_note": "Captions read '3rd cup of la la water'; the written recipe confirms 1/3 cup (80 mL).",
+      "t": 349.0
+    },
+    {
+      "group": "Orange chicken sauce",
+      "ingredient": "msg",
+      "text": "1 tsp MSG",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 tsp of msg the juice of one orange",
+      "t": 349.0
+    },
+    {
+      "group": "Orange chicken sauce",
+      "ingredient": "orange-juice",
+      "text": "Juice of 1 large orange",
+      "quantity": 85,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "the juice of one orange",
+      "amount_source": "our_estimate",
+      "amount_note": "One orange stated (written recipe: 1 large orange, zested and juiced); about 1/3 cup, 85 g, is our estimate of its juice.",
+      "t": 352.4
+    },
+    {
+      "group": "Orange chicken sauce",
+      "ingredient": "orange-zest",
+      "text": "Zest of 1 orange (the juiced one)",
+      "quantity": 6,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "the zest of one orange",
+      "amount_source": "our_estimate",
+      "amount_note": "One orange stated; about 1 Tbsp, 6 g, is our estimate of its zest.",
+      "t": 392.919
+    },
+    {
+      "group": "Orange chicken sauce",
+      "ingredient": "cornstarch",
+      "text": "2 Tbsp cornstarch, for the slurry",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "2 tbsp of cornstarch and 2 tbsp of water",
+      "amount_note": "He ends up adding all of the slurry ('i'm going for the whole amount').",
+      "t": 378.16
+    },
+    {
+      "group": "Orange chicken sauce",
+      "ingredient": "water",
+      "text": "2 Tbsp water, for the slurry",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "2 tbsp of cornstarch and 2 tbsp of water",
+      "t": 378.16
+    },
+    {
+      "group": "Breading and frying",
+      "ingredient": "flour-all-purpose",
+      "text": "3/4 cup all-purpose flour (dry dredge)",
+      "quantity": 3,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "3/4 of a cup of all-purpose flour",
+      "amount_source": "our_estimate",
+      "amount_note": "3/4 cup stated; 25% counted as dredge that sticks (house rule): 3/4 cup x 0.25 = 3/16 cup = 3 Tbsp.",
+      "t": 446.48
+    },
+    {
+      "group": "Breading and frying",
+      "ingredient": "cornstarch",
+      "text": "1 1/2 cups cornstarch (dry dredge)",
+      "quantity": 6,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "1 and 1/2 cups of cornstarch",
+      "amount_source": "our_estimate",
+      "amount_note": "1 1/2 cups stated; 25% counted as dredge that sticks (house rule): 1.5 cups x 0.25 = 3/8 cup = 6 Tbsp.",
+      "t": 448.64
+    },
+    {
+      "group": "Breading and frying",
+      "ingredient": "egg",
+      "text": "3 large eggs, beaten (egg wash)",
+      "quantity": "1 1/2",
+      "unit": "large",
+      "basis": "estimated",
+      "evidence": "three whole large eggs",
+      "amount_source": "our_estimate",
+      "amount_note": "3 large eggs stated; egg wash counted at 50% (house rule): 3 x 0.5 = 1 1/2 eggs.",
+      "t": 459.24
+    },
+    {
+      "group": "Breading and frying",
+      "ingredient": "water",
+      "text": "A generous splash of water, for the egg wash",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "a generous splash of water",
+      "in_nutrition": false,
+      "excluded_reason": "amount not stated",
+      "t": 462.0
+    },
+    {
+      "group": "Breading and frying",
+      "ingredient": "canola-oil",
+      "text": "Neutral oil (canola, avocado, vegetable or peanut), for deep-frying at 350°F",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "that could be canola avocado vegetable peanut",
+      "in_nutrition": false,
+      "excluded_reason": "frying oil; absorbed oil counted separately",
+      "t": 583.48
+    },
+    {
+      "group": "Breading and frying",
+      "ingredient": "canola-oil",
+      "text": "Absorbed frying oil (our estimate)",
+      "quantity": 111,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "that could be canola avocado vegetable peanut",
+      "amount_source": "our_estimate",
+      "amount_note": "10% of the raw weight of the fried food (house rule). Raw breaded chicken: 908 g chicken + 48 g marinade that stays on (13 g salt, 3 g MSG, 1 g baking soda, 15 g wine, 6 g garlic, 10 g ginger) + 81 g counted dredge (25% of 113 g flour + 210 g cornstarch, written-recipe weights) + 75 g counted egg wash (50% of 3 x 50 g eggs) = 1,112 g; x 0.10 = 111 g.",
+      "t": 583.48
+    },
+    {
+      "group": "To serve",
+      "ingredient": "green-onion",
+      "text": "Thinly sliced green onion, to garnish",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "garnish with thinly sliced green onion",
+      "in_nutrition": false,
+      "excluded_reason": "garnish, amount not stated",
+      "t": 680.52
+    }
+  ],
+  "steps": [
+    {
+      "t": 60,
+      "text": "Cut the chicken thighs into even pieces about 1/2 inch thick (trimming the fat is optional). Keep the pieces the same size so they cook at the same rate."
+    },
+    {
+      "t": 104,
+      "text": "Toss the chicken with the salt, MSG, baking soda, Shaoxing wine, grated garlic and grated ginger until every piece is coated. Cover and chill, ideally overnight; you can skip the rest and bread right away if short on time."
+    },
+    {
+      "t": 185,
+      "text": "For the sauce, seed the chiles and cut them into 1/4-inch dice. Dice the ginger the same size (or slice, smash and chop it), and smash and finely chop the garlic. Combine the aromatics."
+    },
+    {
+      "t": 291,
+      "text": "Film the bottom of a medium saucepan with oil over medium heat. Add the aromatics and a tiny pinch of salt and sweat them gently, stirring now and then, 2-3 minutes until soft but not browned. Scrape them out into a bowl."
+    },
+    {
+      "t": 333,
+      "text": "With the heat off, add the sugar, rice vinegar, soy sauce, fish sauce, water, MSG and orange juice to the same pot. Bring to a boil over medium-high and let it reduce for about 5 minutes."
+    },
+    {
+      "t": 378,
+      "text": "Stir the cornstarch into the 2 Tbsp water. Turn the heat down, add the orange zest and the cooked aromatics, and bring back to a gentle simmer. Add the slurry a bit at a time, giving it a minute or two to thicken between additions, until it reaches the thickness you like."
+    },
+    {
+      "t": 446,
+      "text": "Set up the breading: whisk the flour and cornstarch in one bowl, and beat the eggs with a generous splash of water in another."
+    },
+    {
+      "t": 485,
+      "text": "Keeping one hand for wet and one for dry, coat small batches of chicken lightly in the dry mix, then the egg, then the dry mix again, shaking off the excess each time. A mesh strainer speeds up the shaking. Spread the pieces out on a tray."
+    },
+    {
+      "t": 577,
+      "text": "Fill a 6-7 qt Dutch oven a little over halfway with neutral oil and heat to 350°F. Fry about a third of the chicken at a time for 3-5 minutes, until golden, crisp and 165°F inside. Drain on a wire rack."
+    },
+    {
+      "t": 648,
+      "text": "In two batches, put the fried chicken in a large bowl, ladle sauce around the sides and then over the top, and toss for 20-30 seconds until every piece is glazed."
+    },
+    {
+      "t": 677,
+      "text": "Pile into a serving bowl, scatter with sliced green onion, and serve with rice, noodles or vegetables."
+    }
+  ]
+}

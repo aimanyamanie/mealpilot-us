@@ -1,0 +1,396 @@
+{
+  "slug": "korean-fried-chicken-joshua-weissman-wings",
+  "market": "US",
+  "title": "Korean Fried Chicken Wings with Gochujang Glaze",
+  "summary": "Whole chicken wings cured overnight with salt, MSG and ginger, coated in a potato-starch batter and dredge, double-fried and tossed in a sweet, tangy gochujang-garlic sauce.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/urECpujNgcM.json"
+  },
+  "cuisine": "Korean",
+  "course": "main",
+  "meal_slots": [
+    "lunch",
+    "dinner",
+    "snack"
+  ],
+  "servings": 4,
+  "servings_basis": "stated",
+  "prep_minutes": 20,
+  "cook_minutes": 30,
+  "times_basis": "stated",
+  "difficulty": "medium",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'The Best Korean Fried Chicken At Home' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe: https://www.joshuaweissman.com/recipes/the-best-korean-fried-chicken-at-home-recipe (serves 4, prep 20 min, cook 30 min; it says to make either the wings or the popcorn chicken, or both, from one batch of sauce, dredge and batter). The video makes both versions from that one batch, so the video is split into two recipe files (wings and nuggets) and the shared sauce, dredge, batter and frying lines are repeated in each. Sauce: tossed on the chicken and made in a bigger batch than goes on it (he calls it a big batch, uses it for both versions and says to use as much or as little as you like); no share is stated, so 50% of the batch is counted in each file (house rule 10; the full batch is about 2 2/3 cups). The garlic is strained out of the sauce (his recommendation), so it is not counted. Honey is listed as the alternative to rice syrup and not counted. Rice syrup uses a malt-syrup proxy and dark soy sauce uses regular soy sauce. Sweet soy sauce grams use our 1.25 g/ml estimate. Coatings: dry dredge 25% and wet batter 50% (house rule 3); because 1/3 cup of the dredge goes into the batter, each dredge ingredient counts at 27.6% (arithmetic in each line). The couple of tablespoons of batter flicked into the dredge for crunchy bits are ignored. Gram weights for starch, flour and MSG are the written recipe's. The 1-inch knob of ginger is our estimate of 10 g (his jerk chicken recipe weighs a 3-inch knob at 31 g). Frying oil: about 3 quarts in the video (the page says 2-3 quarts of canola or peanut oil; canola, named first, is used); the pot is excluded and absorbed oil is counted at 10% of the raw coated weight (house rule 2), using the as-bought weight. Times are the written recipe's hands-on prep and cook; the cure (at least 1 hour, ideally overnight) is not in prep_minutes (house rule 13). Wings: 2 lb whole wings from the written recipe (the video gives no weight). Green onions: 3 from the written recipe (garnish with an amount, so counted). Sesame seeds: garnish with no amount, not counted. Absorbed oil: raw weight is the 908 g wings plus 25 g of cure (7 g salt, 2 g sugar, 3 g MSG, 3 g pepper, 10 g ginger) plus 213.1 g of coating.",
+  "ingredients": [
+    {
+      "group": "Wings and cure",
+      "ingredient": "chicken-wing",
+      "text": "2 lb whole chicken wings (flat and drumette attached)",
+      "quantity": 562,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "whole wings with the flat and the drumat attached",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/the-best-korean-fried-chicken-at-home-recipe",
+      "amount_note": "As bought, bone-in. The video gives no amount; the written recipe gives 2 lbs (908 g) whole wings. As bought, bone-in: 2 lb = 907 g. Edible weight 562 g after 38% bone and connective tissue, USDA SR28 refuse for NDB 05100 (wing, meat and skin, raw).",
+      "t": 174.8
+    },
+    {
+      "group": "Wings and cure",
+      "ingredient": "kosher-salt",
+      "text": "2 tsp kosher salt",
+      "quantity": 2,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "2 tsps of salt, kosher",
+      "t": 182.48
+    },
+    {
+      "group": "Wings and cure",
+      "ingredient": "sugar",
+      "text": "1/2 tsp granulated sugar",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "a/2 teaspoon of granulated sugar",
+      "t": 184.72
+    },
+    {
+      "group": "Wings and cure",
+      "ingredient": "msg",
+      "text": "1 tsp MSG",
+      "quantity": 3,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "1 teaspoon of msg",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/the-best-korean-fried-chicken-at-home-recipe",
+      "amount_note": "1 tsp stated in the video; 3 g from the written recipe.",
+      "t": 188.8
+    },
+    {
+      "group": "Wings and cure",
+      "ingredient": "black-pepper",
+      "text": "1 tsp freshly cracked black pepper",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "a teaspoon of fresh cracked black pepper",
+      "qualifier": "ground",
+      "t": 196.159
+    },
+    {
+      "group": "Wings and cure",
+      "ingredient": "ginger",
+      "text": "1-inch knob fresh ginger, grated",
+      "quantity": 10,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "1-in knob of ginger grated",
+      "amount_source": "our_estimate",
+      "preparation": "peeled and grated",
+      "amount_note": "1-inch knob stated; 10 g is our estimate (his jerk chicken recipe weighs a 3-inch knob at 31 g).",
+      "t": 197.76
+    },
+    {
+      "group": "Gochujang sauce (tossed; 50% of the batch counted)",
+      "ingredient": "gochujang",
+      "text": "3/4 cup (192 g) gochujang",
+      "quantity": 96,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "3/4 of a cup of go jang",
+      "amount_source": "our_estimate",
+      "amount_note": "3/4 cup stated for the whole batch, which he calls a big batch and uses to sauce both the wings and the nuggets; no share used is stated, so 50% of the tossed sauce is counted for this version (house rule 10). Grams from the written recipe (3/4 cup = 192 g): 192 x 0.5 = 96 g.",
+      "t": 65.439
+    },
+    {
+      "group": "Gochujang sauce (tossed; 50% of the batch counted)",
+      "ingredient": "rice-syrup",
+      "text": "6 Tbsp Korean rice syrup",
+      "quantity": 3,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "6 tablespoon of rice syrup",
+      "amount_source": "our_estimate",
+      "amount_note": "6 Tbsp stated for the whole batch, which he calls a big batch and uses to sauce both the wings and the nuggets; no share used is stated, so 50% of the tossed sauce is counted for this version (house rule 10): 6 x 0.5 = 3 Tbsp.",
+      "t": 73.28
+    },
+    {
+      "group": "Gochujang sauce (tossed; 50% of the batch counted)",
+      "ingredient": "honey",
+      "text": "or honey, instead of the rice syrup",
+      "quantity": 6,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "times i use honey as a replacement",
+      "in_nutrition": false,
+      "excluded_reason": "alternative",
+      "t": 82.64
+    },
+    {
+      "group": "Gochujang sauce (tossed; 50% of the batch counted)",
+      "ingredient": "soy-sauce",
+      "text": "1/3 cup dark soy sauce",
+      "quantity": "2 2/3",
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "1/3 cup of dark soy sauce",
+      "amount_source": "our_estimate",
+      "amount_note": "1/3 cup (5 1/3 Tbsp) stated for the whole batch, which he calls a big batch and uses to sauce both the wings and the nuggets; no share used is stated, so 50% of the tossed sauce is counted for this version (house rule 10): 5 1/3 x 0.5 = 2 2/3 Tbsp. Regular soy sauce stands in for dark soy.",
+      "t": 92.32
+    },
+    {
+      "group": "Gochujang sauce (tossed; 50% of the batch counted)",
+      "ingredient": "white-vinegar",
+      "text": "6 Tbsp white distilled vinegar",
+      "quantity": 3,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "6 tablespoons of white distilled vinegar",
+      "amount_source": "our_estimate",
+      "amount_note": "6 Tbsp stated for the whole batch, which he calls a big batch and uses to sauce both the wings and the nuggets; no share used is stated, so 50% of the tossed sauce is counted for this version (house rule 10): 6 x 0.5 = 3 Tbsp.",
+      "t": 94.479
+    },
+    {
+      "group": "Gochujang sauce (tossed; 50% of the batch counted)",
+      "ingredient": "kecap-manis",
+      "text": "1/3 cup sweet soy sauce",
+      "quantity": 50,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "1/3 cup of sweet soy sauce",
+      "amount_source": "our_estimate",
+      "amount_note": "1/3 cup (79 ml) stated for the whole batch, which he calls a big batch and uses to sauce both the wings and the nuggets; no share used is stated, so 50% of the tossed sauce is counted for this version (house rule 10): 79 x 0.5 = 39.5 ml, at about 1.25 g/ml for sweet soy sauce (our estimate) = 49 g, rounded to 50 g.",
+      "t": 97.2
+    },
+    {
+      "group": "Gochujang sauce (tossed; 50% of the batch counted)",
+      "ingredient": "ketchup",
+      "text": "1/2 cup ketchup",
+      "quantity": "1/4",
+      "unit": "cup",
+      "basis": "estimated",
+      "evidence": "a/2 cup of good oldfashioned ketchup",
+      "amount_source": "our_estimate",
+      "amount_note": "1/2 cup stated for the whole batch, which he calls a big batch and uses to sauce both the wings and the nuggets; no share used is stated, so 50% of the tossed sauce is counted for this version (house rule 10): 1/2 x 0.5 = 1/4 cup.",
+      "t": 101.2
+    },
+    {
+      "group": "Gochujang sauce (tossed; 50% of the batch counted)",
+      "ingredient": "garlic",
+      "text": "7 cloves garlic, finely minced, stirred in off the heat",
+      "quantity": 7,
+      "unit": "clove",
+      "basis": "stated",
+      "evidence": "seven cloves of garlic",
+      "preparation": "finely minced",
+      "in_nutrition": false,
+      "excluded_reason": "steeped and strained out of the sauce (his recommended method)",
+      "t": 117.439
+    },
+    {
+      "group": "Dry dredge (about 27.6% counted)",
+      "ingredient": "potato-starch",
+      "text": "2 cups (300 g) potato starch",
+      "quantity": 83,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "two cups of potato starch",
+      "amount_source": "our_estimate",
+      "amount_note": "2 cups stated; 300 g from the written recipe. Dredge share: the written recipe weighs the dredge at 477 g (300 starch + 150 flour + 9 salt + 2 sugar + 3 MSG + 10 garlic powder + 3 white pepper); 1/3 cup (50 g, 10.5%) goes into the wet batter and counts at 50%, the other 89.5% is dry dredge and counts at 25% (house rule): 0.895 x 0.25 + 0.105 x 0.5 = 0.276. 300 x 0.276 = 82.9 g, rounded to 83 g.",
+      "t": 266.8
+    },
+    {
+      "group": "Dry dredge (about 27.6% counted)",
+      "ingredient": "flour-all-purpose",
+      "text": "1 cup (150 g) all-purpose flour",
+      "quantity": 41,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "1 cup of allpurpose flour",
+      "amount_source": "our_estimate",
+      "amount_note": "1 cup stated; 150 g from the written recipe. Dredge share: the written recipe weighs the dredge at 477 g (300 starch + 150 flour + 9 salt + 2 sugar + 3 MSG + 10 garlic powder + 3 white pepper); 1/3 cup (50 g, 10.5%) goes into the wet batter and counts at 50%, the other 89.5% is dry dredge and counts at 25% (house rule): 0.895 x 0.25 + 0.105 x 0.5 = 0.276. 150 x 0.276 = 41.4 g, rounded to 41 g.",
+      "t": 266.8
+    },
+    {
+      "group": "Dry dredge (about 27.6% counted)",
+      "ingredient": "kosher-salt",
+      "text": "2 1/2 tsp kosher salt",
+      "quantity": 0.69,
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "2 and 1/2 tesps of kosher salt",
+      "amount_source": "our_estimate",
+      "amount_note": "2 1/2 tsp stated. Dredge share: the written recipe weighs the dredge at 477 g (300 starch + 150 flour + 9 salt + 2 sugar + 3 MSG + 10 garlic powder + 3 white pepper); 1/3 cup (50 g, 10.5%) goes into the wet batter and counts at 50%, the other 89.5% is dry dredge and counts at 25% (house rule): 0.895 x 0.25 + 0.105 x 0.5 = 0.276. 2.5 x 0.276 = 0.69 tsp.",
+      "t": 271.919
+    },
+    {
+      "group": "Dry dredge (about 27.6% counted)",
+      "ingredient": "sugar",
+      "text": "1/2 tsp granulated sugar",
+      "quantity": 0.14,
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "half a teaspoon of sugar",
+      "amount_source": "our_estimate",
+      "amount_note": "1/2 tsp stated. Dredge share: the written recipe weighs the dredge at 477 g (300 starch + 150 flour + 9 salt + 2 sugar + 3 MSG + 10 garlic powder + 3 white pepper); 1/3 cup (50 g, 10.5%) goes into the wet batter and counts at 50%, the other 89.5% is dry dredge and counts at 25% (house rule): 0.895 x 0.25 + 0.105 x 0.5 = 0.276. 0.5 x 0.276 = 0.14 tsp.",
+      "t": 273.52
+    },
+    {
+      "group": "Dry dredge (about 27.6% counted)",
+      "ingredient": "msg",
+      "text": "1 tsp MSG",
+      "quantity": 0.83,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "1 teaspoon of msg",
+      "amount_source": "our_estimate",
+      "amount_note": "1 tsp stated; 3 g from the written recipe. Dredge share: the written recipe weighs the dredge at 477 g (300 starch + 150 flour + 9 salt + 2 sugar + 3 MSG + 10 garlic powder + 3 white pepper); 1/3 cup (50 g, 10.5%) goes into the wet batter and counts at 50%, the other 89.5% is dry dredge and counts at 25% (house rule): 0.895 x 0.25 + 0.105 x 0.5 = 0.276. 3 x 0.276 = 0.83 g.",
+      "t": 273.52
+    },
+    {
+      "group": "Dry dredge (about 27.6% counted)",
+      "ingredient": "garlic-powder",
+      "text": "1 Tbsp garlic powder",
+      "quantity": 0.83,
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "1 tbsp of garlic powder",
+      "amount_source": "our_estimate",
+      "amount_note": "1 Tbsp (3 tsp) stated. Dredge share: the written recipe weighs the dredge at 477 g (300 starch + 150 flour + 9 salt + 2 sugar + 3 MSG + 10 garlic powder + 3 white pepper); 1/3 cup (50 g, 10.5%) goes into the wet batter and counts at 50%, the other 89.5% is dry dredge and counts at 25% (house rule): 0.895 x 0.25 + 0.105 x 0.5 = 0.276. 3 x 0.276 = 0.83 tsp.",
+      "t": 276.08
+    },
+    {
+      "group": "Dry dredge (about 27.6% counted)",
+      "ingredient": "white-pepper",
+      "text": "1 tsp ground white pepper",
+      "quantity": 0.28,
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "1 teaspoon of white pepper",
+      "amount_source": "our_estimate",
+      "amount_note": "1 tsp stated. Dredge share: the written recipe weighs the dredge at 477 g (300 starch + 150 flour + 9 salt + 2 sugar + 3 MSG + 10 garlic powder + 3 white pepper); 1/3 cup (50 g, 10.5%) goes into the wet batter and counts at 50%, the other 89.5% is dry dredge and counts at 25% (house rule): 0.895 x 0.25 + 0.105 x 0.5 = 0.276. 1 x 0.276 = 0.28 tsp.",
+      "t": 279.12
+    },
+    {
+      "group": "Wet batter (50% counted; plus 1/3 cup of the dry dredge, counted above)",
+      "ingredient": "baking-powder",
+      "text": "1 1/2 tsp baking powder",
+      "quantity": 0.75,
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "1 and 1/2 tesp of baking powder",
+      "amount_source": "our_estimate",
+      "amount_note": "1 1/2 tsp stated; 50% counted as wet batter that sticks (house rule): 1.5 x 0.5 = 0.75 tsp.",
+      "t": 298.88
+    },
+    {
+      "group": "Wet batter (50% counted; plus 1/3 cup of the dry dredge, counted above)",
+      "ingredient": "water",
+      "text": "2/3 cup cold water",
+      "quantity": "1/3",
+      "unit": "cup",
+      "basis": "estimated",
+      "evidence": "2/3 of a cup of cold water",
+      "amount_source": "our_estimate",
+      "amount_note": "2/3 cup stated (the written recipe says 180 ml; the video wins); 50% counted as wet batter (house rule): 2/3 x 0.5 = 1/3 cup.",
+      "t": 304.24
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "About 3 quarts canola oil, for frying at 325°F, then 350°F",
+      "quantity": 3,
+      "unit": "quart",
+      "basis": "stated",
+      "evidence": "around 3 quarts of oil",
+      "in_nutrition": false,
+      "excluded_reason": "frying oil; absorbed oil counted separately",
+      "t": 364.8
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "Absorbed frying oil (our estimate)",
+      "quantity": 115,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "around 3 quarts of oil",
+      "amount_source": "our_estimate",
+      "amount_note": "10% of the raw fried weight (house rule). Raw weight: 908 g wings + 25 g cure. Coating that sticks (house rule): dredge 477 g x 0.276 = 131.7 g, plus batter baking powder 5 g x 0.5 = 2.5 g and water 157.7 g (2/3 cup) x 0.5 = 78.9 g, = 213.1 g. Total 933 + 213.1 = 1146.1 g; x 0.10 = 114.6 g, rounded to 115 g.",
+      "t": 364.8
+    },
+    {
+      "group": "Garnish",
+      "ingredient": "sesame-seeds",
+      "text": "Toasted sesame seeds, for garnish",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "garnish with sesame seeds",
+      "in_nutrition": false,
+      "excluded_reason": "amount not stated",
+      "t": 491.12
+    },
+    {
+      "group": "Garnish",
+      "ingredient": "green-onion",
+      "text": "3 green onions, thinly sliced",
+      "quantity": 3,
+      "unit": "medium",
+      "basis": "stated",
+      "evidence": "thinly sliced green onion",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/the-best-korean-fried-chicken-at-home-recipe",
+      "amount_note": "No count in the video; the written recipe gives 3 green onions for garnish.",
+      "t": 493.28
+    }
+  ],
+  "steps": [
+    {
+      "t": 58,
+      "text": "Sauce: in a small saucepan, stir together the gochujang, rice syrup, dark soy sauce, vinegar, sweet soy sauce and ketchup. Boil over medium-high heat for 2-3 minutes to reduce."
+    },
+    {
+      "t": 117,
+      "text": "Mince the garlic finely. With the heat completely off, stir it into the sauce (never boil it, or it turns bitter). Let it steep 5-10 minutes, then strain the garlic out."
+    },
+    {
+      "t": 180,
+      "text": "Cure the whole wings: rub them thoroughly with the kosher salt, sugar, MSG, black pepper and grated ginger. Cover and refrigerate, ideally overnight."
+    },
+    {
+      "t": 266,
+      "text": "Dry dredge: whisk the potato starch, flour, salt, sugar, MSG, garlic powder and white pepper together."
+    },
+    {
+      "t": 293,
+      "text": "Wet batter: whisk 1/3 cup of the dredge with the baking powder, then whisk in the cold water. Optionally flick a couple of tablespoons of batter into the dredge to make crunchy bits."
+    },
+    {
+      "t": 310,
+      "text": "Using one wet hand and one dry hand, dip each wing in the batter, then press it into the dredge until fully coated with no bare spots. Shake off the excess and set on a dry sheet tray."
+    },
+    {
+      "t": 357,
+      "text": "First fry: heat about 3 quarts of oil to 325°F in a large pot. Fry the wings a few at a time for 8-10 minutes, until cooked through but still pale."
+    },
+    {
+      "t": 395,
+      "text": "Second fry: raise the oil to 350°F (up to 375°F), skimming out loose bits of flour. Fry the wings again for 2-3 minutes until golden and very crisp. Drain on a rack."
+    },
+    {
+      "t": 476,
+      "text": "While still hot, toss the wings in a bowl with as much sauce as you like until coated. Plate and garnish with toasted sesame seeds and sliced green onion."
+    }
+  ]
+}

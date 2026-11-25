@@ -1,0 +1,466 @@
+{
+  "slug": "chicken-shawarma-joshua-weissman",
+  "market": "US",
+  "title": "Chicken Shawarma Wrap with Creamy Garlic Sauce",
+  "summary": "Thin-sliced chicken thigh marinated for two days in a freshly ground spice and citrus blend, seared in tallow and rolled in saj with an egg-white garlic sauce, shatta, pomegranate molasses, pickles and crisp chicken skin.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/Uj5ZggWHYU4.json"
+  },
+  "cuisine": "Middle Eastern (Levantine)",
+  "course": "main",
+  "meal_slots": [
+    "lunch",
+    "dinner"
+  ],
+  "servings": 10,
+  "servings_basis": "stated",
+  "prep_minutes": 60,
+  "cook_minutes": 30,
+  "times_basis": "stated",
+  "difficulty": "hard",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'The Best Shawarma At Home' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Made with the chef of Miya Miya Shawarma (Los Angeles). Written recipe: https://www.joshuaweissman.com/recipes/the-best-homemade-chicken-shawarma-sandwich-recipe (serves 10; prep 1 hour plus a 24-48 hour marinade, cook 30 min). All spice, marinade and garlic-sauce amounts are stated in the video and match the written recipe. The written recipe puts about 3/4 of the marinade on the meat and 1/4 on the skins, with nothing drained off, and both are eaten, so the whole marinade counts (a blended marinade that stays on the meat; judgment call, since it is citrus-heavy). The garlic sauce is spread generously inside and dolloped on top, so the whole batch counts (house rule: sauce on the dish), The oil is the one part made in excess: house rule 10 says to count a stated share, and they state it ('we use like about 90% of the oil'), so the oil counts at 0.9 x 360 mL = 324 mL; the rest of the sauce (egg whites, garlic, salt, lemon) is fully used and counts in full. Our estimates, because neither the video nor the page gives amounts used: 10 flatbreads at 60 g, shatta 2 tsp and pomegranate molasses 1 1/2 tsp per wrap, drained pickles 280 g (60% of a 16 oz jar), beef tallow 2 Tbsp for the chicken and 1 tsp per wrap, nutmeg 1/8 tsp, zest 1 Tbsp per lemon or orange, orange juice 86 g (USDA). Ranges: garlic-sauce oil 1-1 1/2 cups (see above). Not counted: cooking spray for the alternative oven method for the skins; the pan juices the wrap is dipped in (already in the chicken). Proxies: Aleppo pepper uses paprika; shatta uses a red chili paste record; saj uses white pita; Greek yogurt uses plain whole-milk yogurt; the neutral oil (refined avocado or light olive oil) uses canola. The chicken is counted as raw skin-on thigh because the skin is eaten as crisps; trimmed fat and fat rendered from the skins make this a slight overestimate.",
+  "ingredients": [
+    {
+      "group": "Spice mix",
+      "ingredient": "white-pepper",
+      "text": "1 tsp white peppercorns, freshly ground",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "teaspoon of white pepper",
+      "preparation": "freshly ground",
+      "t": 86.08
+    },
+    {
+      "group": "Spice mix",
+      "ingredient": "coriander",
+      "text": "1 tsp coriander seed, freshly ground",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "teaspoon of coriander",
+      "preparation": "freshly ground",
+      "t": 87.84
+    },
+    {
+      "group": "Spice mix",
+      "ingredient": "cardamom",
+      "text": "1 tsp green cardamom, freshly ground",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "one teaspoon of green cardamom",
+      "preparation": "freshly ground",
+      "t": 87.84
+    },
+    {
+      "group": "Spice mix",
+      "ingredient": "curry-powder",
+      "text": "1 tsp curry powder",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "teaspoon of curry",
+      "t": 89.759
+    },
+    {
+      "group": "Spice mix",
+      "ingredient": "chicken-bouillon",
+      "text": "1 tsp chicken bouillon powder",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "teaspoon of chicken bullion",
+      "t": 106.24
+    },
+    {
+      "group": "Spice mix",
+      "ingredient": "cloves",
+      "text": "1 tsp whole cloves, freshly ground",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "one teaspoon of brown cloves",
+      "preparation": "freshly ground",
+      "t": 109.759
+    },
+    {
+      "group": "Spice mix",
+      "ingredient": "cumin",
+      "text": "1/2 tsp cumin seed, freshly ground",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "half teaspoon of cumin",
+      "preparation": "freshly ground",
+      "t": 118.88
+    },
+    {
+      "group": "Spice mix",
+      "ingredient": "cinnamon",
+      "text": "1 tsp cinnamon, freshly ground",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "teaspoon of cinnamon",
+      "t": 120.0
+    },
+    {
+      "group": "Spice mix",
+      "ingredient": "thyme-dried",
+      "text": "1/2 tsp ground dried thyme",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "half a teaspoon of ground thyme",
+      "t": 120.0,
+      "qualifier": "ground"
+    },
+    {
+      "group": "Spice mix",
+      "ingredient": "oregano-dried",
+      "text": "1/2 tsp dried oregano",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "half a teaspoon of oregano",
+      "t": 121.759,
+      "qualifier": "leaves"
+    },
+    {
+      "group": "Spice mix",
+      "ingredient": "aleppo-pepper",
+      "text": "1 tsp (4 g) Aleppo pepper powder",
+      "quantity": 4,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "1 teaspoon or 4 g of aleppo pepper powder",
+      "t": 123.2
+    },
+    {
+      "group": "Spice mix",
+      "ingredient": "nutmeg",
+      "text": "A pinch of nutmeg, freshly ground",
+      "quantity": "1/8",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "nutmeg i'm assuming just like a a touch",
+      "amount_note": "A 'touch' in the video and a pinch in the written recipe; 1/8 tsp is our estimate.",
+      "t": 125.759
+    },
+    {
+      "group": "Spice mix",
+      "ingredient": "kosher-salt",
+      "text": "2 1/2 Tbsp kosher salt",
+      "quantity": "2 1/2",
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "so it's 2 and 1/2 tablespoons",
+      "amount_note": "2 1/2 Tbsp in the video; the written recipe says 25 g. Counted at the house 9 g per Tbsp (22.5 g).",
+      "t": 133.44
+    },
+    {
+      "group": "Citrus marinade",
+      "ingredient": "lemon-zest",
+      "text": "Zest of 2 lemons",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "the zest of two lemons",
+      "amount_note": "Zest of 2 lemons stated; about 1 Tbsp of zest per large lemon is our estimate (2 Tbsp, about 12 g).",
+      "t": 144.879
+    },
+    {
+      "group": "Citrus marinade",
+      "ingredient": "lemon-juice",
+      "text": "Juice of 5 large lemons",
+      "quantity": 5,
+      "unit": "lemon",
+      "basis": "stated",
+      "evidence": "the juice of five",
+      "qualifier": "yields",
+      "t": 146.56
+    },
+    {
+      "group": "Citrus marinade",
+      "ingredient": "orange-zest",
+      "text": "Zest of 1 large orange",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "zest and juice of one orange",
+      "amount_note": "Zest of 1 orange stated; about 1 Tbsp (6 g) is our estimate.",
+      "t": 149.2
+    },
+    {
+      "group": "Citrus marinade",
+      "ingredient": "orange-juice",
+      "text": "Juice of 1 large orange",
+      "quantity": 86,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "zest and juice of one orange",
+      "amount_note": "Juice of 1 orange stated; 86 g is USDA's juice of one orange (our conversion).",
+      "t": 149.2
+    },
+    {
+      "group": "Citrus marinade",
+      "ingredient": "shatta",
+      "text": "1 1/2 Tbsp shatta (Levantine red chili paste)",
+      "quantity": 23,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "1 and 1/2 tbsp of shhata or aa chili paste",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/the-best-homemade-chicken-shawarma-sandwich-recipe",
+      "amount_note": "1 1/2 Tbsp in the video; the written recipe gives the same as 23 g, which we use. Tomato paste is mentioned as a common alternative; not counted.",
+      "t": 192.879
+    },
+    {
+      "group": "Citrus marinade",
+      "ingredient": "yogurt-whole",
+      "text": "2 Tbsp full-fat (Greek) yogurt",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "2 tbsps of yogurt",
+      "amount_note": "The written recipe specifies full-fat Greek yogurt (30 g); plain whole-milk yogurt is used here.",
+      "t": 205.2
+    },
+    {
+      "group": "Citrus marinade",
+      "ingredient": "white-vinegar",
+      "text": "1 tsp white distilled vinegar",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "one teaspoon of white distilled vinegar",
+      "t": 205.2
+    },
+    {
+      "group": "Citrus marinade",
+      "ingredient": "garlic",
+      "text": "4 cloves garlic",
+      "quantity": 4,
+      "unit": "clove",
+      "basis": "stated",
+      "evidence": "four cloves of garlic",
+      "t": 208.0
+    },
+    {
+      "group": "Chicken and crispy skin",
+      "ingredient": "chicken-thigh",
+      "text": "4 lb boneless, skin-on chicken thighs, skin removed and crisped separately, meat sliced 1/4 inch thin",
+      "quantity": 4,
+      "unit": "lb",
+      "basis": "stated",
+      "evidence": "4 lbs of boneless skin-on chicken thighs",
+      "amount_note": "Meat and skin both end up in the wraps (the skin as crisps), so the raw meat-and-skin record is used for the full 4 lb. Small fat trimmings are saved, not eaten, and the skins render some fat, so this slightly overstates fat.",
+      "t": 248.08
+    },
+    {
+      "group": "Chicken and crispy skin",
+      "ingredient": "canola-oil",
+      "text": "Cooking spray, for the oven method for the skins",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "you'll spray it",
+      "excluded_reason": "alternative",
+      "in_nutrition": false,
+      "t": 428.319
+    },
+    {
+      "group": "Chicken and crispy skin",
+      "ingredient": "beef-tallow",
+      "text": "Beef tallow, just enough to coat the pan, for searing (about 2 Tbsp over several batches)",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "so beef tallow",
+      "amount_note": "No amount in the video or the written recipe ('just enough to coat the pan', topped up as needed). About 2 Tbsp over 4 lb of chicken seared in batches is our estimate; it stays with the chicken.",
+      "t": 461.36
+    },
+    {
+      "group": "Creamy garlic sauce",
+      "ingredient": "egg-white",
+      "text": "3 large egg whites",
+      "quantity": 3,
+      "unit": "large",
+      "basis": "stated",
+      "evidence": "we have three egg whites",
+      "t": 548.88
+    },
+    {
+      "group": "Creamy garlic sauce",
+      "ingredient": "garlic",
+      "text": "3/4 cup garlic cloves, halved, germ removed",
+      "quantity": "3/4",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "3/4 cup of garlic",
+      "preparation": "halved, germ removed",
+      "amount_note": "3/4 cup in the video; the written recipe says 90 g. Counted by USDA's cup of garlic.",
+      "t": 550.08
+    },
+    {
+      "group": "Creamy garlic sauce",
+      "ingredient": "kosher-salt",
+      "text": "2 1/2 tsp kosher salt",
+      "quantity": "2 1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "2 and 1/2 teaspoons of salt",
+      "t": 581.04
+    },
+    {
+      "group": "Creamy garlic sauce",
+      "ingredient": "lemon-juice",
+      "text": "3 1/2 Tbsp fresh lemon juice",
+      "quantity": "3 1/2",
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "3 and 1/2 tbsp of lemon juice",
+      "t": 582.959
+    },
+    {
+      "group": "Creamy garlic sauce",
+      "ingredient": "canola-oil",
+      "text": "1-1 1/2 cups (up to 360 mL) neutral oil, such as refined avocado or light olive oil",
+      "quantity": 324,
+      "unit": "ml",
+      "basis": "estimated",
+      "evidence": "1 to 1 and 1/2 cups or 360 ml of neutral ... we use like about 90% of the oil",
+      "amount_note": "Range 1-1 1/2 cups (360 mL) stated; they state the share used, about 90% of the oil (house rule 10: count a stated share). 0.9 x 360 mL = 324 mL. Canola stands in for the unnamed neutral oil.",
+      "t": 591.2
+    },
+    {
+      "group": "Assembly",
+      "ingredient": "saj-bread",
+      "text": "10 saj or shrak flatbreads (or good pita, not tortillas)",
+      "quantity": 600,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "so you lay down your bread",
+      "amount_note": "No count or weight in the video or the written recipe. One flatbread per wrap for 10 servings, at about 60 g each, is our estimate: 10 x 60 = 600 g.",
+      "t": 674.079
+    },
+    {
+      "group": "Assembly",
+      "ingredient": "shatta",
+      "text": "Shatta, a light layer in each wrap (about 2 tsp each)",
+      "quantity": 100,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "light layer of shata",
+      "amount_note": "The written recipe lists an 18 oz jar but no amount used. About 2 tsp (10 g) per wrap is our estimate: 10 x 10 g = 100 g.",
+      "t": 684.959
+    },
+    {
+      "group": "Assembly",
+      "ingredient": "pomegranate-molasses",
+      "text": "Pomegranate molasses, drizzled inside and on top (about 1 1/2 tsp per wrap)",
+      "quantity": 100,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "drizzle with pomegranate molasses",
+      "amount_note": "The written recipe lists a 10 oz bottle but no amount used. About 1 tsp inside and 1/2 tsp on top per wrap is our estimate: 10 x 1 1/2 tsp = 74 mL, at about 1.35 g/mL = 100 g.",
+      "t": 684.959
+    },
+    {
+      "group": "Assembly",
+      "ingredient": "dill-pickle",
+      "text": "Baby dill pickles, cut into thin matchsticks (6-7 strips per wrap)",
+      "quantity": 280,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "six or seven of these little spears",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/the-best-homemade-chicken-shawarma-sandwich-recipe",
+      "amount_note": "The written recipe lists 1 jar (16 oz / 454 g, with brine). Drained pickles about 60% of that, 280 g, is our estimate; that is about 28 g (6-7 strips) per wrap, which fits the video.",
+      "t": 667.68
+    },
+    {
+      "group": "Assembly",
+      "ingredient": "chicken-thigh",
+      "text": "Pan juices from the chicken, for dipping the wrap",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "lightly dip in your chicken juice",
+      "excluded_reason": "pan juices from the chicken already counted; amount not stated",
+      "in_nutrition": false,
+      "t": 698.079
+    },
+    {
+      "group": "Assembly",
+      "ingredient": "beef-tallow",
+      "text": "Beef tallow, to coat the pan for searing the wraps (about 1 tsp per wrap)",
+      "quantity": 10,
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "frying pan with beef tallow",
+      "amount_note": "No amount in the video or the written recipe ('enough to coat the bottom'). About 1 tsp per wrap is our estimate: 10 x 1 tsp = 10 tsp.",
+      "t": 705.44
+    }
+  ],
+  "steps": [
+    {
+      "t": 62,
+      "text": "Grind the whole spices (white pepper, coriander, cardamom, cloves, cumin, cinnamon) fresh in a spice grinder, then mix with the curry powder, bouillon, thyme, oregano, Aleppo pepper, a little nutmeg and the salt."
+    },
+    {
+      "t": 143,
+      "text": "Blend the zest of 2 lemons and the juice of 5, the zest and juice of the orange, shatta, yogurt, vinegar, garlic and the spice mix on high for about a minute, until smooth. Taste it: it should be sharp and well salted."
+    },
+    {
+      "t": 245,
+      "text": "Pull the skin off the thighs and keep it. Trim away all visible fat. Freeze the meat about 30 minutes, then slice it into very thin strips, about 1/4 inch or thinner, some thinner than others for crispier bits."
+    },
+    {
+      "t": 331,
+      "text": "Toss the chicken with most of the marinade and coat the skins with the rest. Cover and refrigerate at least 24 hours, ideally 48."
+    },
+    {
+      "t": 392,
+      "text": "Chicken crisps: press the marinated skins dry and lay them flat in a cold 12-inch nonstick pan over medium-low, weighed down with a press or another pan, about 10 minutes until crisp. Or bake them flat between sprayed, parchment-lined sheet trays at about 370°F for 10-15 minutes."
+    },
+    {
+      "t": 457,
+      "text": "Sear the chicken in batches in a pan lightly coated with beef tallow over medium-high, about 1-1 1/2 minutes per side, until browned. Hold on a tray, tented with foil, without overcooking."
+    },
+    {
+      "t": 539,
+      "text": "Garlic sauce: blend the egg whites with the garlic on high until frothy and completely smooth."
+    },
+    {
+      "t": 568,
+      "text": "Move it to a food processor, add the salt and lemon juice, and with the machine running pour in the oil in the thinnest stream until thick and creamy (about 90% of the oil was used)."
+    },
+    {
+      "t": 637,
+      "text": "Cut the baby dill pickles into thin, even matchsticks."
+    },
+    {
+      "t": 674,
+      "text": "Lay out a saj or shrak (or pita). Spread generously with garlic sauce, add a light layer of shatta and a drizzle of pomegranate molasses, cover with pickles, pile on the chicken and crumble chicken skin over it, not too fine."
+    },
+    {
+      "t": 696,
+      "text": "Roll it up tightly, dip it lightly in the chicken pan juices, and sear in a large pan with a little beef tallow until golden, 1-2 minutes per side."
+    },
+    {
+      "t": 709,
+      "text": "Wrap in parchment or foil and top each with a dollop of garlic sauce, a piece of chicken skin and a light drizzle of pomegranate molasses."
+    }
+  ]
+}

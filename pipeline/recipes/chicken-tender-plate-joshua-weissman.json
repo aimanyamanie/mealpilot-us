@@ -1,0 +1,764 @@
+{
+  "slug": "chicken-tender-plate-joshua-weissman",
+  "market": "US",
+  "title": "Chicken Tender Plate with Fries, Coleslaw and Texas Toast",
+  "summary": "Buttermilk-marinated chicken tenders in a flaky, lightly spiced flour coat, served as a full plate with seasoned frozen fries, a crunchy lemony coleslaw and garlic-butter Texas toast. A tangy mayo-ketchup dipping sauce goes on the side.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/lQYvvh-ANKQ.json"
+  },
+  "cuisine": "American",
+  "course": "main",
+  "meal_slots": [
+    "lunch",
+    "dinner"
+  ],
+  "servings": 6,
+  "servings_basis": "stated",
+  "prep_minutes": 30,
+  "cook_minutes": 30,
+  "times_basis": "stated",
+  "difficulty": "hard",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'The Ultimate Chicken Tender Plate At Home' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe for the same dish: https://www.joshuaweissman.com/recipes/the-ultimate-chicken-tender-plate-at-home-recipe (serves 6, prep 30 min, cook 30 min; the marinade rest of 20 minutes to overnight is not included). He serves tenders, fries, coleslaw and Texas toast together as one plate, so they are one recipe here. The video states every amount for the marinade, dredge, fry seasoning, coleslaw, toast butter and sauce, and the 2 lb of tenders. From the written recipe: 6 slices of thick-cut white bread (the video only says two or three halves per person), 1/2 cup (10 g) parsley, 1 bag of frozen fries, and 1/2 tsp dried thyme in the fry seasoning (the captions read 'A/ teaspoon'). Our estimates: frozen fries bag 26 oz (737 g); Texas toast slice 40 g; lemon zest 1 Tbsp for one lemon; 1/2 tsp kosher salt for the 'generous pinch' on the cabbage (some leaves with the squeezed-out water, so this may overstate) and 1/4 tsp for the 'pinch of salt to taste'. Ranges: chives 1-2 Tbsp, we use 1. House rules applied: the buttermilk marinade is a liquid marinade that is drained off before dredging, so it is not counted (this leaves out the buttermilk and salt that cling to the tenders, so sodium is somewhat understated); the dredge is counted at 25%; the fry seasoning is counted at half, because he tosses the fries with it but does not say how much of the batch goes on; absorbed frying oil is 10% of the raw weight of the fried tenders (with counted dredge) and of the fries, shown in each line's amount_note; the 3 quarts of frying oil are not counted. The dipping sauce ('OG sauce', about 1,600 kcal for the batch, mostly the 1 cup of mayonnaise) is served on the side in ramekins and is not counted. Black pepper 'to taste' in the coleslaw is not counted. All of the toast butter (1/2 cup) is counted; he says to brush thinly, so some may be left in the pan. Optional items are counted only because he adds them on camera (house rule 11): MSG and chives in the coleslaw, parsley on the toast, and the fry seasoning. The optional Sriracha is in the side sauce, so it is excluded anyway. Marinating: at least 20 minutes, ideally overnight (up to 2 days), not in prep_minutes. Chicken tenders use USDA breast meat only, raw, as a proxy; frozen fries use USDA frozen french fries, unprepared; Dijon uses the nearest USDA mustard (see new_h3.csv).",
+  "ingredients": [
+    {
+      "group": "Tenders",
+      "ingredient": "chicken-tenderloin",
+      "text": "2 lb boneless, skinless chicken tenders, tendons removed",
+      "quantity": 2,
+      "unit": "lb",
+      "preparation": "tendons removed",
+      "basis": "stated",
+      "evidence": "2 lbs boneless, skinless chicken tenders",
+      "t": 75.76
+    },
+    {
+      "group": "Tenders",
+      "ingredient": "buttermilk",
+      "text": "2 cups buttermilk (marinade)",
+      "quantity": 2,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "2 cups of buttermilk",
+      "in_nutrition": false,
+      "excluded_reason": "liquid marinade, drained off before dredging (house rule)",
+      "t": 32.079
+    },
+    {
+      "group": "Tenders",
+      "ingredient": "kosher-salt",
+      "text": "1 Tbsp + 1 tsp kosher salt (marinade)",
+      "quantity": 4,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 tbsp plus a teaspoon of kosher salt",
+      "in_nutrition": false,
+      "excluded_reason": "liquid marinade, drained off before dredging (house rule)",
+      "t": 32.079
+    },
+    {
+      "group": "Tenders",
+      "ingredient": "sugar",
+      "text": "1 tsp sugar (marinade)",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 teaspoon of sugar",
+      "in_nutrition": false,
+      "excluded_reason": "liquid marinade, drained off before dredging (house rule)",
+      "t": 35.04
+    },
+    {
+      "group": "Tenders",
+      "ingredient": "msg",
+      "text": "1 1/2 tsp MSG (marinade)",
+      "quantity": "1 1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 and 1/2 teaspoons of msg",
+      "in_nutrition": false,
+      "excluded_reason": "liquid marinade, drained off before dredging (house rule)",
+      "t": 37.36
+    },
+    {
+      "group": "Tenders",
+      "ingredient": "garlic-powder",
+      "text": "2 tsp garlic powder (marinade)",
+      "quantity": 2,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "2 tesps of garlic powder",
+      "in_nutrition": false,
+      "excluded_reason": "liquid marinade, drained off before dredging (house rule)",
+      "t": 41.2
+    },
+    {
+      "group": "Tenders",
+      "ingredient": "onion-powder",
+      "text": "1/2 tsp onion powder (marinade)",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "half a teaspoon of onion powder",
+      "in_nutrition": false,
+      "excluded_reason": "liquid marinade, drained off before dredging (house rule)",
+      "t": 41.2
+    },
+    {
+      "group": "Tenders",
+      "ingredient": "paprika",
+      "text": "2 tsp smoked paprika (marinade)",
+      "quantity": 2,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "two teaspoons of smoked paprika",
+      "in_nutrition": false,
+      "excluded_reason": "liquid marinade, drained off before dredging (house rule)",
+      "t": 56.48
+    },
+    {
+      "group": "Tenders",
+      "ingredient": "cayenne",
+      "text": "1 tsp cayenne (marinade)",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "one teaspoon of cayenne powder",
+      "in_nutrition": false,
+      "excluded_reason": "liquid marinade, drained off before dredging (house rule)",
+      "t": 57.92
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "flour-all-purpose",
+      "text": "2 cups all-purpose flour",
+      "quantity": "1/2",
+      "unit": "cup",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "2 cups stated; 25% counted as dredge that sticks (house rule): 2 x 0.25 = 1/2 cup.",
+      "evidence": "two cups of allpurpose flour",
+      "t": 192.319
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "kosher-salt",
+      "text": "1 Tbsp kosher salt",
+      "quantity": "3/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "1 Tbsp (3 tsp) stated; 25% counted as dredge (house rule): 3/4 tsp.",
+      "evidence": "1 tbsp of kosher salt",
+      "t": 199.36
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "msg",
+      "text": "1 tsp MSG",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "1 tsp stated; 25% counted as dredge (house rule): 1/4 tsp.",
+      "evidence": "teaspoon of msg. again, double msg",
+      "t": 201.76
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "garlic-powder",
+      "text": "2 tsp garlic powder",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "2 tsp stated; 25% counted as dredge (house rule): 1/2 tsp.",
+      "evidence": "2 tsp of garlic powder",
+      "t": 204.159
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "onion-powder",
+      "text": "1/2 tsp onion powder",
+      "quantity": "1/8",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "1/2 tsp stated; 25% counted as dredge (house rule): 1/8 tsp.",
+      "evidence": "half a teaspoon onion powder",
+      "t": 204.159
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "black-pepper",
+      "text": "1 tsp freshly ground black pepper",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "qualifier": "ground",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "1 tsp stated; 25% counted as dredge (house rule): 1/4 tsp.",
+      "evidence": "1 tsp of fresh ground black",
+      "t": 207.04
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "paprika",
+      "text": "1 tsp smoked paprika",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "1 tsp stated; 25% counted as dredge (house rule): 1/4 tsp.",
+      "evidence": "1 teasspoon of smoked paprika",
+      "t": 209.519
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "cayenne",
+      "text": "1 tsp cayenne",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "1 tsp stated; 25% counted as dredge (house rule): 1/4 tsp.",
+      "evidence": "1 tspoon of cayenne",
+      "t": 211.2
+    },
+    {
+      "group": "Dredge",
+      "ingredient": "thyme-dried",
+      "text": "1/2 tsp dried thyme, crushed",
+      "quantity": "1/8",
+      "unit": "tsp",
+      "preparation": "crushed between the fingers",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "1/2 tsp stated; 25% counted as dredge (house rule): 1/8 tsp.",
+      "evidence": "half a teaspoon of dried thyme",
+      "t": 214.799,
+      "qualifier": "leaves"
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "About 3 quarts vegetable oil, for frying at 350°F",
+      "quantity": 3,
+      "unit": "quart",
+      "basis": "stated",
+      "evidence": "about 3 quarts of vegetable",
+      "in_nutrition": false,
+      "excluded_reason": "frying oil; absorbed oil counted separately",
+      "t": 714.0
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "Absorbed frying oil (our estimate)",
+      "quantity": 99,
+      "unit": "g",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "Tenders: 10% of the raw weight of the fried food with its coating (house rule). 2 lb tenders = 907 g; counted dredge = 25% of the written recipe's 331 g dredge (300 g flour + 31 g salt and spices) = 83 g; (907 + 83) x 0.10 = 99 g.",
+      "evidence": "about 3 quarts of vegetable",
+      "t": 714.0
+    },
+    {
+      "group": "Fries",
+      "ingredient": "french-fries-frozen",
+      "text": "1 bag frozen fast-food-cut French fries (about 26 oz)",
+      "quantity": 737,
+      "unit": "g",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "The video says to buy the best bag of frozen fries you can find (he uses Ore-Ida extra crispy) and serve 'as little or as much as you like'; the written recipe says 1 bag. The bag weight, 26 oz (737 g), is our estimate.",
+      "evidence": "bag of frozen french fries",
+      "t": 698.399
+    },
+    {
+      "group": "Fries",
+      "ingredient": "canola-oil",
+      "text": "Absorbed frying oil (our estimate)",
+      "quantity": 74,
+      "unit": "g",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "Fries: 10% of the raw (frozen) weight of the fried food (house rule): 737 g x 0.10 = 73.7 g, rounded to 74 g. Fried in the same 3 quarts of oil as the tenders.",
+      "evidence": "about 3 quarts of vegetable",
+      "t": 714.0
+    },
+    {
+      "group": "Fry seasoning",
+      "ingredient": "chicken-bouillon",
+      "text": "2 tsp chicken bouillon powder (or MSG)",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "2 tsp stated; half counted because he tosses the fries with the seasoning without saying how much of the batch goes on (our estimate).",
+      "evidence": "teaspoons of chicken buan powder",
+      "t": 255.92
+    },
+    {
+      "group": "Fry seasoning",
+      "ingredient": "paprika",
+      "text": "2 tsp smoked paprika",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "2 tsp stated; half of the fry seasoning counted (our estimate).",
+      "evidence": "two teaspoons of smoked paprika",
+      "t": 263.36
+    },
+    {
+      "group": "Fry seasoning",
+      "ingredient": "cayenne",
+      "text": "1 tsp cayenne",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "1 tsp stated; half of the fry seasoning counted (our estimate).",
+      "evidence": "1 teaspoon of cayenne powder",
+      "t": 264.96
+    },
+    {
+      "group": "Fry seasoning",
+      "ingredient": "garlic-powder",
+      "text": "1 tsp garlic powder",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "1 tsp stated; half of the fry seasoning counted (our estimate).",
+      "evidence": "1 teaspoon of garlic powder",
+      "t": 266.88
+    },
+    {
+      "group": "Fry seasoning",
+      "ingredient": "cumin",
+      "text": "1/2 tsp ground cumin",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "1/2 tsp stated; half of the fry seasoning counted (our estimate).",
+      "evidence": "half a teaspoon of cumin ground",
+      "t": 268.72
+    },
+    {
+      "group": "Fry seasoning",
+      "ingredient": "black-pepper",
+      "text": "1/2 tsp freshly ground black pepper",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "qualifier": "ground",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "1/2 tsp stated; half of the fry seasoning counted (our estimate).",
+      "evidence": "half a teaspoon of fresh ground black pepper",
+      "t": 268.72
+    },
+    {
+      "group": "Fry seasoning",
+      "ingredient": "kosher-salt",
+      "text": "2 tsp kosher salt",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "2 tsp stated; half of the fry seasoning counted (our estimate).",
+      "evidence": "tespoons of kosher salt",
+      "t": 272.0
+    },
+    {
+      "group": "Fry seasoning",
+      "ingredient": "sugar",
+      "text": "1 tsp sugar",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "1 tsp stated; half of the fry seasoning counted (our estimate).",
+      "evidence": "1 teaspoon of sugar",
+      "t": 273.36
+    },
+    {
+      "group": "Fry seasoning",
+      "ingredient": "thyme-dried",
+      "text": "1/2 tsp dried thyme",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "The captions read 'A/ teaspoon'; the written recipe (https://www.joshuaweissman.com/recipes/the-ultimate-chicken-tender-plate-at-home-recipe) gives 1/2 tsp. Half of the fry seasoning counted (our estimate): 1/4 tsp.",
+      "evidence": "teaspoon of dried thyme. whisk that together",
+      "t": 280.56,
+      "qualifier": "leaves"
+    },
+    {
+      "group": "Coleslaw",
+      "ingredient": "cabbage-green",
+      "text": "About 4 cups very thinly sliced green cabbage (from a medium-small head, cored)",
+      "quantity": 4,
+      "unit": "cup",
+      "qualifier": "shredded",
+      "preparation": "cored, shaved very thin",
+      "basis": "stated",
+      "evidence": "you only need about four cups",
+      "t": 352.88
+    },
+    {
+      "group": "Coleslaw",
+      "ingredient": "kosher-salt",
+      "text": "A generous pinch of salt, to cure the cabbage",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_note": "'A generous pinch' stated; 1/2 tsp kosher salt is our estimate. Some of it leaves with the water squeezed out of the cabbage.",
+      "evidence": "season it with a generous pinch of salt",
+      "t": 371.28
+    },
+    {
+      "group": "Coleslaw",
+      "ingredient": "carrot",
+      "text": "1 large carrot, grated",
+      "quantity": 1,
+      "unit": "large",
+      "preparation": "grated",
+      "basis": "stated",
+      "evidence": "one large carrot grated",
+      "t": 410.56
+    },
+    {
+      "group": "Coleslaw",
+      "ingredient": "lemon-zest",
+      "text": "Zest of 1 lemon",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "Zest of one lemon stated; 1 Tbsp per lemon is our conversion (the yield he gives for one lemon in his peri peri video).",
+      "evidence": "the zest of one lemon",
+      "t": 423.039
+    },
+    {
+      "group": "Coleslaw",
+      "ingredient": "mayonnaise",
+      "text": "1/2 cup mayonnaise",
+      "quantity": "1/2",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "half a cup of mayonnaise",
+      "t": 424.8
+    },
+    {
+      "group": "Coleslaw",
+      "ingredient": "dijon-mustard",
+      "text": "1 tsp Dijon mustard",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "one teaspoon of dijon mustard",
+      "t": 428.56
+    },
+    {
+      "group": "Coleslaw",
+      "ingredient": "sugar",
+      "text": "2 tsp sugar",
+      "quantity": 2,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "two teaspoons of sugar",
+      "t": 430.479
+    },
+    {
+      "group": "Coleslaw",
+      "ingredient": "msg",
+      "text": "1/2 tsp MSG (optional)",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "a half teaspoon of msg",
+      "t": 433.12
+    },
+    {
+      "group": "Coleslaw",
+      "ingredient": "black-pepper",
+      "text": "Freshly cracked black pepper, to taste",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "fresh cracked black pepper",
+      "in_nutrition": false,
+      "excluded_reason": "amount not stated",
+      "t": 437.28
+    },
+    {
+      "group": "Coleslaw",
+      "ingredient": "kosher-salt",
+      "text": "A pinch of salt, to taste",
+      "quantity": "1/4",
+      "unit": "tsp",
+      "basis": "estimated",
+      "amount_note": "'Pinch of salt to taste' stated; 1/4 tsp kosher salt is our estimate.",
+      "evidence": "pinch of salt to taste",
+      "t": 438.72
+    },
+    {
+      "group": "Coleslaw",
+      "ingredient": "apple-cider-vinegar",
+      "text": "2 Tbsp apple cider vinegar",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "2 tbsps of apple cider vinegar",
+      "t": 438.72
+    },
+    {
+      "group": "Coleslaw",
+      "ingredient": "chives",
+      "text": "1-2 Tbsp thinly sliced chives (optional)",
+      "quantity": 1,
+      "unit": "tbsp",
+      "preparation": "thinly sliced",
+      "basis": "stated",
+      "amount_note": "He says one to two tablespoons; we use the low end, 1 Tbsp.",
+      "evidence": "one to two tablespoons of thinly sliced chive",
+      "t": 452.639
+    },
+    {
+      "group": "Texas toast",
+      "ingredient": "butter-unsalted",
+      "text": "1 stick (1/2 cup) unsalted butter, melted",
+      "quantity": "1/2",
+      "unit": "cup",
+      "preparation": "melted",
+      "basis": "stated",
+      "evidence": "one stick or half a cup of butter, unsalted",
+      "t": 484.4
+    },
+    {
+      "group": "Texas toast",
+      "ingredient": "garlic",
+      "text": "4 cloves garlic, finely chopped",
+      "quantity": 4,
+      "unit": "clove",
+      "preparation": "finely chopped",
+      "basis": "stated",
+      "evidence": "four cloves of finely chopped garlic",
+      "t": 514.32
+    },
+    {
+      "group": "Texas toast",
+      "ingredient": "kosher-salt",
+      "text": "1 1/2 tsp kosher salt",
+      "quantity": "1 1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 and 1/2 teaspoons of kosher salt",
+      "t": 518.24
+    },
+    {
+      "group": "Texas toast",
+      "ingredient": "white-bread",
+      "text": "6 slices thick-cut soft white bread (Texas toast)",
+      "quantity": 240,
+      "unit": "g",
+      "basis": "estimated",
+      "amount_source": "our_estimate",
+      "amount_note": "The video names the bread but no count (he serves two or three halves per person); the written recipe gives 6 slices thick-cut white bread. 40 g per thick slice is our estimate: 6 x 40 = 240 g.",
+      "evidence": "anemic white bread",
+      "t": 495.44
+    },
+    {
+      "group": "Texas toast",
+      "ingredient": "parsley",
+      "text": "1/2 cup (10 g) finely chopped fresh parsley (optional)",
+      "quantity": 10,
+      "unit": "g",
+      "preparation": "finely chopped",
+      "basis": "stated",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/the-ultimate-chicken-tender-plate-at-home-recipe",
+      "amount_note": "The video says 'a little bit', optional; the written recipe gives 1/2 cup (10 g). We use the page's 10 g.",
+      "evidence": "fresh chopped parsley",
+      "t": 671.44
+    },
+    {
+      "group": "Dipping sauce (on the side)",
+      "ingredient": "mayonnaise",
+      "text": "1 cup mayonnaise",
+      "quantity": 1,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "one cup of mayo",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 569.68
+    },
+    {
+      "group": "Dipping sauce (on the side)",
+      "ingredient": "ketchup",
+      "text": "1/4 cup ketchup",
+      "quantity": "1/4",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "1/4 cup of ketchup",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 578.16
+    },
+    {
+      "group": "Dipping sauce (on the side)",
+      "ingredient": "dijon-mustard",
+      "text": "2 Tbsp Dijon mustard (or yellow mustard)",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "2 tbsps of dijon mustard",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 578.16
+    },
+    {
+      "group": "Dipping sauce (on the side)",
+      "ingredient": "worcestershire-sauce",
+      "text": "1 Tbsp Worcestershire sauce",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "1 tbsp of warty shersty",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 582.399
+    },
+    {
+      "group": "Dipping sauce (on the side)",
+      "ingredient": "white-vinegar",
+      "text": "1 tsp white distilled vinegar",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 teaspoon of white distilled vinegar",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 584.56
+    },
+    {
+      "group": "Dipping sauce (on the side)",
+      "ingredient": "garlic-powder",
+      "text": "1/2 tsp garlic powder",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "half a teaspoon of garlic powder",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 586.72
+    },
+    {
+      "group": "Dipping sauce (on the side)",
+      "ingredient": "msg",
+      "text": "1 tsp MSG",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 teaspoon of msg",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 588.399
+    },
+    {
+      "group": "Dipping sauce (on the side)",
+      "ingredient": "sriracha",
+      "text": "1 Tbsp Sriracha (optional)",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "a tablespoon of sriracha",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 591.04
+    },
+    {
+      "group": "Dipping sauce (on the side)",
+      "ingredient": "kosher-salt",
+      "text": "Salt and black pepper, to taste",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "season that lightly to taste with salt",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 598.32
+    }
+  ],
+  "steps": [
+    {
+      "t": 29,
+      "text": "Marinade: whisk the buttermilk with the salt, sugar, MSG, garlic powder, onion powder, smoked paprika and cayenne until the spices are evenly mixed."
+    },
+    {
+      "t": 96,
+      "text": "Check each tender for the white tendon. Slide a sharp knife under it to loosen it, grip the end with a paper towel, hook a fork under it and pull it out. A tender that tears in two is fine."
+    },
+    {
+      "t": 150,
+      "text": "Put the tenders in the marinade and massage so every surface is coated and none stick together. Cover and refrigerate at least 20 minutes, ideally overnight (up to 2 days)."
+    },
+    {
+      "t": 185,
+      "text": "Dredge: whisk the flour with the salt, MSG, garlic and onion powders, black pepper, smoked paprika, cayenne and the dried thyme (crushed between your fingers) until uniform."
+    },
+    {
+      "t": 239,
+      "text": "Fry seasoning (optional): whisk together the bouillon powder, smoked paprika, cayenne, garlic powder, cumin, black pepper, salt, sugar and thyme."
+    },
+    {
+      "t": 300,
+      "text": "Coleslaw: halve and core a medium-small green cabbage and shave it as thinly as you can, about 4 cups. Massage with a generous pinch of salt until it weeps, let it sit a minute or two, then wring it out over the sink and move it to a clean bowl."
+    },
+    {
+      "t": 410,
+      "text": "Add the grated carrot, lemon zest, mayonnaise, Dijon, sugar, MSG, black pepper, a pinch of salt and the cider vinegar, and toss until fully coated. Fold in the chives if using. Dress it close to serving."
+    },
+    {
+      "t": 481,
+      "text": "Texas toast: melt the butter in a small saucepan over medium heat, take it off the heat, and stir in the garlic and salt. Let it steep for 20-30 seconds."
+    },
+    {
+      "t": 532,
+      "text": "Brush each slice of thick white bread thinly on both sides with the garlic butter and bake at 375°F for 10-12 minutes. Finish with parsley if you like and keep warm (or rewarm in foil)."
+    },
+    {
+      "t": 568,
+      "text": "Dipping sauce: whisk the mayonnaise, ketchup, Dijon, Worcestershire, vinegar, garlic powder, MSG and optional Sriracha with a little salt and pepper. Serve it on the side."
+    },
+    {
+      "t": 606,
+      "text": "Use one hand for wet and one for dry. Flick some marinade into the dredge two times and toss, to make small clumps. Lift each tender from the marinade, press and toss it in the dredge until fully covered, shake off the excess and set it on a tray. Work two or three at a time."
+    },
+    {
+      "t": 706,
+      "text": "Heat about 3 quarts of vegetable oil to 350°F in a large pot filled a little over halfway. Fry the frozen fries in batches until the bubbling slows and they are golden and crisp, then toss them straight away with the fry seasoning."
+    },
+    {
+      "t": 737,
+      "text": "Fry the tenders in batches of three or four, laying them in away from you, until golden, the bubbling has slowed and the inside reads 165°F."
+    },
+    {
+      "t": 752,
+      "text": "Plate a pile of fries with the tenders, coleslaw and sauce in ramekins, and the Texas toast cut in half on the diagonal."
+    }
+  ]
+}

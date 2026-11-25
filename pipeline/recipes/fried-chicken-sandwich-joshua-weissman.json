@@ -1,0 +1,652 @@
+{
+  "slug": "fried-chicken-sandwich-joshua-weissman",
+  "market": "US",
+  "title": "Gochujang-Glazed Fried Chicken Sandwich with Kimchi Slaw",
+  "summary": "Buttermilk-marinated, double-fried boneless skin-on chicken thighs tossed in a sticky gochujang glaze, stacked in a toasted milk bun with garlic Kewpie mayo, kimchi slaw and quick-pickled jalapeños.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/tY9pSkn1VCg.json"
+  },
+  "cuisine": "Korean-American",
+  "course": "main",
+  "meal_slots": [
+    "lunch",
+    "dinner"
+  ],
+  "servings": 8,
+  "servings_basis": "stated",
+  "prep_minutes": 30,
+  "cook_minutes": 60,
+  "times_basis": "stated",
+  "difficulty": "hard",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'The Perfect Fried Chicken Sandwich' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe: https://www.joshuaweissman.com/recipes/perfect-fried-chicken-sandwich-recipe (serves 8, prep 30 min, cook 1 hour). Marinating (at least 1 hour, ideally overnight) and cooling the pickles are not in prep_minutes (house rule 13). The video states nearly every amount; the written recipe supplies the chicken (2 lb bone-in thighs, about 6-8), the slaw's 2 green onions, the onion powder (captions garbled), the bun count (6-8; 8 used to match 8 servings) and gram weights for flour, starch, gochujang and MSG. He does not bake buns in this video. The pickled jalapeños, chicken sauce, garlic mayo and slaw are kept as groups in this recipe. The chicken is entered as bought, bone-in (2 lb chicken-thigh-bone-in, house rule 12); he debones it, and the lead converts to edible weight. Our estimates: 65 g per bun, 1/8 tsp salt for 'a tiny pinch' in the mayo, 2 1/2 cloves for '2-3 cloves', and 1.25 g/ml for sweet soy sauce. Coatings: the buttermilk marinade is not poured off; after the chicken comes out, 1/2 cup of dredge and the baking soda are whisked into it and it becomes the wet dip, so the whole marinade counts at 50% as a wet batter, and the dredge counts at 29.7% because 1/2 cup of it goes into the dip (house rule 3; arithmetic in each line). This is a large share for a buttermilk dip (much of it is left in the bowl; he says it covers up to eight pieces and could be reused), so the coating may be overstated. Frying oil: 3-3 1/2 quarts (vegetable, canola or avocado; canola-oil stands in for 'vegetable oil'); the pot is excluded and 107 g absorbed oil is counted at 10% of the raw coated weight, using the as-bought chicken weight (125 g). Pickle brine (water, vinegar, salt, sugar), the jar's garlic and dill are not counted; all 5 jalapeños are counted (USDA's 14 g pepper understates his very large ones). House rule 10: the chicken sauce (about 1 cup) is a tossed glaze and nothing says it is all used, so 50% is counted. The garlic mayo (1 cup, about 2 Tbsp per sandwich, spread on both buns) and the slaw (sized for the sandwiches: 'you only need about two cups', mixed just before assembly) are made for these 8 sandwiches and treated as used up, so they count in full; if leftovers are expected, 50% would apply. Dark soy sauce uses regular soy sauce; Kewpie uses regular mayonnaise; milk/brioche buns use a plain hamburger-roll proxy (fat understated). The written recipe marks the kimchi optional; the video uses it, so it is counted. The written recipe's first fry is at 300°F; the video says 325°F (the video wins). Pepper in the mayo and salt in the slaw are to taste and not counted.",
+  "ingredients": [
+    {
+      "group": "Chicken",
+      "ingredient": "chicken-thigh-bone-in",
+      "text": "2 lb bone-in, skin-on chicken thighs (6-8), deboned with the skin left on",
+      "quantity": 735,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "i prefer skin-on thighs",
+      "preparation": "deboned, skin on",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/perfect-fried-chicken-sandwich-recipe",
+      "amount_note": "As bought, bone-in. The video gives no amount (it says the marinade covers four to eight pieces); the written recipe gives 2 lbs (908 g) bone-in, skin-on thighs, about 6-8, which he debones. As bought, bone-in: 2 lb = 907 g. Edible weight 735 g after 19% bone, USDA SR28 refuse for NDB 05092 (thigh, fried, batter); the raw thigh record prints 0% (boneless sample).",
+      "t": 91.2
+    },
+    {
+      "group": "Marinade, which becomes the wet dip (50% counted)",
+      "ingredient": "buttermilk",
+      "text": "1 1/2 cups buttermilk",
+      "quantity": "3/4",
+      "unit": "cup",
+      "basis": "estimated",
+      "evidence": "buttermilk, 1.5 cups",
+      "amount_source": "our_estimate",
+      "amount_note": "1 1/2 cups stated; the marinade is not poured off but becomes the wet dip (with 1/2 cup of dredge and the baking soda), so 50% is counted as wet batter (house rule): 1.5 x 0.5 = 3/4 cup.",
+      "t": 203.12
+    },
+    {
+      "group": "Marinade, which becomes the wet dip (50% counted)",
+      "ingredient": "hot-sauce",
+      "text": "2 Tbsp hot sauce",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "2 tbsp of any hot sauce",
+      "amount_source": "our_estimate",
+      "amount_note": "2 Tbsp stated; the marinade is not poured off but becomes the wet dip (with 1/2 cup of dredge and the baking soda), so 50% is counted as wet batter (house rule): 2 x 0.5 = 1 Tbsp.",
+      "t": 209.04
+    },
+    {
+      "group": "Marinade, which becomes the wet dip (50% counted)",
+      "ingredient": "white-pepper",
+      "text": "1 tsp freshly ground white pepper",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "one teaspoon of fresh ground white pepper",
+      "amount_source": "our_estimate",
+      "amount_note": "1 tsp stated; the marinade is not poured off but becomes the wet dip (with 1/2 cup of dredge and the baking soda), so 50% is counted as wet batter (house rule): 1 x 0.5 = 1/2 tsp.",
+      "t": 215.44
+    },
+    {
+      "group": "Marinade, which becomes the wet dip (50% counted)",
+      "ingredient": "gochujang",
+      "text": "1 Tbsp gochujang",
+      "quantity": 8,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "one tablespoon and this is the special piece here go jang",
+      "amount_source": "our_estimate",
+      "amount_note": "1 Tbsp stated; the marinade is not poured off but becomes the wet dip (with 1/2 cup of dredge and the baking soda), so 50% is counted as wet batter (house rule). Grams from the written recipe (1 Tbsp = 16 g): 16 x 0.5 = 8 g.",
+      "t": 218.239
+    },
+    {
+      "group": "Marinade, which becomes the wet dip (50% counted)",
+      "ingredient": "msg",
+      "text": "1 1/2 tsp MSG",
+      "quantity": 2.5,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "one and a half teaspoons of probably my favorite ingredient, msg",
+      "amount_source": "our_estimate",
+      "amount_note": "1 1/2 tsp stated; the marinade is not poured off but becomes the wet dip (with 1/2 cup of dredge and the baking soda), so 50% is counted as wet batter (house rule). Grams from the written recipe (1.5 tsp = 5 g): 5 x 0.5 = 2.5 g.",
+      "t": 228.64
+    },
+    {
+      "group": "Marinade, which becomes the wet dip (50% counted)",
+      "ingredient": "kosher-salt",
+      "text": "1 Tbsp kosher salt",
+      "quantity": "1 1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "1 tbspoon of kosher salt",
+      "amount_source": "our_estimate",
+      "amount_note": "1 Tbsp (3 tsp) stated; the marinade is not poured off but becomes the wet dip (with 1/2 cup of dredge and the baking soda), so 50% is counted as wet batter (house rule): 3 x 0.5 = 1 1/2 tsp.",
+      "t": 244.799
+    },
+    {
+      "group": "Marinade, which becomes the wet dip (50% counted)",
+      "ingredient": "sugar",
+      "text": "2 tsp granulated sugar",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "2 tsp of granulated sugar",
+      "amount_source": "our_estimate",
+      "amount_note": "2 tsp stated; the marinade is not poured off but becomes the wet dip (with 1/2 cup of dredge and the baking soda), so 50% is counted as wet batter (house rule): 2 x 0.5 = 1 tsp.",
+      "t": 247.439
+    },
+    {
+      "group": "Marinade, which becomes the wet dip (50% counted)",
+      "ingredient": "garlic-powder",
+      "text": "2 tsp garlic powder",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "2 tsp of garlic powder",
+      "amount_source": "our_estimate",
+      "amount_note": "2 tsp stated; the marinade is not poured off but becomes the wet dip (with 1/2 cup of dredge and the baking soda), so 50% is counted as wet batter (house rule): 2 x 0.5 = 1 tsp.",
+      "t": 250.56
+    },
+    {
+      "group": "Marinade, which becomes the wet dip (50% counted)",
+      "ingredient": "baking-soda",
+      "text": "1 tsp baking soda, whisked into the marinade with 1/2 cup of the dredge",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "add 1 teaspoon of baking soda",
+      "amount_source": "our_estimate",
+      "amount_note": "1 tsp stated; part of the wet dip, so 50% counted (house rule): 1 x 0.5 = 1/2 tsp. The 1/2 cup of dredge in the dip is counted in the dredge lines.",
+      "t": 709.68
+    },
+    {
+      "group": "Dry dredge (about 29.7% counted)",
+      "ingredient": "flour-all-purpose",
+      "text": "2 cups (300 g) all-purpose flour",
+      "quantity": 89,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "2 cups allpurpose flour",
+      "amount_source": "our_estimate",
+      "amount_note": "2 cups stated; 300 g from the written recipe. Dredge share: the written recipe weighs the dredge at 397 g (300 flour + 75 starch + 6 salt + 3 MSG + 3 cayenne + 3 garlic powder + 1 onion powder + 6 pepper; baking soda is kept out). About 1/2 cup of it (75 g at roughly 150 g/cup, 18.9%) is whisked into the wet dip and counts at 50%; the other 81.1% is dry dredge and counts at 25% (house rule): 0.811 x 0.25 + 0.189 x 0.5 = 0.297. 300 x 0.297 = 89.1 g, rounded to 89 g.",
+      "t": 671.04
+    },
+    {
+      "group": "Dry dredge (about 29.7% counted)",
+      "ingredient": "potato-starch",
+      "text": "1/2 cup (75 g) potato starch",
+      "quantity": 22,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "1/2 cup of potato starch",
+      "amount_source": "our_estimate",
+      "amount_note": "1/2 cup stated; 75 g from the written recipe. Dredge share: the written recipe weighs the dredge at 397 g (300 flour + 75 starch + 6 salt + 3 MSG + 3 cayenne + 3 garlic powder + 1 onion powder + 6 pepper; baking soda is kept out). About 1/2 cup of it (75 g at roughly 150 g/cup, 18.9%) is whisked into the wet dip and counts at 50%; the other 81.1% is dry dredge and counts at 25% (house rule): 0.811 x 0.25 + 0.189 x 0.5 = 0.297. 75 x 0.297 = 22.3 g, rounded to 22 g.",
+      "t": 671.04
+    },
+    {
+      "group": "Dry dredge (about 29.7% counted)",
+      "ingredient": "kosher-salt",
+      "text": "2 tsp kosher salt",
+      "quantity": 0.59,
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "2 tsps of kosher salt",
+      "amount_source": "our_estimate",
+      "amount_note": "2 tsp stated. Dredge share: the written recipe weighs the dredge at 397 g (300 flour + 75 starch + 6 salt + 3 MSG + 3 cayenne + 3 garlic powder + 1 onion powder + 6 pepper; baking soda is kept out). About 1/2 cup of it (75 g at roughly 150 g/cup, 18.9%) is whisked into the wet dip and counts at 50%; the other 81.1% is dry dredge and counts at 25% (house rule): 0.811 x 0.25 + 0.189 x 0.5 = 0.297. 2 x 0.297 = 0.59 tsp.",
+      "t": 678.8
+    },
+    {
+      "group": "Dry dredge (about 29.7% counted)",
+      "ingredient": "msg",
+      "text": "1 tsp MSG",
+      "quantity": 0.89,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "teaspoon of msg, 1 tspoon cayenne",
+      "amount_source": "our_estimate",
+      "amount_note": "1 tsp stated; 3 g from the written recipe. Dredge share: the written recipe weighs the dredge at 397 g (300 flour + 75 starch + 6 salt + 3 MSG + 3 cayenne + 3 garlic powder + 1 onion powder + 6 pepper; baking soda is kept out). About 1/2 cup of it (75 g at roughly 150 g/cup, 18.9%) is whisked into the wet dip and counts at 50%; the other 81.1% is dry dredge and counts at 25% (house rule): 0.811 x 0.25 + 0.189 x 0.5 = 0.297. 3 x 0.297 = 0.89 g.",
+      "t": 681.04
+    },
+    {
+      "group": "Dry dredge (about 29.7% counted)",
+      "ingredient": "cayenne",
+      "text": "1 tsp cayenne",
+      "quantity": 0.3,
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "1 tspoon cayenne",
+      "amount_source": "our_estimate",
+      "amount_note": "1 tsp stated. Dredge share: the written recipe weighs the dredge at 397 g (300 flour + 75 starch + 6 salt + 3 MSG + 3 cayenne + 3 garlic powder + 1 onion powder + 6 pepper; baking soda is kept out). About 1/2 cup of it (75 g at roughly 150 g/cup, 18.9%) is whisked into the wet dip and counts at 50%; the other 81.1% is dry dredge and counts at 25% (house rule): 0.811 x 0.25 + 0.189 x 0.5 = 0.297. 1 x 0.297 = 0.30 tsp.",
+      "t": 681.04
+    },
+    {
+      "group": "Dry dredge (about 29.7% counted)",
+      "ingredient": "garlic-powder",
+      "text": "1 tsp garlic powder",
+      "quantity": 0.3,
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "1 tspoon garlic powder",
+      "amount_source": "our_estimate",
+      "amount_note": "1 tsp stated. Dredge share: the written recipe weighs the dredge at 397 g (300 flour + 75 starch + 6 salt + 3 MSG + 3 cayenne + 3 garlic powder + 1 onion powder + 6 pepper; baking soda is kept out). About 1/2 cup of it (75 g at roughly 150 g/cup, 18.9%) is whisked into the wet dip and counts at 50%; the other 81.1% is dry dredge and counts at 25% (house rule): 0.811 x 0.25 + 0.189 x 0.5 = 0.297. 1 x 0.297 = 0.30 tsp.",
+      "t": 681.04
+    },
+    {
+      "group": "Dry dredge (about 29.7% counted)",
+      "ingredient": "onion-powder",
+      "text": "1/2 tsp onion powder",
+      "quantity": 0.15,
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "teaspoon onion powder",
+      "amount_source": "our_estimate",
+      "amount_note": "The captions garble the amount ('/ teaspoon'); the written recipe gives 1/2 tsp. Dredge share: the written recipe weighs the dredge at 397 g (300 flour + 75 starch + 6 salt + 3 MSG + 3 cayenne + 3 garlic powder + 1 onion powder + 6 pepper; baking soda is kept out). About 1/2 cup of it (75 g at roughly 150 g/cup, 18.9%) is whisked into the wet dip and counts at 50%; the other 81.1% is dry dredge and counts at 25% (house rule): 0.811 x 0.25 + 0.189 x 0.5 = 0.297. 0.5 x 0.297 = 0.15 tsp.",
+      "t": 683.76
+    },
+    {
+      "group": "Dry dredge (about 29.7% counted)",
+      "ingredient": "black-pepper",
+      "text": "2 tsp freshly ground black pepper",
+      "quantity": 0.59,
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "2 tsps of black pepperc corn, fresh ground",
+      "qualifier": "ground",
+      "amount_source": "our_estimate",
+      "amount_note": "2 tsp stated. Dredge share: the written recipe weighs the dredge at 397 g (300 flour + 75 starch + 6 salt + 3 MSG + 3 cayenne + 3 garlic powder + 1 onion powder + 6 pepper; baking soda is kept out). About 1/2 cup of it (75 g at roughly 150 g/cup, 18.9%) is whisked into the wet dip and counts at 50%; the other 81.1% is dry dredge and counts at 25% (house rule): 0.811 x 0.25 + 0.189 x 0.5 = 0.297. 2 x 0.297 = 0.59 tsp.",
+      "t": 686.0
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "3-3 1/2 quarts vegetable or canola oil, for frying at 325°F, then 350°F",
+      "quantity": "3 1/2",
+      "unit": "quart",
+      "basis": "stated",
+      "evidence": "3 to 3 and 1/2 quarts of oil",
+      "in_nutrition": false,
+      "excluded_reason": "frying oil; absorbed oil counted separately",
+      "t": 772.079
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "Absorbed frying oil (our estimate)",
+      "quantity": 125,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "3 to 3 and 1/2 quarts of oil",
+      "amount_source": "our_estimate",
+      "amount_note": "10% of the raw fried weight (house rule), using the as-bought bone-in weight (house rule 12). Chicken 908 g (2 lb). Wet dip as made: buttermilk 367.5 g (1.5 cups at 245 g) + hot sauce 30 + white pepper 3 + gochujang 16 + MSG 5 + salt 10 + sugar 6 + garlic powder 6 + 1/2 cup dredge 75 + baking soda 3 = 521.5 g, x 0.5 = 260.75 g. Remaining dry dredge 397 - 75 = 322 g, x 0.25 = 80.5 g. Total 908 + 260.75 + 80.5 = 1249.25 g; x 0.10 = 124.9 g, rounded to 125 g.",
+      "t": 772.079
+    },
+    {
+      "group": "Pickled jalapeños",
+      "ingredient": "water",
+      "text": "1 cup water (brine)",
+      "quantity": 1,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "one cup of water",
+      "in_nutrition": false,
+      "excluded_reason": "pickling brine; not eaten",
+      "t": 315.039
+    },
+    {
+      "group": "Pickled jalapeños",
+      "ingredient": "white-vinegar",
+      "text": "1 cup white distilled vinegar (brine)",
+      "quantity": 1,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "1 cup of white distilled vinegar",
+      "in_nutrition": false,
+      "excluded_reason": "pickling brine; not eaten",
+      "t": 315.039
+    },
+    {
+      "group": "Pickled jalapeños",
+      "ingredient": "kosher-salt",
+      "text": "1 Tbsp kosher salt (brine)",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "tablespoon of kosher salt",
+      "in_nutrition": false,
+      "excluded_reason": "pickling brine; not eaten",
+      "t": 317.36
+    },
+    {
+      "group": "Pickled jalapeños",
+      "ingredient": "sugar",
+      "text": "3 Tbsp sugar (brine)",
+      "quantity": 3,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "3 tablespoons of sugar",
+      "in_nutrition": false,
+      "excluded_reason": "pickling brine; not eaten",
+      "t": 318.88
+    },
+    {
+      "group": "Pickled jalapeños",
+      "ingredient": "jalapeno",
+      "text": "5-7 large jalapeños, sliced 1/4 inch thick (he uses 5 very large ones)",
+      "quantity": 5,
+      "unit": "pepper",
+      "basis": "stated",
+      "evidence": "slice five to seven large jalapenos",
+      "preparation": "sliced about 1/4 inch thick",
+      "t": 351.52
+    },
+    {
+      "group": "Pickled jalapeños",
+      "ingredient": "garlic",
+      "text": "2 cloves garlic, crushed, added to the jar",
+      "quantity": 2,
+      "unit": "clove",
+      "basis": "stated",
+      "evidence": "two cloves of crushed garlic",
+      "in_nutrition": false,
+      "excluded_reason": "flavors the pickle jar; not eaten",
+      "t": 407.44
+    },
+    {
+      "group": "Pickled jalapeños",
+      "ingredient": "dill-fresh",
+      "text": "A couple of sprigs fresh dill, added to the jar",
+      "quantity": 2,
+      "unit": "sprig",
+      "basis": "stated",
+      "evidence": "a couple sprigs of fresh dill",
+      "in_nutrition": false,
+      "excluded_reason": "flavors the pickle jar; not eaten",
+      "t": 407.44
+    },
+    {
+      "group": "Chicken sauce (tossed glaze; 50% counted)",
+      "ingredient": "garlic",
+      "text": "4 cloves garlic, very finely minced, stirred in off the heat",
+      "quantity": 2,
+      "unit": "clove",
+      "basis": "estimated",
+      "evidence": "four cloves",
+      "preparation": "very finely minced",
+      "amount_source": "our_estimate",
+      "amount_note": "4 cloves stated for the whole batch; a tossed glaze with no share used stated, so 50% is counted (house rule 10): 4 x 0.5 = 2 cloves.",
+      "t": 425.44
+    },
+    {
+      "group": "Chicken sauce (tossed glaze; 50% counted)",
+      "ingredient": "gochujang",
+      "text": "1/4 cup (64 g) gochujang",
+      "quantity": 32,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "a/4 cup of gochu jang",
+      "amount_source": "our_estimate",
+      "amount_note": "1/4 cup stated in the video (captioned 'a/4 cup'), 64 g on the written recipe; stated for the whole batch; a tossed glaze with no share used stated, so 50% is counted (house rule 10): 64 x 0.5 = 32 g.",
+      "t": 441.36
+    },
+    {
+      "group": "Chicken sauce (tossed glaze; 50% counted)",
+      "ingredient": "ketchup",
+      "text": "3 Tbsp ketchup",
+      "quantity": "1 1/2",
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "3 tablespoons of ketchup",
+      "amount_source": "our_estimate",
+      "amount_note": "3 Tbsp stated for the whole batch; a tossed glaze with no share used stated, so 50% is counted (house rule 10): 3 x 0.5 = 1 1/2 Tbsp.",
+      "t": 459.599
+    },
+    {
+      "group": "Chicken sauce (tossed glaze; 50% counted)",
+      "ingredient": "soy-sauce",
+      "text": "2 Tbsp dark soy sauce",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "2 tbsps of dark soy",
+      "amount_source": "our_estimate",
+      "amount_note": "2 Tbsp stated for the whole batch; a tossed glaze with no share used stated, so 50% is counted (house rule 10): 2 x 0.5 = 1 Tbsp. Regular soy sauce stands in for dark soy.",
+      "t": 461.919
+    },
+    {
+      "group": "Chicken sauce (tossed glaze; 50% counted)",
+      "ingredient": "kecap-manis",
+      "text": "2 Tbsp sweet soy sauce",
+      "quantity": 18.5,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "2 tbsps of sweet soy sauce",
+      "amount_source": "our_estimate",
+      "amount_note": "2 Tbsp (29.6 ml) stated; at about 1.25 g/ml for sweet soy sauce (our estimate) = 37 g (the written recipe prints 30 g, which looks like a millilitre figure); stated for the whole batch; a tossed glaze with no share used stated, so 50% is counted (house rule 10): 37 x 0.5 = 18.5 g.",
+      "t": 466.0
+    },
+    {
+      "group": "Chicken sauce (tossed glaze; 50% counted)",
+      "ingredient": "honey",
+      "text": "2 Tbsp light honey",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "2 tbsp of a nice light honey",
+      "amount_source": "our_estimate",
+      "amount_note": "2 Tbsp stated for the whole batch; a tossed glaze with no share used stated, so 50% is counted (house rule 10): 2 x 0.5 = 1 Tbsp.",
+      "t": 476.639
+    },
+    {
+      "group": "Chicken sauce (tossed glaze; 50% counted)",
+      "ingredient": "white-vinegar",
+      "text": "2 Tbsp white distilled vinegar",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "2 tablespoons of white distilled vinegar",
+      "amount_source": "our_estimate",
+      "amount_note": "2 Tbsp stated for the whole batch; a tossed glaze with no share used stated, so 50% is counted (house rule 10): 2 x 0.5 = 1 Tbsp.",
+      "t": 481.52
+    },
+    {
+      "group": "Garlic mayo (spread on the buns)",
+      "ingredient": "mayonnaise",
+      "text": "1 cup Kewpie mayonnaise",
+      "quantity": 1,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "koopy mayo has a specific flavor ... one cup of that",
+      "t": 540.88
+    },
+    {
+      "group": "Garlic mayo (spread on the buns)",
+      "ingredient": "msg",
+      "text": "1/4 tsp MSG",
+      "quantity": 0.75,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "a/4 teaspoon of msg",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/perfect-fried-chicken-sandwich-recipe",
+      "amount_note": "1/4 tsp stated in the video (captioned 'a/4'); grams at the written recipe's 1 tsp = 3 g: 0.25 x 3 = 0.75 g (the page prints '<1 g').",
+      "t": 560.64
+    },
+    {
+      "group": "Garlic mayo (spread on the buns)",
+      "ingredient": "garlic",
+      "text": "2-3 cloves garlic, grated",
+      "quantity": "2 1/2",
+      "unit": "clove",
+      "basis": "estimated",
+      "evidence": "two to three cloves of garlic, grated",
+      "preparation": "finely grated",
+      "amount_source": "our_estimate",
+      "amount_note": "2-3 cloves stated (same on the written recipe); midpoint 2 1/2 used.",
+      "t": 564.24
+    },
+    {
+      "group": "Garlic mayo (spread on the buns)",
+      "ingredient": "kosher-salt",
+      "text": "A tiny pinch of salt, to taste",
+      "quantity": "1/8",
+      "unit": "tsp",
+      "basis": "estimated",
+      "evidence": "a tiny pinch of salt to taste",
+      "amount_source": "our_estimate",
+      "amount_note": "'A tiny pinch' with no amount; 1/8 tsp is our estimate (small salt is counted, house rule 4).",
+      "t": 566.72
+    },
+    {
+      "group": "Garlic mayo (spread on the buns)",
+      "ingredient": "black-pepper",
+      "text": "Freshly cracked black pepper, to taste",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "some fresh cracked black pepper",
+      "in_nutrition": false,
+      "excluded_reason": "amount not stated",
+      "t": 568.959
+    },
+    {
+      "group": "Kimchi slaw",
+      "ingredient": "cabbage-green",
+      "text": "2 cups paper-thin sliced green cabbage, cored",
+      "quantity": 2,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "only need about two cups of cabbage",
+      "qualifier": "shredded",
+      "preparation": "cored and sliced paper-thin on a mandoline",
+      "t": 644.88
+    },
+    {
+      "group": "Kimchi slaw",
+      "ingredient": "kimchi",
+      "text": "1 cup kimchi, squeezed dry and roughly chopped",
+      "quantity": 1,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "one cup of kimchi",
+      "preparation": "squeezed dry, roughly chopped",
+      "t": 804.16
+    },
+    {
+      "group": "Kimchi slaw",
+      "ingredient": "green-onion",
+      "text": "2 green onions, thinly sliced",
+      "quantity": 2,
+      "unit": "medium",
+      "basis": "stated",
+      "evidence": "some thinly sliced green onion",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/perfect-fried-chicken-sandwich-recipe",
+      "amount_note": "No count in the video; the written recipe gives 2 green onions.",
+      "t": 812.72
+    },
+    {
+      "group": "Kimchi slaw",
+      "ingredient": "garlic",
+      "text": "1 clove garlic, grated",
+      "quantity": 1,
+      "unit": "clove",
+      "basis": "stated",
+      "evidence": "one clove of garlic, grated",
+      "preparation": "finely grated",
+      "t": 814.48
+    },
+    {
+      "group": "Kimchi slaw",
+      "ingredient": "mayonnaise",
+      "text": "1 1/2-2 Tbsp Kewpie mayonnaise",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "a tablespoon and a half to 2 tbsps of koopy mayonnaise",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/perfect-fried-chicken-sandwich-recipe",
+      "amount_note": "The video says 1 1/2 to 2 Tbsp; the written recipe settles on 2 Tbsp (30 g).",
+      "t": 816.48
+    },
+    {
+      "group": "Kimchi slaw",
+      "ingredient": "kosher-salt",
+      "text": "Salt, only if needed",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "if it needs salt, you can add it",
+      "in_nutrition": false,
+      "excluded_reason": "amount not stated; he leaves it out",
+      "t": 827.12
+    },
+    {
+      "group": "Assembly",
+      "ingredient": "butter-unsalted",
+      "text": "2 Tbsp unsalted butter, for toasting the buns",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "a couple tablespoons of butter",
+      "t": 841.44
+    },
+    {
+      "group": "Assembly",
+      "ingredient": "brioche-bun",
+      "text": "8 milk or brioche buns",
+      "quantity": 520,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "add your buns cut side down",
+      "amount_source": "our_estimate",
+      "amount_note": "The video uses milk buns with no count; the written recipe gives 6-8 homemade or brioche buns, and 8 is used to match its 8 servings. 65 g per bun is our estimate: 8 x 65 = 520 g.",
+      "t": 844.72
+    }
+  ],
+  "steps": [
+    {
+      "t": 105,
+      "text": "Debone the thighs, keeping the skin: follow the fat line on the underside with your knife to expose the bone, scrape along it with the back or tip of the blade, then cut it free at both ends. Check for leftover cartilage."
+    },
+    {
+      "t": 203,
+      "text": "Marinade: whisk the buttermilk, hot sauce, white pepper, gochujang, MSG, kosher salt, sugar and garlic powder until the gochujang dissolves. Add the chicken, massage it in, cover and refrigerate at least 1 hour, ideally overnight."
+    },
+    {
+      "t": 315,
+      "text": "Pickled jalapeños: bring the water, vinegar, salt and sugar to a boil until dissolved. Pack the sliced jalapeños into a pint jar, pour the hot brine over to cover, and press a piece of plastic wrap or paper towel on top to keep them submerged. Cool to room temperature, add the crushed garlic and dill, close and refrigerate."
+    },
+    {
+      "t": 420,
+      "text": "Chicken sauce: whisk the gochujang, ketchup, dark soy, sweet soy, honey and vinegar, boil in a small pot over medium-high heat for about 1 minute, then take it off the heat. Once the bubbling stops, stir in the minced garlic so it stays mostly raw."
+    },
+    {
+      "t": 539,
+      "text": "Garlic mayo: whisk the Kewpie mayonnaise with the MSG, grated garlic, a tiny pinch of salt and black pepper."
+    },
+    {
+      "t": 590,
+      "text": "Core the cabbage and slice it paper-thin on a mandoline; you need about 2 cups. Refrigerate it unmixed until assembly so the slaw does not go watery."
+    },
+    {
+      "t": 671,
+      "text": "Dredge: whisk the flour, potato starch, kosher salt, MSG, cayenne, garlic powder, onion powder and black pepper."
+    },
+    {
+      "t": 695,
+      "text": "Lift the chicken out of the marinade and let the excess drain. Whisk about 1/2 cup of the dredge and the baking soda into the leftover marinade to make a dip, then flick a few spoonfuls of the dip into the dredge and stir to form small crunchy clumps."
+    },
+    {
+      "t": 738,
+      "text": "With one wet and one dry hand, coat each thigh in the dip, then press it firmly into the dredge, including under the skin, until there are no bare spots."
+    },
+    {
+      "t": 767,
+      "text": "Heat 3-3 1/2 quarts of high-heat oil to 325°F in a 7-quart pot and fry 1-2 pieces at a time until cooked through. Then raise the oil to about 350°F and fry each piece again until crisp and golden. Drain."
+    },
+    {
+      "t": 799,
+      "text": "Slaw: squeeze the kimchi hard to remove its liquid and chop it roughly. Toss with the cabbage, sliced green onion, grated garlic and Kewpie mayo, gently, by hand."
+    },
+    {
+      "t": 835,
+      "text": "Toss the fried chicken in the gochujang sauce until coated. Toast the buns cut side down in butter in a nonstick pan over medium heat until golden."
+    },
+    {
+      "t": 850,
+      "text": "Build each sandwich: bottom bun, garlic mayo, slaw, glazed chicken, pickled jalapeños, more mayo and the top bun."
+    }
+  ]
+}

@@ -64,9 +64,11 @@ def main():
         for r in rows:
             food = foods[int(r["fdc_id"])]
             nut = usda.nutrients(food)
-            for num, (name, unit, _) in nut.items():
-                cur.execute("""insert into nutrients (number, name, unit) values (%s,%s,%s)
-                    on conflict (number) do nothing""", (num, name, unit))
+            # executemany sends each table's rows in one batch: one round trip to Neon
+            # per table instead of one per nutrient (~100 per ingredient)
+            cur.executemany("""insert into nutrients (number, name, unit) values (%s,%s,%s)
+                on conflict (number) do nothing""",
+                            [(num, name, unit) for num, (name, unit, _) in nut.items()])
 
             cur.execute("""insert into ingredients (slug, name, category, food_group, gluten,
                     animal_rennet, alcohol, fdc_id, fdc_description, fdc_data_type, pick_note)
@@ -89,16 +91,16 @@ def main():
             iid = cur.fetchone()[0]
 
             cur.execute("delete from ingredient_aliases where ingredient_id = %s", (iid,))
-            for a in {a.strip().lower() for a in r["aliases"].split(";") if a.strip()}:
-                cur.execute("insert into ingredient_aliases values (%s, %s)", (a, iid))
+            cur.executemany("insert into ingredient_aliases values (%s, %s)",
+                            [(a, iid) for a in {a.strip().lower() for a in r["aliases"].split(";") if a.strip()}])
 
             cur.execute("delete from ingredient_allergens where ingredient_id = %s", (iid,))
-            for a in [a.strip() for a in r["allergens"].split(";") if a.strip()]:
-                cur.execute("insert into ingredient_allergens values (%s, %s)", (iid, a))
+            cur.executemany("insert into ingredient_allergens values (%s, %s)",
+                            [(iid, a) for a in [a.strip() for a in r["allergens"].split(";") if a.strip()]])
 
             cur.execute("delete from ingredient_nutrients where ingredient_id = %s", (iid,))
-            for num, (_, _, amt) in nut.items():
-                cur.execute("insert into ingredient_nutrients values (%s, %s, %s)", (iid, num, amt))
+            cur.executemany("insert into ingredient_nutrients values (%s, %s, %s)",
+                            [(iid, num, amt) for num, (_, _, amt) in nut.items()])
 
             ports = {k: (g, label, food["fdcId"]) for k, (g, label) in usda_portions(food, units).items()}
             for e in extras:

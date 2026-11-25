@@ -1,0 +1,128 @@
+{
+  "slug": "sorrel-drink-joshua-weissman",
+  "market": "US",
+  "title": "Jamaican Sorrel and Ginger Drink",
+  "summary": "A tart, ruby-red hibiscus and ginger drink, sweetened with sugar and optionally spiked with Red Label wine and white rum.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/AFzx37MGW6o.json"
+  },
+  "cuisine": "Jamaican",
+  "course": "drink",
+  "meal_slots": [
+    "snack"
+  ],
+  "servings": 4,
+  "servings_basis": "estimated",
+  "prep_minutes": 5,
+  "cook_minutes": 20,
+  "times_basis": "estimated",
+  "difficulty": "easy",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'Authentic Jerk Chicken at Home' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). A voice-over in the jerk chicken video gives this as a substitute for store-bought sorrel drink, which flavors the jerk marinade and sauce (see jerk-chicken-joshua-weissman). Written recipe: https://www.joshuaweissman.com/recipes/authentic-jerk-chicken-at-home (the 'Sorrel Tea' section of the jerk chicken recipe, which serves 4 as a whole; no separate servings or times for the tea). All amounts are stated in the video; the page gives grams (ginger 45 g, hibiscus 40 g, sugar 100 g). Servings are our estimate: about 4 cups of water, less what boils off and soaks into the flowers, is roughly 3 1/2 cups, so 4 servings. Times are our estimate from the video: about 5 minutes to grate the ginger, then about 20 minutes to bring the water to a boil, cook the ginger 10 minutes and the hibiscus 3-5. The page says to steep 24 hours to 5 days; the video says 5-10 minutes (the video is followed); the steep is not in prep_minutes or cook_minutes (house rule 13). The ginger and hibiscus are strained out and not counted. The Red Label wine (the page also allows ruby port) and white rum are optional extras that Nikki likes; they are listed but excluded as optional alcohol (house rule 11), so the counted drink has no alcohol.",
+  "ingredients": [
+    {
+      "group": "Sorrel drink",
+      "ingredient": "water",
+      "text": "4 cups water",
+      "quantity": 4,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "add four cups of water",
+      "t": 622.4
+    },
+    {
+      "group": "Sorrel drink",
+      "ingredient": "ginger",
+      "text": "Two 3-inch knobs (45 g) fresh ginger, grated",
+      "quantity": 45,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "grate two 3-in knobs of ginger",
+      "preparation": "peeled and grated",
+      "in_nutrition": false,
+      "excluded_reason": "strained out",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/recipes/authentic-jerk-chicken-at-home",
+      "amount_note": "Two 3-inch knobs stated in the video; 45 g total from the written recipe.",
+      "t": 626.16
+    },
+    {
+      "group": "Sorrel drink",
+      "ingredient": "hibiscus-dried",
+      "text": "1 cup (40 g) dried hibiscus (sorrel)",
+      "quantity": 1,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "1 cup of dried hibiscus",
+      "in_nutrition": false,
+      "excluded_reason": "strained out",
+      "t": 626.16
+    },
+    {
+      "group": "Sorrel drink",
+      "ingredient": "sugar",
+      "text": "1/2 cup granulated sugar",
+      "quantity": "1/2",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "half a cup of sugar",
+      "t": 639.36
+    },
+    {
+      "group": "Sorrel drink",
+      "ingredient": "fortified-wine",
+      "text": "1 Tbsp Red Label wine (optional)",
+      "quantity": 1,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "1 tbsp of red label wine",
+      "optional": true,
+      "in_nutrition": false,
+      "excluded_reason": "optional alcohol",
+      "t": 647.6
+    },
+    {
+      "group": "Sorrel drink",
+      "ingredient": "rum",
+      "text": "2 tsp white rum (optional)",
+      "quantity": 2,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "2 tsps of white rum",
+      "optional": true,
+      "in_nutrition": false,
+      "excluded_reason": "optional alcohol",
+      "t": 647.6
+    }
+  ],
+  "steps": [
+    {
+      "t": 622,
+      "text": "Bring the water to a boil in a small pot over medium-high heat."
+    },
+    {
+      "t": 626,
+      "text": "Grate the ginger into the boiling water and cook for 10 minutes."
+    },
+    {
+      "t": 630,
+      "text": "Add the dried hibiscus and boil 3-5 minutes more. Turn off the heat, cover and steep 5-10 minutes (the written recipe steeps much longer, 1-5 days)."
+    },
+    {
+      "t": 637,
+      "text": "Strain through cheesecloth or a fine-mesh strainer to remove all the solids, then stir in the sugar gradually until it dissolves."
+    },
+    {
+      "t": 647,
+      "text": "If you like, stir in the Red Label wine and white rum."
+    }
+  ]
+}

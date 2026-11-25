@@ -1,0 +1,359 @@
+{
+  "slug": "lumpia-joshua-weissman-classic",
+  "market": "US",
+  "title": "Filipino Pork Lumpia (Lumpiang Shanghai)",
+  "summary": "Thin, shatteringly crisp Filipino spring rolls filled with a garlicky, fatty pork and vegetable mixture, fried and served with a homemade sweet chili sauce.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/ldVuxgEc1m0.json"
+  },
+  "cuisine": "Filipino",
+  "course": "snack",
+  "meal_slots": [
+    "snack",
+    "lunch",
+    "dinner"
+  ],
+  "servings": 6,
+  "servings_basis": "stated",
+  "prep_minutes": 30,
+  "cook_minutes": 30,
+  "times_basis": "stated",
+  "difficulty": "medium",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'Crispy Spring Rolls At Home (Lumpia)' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe: https://www.joshuaweissman.com/post/easy-filipino-lumpia-recipe (serves 6, prep 30 min, cook 30 min for the page as a whole; 35-40 wrappers for the original lumpia). The video holds three versions (original pork, dynamite with serrano, cheese); each has its own file, all pointing to this transcript, and the shared sauce, filling and frying lines are repeated. This file is the original pork version. All filling amounts are stated in the video; the onion size (small) comes from the written recipe. The sweet chili sauce (all amounts stated) is a dipping sauce served on the side, as are the Kewpie mayo and banana ketchup, so none of them is counted. Frying oil (2 1/2-3 quarts in the video, 2 quarts on the page) is excluded; absorbed oil is counted at 10% of the raw weight of the rolls (house rule). Our estimates: wrapper count 38 (midpoint of the page's 35-40), 15 g per wrapper, celery rib 40 g, egg wash 1/2 egg (50% of the page's 1 egg, house rule). Lumpia wrappers use USDA wonton/egg roll wrappers (proxy), at our estimate of 15 g per wrapper. Banana ketchup uses tomato ketchup as its proxy (excluded anyway). ",
+  "ingredients": [
+    {
+      "group": "Sweet chili sauce (on the side)",
+      "ingredient": "red-chili",
+      "text": "2 Fresno chiles, seeded and finely chopped",
+      "quantity": 2,
+      "unit": "pepper",
+      "basis": "stated",
+      "evidence": "two fresno chilies",
+      "preparation": "seeded, finely chopped",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 51.76
+    },
+    {
+      "group": "Sweet chili sauce (on the side)",
+      "ingredient": "sugar",
+      "text": "3/4 cup sugar",
+      "quantity": "3/4",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "3/4 of a cup of sugar",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 119.2
+    },
+    {
+      "group": "Sweet chili sauce (on the side)",
+      "ingredient": "water",
+      "text": "3/4 cup water",
+      "quantity": "3/4",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "3/4 of a cup of water",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 129.52
+    },
+    {
+      "group": "Sweet chili sauce (on the side)",
+      "ingredient": "white-vinegar",
+      "text": "1/2 cup white distilled vinegar",
+      "quantity": "1/2",
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "1/2 cup of white distilled vinegar",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 129.52
+    },
+    {
+      "group": "Sweet chili sauce (on the side)",
+      "ingredient": "cornstarch",
+      "text": "2 Tbsp cornstarch, slurried with 2-4 Tbsp of the hot syrup",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "two tablespoons of cornstarch",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 152.32
+    },
+    {
+      "group": "Sweet chili sauce (on the side)",
+      "ingredient": "sambal-oelek",
+      "text": "2 Tbsp sambal oelek",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "two tablespoons of sambal",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 182.08
+    },
+    {
+      "group": "Sweet chili sauce (on the side)",
+      "ingredient": "garlic",
+      "text": "4 cloves garlic, finely minced, stirred in off the heat",
+      "quantity": 4,
+      "unit": "clove",
+      "basis": "stated",
+      "evidence": "four cloves",
+      "preparation": "finely minced",
+      "in_nutrition": false,
+      "excluded_reason": "served on the side",
+      "t": 119.2
+    },
+    {
+      "group": "Pork filling",
+      "ingredient": "carrot",
+      "text": "1 large carrot",
+      "quantity": 1,
+      "unit": "large",
+      "basis": "stated",
+      "evidence": "one large carrot",
+      "t": 226.32
+    },
+    {
+      "group": "Pork filling",
+      "ingredient": "celery",
+      "text": "1 rib celery",
+      "quantity": 40,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "one rib of celery",
+      "amount_note": "One rib stated; 40 g (USDA medium stalk) is our conversion.",
+      "t": 235.44
+    },
+    {
+      "group": "Pork filling",
+      "ingredient": "green-onion",
+      "text": "2 green onions",
+      "quantity": 2,
+      "unit": "medium",
+      "basis": "stated",
+      "evidence": "two green onions",
+      "t": 241.52
+    },
+    {
+      "group": "Pork filling",
+      "ingredient": "onion",
+      "text": "1 small white or yellow onion",
+      "quantity": 1,
+      "unit": "small",
+      "basis": "stated",
+      "evidence": "one whole regular white or yellow onion",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/post/easy-filipino-lumpia-recipe",
+      "amount_note": "One whole onion in the video; the size (small) comes from the written recipe.",
+      "t": 245.52
+    },
+    {
+      "group": "Pork filling",
+      "ingredient": "garlic",
+      "text": "1 cup peeled garlic cloves",
+      "quantity": 1,
+      "unit": "cup",
+      "basis": "stated",
+      "evidence": "one whole cup of garlic",
+      "t": 250.32
+    },
+    {
+      "group": "Pork filling",
+      "ingredient": "pork-ground",
+      "text": "2 lb fatty ground pork (not lean)",
+      "quantity": 2,
+      "unit": "lb",
+      "basis": "stated",
+      "evidence": "two lbs of pork",
+      "t": 280.48
+    },
+    {
+      "group": "Pork filling",
+      "ingredient": "soy-sauce",
+      "text": "2 Tbsp soy sauce (e.g., Silver Swan)",
+      "quantity": 2,
+      "unit": "tbsp",
+      "basis": "stated",
+      "evidence": "two tablespoons of a nice soy sauce",
+      "t": 288.16
+    },
+    {
+      "group": "Pork filling",
+      "ingredient": "kosher-salt",
+      "text": "2 tsp kosher salt",
+      "quantity": 2,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "2 tsps of kosher salt",
+      "t": 292.64
+    },
+    {
+      "group": "Pork filling",
+      "ingredient": "msg",
+      "text": "1 tsp MSG",
+      "quantity": 3,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "1 teaspoon of msg",
+      "amount_source": "creator_recipe",
+      "amount_url": "https://www.joshuaweissman.com/post/easy-filipino-lumpia-recipe",
+      "amount_note": "1 tsp in the video; the written recipe gives 1 tsp (3 g). Grams used because MSG is a branded record.",
+      "t": 292.64
+    },
+    {
+      "group": "Pork filling",
+      "ingredient": "black-pepper",
+      "text": "1 tsp freshly cracked black pepper",
+      "quantity": 1,
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "1 teaspoon of black pepper",
+      "qualifier": "ground",
+      "t": 292.64
+    },
+    {
+      "group": "Pork filling",
+      "ingredient": "egg",
+      "text": "1 large egg",
+      "quantity": 1,
+      "unit": "large",
+      "basis": "stated",
+      "evidence": "and a whole egg",
+      "t": 297.28
+    },
+    {
+      "group": "Wrapping",
+      "ingredient": "spring-roll-wrapper",
+      "text": "About 38 lumpia wrappers",
+      "quantity": 570,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "put this on the lumpia wrappers",
+      "amount_note": "The video gives no count; the written recipe gives 35-40 wrappers, midpoint about 38. That fits about 2 Tbsp of the ~1,350 g filling per roll. About 15 g per thin lumpia wrapper is our estimate: 38 x 15 = 570 g.",
+      "t": 356.08
+    },
+    {
+      "group": "Wrapping",
+      "ingredient": "egg",
+      "text": "1 large egg, beaten, for sealing",
+      "quantity": "1/2",
+      "unit": "large",
+      "basis": "estimated",
+      "evidence": "you can use a little egg wash",
+      "amount_note": "The video seals with a little egg wash or water; the written recipe uses 1 large egg (the second of 2) for the wash. Egg wash counted at 50% (house rule): 1/2 large egg, about 25 g.",
+      "t": 422.88
+    },
+    {
+      "group": "Wrapping",
+      "ingredient": "water",
+      "text": "Or water, for sealing",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "you can use a little water",
+      "excluded_reason": "alternative",
+      "in_nutrition": false,
+      "t": 422.88
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "2 1/2-3 quarts vegetable oil (or peanut or canola), for frying at 350°F",
+      "quantity": "2 3/4",
+      "unit": "quart",
+      "basis": "stated",
+      "evidence": "350 oil vegetable peanut canola",
+      "in_nutrition": false,
+      "excluded_reason": "frying oil; absorbed oil counted separately",
+      "amount_note": "2 1/2-3 quarts in the video (midpoint shown); the written recipe says 2 quarts.",
+      "t": 443.6
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "Absorbed frying oil (our estimate)",
+      "quantity": 194,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "350 oil vegetable peanut canola",
+      "amount_source": "our_estimate",
+      "amount_note": "House rule: 10% of the raw weight of the fried food. Raw weight about 1,348 g of filling (pork 907 + carrot 72 + celery 40 + green onion 30 + onion 70 + garlic 136 + soy sauce 32 + salt 6 + MSG 3 + pepper 2 + egg 50) + wrappers 570 + egg wash 25 = 1943 g; 10% = 194 g.",
+      "t": 443.6
+    },
+    {
+      "group": "To serve (on the side)",
+      "ingredient": "mayonnaise",
+      "text": "Kewpie mayo, for dipping",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "i like koopy mayo",
+      "excluded_reason": "served on the side",
+      "in_nutrition": false,
+      "t": 636.88
+    },
+    {
+      "group": "To serve (on the side)",
+      "ingredient": "banana-ketchup",
+      "text": "Banana ketchup, for dipping",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "and of course banana ketchup",
+      "excluded_reason": "served on the side",
+      "in_nutrition": false,
+      "t": 641.44
+    }
+  ],
+  "steps": [
+    {
+      "t": 51,
+      "text": "Sweet chili sauce: trim, seed and finely chop the Fresno chiles; finely mince the garlic and set it aside."
+    },
+    {
+      "t": 124,
+      "text": "In a small pot, stir the chiles with the sugar, water and vinegar. Boil over medium-high about 2 minutes, until slightly syrupy, then lower to medium-low."
+    },
+    {
+      "t": 155,
+      "text": "Whisk the cornstarch with 2-4 Tbsp of the hot syrup into a smooth slurry, whisk it back into the pot and heat until thick. Off the heat, stir in the sambal and the raw garlic (never boil the garlic). Cool to room temperature; keeps about 2 weeks refrigerated."
+    },
+    {
+      "t": 226,
+      "text": "Filling: roughly cut the carrot, celery, green onions and onion and pulse them with the garlic in a food processor until very finely chopped but not puréed or watery."
+    },
+    {
+      "t": 280,
+      "text": "Add the vegetables to the ground pork with the soy sauce, kosher salt, MSG, black pepper and egg. Knead like a dough until fully emulsified and tacky and the bowl comes clean."
+    },
+    {
+      "t": 364,
+      "text": "Optionally load the filling into a piping bag with a tip about 1 inch wide (a spoon or your hands also work)."
+    },
+    {
+      "t": 392,
+      "text": "Set a wrapper down as a diamond with a point toward you. Pipe about 2 Tbsp of filling across the lower third, fold the bottom point up tightly over it, fold in both sides, and roll up tightly. Brush the last point with egg wash (or water) to seal. Repeat."
+    },
+    {
+      "t": 443,
+      "text": "Heat 2 1/2-3 quarts of oil in a 6-7 quart heavy pot over medium-high to 350°F. Fry in batches, without crowding, until the bubbling mostly stops and the rolls float and turn golden, 3-5 minutes (165°F inside). Drain on a wire rack and let cool a little."
+    },
+    {
+      "t": 631,
+      "text": "Stack the lumpia high and serve with the sweet chili sauce, Kewpie mayo and banana ketchup for dipping."
+    }
+  ]
+}

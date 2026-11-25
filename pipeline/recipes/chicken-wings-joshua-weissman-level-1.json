@@ -1,0 +1,217 @@
+{
+  "slug": "chicken-wings-joshua-weissman-level-1",
+  "market": "US",
+  "title": "Level 1 Buffalo Chicken Wings",
+  "summary": "Dry-cured, deep-fried wings tossed in a glossy homemade buffalo sauce of Frank's RedHot, Worcestershire and vinegar, thickened lightly and emulsified with cold butter.",
+  "chef": {
+    "slug": "joshua-weissman",
+    "name": "Joshua Weissman",
+    "youtube_channel_id": "UChBEbMKI1eCcejTtmI32UEw",
+    "youtube_url": "https://www.youtube.com/channel/UChBEbMKI1eCcejTtmI32UEw",
+    "website_url": "https://www.joshuaweissman.com"
+  },
+  "source": {
+    "kind": "youtube_transcript",
+    "transcript_file": "data/transcripts/PVr4J6Rsnx8.json"
+  },
+  "cuisine": "American",
+  "course": "main",
+  "meal_slots": [
+    "lunch",
+    "dinner",
+    "snack"
+  ],
+  "servings": 2,
+  "servings_basis": "stated",
+  "prep_minutes": null,
+  "cook_minutes": null,
+  "times_basis": null,
+  "difficulty": "easy",
+  "extracted_by": "Claude (Opus 5.5), from the transcript",
+  "notes": "Video: 'The Best Chicken Wings At Home (3 Levels)' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe for the same video (it links this video): https://www.joshuaweissman.com/recipes/the-best-chicken-wings-at-home-3-levels-recipe (one page for all three levels: serves 4, prep 20 min, cook 45 min). Level 1 of 3. Servings: he says 2 lb of wings is enough for about two people ('a pound per person'), and every level uses 2 lb, so we use 2 servings (stated, video); the written recipe says 4. Times are left null: the page's 20 + 45 minutes cover all three levels together and are not split by level; the cure also needs 1-2 hours, ideally overnight. The cure (salt and baking soda) stays on the wings and is counted in full. The 2 lb is the as-bought weight of whole wings with bone (and tips, which he says you may remove), entered as bought (house rule 12); the lead converts it to edible weight. Absorbed oil uses the as-bought weight. The wings are deep-fried in vegetable oil: the pot of oil is excluded and absorbed oil is added at 10% of the raw weight with any counted coating (house rule; arithmetic on that line). Sauce: the video states every amount. He says the buffalo sauce makes enough for 4 lb of wings and tosses 2 lb, so his stated share, 50% of each sauce ingredient, is counted (house rule 10; text keeps the full batch). He adds the cornstarch slurry only until the sauce thickens; we count all of it (it is 1 Tbsp). Salt in the sauce is optional and he does not add it, so it is not counted (house rule 11). Absorbed oil: 92 g. The written recipe also lists carrot and celery sticks and ranch for serving; the video does not show them for this level, so they are not included. Hot sauce uses a generic ready-to-serve hot pepper sauce record.",
+  "ingredients": [
+    {
+      "group": "Wings and cure",
+      "ingredient": "chicken-wing",
+      "text": "2 lb whole chicken wings, split into drums and flats",
+      "quantity": 562,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "2 lb to me is enough for like two people",
+      "preparation": "split into drums and flats; tips optional",
+      "amount_note": "As bought, bone-in: 2 lb = 907 g. Edible weight 562 g after 38% bone and connective tissue, USDA SR28 refuse for NDB 05100 (wing, meat and skin, raw).",
+      "t": 54.48
+    },
+    {
+      "group": "Wings and cure",
+      "ingredient": "kosher-salt",
+      "text": "1 Tbsp (10 g) kosher salt",
+      "quantity": 10,
+      "unit": "g",
+      "basis": "stated",
+      "evidence": "1 tbspoon or 10 grams of kosher salt",
+      "t": 128.64
+    },
+    {
+      "group": "Wings and cure",
+      "ingredient": "baking-soda",
+      "text": "1/2 tsp baking soda",
+      "quantity": "1/2",
+      "unit": "tsp",
+      "basis": "stated",
+      "evidence": "half a teaspoon of baking soda",
+      "t": 133.44
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "Vegetable oil, to fill a 7-quart pot halfway, heated to 350°F",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "filled halfway with vegetable oil",
+      "in_nutrition": false,
+      "excluded_reason": "frying oil; absorbed oil counted separately",
+      "t": 244.64
+    },
+    {
+      "group": "Frying",
+      "ingredient": "canola-oil",
+      "text": "Absorbed frying oil (our estimate)",
+      "quantity": 92,
+      "unit": "g",
+      "basis": "estimated",
+      "evidence": "filled halfway with vegetable oil",
+      "amount_source": "our_estimate",
+      "amount_note": "10% of the raw fried weight (house rule). Wings 908 g (2 lb) + cure 12.3 g (10 g salt + 1/2 tsp baking soda at USDA 4.6 g/tsp) = 920.3 g; no coating. x 10% = 92.0 g.",
+      "t": 244.64
+    },
+    {
+      "group": "Buffalo sauce (tossed)",
+      "ingredient": "hot-sauce",
+      "text": "1 cup Frank's RedHot",
+      "quantity": "1/2",
+      "unit": "cup",
+      "basis": "estimated",
+      "evidence": "can't have buffalo without frank's red ... one cup",
+      "amount_source": "our_estimate",
+      "amount_note": "1 cup stated (full batch). Stated share: he says the sauce makes enough for 4 lb of wings and dresses 2 lb, so 50% is counted (house rule 10).",
+      "t": 160.0
+    },
+    {
+      "group": "Buffalo sauce (tossed)",
+      "ingredient": "worcestershire-sauce",
+      "text": "1 Tbsp Worcestershire sauce",
+      "quantity": "1/2",
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "one tablespoon of worshesure sauce",
+      "amount_source": "our_estimate",
+      "amount_note": "1 Tbsp stated (full batch). Stated share: he says the sauce makes enough for 4 lb of wings and dresses 2 lb, so 50% is counted (house rule 10).",
+      "t": 163.599
+    },
+    {
+      "group": "Buffalo sauce (tossed)",
+      "ingredient": "white-vinegar",
+      "text": "1 Tbsp white distilled vinegar",
+      "quantity": "1/2",
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "1 tbsp of white distilled vinegar",
+      "amount_source": "our_estimate",
+      "amount_note": "1 Tbsp stated (full batch). Stated share: he says the sauce makes enough for 4 lb of wings and dresses 2 lb, so 50% is counted (house rule 10).",
+      "t": 163.599
+    },
+    {
+      "group": "Buffalo sauce (tossed)",
+      "ingredient": "cornstarch",
+      "text": "1 Tbsp cornstarch, mixed with the water into a slurry",
+      "quantity": "1/2",
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "add 1 tbsp of cornstarch",
+      "amount_source": "our_estimate",
+      "amount_note": "1 Tbsp stated (full batch). Stated share: he says the sauce makes enough for 4 lb of wings and dresses 2 lb, so 50% is counted (house rule 10). He adds the slurry a splash at a time until it thickens and may not use all of it; we count it as if all went in.",
+      "t": 174.64
+    },
+    {
+      "group": "Buffalo sauce (tossed)",
+      "ingredient": "water",
+      "text": "1 Tbsp water, for the slurry",
+      "quantity": "1/2",
+      "unit": "tbsp",
+      "basis": "estimated",
+      "evidence": "with 1 tbsp of water",
+      "amount_source": "our_estimate",
+      "amount_note": "1 Tbsp stated (full batch). Stated share: he says the sauce makes enough for 4 lb of wings and dresses 2 lb, so 50% is counted (house rule 10).",
+      "t": 177.28
+    },
+    {
+      "group": "Buffalo sauce (tossed)",
+      "ingredient": "garlic",
+      "text": "1 clove garlic, grated",
+      "quantity": "1/2",
+      "unit": "clove",
+      "basis": "estimated",
+      "evidence": "one clove of garlic",
+      "amount_source": "our_estimate",
+      "amount_note": "1 clove stated (full batch). Stated share: he says the sauce makes enough for 4 lb of wings and dresses 2 lb, so 50% is counted (house rule 10).",
+      "t": 195.28
+    },
+    {
+      "group": "Buffalo sauce (tossed)",
+      "ingredient": "butter-unsalted",
+      "text": "1/2 cup cold unsalted butter, cubed",
+      "quantity": "1/4",
+      "unit": "cup",
+      "basis": "estimated",
+      "evidence": "half a cup of unsalted cold butter cubed",
+      "amount_source": "our_estimate",
+      "amount_note": "1/2 cup stated (full batch). Stated share: he says the sauce makes enough for 4 lb of wings and dresses 2 lb, so 50% is counted (house rule 10).",
+      "t": 203.44
+    },
+    {
+      "group": "Buffalo sauce (tossed)",
+      "ingredient": "salt",
+      "text": "Salt, optional (he says it should not need any)",
+      "quantity": null,
+      "unit": null,
+      "basis": "to_taste",
+      "evidence": "it shouldn't need salt",
+      "optional": true,
+      "in_nutrition": false,
+      "excluded_reason": "optional, not added in the video",
+      "t": 233.68
+    }
+  ],
+  "steps": [
+    {
+      "t": 42,
+      "text": "If using whole wings, cut away the flap of skin at the joint, bend the joint until it pops, and cut through it to separate the drum. Do the same at the next joint to take off the tip if you like (freeze tips for stock)."
+    },
+    {
+      "t": 128,
+      "text": "Toss the drums and flats with the kosher salt and baking soda, rubbing it in well. Arrange on a wire rack over a baking sheet and refrigerate uncovered 1-2 hours, ideally overnight, to dry the skin."
+    },
+    {
+      "t": 158,
+      "text": "Sauce: whisk the hot sauce, Worcestershire and vinegar in a small pot and bring to a light simmer over medium heat."
+    },
+    {
+      "t": 173,
+      "text": "Stir the cornstarch and water into a smooth slurry. Whisk it into the simmering sauce a little at a time, stopping as soon as it starts to thicken, then turn off the heat."
+    },
+    {
+      "t": 195,
+      "text": "Off the heat, whisk in the garlic, then the cold butter a few cubes at a time, letting each addition mostly melt, until the sauce is a smooth, glossy orange emulsion that coats a spoon. Add salt only if needed, and lightly."
+    },
+    {
+      "t": 240,
+      "text": "Heat vegetable oil, half filling a 7-quart pot, to 350°F. Fry the wings in 2-3 batches, lowering them in gently away from you, about 5-8 minutes until golden, crisp and cooked through. Drain on a wire rack."
+    },
+    {
+      "t": 267,
+      "text": "Put the hot wings in a bowl, pour the sauce around the edge and a little over the top, and toss until fully coated. Garnish and serve."
+    }
+  ]
+}

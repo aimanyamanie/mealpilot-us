@@ -27,7 +27,7 @@
   "times_basis": "stated",
   "difficulty": "easy",
   "extracted_by": "Claude (Opus 5.5), from the transcript",
-  "notes": "Video: 'Easy Chicken Rice Bowls Anyone Can Make' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe for the same dish: https://www.joshuaweissman.com/recipes/easiest-healthy-chicken-bowl-at-home (serves 4, prep 15 min, cook 40 min; servings and times come from it). The video states the rice, water ratio, glaze, broccoli, pickle and carrots. From the written recipe, because the video is unclear: 8 thighs (video: 'six to eight'), cornstarch (garbled in the captions), 8 oz edamame (video: 'half a bag'), 1-2 Tbsp oil (we use 1.5), 1 lemon, 1 large avocado. Our estimates: the salt on the chicken (1 tsp kosher, he says go lighter because of the glaze) and on the vegetables (1/2 tsp). Broccoli is 2 crowns in both; the gram weight of the florets is ours. Pickling liquid, cooking spray, green onion, flaky salt and furikake are not counted (mostly left behind, or no amount). Carrot size ('large') is from the written recipe. The avocado uses USDA's average Hass fruit (136 g edible), so a large one is understated.",
+  "notes": "Video: 'Easy Chicken Rice Bowls Anyone Can Make' on the Joshua Weissman Recipes channel (UCUAg71CJEvFdOnujmep1Svw). Written recipe for the same dish: https://www.joshuaweissman.com/recipes/easiest-healthy-chicken-bowl-at-home (serves 4, prep 15 min, cook 40 min; servings and times come from it). The video states the rice, water ratio, glaze, broccoli, pickle and carrots. From the written recipe, because the video is unclear: 8 thighs (video: 'six to eight'), cornstarch (garbled in the captions), 8 oz edamame (video: 'half a bag'), 1-2 Tbsp oil (we use 1.5), 1 lemon, 1 large avocado. Our estimates: the salt on the chicken (1 tsp kosher, he says go lighter because of the glaze) and on the vegetables (1/2 tsp). Broccoli is 2 crowns in both; the gram weight of the florets is ours. Pickling liquid, cooking spray, green onion, flaky salt and furikake are not counted (mostly left behind, or no amount). Carrot size ('large') is from the written recipe. The avocado uses USDA's average Hass fruit (136 g edible), so a large one is understated. The Fresno chili is weighed as a jalapeño-sized chili (14 g, USDA jalapeño).",
   "ingredients": [
     {
       "group": "Rice",
@@ -119,12 +119,14 @@
       "group": "Glaze",
       "ingredient": "red-chili",
       "text": "1 red Fresno chili (or red jalapeño), seeded and finely chopped",
-      "quantity": 1,
-      "unit": "pepper",
+      "quantity": 14,
+      "unit": "g",
       "preparation": "seeded, finely chopped",
-      "basis": "stated",
+      "basis": "estimated",
       "evidence": "a medium sized red jalapeno or red fresno chili",
-      "t": 172.48
+      "t": 172.48,
+      "amount_source": "our_estimate",
+      "amount_note": "A Fresno is about jalapeño-sized; weighed at USDA's jalapeño (FDC 168576, 1 pepper = 14 g). USDA's generic hot chili (45 g) is far bigger."
     },
     {
       "group": "Glaze",

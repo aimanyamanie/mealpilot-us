@@ -117,7 +117,8 @@ create table recipes (
     title           text not null,
     summary         text,                             -- our words
     cuisine         text,
-    course          text check (course in ('breakfast', 'main', 'side', 'snack', 'dessert', 'drink')),
+    course          text constraint recipes_course_check
+                    check (course in ('breakfast', 'main', 'side', 'snack', 'dessert', 'drink', 'component')),
     meal_slots      text[] not null default '{}',     -- breakfast, lunch, dinner, snack
     servings        numeric not null check (servings > 0),
     servings_basis  text not null check (servings_basis in ('stated', 'estimated')),
@@ -135,7 +136,9 @@ create table recipes (
     extracted_by    text not null,
     extracted_at    timestamptz not null default now(),
     reviewed_by     text,
-    reviewed_at     timestamptz
+    reviewed_at     timestamptz,
+    constraint recipes_component_not_plannable
+        check (course is distinct from 'component' or meal_slots = '{}')
 );
 
 create table recipe_ingredients (
